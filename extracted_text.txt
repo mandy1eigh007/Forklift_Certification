@@ -1,92 +1,1651 @@
-Page 1: genie_col found: False
-Page 2: genie_col found: False
-Page 3: genie_col found: False
-Page 4: genie_col found: False
-Page 5: genie_col found: False
-Page 6: genie_col found: False
-Page 7: genie_col found: False
-Page 8: genie_col found: False
-Page 9: genie_col found: False
-Page 10: genie_col found: False
-Page 11: genie_col found: False
-Page 12: genie_col found: False
-Page 13: genie_col found: False
-Page 14: genie_col found: False
-Page 15: genie_col found: False
-Page 16: genie_col found: False
-Page 17: genie_col found: False
-Page 18: genie_col found: False
-Page 19: genie_col found: False
-Page 20: genie_col found: False
-Page 21: genie_col found: False
-Page 22: genie_col found: False
-Page 23: genie_col found: False
-Page 24: genie_col found: False
-Page 25: genie_col found: False
-Page 26: genie_col found: False
-Page 27: genie_col found: False
-Page 28: genie_col found: False
-Page 29: genie_col found: False
-Page 30: genie_col found: False
-Page 31: genie_col found: False
-Page 32: genie_col found: False
-Page 33: genie_col found: False
-Page 34: genie_col found: False
-Page 35: genie_col found: False
-Page 36: genie_col found: False
-Page 37: genie_col found: False
-Page 38: genie_col found: False
-Page 39: genie_col found: False
-Page 40: genie_col found: False
-Page 41: genie_col found: False
-Page 42: genie_col found: False
-Page 43: genie_col found: False
-Page 44: genie_col found: False
-Page 45: genie_col found: False
-Page 46: genie_col found: False
-Page 47: genie_col found: False
-Page 48: genie_col found: False
-Page 49: genie_col found: False
-Page 50: genie_col found: False
-Page 51: genie_col found: False
-Page 52: genie_col found: False
-Page 53: genie_col found: False
-Page 54: genie_col found: False
-Page 55: genie_col found: False
-Page 56: genie_col found: False
-Page 57: genie_col found: False
-Page 58: genie_col found: False
-Page 59: genie_col found: False
-Page 60: genie_col found: False
-Page 61: genie_col found: False
-Page 62: genie_col found: False
-Page 63: genie_col found: False
-Page 64: genie_col found: False
-Page 65: genie_col found: False
-Page 66: genie_col found: False
-Page 67: genie_col found: False
-Page 68: genie_col found: False
-Page 69: genie_col found: False
-Page 70: genie_col found: False
-Page 71: genie_col found: False
-Page 72: genie_col found: False
-Page 73: genie_col found: False
-Page 74: genie_col found: False
-Page 75: genie_col found: False
-Page 76: genie_col found: False
-Page 77: genie_col found: False
-Page 78: genie_col found: False
-Page 79: genie_col found: False
-Page 80: genie_col found: False
-Page 81: genie_col found: False
-Page 82: genie_col found: False
-Page 83: genie_col found: False
-Page 84: genie_col found: False
-Page 85: genie_col found: False
-Page 86: genie_col found: False
-Page 87: genie_col found: False
-Page 88: genie_col found: False
-Page 89: genie_col found: False
-Page 90: genie_col found: False
-Page 91: genie_col found: False
-Page 92: genie_col found: False
+Page 1: genie_col found: True
+Page 1: (Image page)
+
+Page 2: genie_col found: True
+Page 2:
+Welcome
+If you have any questions regarding the  presentation of this course, please call
+Genie
+at 1-800-536-1800 or email us at
+AWP.Training@terex.com
+.
+Your role in properly setting the tone for the  class and positioning the importance of safe  use is critical. As the trainer, it is your  responsibility to provide the necessary  information so that each operator fully  understands their responsibilities associated  with the safe
+operation
+of telehandlers.
+In order to improve your chances of success,  you should have an understanding of your  operator's application and working  environment.
+Remember, your ultimate goal is to ensure  that operators fully understand the
+procedures
+and practices of safe
+telehandler
+operation
+, as  well as all workplace factors which may affect  their safety and the safety of those around  them.
+qualified person
+The American National Standards Institute  (
+ANSI
+) defines a
+qualified person
+as:
+Not only must a trainer meet the definition of a qualified trainer, they must also comply with  the responsibilities regarding training as  outlined in
+ANSI
+/ITSDF
+B56.6
+,
+OSHA
+Rule
+1910.178
+(I) and
+CSA
+B335 standards,  including record keeping and determination that operators have  successfully demonstrated that they are  qualified to operate a
+telehandler
+.
+→
+
+Page 3: genie_col found: True
+Page 3:
+Operator's Responsibilities and
+Expectations
+As mentioned previously, each operator must achieve 100% on the written examination and  show proficiency in the hands-on  demonstration of safe machine
+operation
+.  Anything less than 100% would imply that it's  okay to compromise jobsite safety, which is  never acceptable. Each operator must actively  participate in the training workshop, including  classroom activities and hands-on
+operation
+.
+Additional training and/or coaching may be necessary to pass the course.
+Safety is Serious Business
+It cannot be overstated that the safe
+operation
+of a
+telehandler
+on any worksite can save the  life of the operator as well as those working  around them. Therefore, the responsibilities  are great for both the trainer and operator to  ensure that the safe
+operation
+of a
+telehandler
+is always of paramount importance.
+
+Page 4: genie_col found: True
+Page 4:
+Course Preparation
+When applying these suggestions, it is  important to be flexible and to adjust your  training to fit the special needs of your class  as the situation demands. To be an effective  trainer, you will need to be fully prepared prior  to conducting the training class.
+Have a quiet, well-lit inside training area that can accommodate the class size and training aids, and an outside training area capable of accommodating the operators, at least one
+telehandler
+, and the practical test course.
+Ensure that all telehandlers that will be used for the practical demonstration portion are properly maintained and operating as designed.
+Prepare the outdoor
+hands-on training
+area by placing pallets and other training aids in place ahead of time.
+Areas of Focus
+training agenda
+Using the training guide
+training materials
+Developing a
+training agenda
+(or organized  plan) that will cover the content that you will  provide during your training will go a long way  to improving the success of your
+telehandler
+safety training class. Let's review some helpful  hints on how to develop your agenda:
+Know your operator's experience, and any potential language barriers.
+Try to schedule the class in the morning when the operators can give you their peak attention.
+Refer to this trainer's guide and explain your expectations of each operator.
+
+Page 5: genie_col found: True
+Page 5:
+minimum requirements
+Operators must thoroughly read and understand the information in the
+telehandler
+Operator Training program which covers the topics required by
+ANSI
+/ITSDF
+B56.6
+,
+OSHA
+1910.178
+(I) and
+CSA
+B335.
+Operators must demonstrate proficiency in the safe
+operation
+of a
+telehandler
+.
+Another important minimum consideration is  that operators need to be made aware of the  following:
+Failure to obey the instructions and safety rules in these manuals and on machine decals could result in
+death or serious injury
+.
+Operators must be informed that, in addition  to the information found in the operator's  manual and
+AEM Safety Manual
+, as well as  machine decals and employers' instructions,  they must use their own
+common sense
+as it  relates to safety.
+Operators must be able to identify and avoid
+workplace hazards
+.
+The employer must keep a record that shows that each
+telehandler
+operator has been trained.
+→
+Training records must be kept for a minimum of
+three years
+.
+We suggest using several different techniques  to capture the operator's attention and to  create a learning environment that facilitates  participation. These include:
+For a learning experience to be meaningful, the dialogue and interaction must work both ways. Avoid a one-way monologue. Instead, draw the operators into the course content.
+
+Page 6: genie_col found: True
+Page 6:
+The Participant's Guide flows parallel to the Trainer's Guide, although a series of fill-in-the- blank statements are provided, which the  operator is required to complete (answers are  provided for the trainer in the Trainer's Guide).
+The
+video
+also repeats and reinforces key  safety concepts and information.
+In addition, it should be made clear that it is  the operator's responsibility to identify and  avoid all hazards. If they are unclear about  any possibly unsafe situation, they should stop  work and seek the assistance of their  employer.
+Sample copies of operator's manuals are  included in the training kit. The trainer can use  the samples to reproduce an operator's  manual for each participant. Select a manual  that is most appropriate for the type of
+telehandler
+used in the training.
+training location considerations
+Use a well-lit and climate-controlled training room. Avoid hot conditions as this may detract from classroom attention.
+Consider having everyone sit in front of the class together. This will help create a more comfortable teaching environment.
+The hands-on area should have ample space to set up the test track and for each operator to operate the machines safely.
+→
+Typical materials and resources that you will  need are included in this
+telehandler
+Training  Kit. These include:
+Reproducible Participant's Guide with Test
+video
+DVD
+and
+USB
+Drive with PDF files
+telehandler
+Demonstration Checklist
+Training Certificates and Operator Cards
+
+Page 7: genie_col found: True
+Page 7:
+Other required
+training materials
+and  resources include the following:
+Note paper, pencils, pens, and highlighters.
+Any necessary co-trainers or assistants for larger class sizes.
+Delivering Course Material
+Of course, you will also need to determine  how to improve your own abilities to  communicate as you receive feedback from  operators, colleagues, and fellow trainers.
+Effectively integrating the following into a  training class will help make the class  successful:
+Be clear and consistent with responses to questions. Don't be afraid to say "I don't know.“ It's better to answer honestly than to provide inaccurate information. If you are unable to answer a question, be sure to follow up with them with an answer, but always stick to the facts.
+Call operators by their first names and always use eye-to-eye contact when talking to them.
+Lecturing to operators is not a good way to get their involvement into the course content. Avoid this method of presentation.
+
+Page 8: genie_col found: True
+Page 8:
+Stimulate Discussion
+Let your operators know right away that it's okay to ask questions at any time during the training program.
+Emphasize key points.
+Open ended questions are a great way to stimulate two-way conversations.
+Leave some time at the end of class for wrap-up questions.
+Your operators are looking for feedback on their questions and experiences; interact with them.
+Show Enthusiasm
+Thank them for the time that they have dedicated to be there.
+Change the volume and pace of your voice.
+Always face the operators when talking to them.
+Be an Effective Trainer
+Be well prepared. This is critical.
+Anticipate lots of questions. Questions are good. Have the patience to answer each one accurately.
+Accept the fact that not all classes will end on time. Don't create shortcuts to keep the class on schedule, just stay longer.
+
+Page 9: genie_col found: True
+Page 9:
+Be Confident
+To do this you should become very familiar  with the
+telehandler
+(s), training content,  applicable standards and supporting  documentation, and media used.
+Be Fair and Honest
+Be clear and consistent
+Accept the fact that not everyone will be ready to pass the class. If, in your opinion, they do not meet the description of a qualified operator, then you should ask them to take the class again.
+The Classroom Training Session
+Begin by playing the first section of the
+video
+.  The
+video
+is included in both
+DVD
+and
+USB
+format. After each section, the
+video
+will  instruct you to pause it and go back to the  Trainer's/Participant's Guides. The Trainer's  Guide will instruct you when to return to the  next section of the
+video
+.
+Make sure you take the time to answer all questions and verify that all participants  understand the information.
+Provide plenty of time for the written exam. Remember that each student works at their  own pace. Try not to rush them. As students  complete their exam, allow them to take a  quick break while the others continue working.
+
+Page 10: genie_col found: True
+Page 10:
+The
+hands-on training
+Have each participant perform the same  activities in the same sequence while you  evaluate their performance. Immediately  capture your evaluation of their performance  on the
+hands-on evaluation check sheet
+provided in this training kit.
+Trainee Evaluation
+Information captured includes:
+practical hands-on score
+The
+written exam score
+is simply the final  score of the exam taken in the classroom.
+All scores should be 100%. If an operator fails  to receive 100% on a specific activity as  outlined on the hands-on evaluation check  sheet, review the activity with them and have  them try again.
+Anything less than 100% is not acceptable.
+
+Page 11: genie_col found: True
+Page 11:
+certificate of training
+The name of the trainee
+The program sponsor (usually the employer)
+The city and state ( or province) in which the training occurred
+On each operator's card, the trainer should  enter the same information entered on the
+certificate of training
+as well as the model(s) of
+telehandler
+(s) the operator was trained to  operate.
+This does not complete the training process.
+OSHA
+regulation
+1910.178
+(I)(6) states that:
+To satisfy this requirement, an authorized  officer of the operator's employer must also  endorse the
+certificate of training
+.
+In the U.S.A. –
+refresher training
+is required whenever an  operator demonstrates a deficiency in the safe
+operation
+of the
+telehandler
+, or other  conditions arise as outlined in
+OSHA
+1910.178
+(I)(4)(iii).
+In Canada -
+upgrade training
+is required whenever an  operator demonstrates a deficiency in the safe
+operation
+of the
+telehandler
+, or other  conditions arise as outlined in
+CSA
+B335  6.21.3.
+
+Page 12: genie_col found: True
+Page 12:
+telehandler
+Operator Training
+TRAINER'S NOTE
+The
+video
+will instruct you when to  pause it and move to the Participant's  Manual.
+The information contained in this training  program is only provided to assist the  employer and operator with complying with  the applicable standards and
+regulations
+that apply to powered industrial  truck training. Use of these materials will not  result in automatic compliance with these  standards (
+ANSI
+/ ITSDF
+B56.6
+,
+CSA
+B335) and
+regulations
+(local, state, provincial, or federal such as  OHS or
+OSHA
+Rule
+1910.178
+(l)).
+
+Page 13: genie_col found: True
+Page 13:
+Policy and Guidelines
+Equipment users and operators can make a  major contribution towards safety if they:
+2. Read, understand and follow the  instructions in this guide and other  manuals supplied with the            equipment or any
+attachments
+.
+4. Be alert and free from the influences of  alcohol, drugs or medications that might  affect eyesight, hearing, reactions or  judgment.
+Read and understand the operator’s manual  and obey all safety rules and operating  instructions before operating any rough terrain  forklift equipment. The operator’s manual  must be considered a permanent part of your  equipment and must always remain with the  product.
+telehandler
+Operator Training
+Contact us:
+Copyright © 2014
+Genie
+"
+Genie
+" is a registered trademark of
+Genie
+is a Terex brand.
+
+Page 14: genie_col found: True
+Page 14:
+telehandler
+Operator Training
+1 Introduction
+1-3
+1-4
+1-5
+1-6
+Overview of Training Requirements ...........
+Safe Use Plan Requirements .....................
+OSHA
+1910.178
+(I) ....................................
+CSA
+B335 ...................................................
+3
+five principles of safe
+operation
+3-3
+3-4
+3-4
+3-4
+3-6
+3-6
+3-6
+3-6
+3-7
+3-7
+3-8
+3-8
+3-8
+3-8
+3-9
+3-9
+3-10
+Perform
+pre-
+operation
+inspection
+...............
+Fundamentals ……....................................
+pre-
+operation
+inspection
+.........................
+Perform Function Tests Prior to Use ….......
+Fundamentals ...........................................
+Tests .........................................................
+Inspect the Workplace .................................
+Fundamentals ...........................................
+Inspections ................................................
+Only Use the Machine As Intended .............
+4
+operation
+4-3
+4-3
+4-4
+4-5
+Modifications ...............................................
+Load Charts .................................................
+Load Selection .............................................
+Load Handling ..............................................
+stability
+………...........................................
+Fundamentals ………................................
+stability
+Considerations ............................
+Loading in Stowed Position .......................
+Extending the Boom ..................................
+Effect of Load Weight on C.G ……...........
+Raising the Retracted Boom ……..............
+Lowering the Retracted Boom ……...........
+
+Page 15: genie_col found: True
+Page 15:
+4
+operation
+cont.
+Raising the Boom While Perpendicular to
+4-11
+Slope ........................................................
+Unloading When Raised ..........................
+Dynamic Forces on Loads.........................
+Rear Axle Lock .........................................
+Controls ........................................................
+Steering .....................................................
+Instrument Panel .......................................
+Drive Controls ...........................................
+Control Joysticks ......................................
+Auxiliary Hydraulics ..................................
+Axle Differential Lock ................................
+Parking Brake ............................................
+Service Brake ...........................................
+Accelerator Pedal .....................................
+Frame Sway ..............................................
+Stabilizers .................................................
+Dashboard Controls .................................
+Instrument Panel Controls ........................
+telehandler
+Operator Training
+telehandler
+operation
+..........................
+Startup ................................................
+Traveling With or Without Load ..........
+Hand Signals ......................................
+General Traveling Guidelines ............
+Suspended Loads ..............................
+Raising and Placing Loads .................
+Load Retrieving with Forks .................
+Stacking and Unstacking ...................
+General .................................................
+Refueling ............................................
+Recharging .........................................
+Shutdown ...........................................
+5
+attachments
+5-3
+5-3
+5-4
+5-4
+5-4
+5-4
+Routine
+maintenance
+Items ...................
+7 Appendix
+Resources
+8
+written test
+
+Page 16: genie_col found: True
+Page 16: (Image page)
+
+Page 17: genie_col found: True
+Page 17:
+Scope
+Definition A
+rough terrain forklift
+truck is defined as a  wheeled type truck designed primarily as a  fork truck with a
+vertical mast
+and/or a pivoted  boom, variable reach or of fixed length, which  may be equipped with
+attachments
+. This truck  is intended for
+operation
+on unimproved  natural terrain as well as the disturbed terrain of
+construction sites
+. This definition  excludes machines designed primarily for
+earth moving
+, such as
+loaders
+and
+dozers
+,  even when their buckets and blades are  replaced with forks, and machines designed  primarily as
+over-the-road trucks
+equipped with lifting devices.
+NOTE: Even though all
+Class 7
+powered industrial trucks (which includes vertical  mast forklifts, truck mounted forklifts and  telehandlers) have similar working  principles, this training program will focus  only on telehandlers.
+Course Curriculum
+involves
+classroom discussions
+on subjects     like
+regulations
+,
+company policies
+and
+procedures
+,
+operator’s manuals
+,
+telehandlers features
+and
+safety equipment
+,  and
+stability
+.
+involves the trainee (under the direct  supervision of a trainer) using their physical  ability to practice the safe
+operation
+of    telehandlers. This includes the pre-
+operation
+inspection,
+workplace inspection
+, function  test,
+start-up
+, and picking and placing of  loads.
+Introduction
+knowledge verification
+practical evaluation
+Classroom Instruction
+hands-on training
+
+Page 18: genie_col found: True
+Page 18:
+Introduction
+Qualification
+Definitions
+The person who actually operates the
+telehandler
+is the operator.
+The employer must verify that the following  has been covered as part of operator’s  training.
+2. Operators are knowledgeable of and  observe the applicable safety rules and  practices within the appropriate rules,
+regulations
+and standards that apply to  the
+telehandler
+as well as the application.
+Responsibility
+2. The operator must develop safe working   habits and also be aware of hazardous  conditions in order to protect themselves,  other personnel, and property.
+4. Before operating any
+telehandler
+,  operators must read and be familiar with  the operator’s manual for the particular
+telehandler
+being operated.
+For telehandlers, and in many cases the attachment, manufacturers provide an  operator’s manual that contains key safety  information that is related to the safe use of  the equipment. As such it is a critical component, as a supplement, to this training program curriculum. The operator’s manual  should always be located inside the  operator’s cab.
+
+Page 19: genie_col found: True
+Page 19: (Image page)
+
+Page 20: genie_col found: True
+Page 20:
+Introduction
+telehandler
+Features and
+safety equipment
+Telehandlers are classified as
+Class 7
+Variable Reach Rough Terrain Forklifts in the USA and Canada. They primarily serve construction and institutional markets where they are used for  various applications.
+Telehandlers incorporate various features and components that are essential to the safe
+operation
+of the machine. The operator should  be familiar with and understand the proper use  of all features of the machine.
+Some
+telehandler
+features/components are  listed below. We will cover many of these in  detail in this program.
+Steering
+All controls and gauges
+Load charts and capacity plates
+Safety decals and markings
+INTRODUCTION
+Visual warning systems such as lights, rotating
+warning lights, flashing beacons
+Audible warning systems such as backup
+alarms, buzzers, and horns
+Operator restraint systems such as seat belts
+Fire extinguishers
+Mirrors
+Load backrest
+Stabilizers
+Rear axle lockout systems
+Auxiliary hydraulics
+Frame and boom level indicators
+Frame leveling
+1-6
+
+Page 21: genie_col found: True
+Page 21: (Image page)
+
+Page 22: genie_col found: True
+Page 22:
+regulations
+and Operator Training
+USA
+In the USA, the American National Standards Institute and the Industrial Truck Standards Development Foundation have established the safety requirements relating to the elements of design,
+operation
+, and
+maintenance
+of  powered industrial trucks. The recognized  standard in the USA for telehandlers is
+ANSI
+/ITSDF
+B56.6
+and is free to download  and print from the ITSDF web site at  www.itsdf.org.
+OSHA
+The clarification was issued to improve the  training of operators with the goal of reducing  the number of injuries and deaths that occur  as a result of inadequate operator training.
+An evaluation of each
+powered industrial truck
+operator’s performance shall be conducted at least once every
+three years
+.
+refresher training
+, including an evaluation of the effectiveness of that training, shall be conducted to ensure that the operator has the knowledge and skills needed to operate the
+powered industrial truck
+safely if one of the following conditions are true:
+2. The operator has been involved in an  accident or near-miss incident;
+4. The operator is assigned to drive a  different type of truck; or
+Canada
+Much like
+ANSI
+/ITSDF in the USA, the  Canadian Standards Association, or
+CSA
+, has  published Canada’s governing standard,
+CSA
+B335, which also establishes the safety  requirements relating to the elements of  design,
+operation
+, and
+maintenance
+of  telehandlers.
+three years
+.
+In Canada,
+CSA
+B335 standards for  telehandlers are enforced by OHS, which is  similar to
+OSHA
+in the USA, and other  provincial authorities. Since each province has  their own OHS, its important to be familiar with  those rules and
+regulations
+that apply to the  safe
+operation
+and
+maintenance
+of the
+telehandler
+.
+
+Page 23: genie_col found: True
+Page 23:
+regulations
+and Operator Training
+The
+ANSI
+/ITSDF
+B56.6
+-2021 Safety  Standards require that a written safe use  program specific to RTFL trucks shall be  developed by the user.
+The Safe Use Plan must include, but not be  limited to the following:
+b) verifying that the RTFL truck and  attachment(s) being utilized are  appropriate for the application;
+d) verifying that the RTFL truck inspections,
+maintenance
+and repairs are performed  per the provisions of this standard and as  recommended by the manufacturer;
+f) ensuring the familiarization of trained,  authorized RTFL truck operator(s) with  the specific RTFL truck to be used;
+h) monitoring the work being performed to  ensure compliance with provisions of this  standard;
+j) considering safety of persons in the  vicinity of and not involved in the
+operation
+of the RTFL truck.
+
+Page 24: genie_col found: True
+Page 24: (Image page)
+
+Page 25: genie_col found: True
+Page 25:
+OSHA
+1910.178
+(I)
+1910.178
+(I)(1)
+1910.178
+(I)(1)(i)
+1910.178
+(I)(1)(ii)
+1910.178
+(I)(2)
+Trainees may operate a powered industrial  truck only:
+1910.178
+(I)(2)(i)(B) Where such
+operation
+does not endanger the trainee or other employees.
+regulations
+and Operator Training
+All operator training and evaluation shall be conducted by persons who have the  knowledge, training, and experience to train
+powered industrial truck
+operators and  evaluate their competence.
+Training Program Content
+1910.178
+(I)(3)(i)
+1910.178
+(I)(3)(i)(A)
+1910.178
+(I)(3)(i)(B)
+1910.178
+(I)(3)(i)(C) Truck controls and instrumentation: where they are located, what they do, and how they work;
+Engine or motor
+operation
+;
+Steering and maneuvering;
+Visibility (including restrictions due to loading);
+Fork and attachment adaptation,
+operation
+,  and use limitations;
+Vehicle capacity;
+
+Page 26: genie_col found: True
+Page 26:
+regulations
+and Operator Training
+1910.178
+(I)(3)(i)(I)
+1910.178
+(I)(3)(i)(J)
+1910.178
+(I)(3)(i)(K)
+1910.178
+(I)(3)(i)(L)
+1910.178
+(I)(3)(i)(M)
+1910.178
+(I)(3)(ii)
+1910.178
+(I)(3)(ii)(A)
+1910.178
+(I)(3)(ii)(B)
+1910.178
+(I)(3)(ii)(C)
+1910.178
+(I)(3)(ii)(D)
+1910.178
+(I)(3)(ii)(E)
+1910.178
+(I)(3)(ii)(F)
+2-5
+1910.178
+(I)(3)(ii)(G)
+1910.178
+(I)(3)(ii)(H)
+1910.178
+(I)(3)(ii)(I)
+1910.178
+(I)(3)(iii)
+1910.178
+(I)(4)
+1910.178
+(I)(4)(i)
+1910.178
+(I)(4)(ii)
+1910.178
+(I)(4)(ii)(A)
+1910.178
+(I)(4)(ii)(B)
+1910.178
+(I)(4)(ii)(C)
+
+Page 27: genie_col found: True
+Page 27:
+OSHA
+1910.178
+(I)
+The operator is assigned to drive a different  type of truck; or
+A condition in the workplace changes in a  manner that could affect safe
+operation
+of the  truck.
+An evaluation of each
+powered industrial truck
+operator’s performance shall be conducted at  least once every
+three years
+.
+Avoidance of Duplicate Training
+1910.178
+(I)(6)
+The employer shall certify that each operator  has been trained and evaluated as required by  this paragraph (l). The certification shall  include the name of the operator, the date of  the training, the date of the evaluation, and the  identity of the person(s) performing the  training or evaluation.
+regulations
+and Operator Training
+Dates
+If the employee was hired:
+By December 1,1999
+After December 1, 1999
+Before the operator is assigned to operate a
+powered industrial truck
+.
+Appendix A to this section provides non- mandatory guidance to assist employers in  implementing this paragraph (l). This appendix  does not add to, alter, or reduce the  requirements of this section.
+
+Page 28: genie_col found: True
+Page 28:
+regulations
+and Operator Training
+Appendix A —
+stability
+of Powered  Industrial Trucks (Non-mandatory  Appendix to Paragraph (l) of This Section)
+The following definitions help to explain the  principle of
+stability
+:
+Counterweight is the weight that is built into  the truck’s basic structure and is used to offset  the load’s weight and to maximize the  vehicle’s resistance to tipping over.
+Grade is the slope of a surface, which is  usually measured as the number of feet of rise  or fall over a hundred foot horizontal distance  (the slope is expressed as a percent).
+Line of action is an imaginary vertical line  through an object’s center of gravity.
+Longitudinal
+stability
+is the truck’s  resistance to overturning forward or rearward.
+Track is the distance between the wheels on  the same axle of the truck.
+Wheelbase is the distance between the  centerline of the vehicle’s front and rear  wheels.
+A-2.1. Determining the
+stability
+of a
+powered industrial truck
+is simple once a few basic principles are understood. There are many  factors that contribute to a vehicle’s
+stability
+:  the vehicle’s wheelbase, track, and height; the  load’s weight distribution; and the vehicle’s  counterweight location (if the vehicle is so  equipped).
+A-3. Basic Principles.
+A-3.2. The longitudinal
+stability
+of a counterbalanced
+powered industrial truck
+depends on the vehicle’s moment and the  load’s moment. In other words, if the  mathematic product of the load moment (the  distance from the front wheels, the  approximate point at which the vehicle would  tip forward) to the load’s center of gravity  times the load’s weight is less than the  vehicle’s moment, the system is balanced and  will not tip forward. However, if the load’s  moment is greater than the vehicle’s moment,  the greater load-moment will force the truck to  tip forward.
+
+Page 29: genie_col found: True
+Page 29:
+OSHA
+1910.178
+(I)
+A-4.1. Almost all counterbalanced powered industrial trucks have a three-point  suspension system, that is, the vehicle is  supported at three points. This is true even if  the vehicle has four wheels. The truck’s steer  axle is attached to the truck by a pivot pin in  the axle’s center. When the points are  connected with imaginary lines, this three- point support forms a triangle called the
+stability
+triangle.
+A-5. Longitudinal
+stability
+.
+regulations
+and Operator Training
+A-5.3. Although the true load-moment  distance is measured from the front wheels,  this distance is greater than the distance from  the front face of the forks. Calculating the  maximum allowable load-moment using the  load-center distance always provides a lower  load- moment than the truck was designed to  handle. When handling unusual loads, such  as those that are larger than 48 inches long (the center of gravity is greater than 24  inches) or that have an offset center of gravity,  etc., a maximum allowable load-moment  should be calculated and used to determine  whether a load can be safely handled. For  example, if an operator is operating a 3000  pound capacity truck (with a 24- inch load  center), the maximum allowable load-moment is 72,000 inch-pounds (3,000 times 24). If a  load is 60 inches long (30-inch load center),  then the maximum that this load can weigh is  2,400 pounds (72,000 divided by 30).
+
+Page 30: genie_col found: True
+Page 30:
+regulations
+and Operator Training
+A-6. Lateral
+stability
+.
+A-6.2. Factors that affect the vehicle’s lateral
+stability
+include the load’s placement on the  truck, the height of the load above the surface  on which the vehicle is operating, and the  vehicle’s degree of lean.
+A-7.1. Up to this point, the
+stability
+of a
+powered industrial truck
+has been discussed  without considering the dynamic forces that  result when the vehicle and load are put into  motion. The weight’s transfer and the resultant  shift in the center of gravity due to the  dynamic forces created when the machine is  moving, braking, cornering, lifting, tilting, and  lowering loads, etc., are important
+stability
+considerations.
+2-9
+
+Page 31: genie_col found: True
+Page 31:
+CSA
+B335
+There are a number of sub-sections within  Part 6 of the
+CSA
+B335 standard. We’ll only  be covering a few regarding training  requirements. As always its important to be  familiar with all of the requirements as it  relates to the safe
+operation
+and
+maintenance
+of the
+telehandler
+.
+6.1 General
+The trainee shall be instructed on the safe operational
+procedures
+of a lift truck in  accordance with the manufacturer’s operator  manual, the user’s operating guidelines, and  government
+regulations
+. Instruction shall be  given on the following:
+(b)
+company policies
+and
+procedures
+;
+(d) lift truck features and
+safety equipment
+;
+(f) capacity plate and location;
+(h)
+start-up
+;
+(j) pedestrians;
+regulations
+and Operator Training
+(m) personnel lifting, lowering, and supporting;
+(o) workplace specific hazards;
+(q) refueling/recharging.
+6.20.1 General
+6.21.1
+retraining
+
+Page 32: genie_col found: True
+Page 32:
+regulations
+and Operator Training
+6.21.3
+upgrade training
+(a) equipment is introduced in the workplace  that is unfamiliar to the operator;
+(c) the operating conditions or the  environment in which the operator works is  changed (e.g., the operator works in a  different area, moves different types of loads,  etc.);
+(e) skill or knowledge deficiencies have been identified. The
+upgrade training
+course shall  include all relevant information, as applicable.  The content, delivery method, and individual  learning needs of the operator shall determine  the course length.
+knowledge verification
+and
+practical evaluation
+shall be performed in  accordance with Clause 6.20.
+
+Page 33: genie_col found: True
+Page 33: (Image page)
+
+Page 34: genie_col found: True
+Page 34:
+TRAINER'S NOTE
+and return to the Participant's Guide.
+five principles of safe
+operation
+It is the responsibility of the operator to learn  and practice the principles of safe machine
+operation
+contained in this training manual  and the machine's
+operator's manual
+. The five  principles of safe
+operation
+are:
+2. Always perform a
+pre-
+operation
+inspection
+4. Inspect the workplace
+Each principle of safe
+operation
+will be  discussed in detail in the following sections.
+
+Page 35: genie_col found: True
+Page 35:
+five principles of safe
+operation
+Safety Signs
+All safety signs are intended to convey  important safety information to the personnel  working on and around the machine. It is the  operator's responsibility to read, understand  and obey the information contained in these  safety signs for their safety as well as those  working in the area.
+Hazard Classification
+Safety alert symbol is used to  alert you to potential personal  injury hazards. Obey all  safety messages that follow  this symbol to avoid possible  injury or death.
+Red
+Orange
+Yellow
+Blue
+
+Page 36: genie_col found: True
+Page 36: (Image page)
+
+Page 37: genie_col found: True
+Page 37:
+five principles of safe
+operation
+telehandler
+operators should be familiar with  the following operational considerations  before operating the machine.
+Overturning Hazards
+machine.
+within the rated capacity of the machine. Do    not exceed the rated load.
+is missing.
+it.
+boom first.
+front-end
+attachments
+if the capacity ratings    or other critical decals or markings are    missing.
+support all forces imposed by the machine  and the load.
+level. The machine level indicator should be  at zero degrees.
+properly positioned or secured on the forks    or approved attachment
+gusty winds. Do not increase the surface  area of the carriage or the load. Increasing  the surface area exposed to the wind will  decrease machine
+stability
+.
+Do not raise the boom unless
+Do not level the machine
+Do not use the sway control to position an
+An over inflated tire can explode which may
+The use of temporary flat tire repair products
+Use extreme care and slow speeds while
+Should the machine tip over, grasp the
+Collision Hazards
+the parking brake is set or the service brake   is applied.
+obstructed.
+backup alarm.
+keep the load under control. Start and stop movements smoothly.
+ramps or elevated platforms.
+
+Page 38: genie_col found: True
+Page 38:
+Set the parking brake, put the transmission
+Do not pass telehandlers or other
+When driving, keep the boom at or below
+Component Damage
+machine.
+than 12V to jump-start the engine.
+welding.
+stabilizers are fully retracted.
+that in any way affect safety or
+stability
+.
+towing or pushing.
+five principles of safe
+operation
+When getting in and out of the cab, face the
+Do not use the steering wheel or any other
+Always adjust the seat and fasten the seat
+Always wear a seat belt when operating the
+Always remain completely inside the cab
+Operators must comply with employer, job
+Overhead guards may be offered on
+
+Page 39: genie_col found: True
+Page 39:
+five principles of safe
+operation
+Keep clear of moving parts during machine
+Keep clear of moving stabilizers.
+Never insert any part of your body into
+Ensure that all ground personnel stay clear
+Explosion and Fire Hazards
+liquid petroleum gas (LPG), gasoline, diesel   fuel or other explosive substances.
+running. Keep all open flames and sparks  away.
+only in an open, well-ventilated area away  from sparks, flames and lighted tobacco.
+locations or locations where potentially flammable or explosive gases or particles    may be present.
+with glow plugs or air intake grid heaters.
+Burn Hazards
+servicing.
+any cover will cause serious injury. Only  trained
+maintenance
+personnel should  access compartments. Access by the  operator is only advised when performing a
+pre-
+operation
+inspection
+. All compartments  must remain closed and secured during
+operation
+.
+Telehandlers are not electrically insulated
+Keep away from the
+telehandler
+if it contacts
+Working near energized power sources
+
+Page 40: genie_col found: True
+Page 40:
+It is mandatory that all operators fully
+High voltage electrical current can jump up
+Operators must know, or find out, the voltage  of all power sources in their work area and  maintain the required clearance in  accordance with the information in the
+operator's manual
+and on decals attached to  the
+telehandler
+.
+Always contact the electric power line owner.
+NOTE : Refer to the Manufacturers  Operators Manual for more information on  potential hazards and operational  considerations.
+five principles of safe
+operation
+Be sure the operator’s and safety manuals
+Be sure all decals are in place and legible.
+stability
+with items of different weight or   specification.
+tires of different specification or ply rating.
+machine.
+as specified in the appropriate  manufacturer’s service manual.
+Keep people, equipment and material out of
+Do not transport or lift personnel with a
+
+Page 41: genie_col found: True
+Page 41: (Image page)
+
+Page 42: genie_col found: True
+Page 42:
+Fundamentals
+The
+pre-
+operation
+inspection
+is a visual  inspection performed by the operator prior to  each work shift. The inspection is designed to  discover if anything is apparently wrong with a  machine before the operator performs the  function tests.
+If damage or any unauthorized variation from  factory delivered condition is discovered, the  machine must be tagged and removed from  service.
+Scheduled
+maintenance
+inspections must be performed by qualified service technicians, according to the manufacturer’s specifications.
+five principles of safe
+operation
+Some examples of items you need to inspect  as part of the
+pre-
+operation
+inspection
+are:
+the storage compartment inside the cab
+for oil, hydraulic or coolant leaks
+trained and authorized, battery level.  Always wear the proper personal  protective equipment when checking  batteries.
+Check for loose or missing parts and
+Inspect the general condition of the
+Check for missing decals.
+
+Page 43: genie_col found: True
+Page 43: (Image page)
+
+Page 44: genie_col found: True
+Page 44:
+4. Inspect The Workplace
+The
+workplace inspection
+helps the operator determine if the workplace is suitable for safe machine
+operation
+. It should be performed by  the operator prior to moving the machine to  the workplace.
+It is the operator’s responsibility to read and remember
+workplace hazards
+, then watch for  and avoid them while moving, setting up and  operating the machine.
+five principles of safe
+operation
+Be aware of and avoid the following  hazardous situations:
+Bumps, floor obstructions or debris
+Unstable or slippery surfaces
+High voltage conductors
+combustible dusts and explosive   atmospheres
+forces imposed by the machine and the load
+The presence of unauthorized personnel
+workplace, operator’s cab or other restricted spaces
+All other possibly unsafe conditions
+
+Page 45: genie_col found: True
+Page 45:
+five principles of safe
+operation
+5. Only Use The Machine As It Was Intended
+The Operating Instructions section provides instructions for each aspect of
+telehandler
+operation
+.
+It is the operator’s responsibility to follow all  the safety rules and instructions in the Operator’s and  Safety manuals.
+Only trained and authorized personnel  should be permitted to operate a
+telehandler
+.
+If more than one operator is expected to use a
+telehandler
+at different times in the same work  shift, they must all be qualified operators and  are expected to follow all safety rules and  instructions in the Operator’s and Safety manuals.
+That means every new operator should  perform a
+pre-
+operation
+inspection
+, function tests, and a
+workplace inspection
+before using  the machine.
+INTRODUCTION
+3-14
+
+Page 46: genie_col found: True
+Page 46: (Image page)
+
+Page 47: genie_col found: True
+Page 47:
+operation
+Trainer Note
+and return to the Participant’s Manual
+Operators must keep in mind the similarities  and, more importantly, the differences  between automobiles and telehandlers.
+Both, automobiles and telehandlers:
+are engine powered
+have visibility obstructions
+seat belts
+4-3
+Differences
+Center of gravity: The center of gravity for telehandlers may change during
+operation
+, depending on the position of the machine,  boom and the load. This can significantly  affect the
+stability
+of the
+telehandler
+during
+operation
+. For automobiles, center of gravity is  almost always constant.
+Weight: Since telehandlers use large steel  components as counterbalance, the weight of  the
+telehandler
+is significantly greater than  that of an average automobile.
+
+Page 48: genie_col found: True
+Page 48:
+stability
+: Telehandlers are unstable if the  combined center of gravity falls outside the
+stability
+triangle. Automobiles have four points  of
+stability
+, with all four wheels in contact with the ground.
+Layout of controls:
+telehandler
+machine  controls are typically hydraulically piloted  proportional controls. There may also be a  number of different switches used to control  functions such as chassis sway, work lights,  auxiliary controls.
+Visibility: Telehandlers may have structures  around the machine which could result in  obstructions to visibility.
+Stopping distance: A
+telehandler
+is typically much heavier than an automobile and  therefore the stopping distance may be  different at the same speed.
+Parking brake: Telehandlers will typically  utilize a spring-applied, hydraulically-released  parking brake system.
+operation
+Some conditions of reduced visibility when operating a
+telehandler
+are:
+ways, storage rack aisles
+Whenever visibility is obstructed, drive slowly and use your horn to warn others.
+Operators must be aware of all visibility  restrictions prior to and while operating the
+telehandler
+.
+
+Page 49: genie_col found: True
+Page 49: (Image page)
+
+Page 50: genie_col found: True
+Page 50: (Image page)
+
+Page 51: genie_col found: True
+Page 51: (Image page)
+
+Page 52: genie_col found: True
+Page 52:
+Load Handling
+There are many conditions that may affect the
+stability
+of the machine during
+operation
+.  Ground conditions or operating surface,  surface grade, travel speed, wind conditions, weight or size of the load, tire air pressure, and operator judgment can all have  an influence on
+stability
+, load handling and  machine
+operation
+.
+stability
+Triangle Definition
+Center of Gravity Definition
+1. The
+telehandler
+has a center of gravity.
+3. When a load is placed on the
+telehandler
+,
+operation
+It is important to understand the
+theory
+of  center of gravity during machine
+operation
+in  order to avoid conditions of instability.
+NOTE: Unless specifically mentioned, it is assumed that the operating surface is always  a firm and level ground.
+C.G. of load
+C.G. of load
+
+Page 53: genie_col found: True
+Page 53: (Image page)
+
+Page 54: genie_col found: True
+Page 54: (Image page)
+
+Page 55: genie_col found: True
+Page 55: (Image page)
+
+Page 56: genie_col found: True
+Page 56:
+Unloading when raised
+Unloading the
+telehandler
+when the boom is  raised moves the center of gravity lower and toward the rear of the machine.
+operation
+telehandler
+operation
+, such as machine  motion or moving suspended loads, creates  dynamic forces on the machine and the load.  Dynamic forces can suddenly shift the  location of the combined center of gravity to  outside of the
+stability
+triangle and cause the  machine to become unstable.
+Heavy braking: When a
+telehandler
+is  traveling forward with a load and heavy  braking is applied, the change in dynamic  forces results in a sudden forward shift in the  load's center of gravity. If this happens, the  load may fall from the
+telehandler
+. If the load  is fixed, the combined center of gravity may  move outside the
+stability
+triangle, which could cause a forward tip-over.
+
+Page 57: genie_col found: True
+Page 57: (Image page)
+
+Page 58: genie_col found: True
+Page 58:
+Controls
+In most telehandlers, operators can steer the machine using multiple steering modes such  as two-wheel, four-wheel coordinated and  four-wheel crab modes. Each mode provides  specific maneuverability characteristics that  are advantageous in certain conditions.
+Two-wheeled steer is appropriate for over the  road travel or when navigating a large jobsite.
+Four-wheeled crab steer allows the operator  to move the machine sideways for easier load  pickup and placement or when navigating  within a tight area.
+operation
+Note: Always realign the wheels before  shifting to a different steering mode
+The instrument panel allows the operator to constantly monitor specific machine conditions  and performance. Machine
+operation
+parameters such as engine RPM, fuel level,  water temperature, hour meter, and steering  mode are typically displayed on the instrument  panel located inside the operator’s cabin.  Machine condition and warning lights for battery condition, low fuel level, and parking  brake may also be included in the instrument  panel.
+Drive controls
+
+Page 59: genie_col found: True
+Page 59:
+operation
+The
+telehandler
+is typically equipped with  either a single or multiple control joysticks.
+Auxiliary hydraulics controlling optional  powered
+attachments
+may also be controlled  through the joysticks.
+Some telehandlers may be equipped with  auxiliary hydraulics that allow the operator to  connect and operate hydraulically-powered
+attachments
+that allow them to perform  specific tasks at the work location.
+Axle Differential Lock
+Typically, a floor mounted, foot operated  pushbutton switch or panel mounted switch is  used for engaging the axle differential lock.
+4-15
+Parking Brake
+Typically, a panel mounted switch inside the operator’s cabin engages and disengages the parking brake.
+A floor mounted service brake is used to  control the machine speed and to stop the  machine motion.
+Accelerator Pedal
+The accelerator pedal can also be used to  increase the pump flow to the machine's  hydraulic system. However, always engage  the parking brake before doing this to prevent  unintended machine movement.
+
+Page 60: genie_col found: True
+Page 60:
+Frame Sway
+This allows the operator to level the chassis of  the
+telehandler
+to the right or left. The range  varies, but typically this leveling capability can  range between 8- and 12-degrees rotation.
+Stabilizers
+Stabilizers may be permanently fixed to either  the chassis frame or the front axle.
+Frame mounted stabilizers may be affected by  the use of the frame sway controls. Check  with the
+telehandler
+manufacturer to  determine if frame leveling should be done  before deploying stabilizers.
+operation
+
+Page 61: genie_col found: True
+Page 61: (Image page)
+
+Page 62: genie_col found: True
+Page 62: (Image page)
+
+Page 63: genie_col found: True
+Page 63:
+operation
+Startup
+2. Adjust the seat and steering wheel until  you can easily reach all the machine  controls. Do not operate the controls from  any place other than the seated position.
+4. Adjust side and cab mirrors.
+6. If the parking brake is not already set, set  the parking brake.
+8. Monitor the gauges and the instrument  panel to ensure that the
+telehandler
+is  working properly.
+Traveling with or without a load
+Operators should be properly trained and use  their best judgment and experience to  constantly assess the jobsite conditions and  avoid exceeding the machine’s, or the  operator’s, capabilities for the terrain and  conditions.
+
+Page 64: genie_col found: True
+Page 64: (Image page)
+
+Page 65: genie_col found: True
+Page 65:
+operation
+All traffic
+regulations
+must be observed by the operator including but not limited to:
+Reduce speeds before negotiating turns.
+Keep a clear view of the path of travel.
+The operator must be aware of the steering mode being used on the equipment.
+Keep to the right side of path of travel. If visibility is obstructed always use a spotter who is familiar with the proper hand signals.
+Safe distance (three truck lengths) must be maintained between other telehandlers or other construction equipment.
+Avoid driving over loose objects or surfaces in the path of travel.
+4-21
+
+Page 66: genie_col found: True
+Page 66:
+Guidelines during traveling cont.
+When approaching an intersection or when the operator’s view is obstructed during
+operation
+, the operator is required to stop, sound the horn and then proceed with caution.
+Whenever backing the
+telehandler
+from an obstruction, use proper backup
+procedures
+and  be aware of any blind spots. Use the mirrors, backup alarm and horn. If blind spots exist, use additional personnel to help navigate around them or to warn others.
+Driving in confined areas:
+Steer very carefully
+Watch for low doorways
+Exercise caution whenever entering or leaving a building on bright sunny days. Allow time for your eyes to adjust to the change in light before proceeding.
+operation
+Operators must use caution while driving on  slopes. Grades should be ascended or  descended slowly.
+When the machine is unloaded, travel with the  forks or attachment downhill.
+
+Page 67: genie_col found: True
+Page 67:
+operation
+Always travel perpendicular, or straight on, to  the slope and always keep the machine in gear.  Do not turn across a slope. Limit travel path and  speed according to the condition of the ground  surface, traction, slope, location of personnel  and any other factors which may create a  hazard.
+Procedure to follow during tip-over
+All body parts should remain inside the   operator’s cabin at all times.
+The seat belt must always be worn during machine
+operation
+. If the machine tips over while failing to wear a seat belt, serious injury or even death may occur.
+Always yield right-of-way to pedestrians. The
+telehandler
+operator must take care when working in areas with pedestrians or personnel,  so as to not cause any bodily harm or injury.  Use caution when approaching pedestrian  areas. Before and during traveling, always look  around for any pedestrians.
+4-23
+Elevators
+There should be adequate clearance for the
+telehandler
+to enter or leave the elevator.
+Docks, trailers and railcars
+Dock boards:
+Dock boards should have a high friction surface for good grip.
+Dock boards should have substantial contact with the dock or loading platform and the transport vehicle or rail car to prevent rocking or sliding.
+
+Page 68: genie_col found: True
+Page 68:
+Transporting on trailers:
+Railcars:
+Do not use forks to open or close railcar doors unless the truck utilizes a device specifically designed for opening and closing railroad car doors and the operator is trained in its use.
+Refer to the manufacturer’s specifications and Operator’s Manual on safe handling of  suspended loads.
+telehandler
+load charts are designed for  loads where the load center is stationary. As a suspended load is moved, the load center can change. As a result, the standard load chart  does not apply and extreme caution in transporting and lifting the load should be  observed.
+operation
+Grades and sudden starts, stops, and turns  can cause the load to swing and create a  hazard if not externally stabilized.
+The user and the operator shall comply with all applicable jobsite, local, state, provincial, or federal rules,
+regulations
+, directives and standards related to the use of the truck with a suspended load.
+When handling suspended loads:
+Do not exceed walking speed
+When visibility is or could be obstructed in the direction of travel, the operator must use alternative or additional means to safely transport the load,  such as a spotter or a qualified signal person
+Only travel on solid surfaces
+
+Page 69: genie_col found: True
+Page 69:
+operation
+The load chart in the cab shows the capacity  limits of the
+telehandler
+. As mentioned  previously, to use the load chart, the operator  must know the weight of the load and how far  out and up it is to be placed.
+Procedure:
+2. Place the transmission in neutral.
+4. Lower the stabilizers, if equipped and if they  are required for additional capacity.
+6. Gradually move the controller to raise the  boom to the required height.
+7. Gradually move the controller to land the  load at the final position. Lower the load  until the weight s completely off the forks.  Do not apply a downward force with the  forks.
+9. When the forks are clear of the load and  the structure, the boom can be retracted,  then lowered.
+
+Page 70: genie_col found: True
+Page 70:
+Load retrieving with forks
+2. Spread the forks as wide as possible  while still being able to pick up the load.
+4. Raise the forks to the proper load entry  height.
+6. Slightly raise the load so it is completely  lifted free from its resting point.
+8. If picking from a ground position, carefully  pick up the load, raise it to travel position  and keep the forks tilted back slightly to  cradle the load.
+Stacking and unstacking
+Beware of stack height limitations. Avoid over- stacking, as it may crush lower levels of loads or could cause the stack to become unstable.
+operation
+
+Page 71: genie_col found: True
+Page 71:
+operation
+Refueling
+After refueling, tighten the fuel tank cap before starting the engine.
+Recharging Batteries
+Open flames and smoking are not permitted in  proximity of recharging areas.
+Ensure there is adequate ventilation for the  dispersal of fumes from gassing batteries.
+Shutdown
+Follow shutdown
+procedures
+when the  machine is left in an unattended state.
+The operator is 25 ft. or more away from the
+telehandler
+even if it is in view of the operator.
+Procedure for parking the unit and shutting the machine down:
+2. Bring the
+telehandler
+to a complete stop.
+4. Fully retract the boom and lower the  attachment. If equipped with forks, lower  the forks flat on the ground to avoid a trip  hazard.
+6. Turn off the
+telehandler
+.
+8. Remove the key.
+10. Dismount facing the
+telehandler
+using the
+11. If the
+telehandler
+must be left on an
+
+Page 72: genie_col found: True
+Page 72: (Image page)
+
+Page 73: genie_col found: True
+Page 73:
+attachments
+There are a wide variety of
+attachments
+available for telehandlers. As mentioned  previously, only use
+attachments
+that have been  approved by the
+telehandler
+manufacturer. This  will help ensure that the proper load charts, and  any conditional requirements, are provided to  the operator.
+attachments
+may be permanently fixed to the
+telehandler
+or utilize what is often called a  “quick- attach” system that allows the
+telehandler
+to quickly change different
+attachments
+.
+Please note that
+telehandler
+attachments
+may:
+2. Create a “Partially Loaded Condition”
+Please refer to the Operator’s Manual for more information on using
+attachments
+or contact the
+telehandler
+manufacturer.
+Shifting and Rotating
+A rotating carriage allows the operator to  rotate the entire carriage, in many cases up to  10 degrees, clockwise or counterclockwise.  The purpose of this attachment is to allow the  operator to compensate for uneven load  surface or uneven terrain when it affects an  area that a load needs to be picked or placed.
+Example: Rotating Carriage
+Swing carriages are typically used for helping  land a load in tight areas, or maneuvering  loads during travel around tight corners.  Swing carriages allow the operator to move  the carriage clockwise or counterclockwise along the horizontal axis.
+
+Page 74: genie_col found: True
+Page 74:
+Universal Attachment Adapter
+Industrial Grapple Bucket
+attachments
+Multi-purpose buckets are only approved for  certain telehandlers. Since they subject the  telehandlers boom to more torsional stress  and impact loading, not all telehandlers are  suited for this type of attachment. If unclear  whether this attachment is approved for a  specific
+telehandler
+, contact the
+telehandler
+manufacturer.
+Truss booms are often used for transporting  large or hard to handle loads, such as large  wooden trusses. Truss booms are almost  always rated for less than the overall capacity  of the
+telehandler
+. Always use the appropriate  load chart for a truss boom to avoid  overloading.
+Note: Refer to the
+operator's manual
+for  information on handling suspended loads.
+
+Page 75: genie_col found: True
+Page 75: (Image page)
+
+Page 76: genie_col found: True
+Page 76: (Image page)
+
+Page 77: genie_col found: True
+Page 77: (Image page)
+
+Page 78: genie_col found: True
+Page 78:
+Appendix
+Many aspects of
+telehandler
+operation
+and  testing are discussed in standards and
+regulations
+published by the regulatory and  standards institutions.
+U.S.A. - The American National Standards  Institute (
+ANSI
+), the Industrial Truck  Standards Development Foundation (ITSDF)  and the Occupational Safety & Health  Administration (
+OSHA
+). For
+Class 7
+variable reach trucks (telehandlers), standards  pertaining to operator training are also found  in
+ANSI
+/ITSDF
+B56.6
+and
+OSHA
+1910.178
+(l).
+Details on above mentioned standards can be  found at the links provided below.
+CSA
+- www.
+CSA
+.org
+OHS - www.ccohs.ca
+maintenance
+In addition to this training manual, you have additional access to product information  resources for acquiring information related to  the design and proper use of the equipment.
+In addition to the previously mentioned  standards and regulatory websites, you might  also consider visiting the equipment  manufacturer’s website for more information.  In many cases, as is the case with
+Genie
+’s  website, you can find the necessary Operators  Manual for the equipment. If you are unable to  find the applicable manual, you can also  contact the manufacturer directly.
+To order replacement
+training materials
+for  this program please contact your local
+Genie
+dealer. To assist you in finding a local
+Genie
+dealer in your area please visit us at  www.genielift.com.
+
+Page 79: genie_col found: True
+Page 79:
+maintenance
+Written
+Exam
+
+Page 80: genie_col found: True
+Page 80: (Image page)
+
+Page 81: genie_col found: True
+Page 81: (Image page)
+
+Page 82: genie_col found: True
+Page 82: (Image page)
+
+Page 83: genie_col found: True
+Page 83:
+Class 1–5 Forklifts
+:
+Use parallel written exam questions for Class I–V forklifts on
+stability
+(
+stability
+triangle), travel with a load on grades, tip-over response, safe passing/traffic rules, elevator entry, and dock board safety. Align answers to the forklift operator’s manual and the employer’s site rules.
+
+Page 84: genie_col found: True
+Page 84:
+Class 1–5 Forklifts
+:
+Include forklift-specific knowledge checks tied to
+OSHA
+1910.178
+(l): refresher triggers and evaluation frequency, attachment impacts on capacity, required pre-
+operation
+inspections and function tests, fork positioning/load engagement, and basic
+maintenance
+limits (tag-out/remove from service when unsafe).
+
+Page 85: genie_col found: True
+Page 85:
+Class 1–5 Forklifts
+:
+Add a forklift component legend for Classes I–V (examples: mast, carriage, forks, load backrest, lift/tilt cylinders, overhead guard, counterweight, steer axle, drive axle, controls). Note that Class II/III equipment may use different terms/components (reach mechanisms, walkie controls).
+
+Page 86: genie_col found: True
+Page 86:
+Ref: F06
+Class 1–5 Forklifts
+:
+For forklifts, replace
+telehandler
+load charts with the forklift’s data plate/capacity rating, load center, and any derating for
+attachments
+, mast height, and configuration. Operators must verify capacity before picking, lifting, or traveling with a load.
+
+Page 87: genie_col found: True
+Page 87:
+Class 1–5 Forklifts
+:
+Reinforce that forklift capacity changes with configuration (mast height, tilt,
+attachments
+, load center) and must match the data plate. After classroom instruction, move to hands-on practice and a documented performance evaluation on the actual truck type(s) used (Class I–V).
+
+Page 88: genie_col found: True
+Page 88:
+Class 1–5 Forklifts
+:
+For forklift Classes I–V, use the same training record concept but record the forklift class/type trained, truck make/model, and any
+attachments
+used during evaluation. Keep trainer/evaluator identity and training/evaluation dates with the record.
+
+Page 89: genie_col found: True
+Page 89:
+Class 1–5 Forklifts
+:
+If you use multiple forklift types or cohorts, use an additional copy of this training record to document each forklift class/type (I–V) the operator is trained/evaluated on, including model(s) and
+attachments
+used.
+
+Page 90: genie_col found: True
+Page 90:
+Class 1–5 Forklifts
+:
+Create/attach a forklift hands-on evaluation checklist (Class I–V) aligned to the operator’s tasks: pre-op inspection, function checks, safe travel with forks low, controlled turns, horn/intersections, picking/placing/stacking, parking/shutdown, and any site-specific items (docks, trailers, ramps/grades, narrow aisles).
+
+Page 91: genie_col found: True
+Page 91:
+Class 1–5 Forklifts
+:
+If training more than one forklift class/type, use a separate hands-on evaluation form per truck type (Class I–V) so competence is documented on each equipment type the operator will operate.
+
+Page 92: genie_col found: True
+Page 92:
+Class 1–5 Forklifts
+:
+Close-out: For forklift Classes I–V, ensure the final packet includes the operator’s training record + hands-on evaluation documentation + any written knowledge check required by the employer program, retained per your recordkeeping standard.
+
