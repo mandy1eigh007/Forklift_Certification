@@ -2,7 +2,7 @@ import bs4
 
 print("Starting script")
 
-with open('telehandler-class7-plus-forklift-1-5/index.html', 'r', encoding='utf-8') as f:
+with open('index.html', 'r', encoding='utf-8') as f:
     soup = bs4.BeautifulSoup(f, 'html.parser')
 
 pages = soup.find_all(['div'], class_=['page', 'imgpage'])
