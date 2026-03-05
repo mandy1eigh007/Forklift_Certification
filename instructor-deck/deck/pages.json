@@ -1,0 +1,371 @@
+[
+  {
+    "id": "page-001",
+    "title": "Page 1",
+    "type": "page-image",
+    "src": "../../assets/pics/image01.png",
+    "tags": [
+      "class7",
+      "class1-5"
+    ]
+  },
+  {
+    "id": "page-002",
+    "title": "Page 2",
+    "type": "page-image",
+    "src": "../../assets/pics/image02.png",
+    "tags": [
+      "class7",
+      "class1-5"
+    ]
+  },
+  {
+    "id": "page-003",
+    "title": "Page 3",
+    "type": "page-image",
+    "src": "../../assets/pics/image03.png",
+    "tags": [
+      "class7",
+      "class1-5"
+    ]
+  },
+  {
+    "id": "page-004",
+    "title": "Page 4",
+    "type": "page-image",
+    "src": "../../assets/pics/image04.png",
+    "tags": [
+      "class7",
+      "class1-5"
+    ]
+  },
+  {
+    "id": "page-005",
+    "title": "Page 5",
+    "type": "page-image",
+    "src": "../../assets/pics/image05.png",
+    "tags": [
+      "class7",
+      "class1-5"
+    ]
+  },
+  {
+    "id": "page-006",
+    "title": "Page 6",
+    "type": "page-image",
+    "src": "../../assets/pics/image06.png",
+    "tags": [
+      "class7",
+      "class1-5"
+    ]
+  },
+  {
+    "id": "page-007",
+    "title": "Page 7",
+    "type": "page-image",
+    "src": "../../assets/pics/image07.png",
+    "tags": [
+      "class7",
+      "class1-5"
+    ]
+  },
+  {
+    "id": "page-008",
+    "title": "Page 8",
+    "type": "page-image",
+    "src": "../../assets/pics/image08.png",
+    "tags": [
+      "class7",
+      "class1-5"
+    ]
+  },
+  {
+    "id": "page-009",
+    "title": "Page 9",
+    "type": "page-image",
+    "src": "../../assets/pics/image09.png",
+    "tags": [
+      "class7",
+      "class1-5"
+    ]
+  },
+  {
+    "id": "page-010",
+    "title": "Page 10",
+    "type": "page-image",
+    "src": "../../assets/pics/image10.png",
+    "tags": [
+      "class7",
+      "class1-5"
+    ]
+  },
+  {
+    "id": "page-011",
+    "title": "Page 11",
+    "type": "page-image",
+    "src": "../../assets/pics/image11.png",
+    "tags": [
+      "class7",
+      "class1-5"
+    ]
+  },
+  {
+    "id": "page-012",
+    "title": "Page 12",
+    "type": "page-image",
+    "src": "../../assets/pics/image12.png",
+    "tags": [
+      "class7",
+      "class1-5"
+    ]
+  },
+  {
+    "id": "page-013",
+    "title": "Page 13",
+    "type": "page-image",
+    "src": "../../assets/pics/image13.png",
+    "tags": [
+      "class7",
+      "class1-5"
+    ]
+  },
+  {
+    "id": "page-014",
+    "title": "Page 14",
+    "type": "page-image",
+    "src": "../../assets/pics/image14.png",
+    "tags": [
+      "class7",
+      "class1-5"
+    ]
+  },
+  {
+    "id": "page-015",
+    "title": "Page 15",
+    "type": "page-image",
+    "src": "../../assets/pics/image15.png",
+    "tags": [
+      "class7",
+      "class1-5"
+    ]
+  },
+  {
+    "id": "page-016",
+    "title": "Page 16",
+    "type": "page-image",
+    "src": "../../assets/pics/image16.png",
+    "tags": [
+      "class7",
+      "class1-5"
+    ]
+  },
+  {
+    "id": "page-017",
+    "title": "Page 17",
+    "type": "page-image",
+    "src": "../../assets/pics/image17.png",
+    "tags": [
+      "class7",
+      "class1-5"
+    ]
+  },
+  {
+    "id": "page-018",
+    "title": "Page 18",
+    "type": "page-image",
+    "src": "../../assets/pics/image18.png",
+    "tags": [
+      "class7",
+      "class1-5"
+    ]
+  },
+  {
+    "id": "page-019",
+    "title": "Page 19",
+    "type": "page-image",
+    "src": "../../assets/pics/image19.png",
+    "tags": [
+      "class7",
+      "class1-5"
+    ]
+  },
+  {
+    "id": "page-020",
+    "title": "Page 20",
+    "type": "page-image",
+    "src": "../../assets/pics/image20.png",
+    "tags": [
+      "class7",
+      "class1-5"
+    ]
+  },
+  {
+    "id": "page-021",
+    "title": "Page 21",
+    "type": "page-image",
+    "src": "../../assets/pics/image21.png",
+    "tags": [
+      "class7",
+      "class1-5"
+    ]
+  },
+  {
+    "id": "page-022",
+    "title": "Page 22",
+    "type": "page-image",
+    "src": "../../assets/pics/image22.png",
+    "tags": [
+      "class7",
+      "class1-5"
+    ]
+  },
+  {
+    "id": "page-023",
+    "title": "Page 23",
+    "type": "page-image",
+    "src": "../../assets/pics/image23.png",
+    "tags": [
+      "class7",
+      "class1-5"
+    ]
+  },
+  {
+    "id": "page-024",
+    "title": "Page 24",
+    "type": "page-image",
+    "src": "../../assets/pics/image24.png",
+    "tags": [
+      "class7",
+      "class1-5"
+    ]
+  },
+  {
+    "id": "page-025",
+    "title": "Page 25",
+    "type": "page-image",
+    "src": "../../assets/pics/image25.png",
+    "tags": [
+      "class7",
+      "class1-5"
+    ]
+  },
+  {
+    "id": "page-026",
+    "title": "Page 26",
+    "type": "page-image",
+    "src": "../../assets/pics/image26.png",
+    "tags": [
+      "class7",
+      "class1-5"
+    ]
+  },
+  {
+    "id": "page-027",
+    "title": "Page 27",
+    "type": "page-image",
+    "src": "../../assets/pics/image27.png",
+    "tags": [
+      "class7",
+      "class1-5"
+    ]
+  },
+  {
+    "id": "page-028",
+    "title": "Page 28",
+    "type": "page-image",
+    "src": "../../assets/pics/image28.png",
+    "tags": [
+      "class7",
+      "class1-5"
+    ]
+  },
+  {
+    "id": "page-029",
+    "title": "Page 29",
+    "type": "page-image",
+    "src": "../../assets/pics/image29.png",
+    "tags": [
+      "class7",
+      "class1-5"
+    ]
+  },
+  {
+    "id": "page-030",
+    "title": "Page 30",
+    "type": "page-image",
+    "src": "../../assets/pics/image30.png",
+    "tags": [
+      "class7",
+      "class1-5"
+    ]
+  },
+  {
+    "id": "page-031",
+    "title": "Page 31",
+    "type": "page-image",
+    "src": "../../assets/pics/image31.png",
+    "tags": [
+      "class7",
+      "class1-5"
+    ]
+  },
+  {
+    "id": "page-032",
+    "title": "Page 32",
+    "type": "page-image",
+    "src": "../../assets/pics/image32.png",
+    "tags": [
+      "class7",
+      "class1-5"
+    ]
+  },
+  {
+    "id": "page-033",
+    "title": "Page 33",
+    "type": "page-image",
+    "src": "../../assets/pics/image33.png",
+    "tags": [
+      "class7",
+      "class1-5"
+    ]
+  },
+  {
+    "id": "page-034",
+    "title": "Page 34",
+    "type": "page-image",
+    "src": "../../assets/pics/image34.png",
+    "tags": [
+      "class7",
+      "class1-5"
+    ]
+  },
+  {
+    "id": "page-035",
+    "title": "Page 35",
+    "type": "page-image",
+    "src": "../../assets/pics/image35.png",
+    "tags": [
+      "class7",
+      "class1-5"
+    ]
+  },
+  {
+    "id": "video-sample-file",
+    "title": "Sample Local Video",
+    "type": "video-file",
+    "src": "../../assets/training/sample-video.mp4",
+    "cues": [
+      "Pause at 00:45 for Q&A"
+    ]
+  },
+  {
+    "id": "activity-sample",
+    "title": "Sample Activity: Hazard Spotting",
+    "type": "activity",
+    "src": "",
+    "timing": "7m",
+    "cues": [
+      "Pair learners and call on 2 volunteers"
+    ]
+  }
+]
