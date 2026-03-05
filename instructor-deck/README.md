@@ -13,6 +13,12 @@ Open presenter launcher:
 $BROWSER http://127.0.0.1:8000/instructor-deck/deck/present.html
 ```
 
+Open landing experience:
+
+```bash
+$BROWSER http://127.0.0.1:8000/instructor-deck/deck/landing.html
+```
+
 ### Full Screen
 
 - In the deck window, press `F` to enter/exit reveal.js full screen mode.
