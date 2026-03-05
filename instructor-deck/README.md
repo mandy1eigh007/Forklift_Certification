@@ -3,14 +3,14 @@
 ## Run Locally
 
 ```bash
-cd /workspaces/Forklift_Certification/instructor-deck/deck
+cd /workspaces/Forklift_Certification
 python3 -m http.server
 ```
 
 Open presenter launcher:
 
 ```bash
-$BROWSER http://127.0.0.1:8000/present.html
+$BROWSER http://127.0.0.1:8000/instructor-deck/deck/present.html
 ```
 
 ### Full Screen

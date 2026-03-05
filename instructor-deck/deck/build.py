@@ -75,10 +75,10 @@ def scaffold_pages() -> list[dict[str, Any]]:
     samples = [
         {
             "id": "video-sample-file",
-            "title": "Sample Local Video",
-            "type": "video-file",
-            "src": "../../assets/training/sample-video.mp4",
-            "cues": ["Pause at 00:45 for Q&A"],
+            "title": "Video Placeholder",
+            "type": "activity",
+            "src": "",
+            "cues": ["Replace this slide with a real local video-file source"],
         },
         {
             "id": "activity-sample",

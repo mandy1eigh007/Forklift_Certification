@@ -351,11 +351,11 @@
   },
   {
     "id": "video-sample-file",
-    "title": "Sample Local Video",
-    "type": "video-file",
-    "src": "../../assets/training/sample-video.mp4",
+    "title": "Video Placeholder",
+    "type": "activity",
+    "src": "",
     "cues": [
-      "Pause at 00:45 for Q&A"
+      "Replace this slide with a real local video-file source"
     ]
   },
   {
