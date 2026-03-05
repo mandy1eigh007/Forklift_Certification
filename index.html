@@ -495,20 +495,40 @@
     // If a paired row has no right-side callouts after cleanup, collapse it to full width
     // and remove the left marker (markers should only exist when a forklift insert exists).
     document.querySelectorAll(".paired-row").forEach(function (row) {
-      var right = row.querySelector(":scope > .cell.right");
-      if (!right) return;
+      var right = row.querySelector(".cell.right");
+      if (!right || right.parentElement !== row) return;
 
       if (right.querySelector(".hl-blue")) return;
 
-      var rightText = normalizeText(right.textContent);
-      var isOnlyRef = rightText === "" || /^Ref:\s*\[?F\d+\]?$/i.test(rightText);
-      if (!isOnlyRef) return;
+      // Treat the right cell as "empty" if it contains only ref lines (even multiple)
+      // and/or whitespace.
+      var hasMeaningfulRightContent = false;
+      Array.prototype.forEach.call(right.childNodes, function (node) {
+        if (hasMeaningfulRightContent) return;
+
+        if (node.nodeType === Node.TEXT_NODE) {
+          if (normalizeText(node.textContent) !== "") {
+            hasMeaningfulRightContent = true;
+          }
+          return;
+        }
+
+        if (node.nodeType === Node.ELEMENT_NODE) {
+          var el = node;
+          if (el.classList && el.classList.contains("refline")) return;
+          if (normalizeText(el.textContent) !== "") {
+            hasMeaningfulRightContent = true;
+          }
+        }
+      });
+
+      if (hasMeaningfulRightContent) return;
 
       right.remove();
       row.classList.add("solo");
 
-      var left = row.querySelector(":scope > .cell.left");
-      if (left) {
+      var left = row.querySelector(".cell.left");
+      if (left && left.parentElement === row) {
         left.querySelectorAll(".refmark").forEach(function (m) {
           m.remove();
         });
