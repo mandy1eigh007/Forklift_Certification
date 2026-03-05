@@ -38,24 +38,10 @@
   }
 
   /* Key fix: don't exceed printable height (Letter 11in - 1.3in margins = 9.7in) */
-  .page{ position: relative; min-height: 9.6in; padding-bottom: 18px; }
+  .page{ position: relative; min-height: 9.6in; }
 
-  /* Keep the Genie access notice, but don't burn page width with a rotated sidebar */
-  .watermark{
-    position:absolute;
-    left: 0;
-    right: 0;
-    bottom: 0;
-    top: auto;
-    transform: none;
-    transform-origin: initial;
-    font-size: 7.5pt;
-    line-height: 1.2;
-    text-align: center;
-    white-space: nowrap;
-    opacity: 0.75;
-    pointer-events: none;
-  }
+  /* Removed to reclaim space */
+  .watermark{ display: none !important; }
   .one-col{ max-width:100%; }
   h2{ font-size: 16pt; font-weight:700; margin:0 0 12px 0; text-decoration: underline; }
   h3{ font-size: 13pt; font-weight:700; margin:16px 0 10px 0; text-decoration: underline; }
@@ -156,7 +142,7 @@
     @page { size: Letter landscape; margin: 0.55in 0.55in; }
     body{ font-size: 9.75pt; line-height: 1.25; }
     .page{ min-height: 7.35in; }
-    .watermark{ font-size: 7pt; opacity: 0.7; }
+    .watermark{ display: none !important; }
   }
 </style>
 </head>
