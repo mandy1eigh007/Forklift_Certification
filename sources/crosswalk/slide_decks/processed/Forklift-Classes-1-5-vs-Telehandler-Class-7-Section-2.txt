@@ -1,0 +1,500 @@
+OPERATOR TRAINING MODULE
+
+
+
+Forklift (Classes 135) vs Telehandler (Class 7) 4
+Operator Training
+Aligned to Genie Lift Pro Telehandler Trainer's Guide 4 Sections 2
+
+           Overview of regulations for Forklifts (Classes 1-5) and Telehandlers (Class 7)
+
+
+
+
+              Key principles of capacity, stability, and load handling
+
+
+
+
+                 Requirements for developing a safe use plan
+
+
+
+
+                     Understanding OSHA and CSA compliance standards
+
+
+
+
+           What You'll Learn
+              Overview of regulations for Forklifts (Classes 1-5) and Telehandlers (Class 7)
+              Key principles of capacity, stability, and load handling
+              Requirements for developing a safe use plan
+              Understanding OSHA and CSA compliance standards
+
+
+       ¦  Who This Training Applies To: Any person operating a powered industrial truck 4 including forklifts (Classes 135) or telehandlers (Class 7) 4 must be trained and
+       evaluated before operating. Untrained operation is an OSHA violation.
+SECTION 2:
+REGULATIONS AND
+OPERATOR
+TRAINING
+Understanding the rules, responsibilities, and training requirements for safe forklift and telehandler
+operation.
+
+
+  Capacity & Stability                                 Safe Use Plans
+
+
+  OSHA & CSA Standards
+           Learning Objective: By the end of this section, operators will understand the unique handling characteristics of counterbalance lift trucks and apply safe travel and load positioning practices.
+
+
+
+SECTION 2: REGULATIONS 4 Classes 1-5 Training Overview
+Classes 135 (Counterbalance Lift Trucks)
+Warehouse and industrial forklifts operate with fixed vertical masts and fork carriages, handling loads on firm, level surfaces. Operators must be trained on safe handling practices, including proper load positioning and travel procedures.
+
+Governing Standard: ANSI/ITSDF B56.6
+In the USA, the American National Standards Institute and the Industrial Truck Standards Development Foundation (ANSI/ITSDF) have established safety requirements for the design, operation, and maintenance of powered industrial trucks. ANSI/ITSDF states: 'Only
+trained and authorized persons shall be permitted to operate a rough terrain forklift truck. Operators shall be qualified as to their visual, auditory, physical, and mental ability to operate the equipment safely.'
+Key training focus areas:
+
+
+
+
+                                                                                                                                           When traveling with a load, forks should be positioned 436 inches above the ground with the mast tilted slightly backward
+  Rear-wheel steering requires operators to be aware of tail swing clearance during turns
+
+
+
+
+                                                                                                                                           Stability triangle principles for safe operation
+  Load capacity verification using data plate specifications
+
+
+        Why It Matters: Forklift tip-overs and struck-by incidents are among the leading causes of workplace fatalities. OSHA estimates that approximately 85 forklift fatalities and 34,900 serious injuries occur every year in the US. Proper training directly reduces
+        these numbers.
+
+
+        Always verify tail swing clearance before turning 4 rear-wheel steering behaves differently than most vehicles.
+
+
+        '   Check Your Understanding
+        1. What is the standard fork travel height when moving with a load?
+        2. Why does rear-wheel steering require special awareness during turns?
+        3. What document tells you the maximum load capacity for your specific truck?
+          Learning Objective: By the end of this section, operators will understand the specialized skills required for telescoping boom equipment and apply safe practices unique to variable-reach telehandlers.
+
+
+
+SECTION 2: REGULATIONS 4 Class 7 Training Overview
+Class 7 (Telehandlers)
+       Learning Objective: By the end of this section, operators will understand the specialized skills required for telescoping boom equipment and apply safe practices unique to variable-reach telehandlers.
+
+Telehandlers operate with telescoping booms and variable-reach capabilities, handling loads on rough terrain and construction sites. Operators must be trained on specialized handling practices unique to boom-equipped machines.
+
+Key training focus areas:
+       Boom extension effects on load capacity and stability
+
+
+       Load chart interpretation for variable capacity calculations
+
+
+       Outrigger deployment requirements for enhanced stability
+
+
+       Rough terrain operation and ground condition assessment
+
+
+       Construction site coordination and communication protocols
+
+
+       Load moment indicator (LMI) system operation and warnings
+
+
+
+       Why It Matters: Telehandlers have a dynamic, shifting center of gravity as the boom extends and rotates. Unlike a standard forklift, the safe lift zone changes with every boom position 4 making load chart literacy a life-safety skill, not just a compliance requirement.
+
+
+       ¦   Key Safety Rule: Never extend the boom without first consulting the load chart 4 capacity changes dramatically with boom angle and extension.
+
+
+       '   Check Your Understanding
+       1. How does extending the boom affect the telehandler's lifting capacity?
+       2. When are outriggers required?
+       3. What does the LMI system do, and what should an operator do when it activates?
+         Learning Objective: Operators will be able to read a data plate, calculate load center distance, and apply stability triangle principles to verify safe lift capacity before every operation.
+
+
+
+SECTION 2: REGULATIONS 4 Classes 1-5 Capacity and Stability
+      Learning Objective: Operators will be able to read a data plate, calculate load center distance, and apply stability triangle principles to verify safe lift capacity before every operation.
+
+
+Classes 135 (Counterbalance Lift Trucks)
+ Data plate specifications provide maximum load capacity ratings                                                                                            Load center distance calculations based on 24-inch standard
+
+ Stability triangle concept governs safe operation                                                                                                          Center of gravity principles affect load handling
+
+ Capacity verification required before every lift                                                                                                           Load positioning affects overall stability
+
+OSHA Appendix A 4 Key Stability Definitions
+ Center of Gravity                                                                                       Counterweight                                                                                          Fulcrum
+ The point at which all of an object's weight is concentrated. For symmetrical loads, this is            Weight built into the truck's structure to offset the load's weight and maximize resistance to         The truck's axis of rotation when it tips over.
+ the middle of the load.                                                                                 tipping.
+
+
+
+ Load Center                                                                                             Stability Triangle                                                                                     Lateral Stability
+ The horizontal distance from the load's edge to the line of action through the load's center            The three-point support system formed by connecting the truck's suspension points. When                Resistance to overturning sideways; affected by load placement, load height, and vehicle
+ of gravity. Trucks f30,000 lbs are rated at a 24-inch load center.                                      the vehicle's line of action falls within this triangle, the truck is stable.                          lean.
+
+
+
+ Dynamic Stability
+ Stability considerations when the vehicle is in motion 4 braking, cornering, lifting, tilting. Maximum loads should be carried at the lowest position possible.
+
+
+      D   Load-Moment Calculation Example: A 3,000 lb capacity truck (24-inch load center) has a max load-moment of 72,000 inch-pounds. If a load is 60 inches long (30-inch load center), the maximum safe load weight is 2,400 lbs (72,000 ÷ 30).
+
+
+      D   Remember: The 24-inch load center standard is the baseline 4 always recalculate if your load is unusually deep, wide, or offset.
+
+
+      '   Check Your Understanding
+      1. A forklift is rated at 4,000 lbs at a 24-inch load center. A pallet is 72 inches deep (36-inch load center). What is the maximum safe load weight?
+      2. What happens to stability when you raise the forks higher?
+      3. Name three factors that affect a truck's lateral stability.
+         Learning Objective: Operators will be able to interpret a variable load chart, identify how boom extension and angle reduce capacity, and recognize when outriggers and
+       LMI systems must be used.
+
+
+
+SECTION 2: REGULATIONS 4 Class 7 Capacity and Stability
+       Learning Objective: Operators will be able to interpret a variable load chart, identify how boom extension and angle reduce capacity, and recognize when outriggers and LMI
+       systems must be used.
+
+
+Class 7 (Telehandlers):
+  Variable load chart systems based on boom extension and angle
+
+
+
+  Boom extension effects dramatically reduce lifting capacity
+
+
+
+  Rough terrain stability considerations require enhanced precautions
+
+
+
+  Outrigger deployment requirements for maximum capacity operations
+
+
+
+  Load moment indicator (LMI) systems provide real-time capacity monitoring
+
+
+
+  Ground conditions affect stability and safe operating limits
+
+
+How to Read a Telehandler Load Chart
+A telehandler load chart shows maximum capacity at specific combinations of boom angle (degrees) and boom extension (feet). To use it correctly: (1) Identify your boom angle, (2) Find
+your boom extension distance, (3) Read the intersection 4 that is your maximum allowable load weight. Never exceed this value. Always use the most conservative (lowest) capacity
+value when conditions are uncertain.
+
+       D   Remember: As boom extension increases, lifting capacity decreases 4 always check the load chart for the specific boom angle and extension combination before every lift.
+
+
+       '   Check Your Understanding
+       1. At full boom extension, does capacity increase or decrease?
+       2. When must outriggers be deployed?
+       3. What does the LMI alarm indicate, and what is the correct operator response?
+             Learning Objective: Operators and supervisors will understand the purpose and required components of a site-specific safe use plan, and recognize their responsibility to follow and update it.
+
+
+
+SECTION 2: REGULATIONS 4 Safe Use Plan Overview
+       Learning Objective: Operators and supervisors will understand the purpose and required components of a site-specific safe use plan, and recognize their responsibility to follow and update it.
+
+Both forklift and telehandler operations require comprehensive site-specific safe use plans that address equipment capabilities, workplace hazards, and emergency procedures. These plans must be developed before operations begin and updated whenever conditions change.
+Key plan components include:
+
+  Equipment specifications and operating limitations                                                   Site-specific hazard identification and mitigation                                                      Traffic patterns and pedestrian safety protocols
+
+
+  Emergency response procedures and communication                                                                                                           Operator training and certification requirements
+
+
+ANSI/ITSDF B56.6-2021 4 Required Safe Use Plan Elements
+1. Performing a site risk assessment to identify hazards, evaluate risk, develop control measures, and communicate the safe use program to affected persons
+2. Verifying that the RTFL truck and attachment(s) being utilized are appropriate for the application
+3. Planning for access, preparation, and maintenance of the site 4 including assessment that the support surface is adequate to support the weight of the RTFL truck
+4. Verifying that RTFL truck inspections, maintenance, and repairs are performed per the provisions of this standard and as recommended by the manufacturer
+5. Ensuring that only qualified and authorized personnel trained in accordance with OSHA 1910.178(l) are allowed to operate the RTFL truck
+6. Ensuring the familiarization of trained, authorized RTFL truck operator(s) with the specific RTFL truck to be used
+7. Informing the operator of local site requirements and warnings, and providing the means to protect against identified hazards in the areas where the RTFL truck will be operated
+8. Monitoring the work being performed to ensure compliance with provisions of this standard
+9. Preventing unauthorized use of the RTFL truck
+10. Considering safety of persons in the vicinity of and not involved in the operation of the RTFL truck
+
+       Why It Matters: A missing or outdated Safe Use Plan is not just a paperwork issue 4 it means operators may be working without knowing site hazards, ground conditions, or emergency procedures. ANSI/ITSDF B56.6-2021 requires this plan to exist in writing before any RTFL truck
+       operation begins.
+
+
+       D      Instructor Note: Emphasize that safe use plans are living documents 4 they must be reviewed and updated whenever equipment, site conditions, or personnel change.
+
+
+       '      Check Your Understanding
+           1. Who is responsible for creating the Safe Use Plan 4 the operator or the employer?
+           2. Name three conditions that require the Safe Use Plan to be updated.
+           3. Which ANSI/ITSDF element specifically addresses ground surface adequacy?
+      Learning Objective: Operators will identify the seven key elements of a Classes 135 safe use plan and explain how each element contributes to a safe warehouse environment.
+
+
+
+SECTION 2: REGULATIONS 4 Classes 1-5 Safe Use Plan Elements
+   Learning Objective: Operators will identify the seven key elements of a Classes 135 safe use plan and explain how each element contributes to a safe warehouse environment.
+
+
+Classes 135 4 Key Plan Elements:
+       Traffic patterns and designated travel aisles on firm, level floors
+
+
+
+
+       Pedestrian separation zones and right-of-way rules
+
+
+
+
+       Loading dock protocols and edge protection requirements
+
+
+
+
+       Overhead clearance identification and marking
+
+
+
+
+       Capacity verification procedures and load handling protocols
+
+
+
+
+       Pre-operational inspection requirements and documentation
+
+
+
+
+       Incident reporting and emergency response procedures
+
+
+
+
+   Why It Matters: Each element of the Classes 135 Safe Use Plan addresses a real, documented cause of forklift incidents. For example: unmarked pedestrian zones contribute to struck-by fatalities; missing dock protocols lead
+   to fall-off-dock incidents; skipped pre-op inspections allow mechanical failures to go undetected.
+
+   '   Compliance Tip: Each element of the safe use plan must be documented in writing and communicated to all operators before work begins.
+
+
+   '   Check Your Understanding
+   1. What must happen before any operator begins work on a site 4 regarding the Safe Use Plan?
+   2. Why are pedestrian separation zones a required plan element?
+   3. What is the purpose of the pre-operational inspection requirement?
+          Learning Objective: Operators will be able to describe the correct emergency response procedures for both warehouse forklift and construction site telehandler incidents, including evacuation and reporting
+        steps.
+
+
+    Learning Objective: Operators will be able to describe the correct emergency response procedures for both warehouse forklift and construction site telehandler incidents, including evacuation and reporting
+    steps.
+
+
+
+SECTION 2: REGULATIONS AND OPERATOR TRAINING 4 Implementation and Emergency
+Procedures
+Classes 135                                                                                                      Class 7
+ Implementation procedures for warehouse safe use plans                                                              Construction site implementation procedures
+ Emergency response protocols for forklift incidents                                                                 Rough terrain emergency protocols
+    Shut down the forklift immediately and set the parking brake                                                        Lower the boom to the ground if possible before shutting down
+    Alert nearby workers verbally and activate any site alarm                                                           Establish a 360° exclusion zone around the machine
+     Do not attempt to re-enter a tipped forklift 4 wait for emergency services                                      Boom failure responses
+ Evacuation procedures                                                                                                  Activate the LMI override only under direct supervisor authorization
+ Incident reporting requirements                                                                                        Contact the site supervisor and equipment manufacturer if boom failure occurs
+    Complete an incident report within the required timeframe                                                        Job site coordination requirements for telehandlers
+    Preserve the scene for investigation before moving equipment                                                         Document ground conditions and load details for the incident report
+
+    ¦      Critical Reminder: In any emergency, operator safety comes first 4 shut down equipment, alert others, and follow site-specific evacuation procedures before attempting any recovery action.
+
+
+    '      Check Your Understanding
+    1. What is the FIRST action an operator should take in any equipment emergency?
+    2. Should an operator attempt to jump from a tipping forklift? Why or why not?
+    3. Who must be notified after a near-miss incident?
+          Learning Objective: Operators will understand the scope and requirements of OSHA 1910.178(l), identify how it applies differently to Classes 135 vs. Class 7 equipment, and recognize the role of OSHA 1926 Subpart N for construction sites.
+
+
+       Learning Objective: Operators will understand the scope and requirements of OSHA 1910.178(l), identify how it applies differently to Classes 135 vs. Class 7 equipment, and recognize the role of OSHA 1926 Subpart N for construction sites.
+
+
+
+SECTION 2: REGULATIONS AND OPERATOR TRAINING 4 OSHA 1910.178 (l)
+OSHA standard 1910.178(l) establishes mandatory operator training requirements for all powered industrial truck operations in the United States. This regulation applies to both warehouse forklifts and rough-terrain telehandlers, though implementation details differ based on equipment type
+and workplace conditions.
+
+
+Classes 135 4 Compliance Focus                                                                                                                       Class 7 4 Compliance Focus
+Training programs must address truck-related topics including operating instructions, capacity limits, and stability factors. Workplace-related      While OSHA 1910.178(l) technically applies only to warehouse environments, its training framework provides the foundation for telehandler
+topics must cover surface conditions, load composition, and pedestrian traffic patterns specific to indoor warehouse environments.                   programs. Construction sites typically reference OSHA 1926 Subpart N or manufacturer guidelines like the Genie Lift Pro guide.
+
+
+Key OSHA 1910.178(l) Provisions at a Glance
+
+
+                                                                                                                                                     1910.178(l)(2) 4 Training Implementation
+  1910.178(l)(1) 4 Safe Operation                                                                                                                    Training must combine formal instruction, practical training (demonstrations + exercises), and workplace performance evaluation
+  Employer must ensure each operator is competent before operating any powered industrial truck
+
+
+
+
+                                                                                                                                                     1910.178(l)(6) 4 Certification
+  1910.178(l)(4) 4 Refresher Training                                                                                                                Employer must certify each operator with name, training date, evaluation date, and trainer identity on record
+  Required when operator is observed unsafe, involved in incident, evaluated as incompetent, assigned new equipment, or workplace
+  conditions change
+
+
+       D   Key Distinction: OSHA 1910.178(l) is the primary standard for warehouse forklifts. Telehandler operators on construction sites should also reference OSHA 1926 Subpart N and manufacturer training guidelines.
+
+
+       '   Check Your Understanding
+       1. Under OSHA 1910.178(l), can a trainee operate a forklift unsupervised?
+       2. How often must operator performance evaluations be conducted at minimum?
+       3. What five conditions trigger mandatory refresher training?
+          Learning Objective: Operators will identify the specific OSHA training program components required for their equipment class, including truck-related topics, workplace topics, performance evaluation, and refresher training triggers.
+
+
+
+SECTION 2: REGULATIONS AND OPERATOR TRAINING 4 OSHA Training Program Details
+       Operators will identify the specific OSHA training program components required for their equipment class, including truck-related topics, workplace topics, performance evaluation, and refresher training triggers.
+
+
+
+SECTION 2: REGULATIONS AND OPERATOR TRAINING 4 OSHA Training Program Details
+Classes 135                                                                                                                           Class 7
+Detailed OSHA training program requirements for forklifts including truck-related topics, workplace-related topics,                   OSHA requirements specific to telehandlers including rough terrain considerations, boom operation training, load chart
+performance evaluation criteria, and refresher training schedules.                                                                    instruction, and construction site safety integration.
+
+Truck-Related Topics (1910.178(l)(3)(i))                                                                                              Workplace-Related Topics (1910.178(l)(3)(ii))
+   Operating instructions, warnings, and precautions                                                                                      Surface conditions where the vehicle will be operated
+   Differences between the truck and the automobile                                                                                       Composition of loads to be carried and load stability
+   Truck controls and instrumentation (location, function, operation)                                                                     Load manipulation, stacking, and unstacking
+   Engine or motor operation                                                                                                              Pedestrian traffic in areas where the vehicle will be operated
+   Steering and maneuvering                                                                                                               Narrow aisles and other restricted places
+   Visibility (including restrictions due to loading)                                                                                     Hazardous (classified) locations
+   Fork and attachment adaptation, operation, and use limitations                                                                         Ramps and other sloped surfaces that could affect stability
+   Vehicle capacity and vehicle stability                                                                                                 Closed environments where carbon monoxide or diesel exhaust could build up
+   Vehicle inspection and maintenance required of the operator                                                                            Other unique or potentially hazardous environmental conditions
+   Refueling and/or charging and boosting/jumping of battery
+   Operating limitations
+   Any other instructions, warnings, or precautions in the operator's manual
+
+Certification (1910.178(l)(6))
+The employer shall certify that each operator has been trained and evaluated. Certification must include: the operator's name, date of training, date of evaluation, and identity of the person(s) performing the training or evaluation.
+
+Avoidance of Duplicate Training (1910.178(l)(5))
+If an operator has previously received training in a topic and that training is appropriate to the truck and working conditions encountered, additional training in that topic is not required 4 provided the operator has been evaluated and found competent.
+
+       Why It Matters: Incomplete training records are one of the most common OSHA citations in powered industrial truck operations. Employers who cannot produce written certification records for each operator face significant fines 4 and more
+       importantly, operators without documented training may be working with dangerous knowledge gaps.
+
+       '   Compliance Tip: Refresher training is required whenever an operator is observed operating unsafely, involved in an incident, or assigned to a different type of equipment.
+
+
+       '  Check Your Understanding
+       1. What four pieces of information must appear on an operator's training certification?
+       2. Can an operator skip training on a topic they already know? Under what condition?
+       3. Name three workplace-related topics that must be covered in OSHA-compliant training.
+             Learning Objective: Operators will understand the purpose and scope of CSA B335, recognize how it parallels and extends OSHA requirements, and identify its specific provisions for variable-reach equipment in Canada.
+
+
+       Learning Objective: Operators will understand the purpose and scope of CSA B335, recognize how it parallels and extends OSHA requirements, and identify its specific provisions for variable-reach equipment in Canada.
+
+
+
+SECTION 2: REGULATIONS AND OPERATOR TRAINING 4 CSA B335 Overview
+Canadian Standard Association B335 provides comprehensive guidance for lift truck operator training in Canada, paralleling OSHA requirements while adding specific provisions for variable-reach equipment. This standard applies across all provinces and
+territories, ensuring a consistent approach to lift truck safety and operation.
+
+CSA B335 vs. OSHA 1910.178(l) 4 Key Comparisons
+   Jurisdiction                                                                             Retraining Interval                                                                  Enforcement Body
+   OSHA: Applies in the USA                                                                 OSHA: Requires evaluation every 3 years                                              OSHA: OSHA (federal, USA)
+   CSA B335: Applies across all Canadian provinces and territories, enforced by             CSA B335: Requires retraining at intervals not exceeding 3 years                     CSA B335: OHS 4 each province has its own authority; operators must know
+   provincial OHS authorities                                                                                                                                                    their provincial rules
+
+
+
+   Standard for Telehandlers                                                                                                           Upgrade Training
+   USA: ANSI/ITSDF B56.6 (establishes design, operation, and maintenance safety requirements)                                          OSHA: Triggers refresher on 5 conditions
+   Canada: CSA B335 (establishes design, operation, and maintenance safety requirements)                                               CSA B335: Adds upgrade training for equipment changes, modified equipment, and identified skill deficiencies
+
+
+       Why It Matters: Operators who work across the US-Canada border 4 or for companies operating in both countries 4 must understand both standards. Assuming OSHA compliance is sufficient in Canada (or vice versa) can result in regulatory
+       violations and unsafe operations.
+
+
+       D      Canadian Context: CSA B335 applies in all Canadian provinces and territories. Operators working across the border must be familiar with both OSHA and CSA requirements, as they have important differences.
+
+
+       '      Check Your Understanding
+           1. Which body enforces CSA B335 in Canada?
+           2. How does the CSA retraining interval compare to OSHA's?
+           3. If you work in Ontario, which authority's OHS rules apply to your telehandler operation?
+          Learning Objective: Operators will identify the theoretical and practical training components required under CSA B335 for their equipment class, including skills assessment criteria and any applicable provincial variations.
+
+
+       Learning Objective: Operators will identify the theoretical and practical training components required under CSA B335 for their equipment class, including skills assessment criteria and any applicable provincial variations.
+
+
+
+SECTION 2: REGULATIONS AND OPERATOR TRAINING 4 CSA B335 Training Details
+Classes 135                                                                                                                                                                          Class 7
+Detailed CSA B335 training requirements for forklifts including theoretical knowledge components, practical skills assessment, rear-wheel steering training, and Canadian            CSA B335 requirements specific to telehandlers including variable-reach equipment provisions, rough terrain training, boom operation certification, and Canadian
+provincial variations.                                                                                                                                                               construction site standards.
+
+CSA B335 Clause 6.1 4 Required Training Topics (a3q)
+  Legislation                                                                                                           Company policies and procedures                                                                                       Operating manual
+
+  Lift truck features and safety equipment                                                                              Stability                                                                                                             Capacity plate and location
+  Preoperational inspection                                                                                             Start-up                                                                                                              Travelling, with and without a load
+
+  Pedestrians                                                                                                           Load handling                                                                                                         Ramps and grades
+
+  Personnel lifting, lowering, and supporting                                                                           Elevators                                                                                                             Workplace specific hazards
+
+  Procedures for shutdown/leaving the operator's position                                                                                                                           Refueling/recharging
+
+CSA B335 Clause 6.20 4 Evaluations
+The trainee shall be evaluated throughout the learning process to determine whether the objectives of the training course are being met.
+
+CSA B335 Clause 6.21.3 4 Upgrade Training
+   Equipment is introduced in the workplace that is unfamiliar to the operator
+   The equipment used by the operator is modified
+   The operating conditions or environment in which the operator works is changed (e.g., different area, different types of loads)
+   Applicable legislation changes
+   Skill or knowledge deficiencies have been identified
+
+       Why It Matters: CSA B335 Clause 6.1 covers 17 mandatory training topics 4 from legislation to refueling. Each topic exists because gaps in that knowledge have caused real incidents. Upgrade training requirements (6.21.3) recognize that safe operation is not a one-time achievement 4 it must be maintained as equipment, environments, and
+       regulations evolve.
+
+
+       '  Check Your Understanding
+       1. How many mandatory training topics does CSA B335 Clause 6.1 require?
+       2. Under CSA B335, when must upgrade training be provided? Name at least three triggers.
+       3. What is the maximum retraining interval under CSA B335?
+
+       '   Section Summary: You've completed Section 2. Key takeaways: know your regulations (OSHA or CSA), understand your equipment's capacity limits, follow your site's safe use plan, and always complete required training before operating.
+

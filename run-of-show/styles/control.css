@@ -1,0 +1,140 @@
+.control-shell {
+  min-height: 100vh;
+  display: grid;
+  grid-template-columns: 1.65fr minmax(320px, 420px);
+  gap: 1rem;
+  padding: 1rem;
+}
+
+.control-main,
+.control-side {
+  background: var(--panel);
+  border: 1px solid var(--line);
+  border-radius: var(--radius);
+  box-shadow: var(--shadow);
+}
+
+.control-main {
+  padding: 1.1rem;
+}
+
+.control-side {
+  padding: 1rem;
+  display: grid;
+  align-content: start;
+  gap: 0.9rem;
+  max-height: calc(100vh - 2rem);
+  overflow: auto;
+}
+
+.control-status {
+  margin: 0;
+  font-size: 0.95rem;
+  color: var(--ink-soft);
+}
+
+.control-buttons {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.5rem;
+}
+
+.control-block {
+  border-top: 1px solid var(--line);
+  padding-top: 0.7rem;
+}
+
+.control-title {
+  margin: 0 0 0.5rem;
+  font-size: 1rem;
+}
+
+.control-sub {
+  margin: 0.45rem 0;
+  font-size: 0.88rem;
+  color: var(--ink-soft);
+}
+
+.control-timer {
+  margin: 0.2rem 0 0.5rem;
+  font-weight: 600;
+}
+
+.control-list {
+  margin: 0;
+  padding-left: 1rem;
+  display: grid;
+  gap: 0.4rem;
+}
+
+.control-list-item {
+  list-style: none;
+}
+
+.control-check {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.4rem;
+  font-size: 0.95rem;
+}
+
+.scene-console {
+  display: grid;
+  gap: 0.7rem;
+}
+
+.scene-muted {
+  margin: 0;
+  color: var(--ink-soft);
+}
+
+.scene-link {
+  color: var(--accent);
+}
+
+.scene-media-list {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: grid;
+  gap: 0.7rem;
+}
+
+.scene-media-item {
+  list-style: none;
+}
+
+.scene-media-card {
+  margin: 0;
+  display: grid;
+  gap: 0.35rem;
+}
+
+.scene-media-image,
+.scene-media-video {
+  width: 100%;
+  max-height: 320px;
+  object-fit: contain;
+  border: 1px solid var(--line);
+  border-radius: 12px;
+  background: #f6f0e4;
+}
+
+.scene-media-caption {
+  color: var(--ink-soft);
+  font-size: 0.9rem;
+}
+
+.scene-media-link {
+  font-weight: 600;
+}
+
+@media (max-width: 980px) {
+  .control-shell {
+    grid-template-columns: 1fr;
+  }
+
+  .control-side {
+    max-height: none;
+  }
+}

@@ -1,0 +1,508 @@
+Forklift (Classes 135) vs
+Telehandler (Class 7) 4
+Operator Training
+Aligned to Genie Lift Pro Telehandler Trainer's Guide 4
+Sections 4
+SECTION 4:
+OPERATION
+SECTION 4: OPERATION 4 Fundamentals
+Operating heavy equipment like forklifts and telehandlers requires a complete mindset shift from driving an automobile. While
+some basic features are shared, key operational differences are critical for safety and efficiency.
+
+
+Forklifts (Classes 1-5)                                                 Telehandlers (Class 7)
+
+    Unique features include:                                                Key distinction:
+    Rear-wheel steering                                                     Dynamic center of gravity (constantly shifts with boom
+    Fixed vertical mast                                                     movement)
+
+    Stability triangle (defined by two front wheels and rear                Situational awareness is paramount.
+    axle pivot)
+
+
+Both types share basic features (tires, engine, steering, brakes, horn, mirrors, seatbelt) but differ significantly in weight,
+suspension, steering modes, stopping distance, and overall stability. The following cards will detail these operational aspects.
+SECTION 4: OPERATION 4
+Telehandler vs. Automobile
+Classes 135 (Forklifts)                  Class 7 (Telehandlers)
+Key operational differences from         Key operational differences from
+automobiles:                             automobiles:
+
+   Rear-wheel steering: rear swings         Dynamic center of gravity (boom
+   out during turns.                        angle, extension, load).
+   No suspension system.                    Multiple steering modes (2-
+   Significantly heavier.                   wheel, 4-wheel, crab steer).
+
+   Fixed stability triangle.                No suspension system.
+
+   Center of gravity shifts with load.      Much heavier.
+
+   Longer stopping distances.               Powershift or hydrostatic
+                                            transmissions.
+                                            Limited top speed (20325 mph).
+SECTION 4: OPERATION 4 Visibility
+Considerations
+ Mast assembly obstructs forward          Structural components around cab
+ vision when elevated.                    create blind spots.
+ Maintain sightlines: travel with loads   Reduced visibility conditions: narrow
+ low (4-6 inches) and mast tilted         passageways, load blocking view,
+ back.                                    other vehicles/personnel.
+ If vision blocked by load, travel in     When obstructed: drive slowly, use
+ reverse.                                 horn.
+ Hazards: narrow aisles, other            Use spotter if you can't see over load
+ vehicles, low clearances.                or when backing.
+ When visibility reduced: slow down,      Boom and attachment also obstruct
+ use horn, use spotter.                   rearward visibility.
+                                          Always assess visibility restrictions
+                                          before and during operation.
+SECTION 4: OPERATION 4 Capacity
+Plates
+Classes 135                                Class 7
+ Every forklift has a **data plate**.        Telehandlers have **manufacturer's
+ Plate specifies **max load                  capacity plates**.
+ capacity**, **load center**, and **lift     Plates show **rated capacity**,
+ height**.                                   model, and serial number.
+ Capacity is based on **standard             Each approved **attachment has its
+ conditions**; **attachments reduce          own plate**.
+ capacity** and require a new plate.         **Combined capacity** of machine
+ **Never exceed** the rated capacity.        and attachment may be lower;
+ **Do not operate** if the plate is          always **consult the load chart**.
+ missing or illegible.                       **Never modify** the machine or
+                                             use unapproved attachments.
+SECTION 4: OPERATION 4 Machine
+or Attachment Modifications
+Classes 135                                  Class 7
+ Never modify without **written                Never modify telehandler or
+ manufacturer approval**.                      attachments without **written
+ Unauthorized changes **void                   manufacturer approval**.
+ warranty** and create **liability**.          Using **unapproved attachments**
+ Compromises **structural integrity**          is a modification.
+ and **stability**.                            Unauthorized changes affect
+ Using unapproved attachments is a             **capacity**, **stability**, and **safe
+ **modification**.                             operation**.
+
+ Approved modifications require                Can shift **center of gravity**, alter
+ **updated capacity info** and a               **load charts**, create **tip-over
+ **revised data plate**.                       hazards**.
+
+ New documentation needed before               **Always verify** with the
+ return to service if capacity, stability,     manufacturer if in doubt.
+ or safety affected.
+SECTION 4: OPERATION 4 Load Charts
+Classes 135                                    Class 7
+ Most warehouse forklifts use a **capacity       **Telehandler load charts** are critical
+ data plate**, not complex load charts.          safety tools.
+ Plate specifies **maximum capacity** at a       Show **maximum lift capacity** at various
+ standard **load center** (e.g., 24 inches).     **boom heights** and **extension
+ **Increased load center** (oversized/off-       distances**.
+ center load) = **decreased effective            **Capacity decreases** significantly as the
+ capacity**.                                     boom is raised and extended.
+ Some forklifts with attachments or              Charts assume a **level telehandler** on
+ extended masts may have **supplemental          **firm, stable ground**.
+ load charts**.                                  May indicate requirements for
+ Always **verify data plate** matches the        **stabilizers**, **axle lock**, and
+ **current attachment configuration**.           **approved attachments**.
+ Never lift a load exceeding the **rated         Must be **clearly legible** and **visible to
+ capacity** for the given **load center          the operator** from the seated position.
+ distance**.                                     Always **confirm the load chart** matches
+                                                 the machine model and installed
+                                                 attachment.
+SECTION 4: OPERATION 4 Load
+Selection
+Classes 135                              Class 7
+ **Verify load weight**                    Consult **Operator's Manual** for
+ (documentation, markings, scale).         guidance.
+ Always **confirm capacity**; never        Confirm **exact load weight**
+ assume.                                   against **rated capacity**.
+ Evaluate **load dimensions** for          Evaluate **load dimensions** for
+ correct handling and **load center**.     proper handling and boom
+ Avoid **unstable**, **unsecured**,        configuration.
+ or **damaged** loads.                     **Secure loads** to prevent falling
+ Loads extending beyond forks or           debris.
+ off-center **reduce effective             Ensure **pallets** and containers are
+ capacity**.                               in good condition.
+                                           Cross-reference **load weight** and
+                                           height with **load chart** before
+                                           lifting.
+SECTION 4: OPERATION 4 Load Handling
+Classes 135                                                           Class 7
+01                                                                      Position telehandler **perpendicular** to the load.
+                                                                        **Spread forks wide** to fit the entry point.
+Square Approach                                                         **Level forks** and **raise to entry height**.
+**Approach loads straight-on**, perpendicular to the pallet.            **Extend boom** to slide forks fully under the load.
+Avoid angled approaches.                                                **Raise load clear** of surface, then **tilt back** for
+                                                                        support.
+02                                                                      For picks from elevation, **retract boom** before lowering
+                                                                        to travel position.
+Fork Spread                                                             Always **confirm load weight** against the load chart
+**Spread forks as wide as possible** for maximum stability.             before lifting.
+
+03
+
+Fork Insertion
+**Insert forks fully** under the load until it rests against the
+backrest.
+
+04
+
+Lift and Tilt
+**Lift load clear**, then **tilt mast back** to cradle it securely.
+
+05
+
+Travel Position
+**Lower load to 436 inches** above ground before travel.
+Never travel with an elevated load.
+SECTION 4: OPERATION 4 Stability
+Classes 135                                  Class 7
+ The **stability triangle** is the             Uses similar **stability triangle**:
+ foundation of forklift safety.                **front tires (or stabilizers)** and **rear
+ Defined by: **two front wheels** and          axle pivot**.
+ the **rear axle pivot point**.                **Dynamic C.G.** (center of gravity)
+ **Combined center of gravity** must           due to **boom angle/extension, load
+ always remain *inside* this triangle.         weight, movement**.
+
+ Shifts with load: **forward** causes          **Combined C.G.** (machine + load)
+ forward tip-over, **side** causes lateral     must stay *inside* the triangle.
+ tip-over.                                     Movement outside triangle = **tip-over
+ Factors affecting stability: **load           risk** (traveling, braking, turning, lifting,
+ weight, load center, lift height, speed,      extending).
+ turning, braking, surface**.                  Factors influencing stability: **ground
+                                               conditions, surface grade, wind, tire
+                                               pressure, operator judgment**.
+                                               Always assume **firm, level surface**.
+SECTION 4: OPERATION 4 Fundamentals (Handling
+Characteristics)
+Understanding machine handling is critical for safe operation.
+
+   Both **forklifts** and **telehandlers** handle differently from road vehicles.
+   For **forklifts**, **rear-wheel steering** causes the back to swing wide during turns.
+   For **telehandlers**, **boom movement** constantly shifts the **center of gravity**.
+   Operators must develop an instinct for machine response under varying load, terrain, and speed.
+   Subsequent cards will detail specific handling scenarios.
+SECTION 4: OPERATION 4 Stability
+Considerations
+Classes 135                                  Class 7
+ Avoid side slopes: risk of **lateral tip-     Stability affected by: **ground, grade,
+ over**.                                       speed, wind, load, tire pressure,
+ Risk increases with **steeper slope**         operator judgment**.
+ and **higher load**.                          Avoid side slopes. When on slopes:
+ When on slopes: travel                        travel **perpendicular** (up/down),
+ **perpendicular** (up/down), never            never across.
+ across.                                       When loaded: keep **load uphill**.
+ When loaded: keep **load uphill**.            When unloaded: point **forks
+ When unloaded: point **forks                  downhill**.
+ downhill**.                                   Never raise boom if machine is not
+ Keep machine **in gear** on grades;           **level**.
+ limit **speed**.                              Use **frame sway** to level before
+                                               raising boom. Do not use if boom is
+                                               elevated or on unstable ground.
+                                               Keep machine **in gear** on grades;
+                                               limit **speed**.
+SECTION 4: OPERATION 4 Loading in Stowed Position
+
+Classes 135                                                  Class 7
+ **Maximum rated capacity** applies when mast is fully         **Stowed position** (fully retracted & lowered) is most stable
+ lowered and load is close to carriage.                        for loading.
+ Raising mast reduces stability; **C.G.** moves                **Combined C.G.** moves forward and lower.
+ higher/forward.                                               **Rated capacity** is maximum when stowed; decreases as
+ **Verify load weight** against data plate before lifting.     boom raises/extends.
+ Keep mast **tilted slightly back** during travel.             Always confirm boom is **fully retracted and lowered**
+ **Never travel with mast elevated**.                          before moving.
+                                                               Keep forks **tilted back slightly** to secure load.
+                                                               Heavier loads require boom to remain **stowed** during
+                                                               travel.
+SECTION 4: OPERATION 4 Extending
+the Boom
+Classes 135                              Class 7
+ Boom extension concepts do not apply      Extending the boom with a load moves
+ to standard forklifts (Classes 135).      the combined C.G. higher and forward.
+ These trucks use fixed vertical masts     Further extension shifts the C.G.
+ that telescope vertically.                towards the front of the stability
+ Raising the mast moves the combined       triangle.
+ Center of Gravity (C.G.) higher and       A heavier load exaggerates this shift.
+ forward.                                  If the C.G. moves beyond the stability
+ This action reduces stability margin.     triangle, a forward tip-over will occur.
+ Always refer to the data plate for        Always consult the load chart before
+ capacity at various lift heights.         extending the boom.
+                                           Never exceed rated capacity for boom
+                                           height and extension.
+                                           Extend and retract the boom smoothly
+                                           to avoid dynamic forces.
+SECTION 4: OPERATION 4 Effect of Load Weight on C.G.
+
+Classes 135                                                   Class 7
+ Heavier loads shift the combined **C.G.** further forward.     Load weight directly affects telehandler's combined **C.G.**
+ Increased load weight reduces **stability margin**.            Heavier loads shift the **C.G.** further forward.
+ **Data plate** specifies capacity at a standard **load         Effect is compounded when **boom** is raised or extended.
+ center**.                                                      Always cross-reference **load weight** with the **load
+ Greater **load center distance** makes loads effectively       chart**.
+ heavier.                                                       Consider specific **boom height** and **extension**.
+ Operators must consider **actual load weight** and **load      **Capacity** changes with every degree of **boom angle**
+ center distance**.                                             and foot of **extension**.
+ **Overloading** can cause a forward **tip-over**.              Never rely on stowed-position ratings alone.
+SECTION 4: OPERATION 4 Raising the Retracted
+Boom
+
+Classes 135                                                Class 7
+ Operate mast lift controls **smoothly**.                    Raising retracted boom shifts **C.G. higher and
+ Sudden movements create **dynamic loading**, risking        rearward**, risking **backward tip-over**.
+ C.G. outside stability.                                     Always use the **load chart** for safe operating
+ Raise mast **only as high as necessary**; higher load =     envelope.
+ higher **C.G.** = less stability.                           Raise boom **smoothly** with gradual inputs.
+ **Never raise mast while traveling**.                       **Never raise boom if not level**; use **frame sway
+ Come to a complete stop on a **firm, level surface**        control** first.
+ before lifting.                                             Confirm **overhead clearances**.
+ Confirm **overhead clearances**.                            **Never raise boom while traveling**.
+SECTION 4: OPERATION 4 Lowering the Retracted
+Boom
+
+Classes 135                                                   Class 7
+ Lower mast **smoothly** with controlled descent.               Lowering the retracted boom shifts the **C.G. lower and
+ Regulate speed with the **hydraulic control lever**; avoid     forward** (stabilizing).
+ sudden releases.                                               Use **smooth, controlled joystick inputs**.
+ Lowering the mast shifts the **C.G. lower and forward**.       Avoid sudden movements to prevent dynamic forces and
+ Set loads gently; ensure full weight transfers off forks.      load shift.
+
+ **Do not apply downward force** with forks.                    Lower loads gradually; ensure full weight is off forks.
+
+ Tilt mast forward to disengage, then back away squarely.       **Do not apply downward force** with forks.
+                                                                **Retract boom first**, then lower to travel position to
+                                                                maintain stability.
+SECTION 4: OPERATION 4 Raising Boom While
+Perpendicular to Slope
+
+Classes 135                                                      Class 7
+ Avoid lifting loads on a **side slope**.                          Never raise boom if machine is **not level**.
+ Slopes shift **C.G. downhill**, risking **lateral tip-over**.     Boom up on a perpendicular slope shifts **C.G. rearward**,
+ Raising mast increases **lateral C.G. shift**.                    risking **backward tip-over**.
+
+ If unavoidable, keep **load low** and **move slowly**.            Use **frame sway control** to **level machine** before
+                                                                   raising boom.
+ Never raise mast to **full height** on a side slope.
+                                                                   Do not use frame sway if boom is **elevated above
+ Ensure machine is **level** before any lifting.
+                                                                   horizontal**.
+                                                                   Do not use frame sway on **unstable or slippery ground**.
+                                                                   If machine cannot be leveled, **do not raise boom** (non-
+                                                                   negotiable safety rule).
+SECTION 4: OPERATION 4 Raising Boom While Parallel
+to Slope
+
+Classes 135                                                Class 7
+ Avoid lifting when positioned up or down a slope.           Raising boom on a side slope (parallel to contour) increases
+ **Uphill**: Risk of **backward tip-over** (C.G. shifts      **side tip-over** risk.
+ rearward).                                                  Always use **frame sway control** to **level chassis**
+ **Downhill**: Risk of **forward tip-over** (C.G. shifts     before raising boom.
+ forward).                                                   **Verify machine is level** before any lift.
+ If unavoidable:                                             **Do not raise boom** if the machine cannot be leveled.
+     Keep load **as low as possible**.                       **Do not use frame sway** when:
+     Move **slowly**.                                            Boom is already elevated.
+     **Never raise mast** on a grade.                            Ground is soft, unstable, or slippery.
+ Travel **perpendicular to slopes** whenever possible.
+SECTION 4: OPERATION 4 Unloading When Raised
+
+Classes 135                                                 Class 7
+ Never travel with the **mast elevated**.                     When loaded and boom raised, **Center of Gravity (C.G.)
+ Travel only with **forks 436 inches** off ground, **mast     shifts higher** and rearward.
+ tilted backward**.                                           After unloading, **C.G. shifts lower** and further rearward.
+ For high placement: **stop completely** on firm, level       Be aware: **machine balance changes** the moment load
+ ground before raising mast.                                  leaves forks.
+ **Lower load gently** until full weight transfers.           After unloading, **retract boom** before lowering to travel
+ **Do not apply downward force** with forks.                  position.
+
+ **Tilt mast forward** to disengage, then **back away         **Never travel with boom raised**.
+ slowly** before lowering mast.                               Always apply **parking brake** before raising boom for
+                                                              placement.
+                                                              Use **stabilizers** if equipped and required by load chart.
+SECTION 4: OPERATION 4 Dynamic
+Forces on Loads
+Classes 135                              Class 7
+ Avoid abrupt movements (braking,          Telehandler movements create
+ acceleration, turning).                   dynamic forces on machine and load.
+ Dynamic forces push C.G. outside          Forces can shift C.G. outside stability
+ stability triangle.                       triangle.
+ Hard braking with load risks forward      Hazard 1: Heavy braking with load.
+ tip-over.                                     Causes sudden forward C.G. shift.
+ High-speed turns risk side tip-over.          Risk of forward tip-over or load
+ Always operate smoothly:                      falling.
+ accelerate/decelerate gradually.          Hazard 2: High-speed turning.
+ Reduce speed before turns, especially         Creates lateral dynamic force.
+ with heavy/high loads.
+                                               Risk of side tip-over.
+                                           Operate smoothly, reduce speed
+                                           before turns.
+                                           Never make sudden changes with
+                                           raised or extended boom.
+SECTION 4: OPERATION 4 Rear Axle Lock
+
+Classes 135                                                          Class 7
+ **Rear axle locks** are rare on warehouse forklifts (**Classes 13     Some telehandlers (**Class 7**) have a **rear axle lock system**.
+ 5**).                                                                 Engages automatically to prevent instability (based on boom
+ Designed for firm, level floors with consistent traction.             position).
+ Wheel spin is managed by slowing down or repositioning.               System acts as a **safety interlock**: locks travel, applies parking
+ Specialty forklifts (outdoor/rough terrain) may have locks;           brake.
+ **consult Operator's Manual**.                                        **Stability zone** expands:
+                                                                           No stabilizers: triangle to rectangle.
+                                                                           With stabilizers: to trapezoid.
+                                                                       Increases **lateral (side-to-side) stability**, but **NOT
+                                                                       longitudinal (front-to-back) stability**.
+                                                                       Return boom to stowed position for full machine function.
+                                                                       Always **consult Operator's Manual** for specific system details.
+SECTION 4: OPERATION 4 Controls
+Classes 135                               Class 7
+ Separate controls for: Lift (up/down),     Hydraulically piloted proportional
+ Tilt (forward/back), and Side-shift.       controls: Joystick movement dictates
+ Lift: Raises/lowers mast.                  function speed.
+
+ Tilt: Angles mast for                      Primary controls: Boom raise/lower,
+ engaging/securing loads.                   extend/retract, attachment tilt,
+                                            frame sway.
+ Side-shift: Allows lateral carriage
+ movement.                                  Steering wheel for direction,
+                                            transmission control for travel.
+ Operate controls smoothly to
+ maintain load stability.                   Instrument panel displays: Engine
+                                            RPM, fuel, temp, hours, steering
+ Control layouts vary; familiarize
+                                            mode, warnings.
+ yourself with each machine.
+                                            Always consult the specific
+                                            machine's Operator's Manual.
+                                            Never operate a machine without
+                                            proper training.
+SECTION 4: OPERATION 4
+Steering
+
+Classes 135                          Class 7
+ Rear-wheel steering is a defining     Multiple steering modes for
+ characteristic.                       different jobsite conditions.
+ Rear of machine swings out during     Two-wheel steer: for open areas,
+ turns.                                higher speeds.
+ Account for rear swing in tight       Four-wheel coordinated steer:
+ spaces.                               tighter turns, confined jobsites.
+ Always check rear clearance           Four-wheel crab steer: diagonal
+ before turning.                       movement for tight load
+ Slow down before initiating any       placement.
+ turn.                                 Critical rule: Always realign
+                                       wheels to straight before
+                                       switching modes.
+SECTION 4: OPERATION 4 Instrument
+Panel
+Classes 135                                   Class 7
+ Instrument panel provides **critical           Monitor **machine conditions and
+ machine status**.                              performance continuously**.
+ **Verify all lamps, gauges, and alarms**       **Typical displays**:
+ function pre-shift.                                **Fuel level**, **Tachometer**, **Hour
+ **Key indicators**:                                meter**
+     **Battery charge** (electric) / **Fuel         **Engine/transmission oil
+     level** (IC)                                   temp/pressure**
+     **Engine temperature**, **Hour                 **Battery condition**, **Steering
+     meter**                                        mode**
+     **Fault/warning lights**                   **Warning lights** for low fuel, battery,
+ **Battery discharge indicator** is crucial     parking brake.
+ for electric models.                           **Gauge placement varies** by
+ **Address all warning lights immediately**     manufacturer.
+ before operating.                              **Check all indicators** during startup and
+ Always **consult Operator's Manual** for       monitor constantly.
+ specific indicators.                           Always **refer to Operator's Manual**.
+SECTION 4: OPERATION 4 Drive Controls
+
+Classes 135                                                   Class 7
+ **IC forklifts**: Use **automatic** or **hydrostatic           **Transmissions**: **Powershift** or **hydrostatic**.
+ drives**.                                                      **Steering wheel** for directional control.
+ **Electric forklifts**: Use **electric motors** with           **Transmission control**: Selects **forward, neutral,
+ **regenerative braking**.                                      reverse**.
+ Direction controlled by **lever/switch** and **accelerator     **Accelerator pedal**: Press to increase, release to
+ pedal**.                                                       decrease speed.
+ **Accelerator pedal**: Press to increase speed, release to     **Hydrostatic**: Releasing accelerator provides
+ decrease.                                                      **dynamic braking**.
+ **Hydrostatic**: Releasing accelerator provides                For **hydraulic functions**: Engage **parking brake**
+ **dynamic braking**.                                           first.
+ **ALWAYS** stop completely before reversing direction.         **ALWAYS** stop completely before changing direction.
+SECTION 4: OPERATION 4 Control Joysticks
+
+Classes 135                                                     Class 7
+ Controls typically use **individual levers**:                    Equipped with single or dual **control joystick system**.
+     Mast lift (up/down)                                          Joystick(s) control all **boom and attachment functions**:
+     Tilt (forward/back)                                              Boom raise/lower, extend/retract
+     Side-shift / attachments                                         Attachment tilt, frame sway
+ Newer electric models may use **mini-levers** or **fingertip     **Dual-joystick systems** separate boom functions from
+ controls**.                                                      tilt/sway.
+ All hydraulic inputs must be **smooth and proportional**.        Auxiliary hydraulics for powered attachments are controlled via
+ **Abrupt inputs destabilize loads**.                             joystick or switches.
+
+ Always familiarize with the specific control layout.             All joystick inputs must be **smooth and gradual** (proportional
+                                                                  control).
+                                                                  **Abrupt inputs** cause sudden **C.G. shifts**.
+                                                                  Always refer to the **Operator's Manual** for specific
+                                                                  configurations.
+SECTION 4: OPERATION 4 Auxiliary
+Hydraulics
+Classes 135                            Class 7
+ Power attachments like **rotating       Operate **hydraulically-powered
+ clamps** or **side-shifters**.          attachments** (e.g., grapples,
+ Activated via **dedicated levers or     buckets).
+ switches**.                             Controls integrated into **joystick**
+ Always **verify approved                or **dedicated switches**.
+ attachment**.                           Always **verify manufacturer-
+ **Check updated capacity data           approved attachment**.
+ plate**; attachments reduce rated       **Use correct load chart** for the
+ capacity.                               attachment.
+ **Never operate untrained** on an       Attachments significantly affect
+ attachment.                             machine **capacity** and **center
+                                         of gravity**.
+                                         Refer to the **Operator's Manual**
+                                         for specific procedures.
+SECTION 4: OPERATION 4 Axle Differential Lock
+
+Classes 135                                              Class 7
+ **Rare** on warehouse forklifts (firm, level floors).     **Improves traction** in telehandlers by locking drive
+ Primarily for **specialty or outdoor forklifts**.         wheels.
+
+ Always consult the **Operator's Manual**.                 Ideal for **low-traction conditions** (sand, mud, snow).
+
+ **Engage only when completely stopped**.                  Engage **only when completely stopped**.
+
+ Never engage while moving or on dry pavement to           Never engage while moving or on **dry pavement**
+ prevent **drivetrain damage**.                            (prevents **severe drivetrain damage**).
+                                                           **Disengage** before returning to normal surfaces.
+                                                           Enhances traction, **not stability**; always observe
+                                                           **load chart limits**.
+SECTION 4: OPERATION 4
+Parking Brake
+Classes 135                       Class 7
+ Set **parking brake** before       Set **parking brake** before
+ dismounting, even for brief        raising boom or leaving seat;
+ exits.                             it's a safety interlock.
+ Lower **forks completely** to      **Test parking brake** holding
+ floor to eliminate hazards and     force during pre-operational
+ improve stability.                 inspection. Report defects.
+ **Remove key** when                Always set **parking brake**
+ unattended to prevent              before lowering boom or
+ unauthorized operation.            extending stabilizers to
+ **Chock wheels** on inclines;      prevent unexpected
+ parking brakes can fail. Place     movement.
+ chocks on downhill side of two     For extended parking:
+ wheels.                            retract/lower boom, set brake,
+                                    shut down, remove key.
+                                    On slopes, add **wheel
+                                    chocks** for long-term
+                                    security.
+SECTION 4: OPERATION 4 Service Brake
+
+Classes 135                                                      Class 7
+ Test **service brake** function at the start of each shift.       Use **service brakes** for fine positioning during load
+ Unloaded, accelerate to moderate speed and apply brake in         placement.
+ an open area.                                                     Avoid sudden braking with an **elevated boom**; it can
+ The truck should stop smoothly, quickly, and without pulling.     cause tipping.
+
+ Modulate **brake pressure** smoothly to prevent **load            Test brakes daily in an open area before work begins.
+ shift** and maintain stability.                                   Understand that **loaded stopping distances** are
+ Avoid sudden hard braking; **smooth deceleration** protects       significantly longer.
+ loads.                                                            Plan approach speeds and following distances accordingly.
+ Report **brake problems** immediately (e.g., pulling, spongy      **Brake performance degrades** with heat (fade).
+ feel).                                                            On descents, use lower transmission gears for **engine
+ Never operate with defective brakes; **tag out** equipment        braking** instead of continuous brake use.
+ for maintenance.
+
