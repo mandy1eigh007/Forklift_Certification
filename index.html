@@ -17,10 +17,10 @@
   }
   @media screen {
     body{
-      font-size: 14pt;
-      line-height: 1.5;
-      padding: 20px;
-      max-width: 1200px;
+      font-size: 12pt;
+      line-height: 1.35;
+      padding: 14px;
+      max-width: 1100px;
       margin: 0 auto;
     }
   }
@@ -38,28 +38,35 @@
   }
 
   /* Key fix: don't exceed printable height (Letter 11in - 1.3in margins = 9.7in) */
-  .page{ position: relative; min-height: 9.6in; }
+  .page{ position: relative; min-height: 9.6in; padding-bottom: 18px; }
 
+  /* Keep the Genie access notice, but don't burn page width with a rotated sidebar */
   .watermark{
     position:absolute;
-    left: -0.35in;
-    top: 1.25in;
-    transform: rotate(-90deg);
-    transform-origin: left top;
-    font-size: 9.5pt;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    top: auto;
+    transform: none;
+    transform-origin: initial;
+    font-size: 7.5pt;
+    line-height: 1.2;
+    text-align: center;
     white-space: nowrap;
+    opacity: 0.75;
+    pointer-events: none;
   }
   .one-col{ max-width:100%; }
-  h2{ font-size: 20pt; font-weight:700; margin:0 0 15px 0; text-decoration: underline; }
-  h3{ font-size: 16pt; font-weight:700; margin:20px 0 12px 0; text-decoration: underline; }
-  p{ margin:0 0 15px 0; }
-  ul{ margin:0 0 15px 30px; padding:0; }
-  li{ margin:0 0 10px 0; }
+  h2{ font-size: 16pt; font-weight:700; margin:0 0 12px 0; text-decoration: underline; }
+  h3{ font-size: 13pt; font-weight:700; margin:16px 0 10px 0; text-decoration: underline; }
+  p{ margin:0 0 12px 0; }
+  ul{ margin:0 0 12px 26px; padding:0; }
+  li{ margin:0 0 8px 0; }
 
   .hl-blue{
     background:#d9f0ff;
     border:1px solid #5aa7e6;
-    padding:8px 10px;
+    padding:7px 9px;
     margin:8px 0 12px 0;
     break-inside: avoid;
   }
@@ -111,7 +118,7 @@
   .paired-row{
     display:grid;
     grid-template-columns: 1fr 1fr;
-    gap: 28px;
+    gap: 20px;
     align-items:start;
     break-inside: avoid;
     page-break-inside: avoid;
@@ -143,6 +150,14 @@
 
   /* keep callouts compact within right cells */
   .cell.right .hl-blue{ margin-top: 8px; }
+
+  /* Print optimization: landscape gives the paired columns more room */
+  @media print {
+    @page { size: Letter landscape; margin: 0.55in 0.55in; }
+    body{ font-size: 9.75pt; line-height: 1.25; }
+    .page{ min-height: 7.35in; }
+    .watermark{ font-size: 7pt; opacity: 0.7; }
+  }
 </style>
 </head>
 <body>
@@ -467,5 +482,48 @@
 <div class="pagebreak"></div>
 <div class="imgpage"><div class="paired-rows"><div class="paired-row"><div class="cell left"><p><img alt="Manual page 91" class="pageimg" src="assets/pics/image35.png"/> <span class="refmark">[F728]</span></p></div><div class="cell right"><div class="refline">Ref: F728</div></div></div><div class="paired-row"><div class="cell left"><p><strong>Class 1–5 Forklifts:</strong> Close-out: For forklift Classes I–V, ensure the final packet includes the operator’s training record + hands-on evaluation documentation + any written knowledge check required by the employer program, retained per your recordkeeping standard. <span class="refmark">[F729]</span></p></div><div class="cell right"><div class="refline">Ref: F729</div></div></div></div></div>
 <div class="pagebreak"></div>
+<script>
+  (function () {
+    function normalizeText(value) {
+      return String(value || "").replace(/\s+/g, " ").trim();
+    }
+
+    var removeExactParagraphs = new Set([
+      "This principle applies to forklift training as well.",
+      "No Class 1–5 addition on this point."
+    ]);
+
+    // Remove filler blue boxes that only say the generic sentence.
+    document.querySelectorAll(".hl-blue p").forEach(function (p) {
+      if (removeExactParagraphs.has(normalizeText(p.textContent))) {
+        var box = p.closest(".hl-blue");
+        if (box) box.remove();
+      }
+    });
+
+    // If a paired row has no right-side callouts after cleanup, collapse it to full width
+    // and remove the left marker (markers should only exist when a forklift insert exists).
+    document.querySelectorAll(".paired-row").forEach(function (row) {
+      var right = row.querySelector(":scope > .cell.right");
+      if (!right) return;
+
+      if (right.querySelector(".hl-blue")) return;
+
+      var rightText = normalizeText(right.textContent);
+      var isOnlyRef = rightText === "" || /^Ref:\s*\[?F\d+\]?$/i.test(rightText);
+      if (!isOnlyRef) return;
+
+      right.remove();
+      row.classList.add("solo");
+
+      var left = row.querySelector(":scope > .cell.left");
+      if (left) {
+        left.querySelectorAll(".refmark").forEach(function (m) {
+          m.remove();
+        });
+      }
+    });
+  })();
+</script>
 </body>
 </html>
