@@ -1,0 +1,98 @@
+{
+  "meta": {
+    "title": "Forklift / Telehandler Run-of-Show",
+    "version": "0.1.0",
+    "updated": "2026-03-05",
+    "defaultSceneId": "s01"
+  },
+  "sections": [
+    {
+      "id": "sec-intro",
+      "title": "Kickoff",
+      "order": 1,
+      "scenes": [
+        {
+          "id": "s01",
+          "title": "Welcome + Training Intent",
+          "durationMinutes": 5,
+          "objective": "Set expectations for instructor-led certification delivery and classroom flow.",
+          "script": "Today is instructor-led. The projector stays clean; your questions are welcome. We will move in short blocks: explain, demo, practice, verify.",
+          "steps": [
+            "Explain how the day is structured",
+            "Confirm breaks and expectations",
+            "Explain how skills will be verified"
+          ],
+          "ask": [
+            "What’s one thing that makes equipment training go sideways on a jobsite?"
+          ],
+          "watchFor": [
+            "Students treating the day as passive lecture instead of skills verification"
+          ],
+          "media": [],
+          "links": [],
+          "answers": {
+            "enabled": false,
+            "items": []
+          },
+          "notes": "Keep it short. Get them into the rhythm: explain → demo → practice → verify.",
+          "tags": ["intro", "expectations"]
+        },
+        {
+          "id": "s02",
+          "title": "Safety Frame: Consequences + Culture",
+          "durationMinutes": 8,
+          "objective": "Anchor the training in real-world risk and shared responsibility.",
+          "script": "This is about hazard recognition and decision-making. Equipment doesn’t forgive shortcuts. We’re building habits you can carry to any site.",
+          "steps": [
+            "Define the difference between rules vs habits",
+            "Call out complacency risk",
+            "Set a ‘see something, say something’ expectation"
+          ],
+          "ask": [
+            "What does ‘complacency’ look like on equipment?"
+          ],
+          "watchFor": [
+            "Jokes minimizing risk; redirect to real consequences without shaming"
+          ],
+          "media": [],
+          "links": [],
+          "answers": {
+            "enabled": false,
+            "items": []
+          },
+          "notes": "Keep tone firm. Do not lecture forever. Move to the next skill block quickly.",
+          "tags": ["safety", "culture"]
+        },
+        {
+          "id": "s03",
+          "title": "Skill Verification Overview",
+          "durationMinutes": 10,
+          "objective": "Explain how you will evaluate: what counts, what fails, and what remediation looks like.",
+          "script": "We are verifying skill, not vibes. You’ll get guided practice, then a check. If something is unsafe, we stop and re-train.",
+          "steps": [
+            "Explain pass/fail criteria",
+            "Explain how coaching happens before verification",
+            "Explain what happens on an unsafe act"
+          ],
+          "ask": [
+            "What do you want the instructor to correct immediately if you start doing it?"
+          ],
+          "watchFor": [
+            "Students confusing ‘try’ with ‘verified’. Be explicit."
+          ],
+          "media": [],
+          "links": [],
+          "answers": {
+            "enabled": true,
+            "items": [
+              "Unsafe act: stop immediately, reset, explain why, re-demo, re-attempt",
+              "Verification: instructor observes without coaching unless safety requires intervention"
+            ]
+          },
+          "notes": "This is your ‘contract’ for the rest of the day. Make it clear.",
+          "tags": ["verification", "rubric"]
+        }
+      ]
+    }
+  ]
+}
