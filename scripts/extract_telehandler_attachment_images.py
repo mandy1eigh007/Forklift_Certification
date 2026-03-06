@@ -22,11 +22,14 @@ import sys
 
 DEFAULT_OUTPUT_DIR = Path("run-of-show/public/media/telehandler/attachments")
 DEFAULT_CANDIDATES = [
+    Path("sources/genie/Pages from 2025 Genie Lift Pro Telehandler Trainer's Guide.pdf"),
     Path("sources/genie/2025 Genie Lift Pro Telehandler Trainer's Guide.pdf"),
     Path("/mnt/data/Pages from 2025 Genie Lift Pro Telehandler Trainer's Guide.pdf"),
 ]
 
-# 1-based page numbers. Update these for your exact source pages.
+# 1-based page numbers for the 3-page "Pages from ..." PDF:
+# page 2 = Quick-Attach + Rotating + Swing
+# page 3 = overview (adapter/buckets/truss boom)
 DEFAULT_PAGE_MAP = {
     "quick-attach": 2,
     "rotating-carriage": 2,
