@@ -1,0 +1,17 @@
+{
+  "project": "Run-of-Show (Instructor Only)",
+  "current_goal": "Hardening pass: overlay + timer sync + node pin + outline validation",
+  "last_known_working_commit": "",
+  "active_branch": "feature/anchor-style-pass",
+  "open_issues": [
+    "Present black overlay removed by render clearing root",
+    "Timer sync: TIMER_START handler sets remainingSec incorrectly",
+    "Vite 7 Node minimum requires pinning Node >= 20.19.0"
+  ],
+  "next_actions": [
+    "Fix overlay strategy (append to body or stable wrapper)",
+    "Fix TIMER_START handler to compute remaining from endsAtMs",
+    "Pin Node in deploy.yml + engines + .nvmrc",
+    "Add outline.json validation with friendly error UI"
+  ]
+}
