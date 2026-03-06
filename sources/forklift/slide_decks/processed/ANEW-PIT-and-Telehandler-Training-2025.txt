@@ -1,0 +1,1857 @@
+Powered Industrial Truck &
+Telehandler Training Program
+Instructor's Guide
+Welcome to the Instructor's Guide for the Powered Industrial Truck &
+Telehandler Training Program. We appreciate your commitment and
+the time you are dedicating to train others in the safe and
+appropriate manner in which to operate a telehandler.
+
+The successful completion of this program ensures that operators are
+thoroughly versed in safety protocols and operational best practices.
+
+
+
+
+If you have any questions regarding the presentation of this course,
+please contact your training provider for assistance.
+
+
+
+
+                                                                        1
+Trainer's Responsibilities and Expectations
+Your role in properly setting the tone for the class and positioning the importance of safe use is critical. As the trainer, it is your responsibility to provide the necessary information so that each operator fully understands their responsibilities associated with the safe
+operation of telehandlers.
+
+
+   Proficiency Requirement 1                                                                                                                  Proficiency Requirement 2
+   Operators must show proficiency in a hands-on demonstration of safe operation.                                                             Operators must achieve a score of 100% on the written exam.
+
+
+
+
+In order to improve your chances of success, you should have an understanding of your operator's application and working environment. Whenever possible, promote discussions of situations based on actual experiences. Making this course relevant to the working
+world will greatly improve the likelihood that the operators will take what they have learned in your classroom back to their respective jobs.
+
+
+
+
+Remember, your ultimate goal is to ensure that operators fully understand the procedures and practices of safe telehandler operation, as well as all workplace factors which may affect their safety and the safety of those around them.
+Qualified Person
+Before a trainer can conduct a training course in the safe operation of
+a telehandler, they must be deemed qualified by their employer.
+
+The American National Standards Institute (ANSI) defines a qualified
+person as:
+
+
+   "One who, by possession of a recognized degree, certificate, or
+   professional standing, or by extensive knowledge, training, and
+   experience, has successfully demonstrated his/her ability to solve
+   or resolve problems related to the subject matter, the work, or
+   the project."
+
+
+Not only must a trainer meet the definition of a qualified trainer, they
+must also comply with the responsibilities regarding training as
+outlined in ANSI/ITSDF B56.6, OSHA Rule 1910.178 (I) and CSA B335
+standards, including record keeping and determination that operators
+have successfully demonstrated that they are qualified to operate a
+telehandler.
+
+
+
+
+                                                                           3
+Operator's Responsibilities and
+Expectations
+It is the operator's responsibility to fully understand all responsibilities
+associated with the safe operation of telehandlers.
+
+
+   Examination & Proficiency
+   Each operator must achieve 100% on the written examination and
+   show proficiency in the hands-on demonstration of safe machine
+   operation. Anything less than 100% would imply that it's okay to
+   compromise jobsite safety, which is never acceptable.
+
+
+
+   Active Participation
+   Each operator must actively participate in the training workshop,
+   including classroom activities and hands-on operation.
+
+
+Only trained personnel should be allowed to operate a telehandler. If an
+operator does not meet the established standard for either the hands-on
+demonstration or the written exam, the trainer must inform the trainee's
+employer.
+
+
+
+
+     Additional Training
+     Additional training and/or coaching may be necessary to pass the
+     course if an operator does not meet the established standard.
+
+
+
+     Identify & Correct Unsafe Operations
+     By successfully completing this course, the operator will also be
+     expected to identify and correct any unsafe operation or potential
+     accident observed of other operators.
+
+
+
+
+                                                                               4
+Safety is Serious Business
+Safety is not a subject that should be taken lightly. It is important to establish
+with the class the severity of consequences if safety is not a priority on any
+worksite.
+
+It cannot be overstated that the safe operation of a telehandler on any
+worksite can save the life of the operator as well as those working around
+them. Therefore, the responsibilities are great for both the trainer and
+operator to ensure that the safe operation of a telehandler is always of
+paramount importance.
+
+The consequences of unsafe telehandler operation extend far beyond
+immediate physical harm. A single accident can lead to severe injuries,
+permanent disabilities, or even fatalities for operators and bystanders alike.
+Beyond the human tragedy, there are significant financial repercussions
+including medical costs, workers' compensation claims, and lost productivity.
+Legal penalties, hefty fines, and irreparable damage to a company's
+reputation can also result, creating a ripple effect that impacts an entire
+organization and its stakeholders.
+
+Establishing a robust safety culture is critical. This means fostering an
+environment where safety is a shared commitment, not just a set of rules. It
+involves proactive hazard identification, open communication, and a
+willingness to report near misses so that potential issues can be addressed
+before they lead to accidents. A strong safety culture contributes directly to
+reduced accident rates, improved operational efficiency, and higher
+employee morale, ensuring everyone goes home safe at the end of the day.
+
+Workplace accident statistics paint a sobering picture; thousands of
+preventable accidents occur annually across industries, many involving
+heavy machinery. The vast majority of these incidents are avoidable through
+proper training, adherence to safety protocols, and a constant vigilance
+towards potential risks. Every precaution taken, every safety check
+performed, contributes to shifting these statistics towards a safer reality.
+
+        Diligently performing pre-operational checks can prevent
+        mechanical failures that might otherwise lead to catastrophic
+        accidents.
+
+
+        Maintaining safe distances from power lines and other overhead
+        obstructions ensures operators avoid electrocution risks.
+
+
+        Correctly handling and balancing loads prevents telehandler
+        rollovers.
+
+
+        Clear communication on busy jobsites dramatically reduces the
+        chance of collisions with other equipment or personnel.
+
+
+        These are not just guidelines; they are actions that directly safeguard
+        human lives.
+
+                                                                                     5
+Course Preparation
+In this section we will cover some helpful hints and tools that you can use before presenting any training that will make
+your class time more consistent and effective.
+
+When applying these suggestions, it is important to be flexible and to adjust your training to fit the special needs of your
+class as the situation demands. To be an effective trainer, you will need to be fully prepared prior to conducting the
+training class.
+
+You should include the following as a minimum in your course preparation:
+
+
+                    1                                         2                                          3
+
+   Have a quiet, well-lit inside              Know the course content, the               Ensure that all telehandlers that
+   training area that can                     telehandler(s) that will be used,          will be used for the practical
+   accommodate the class size and             applicable operator's manual(s),           demonstration portion are
+   training aids, and an outside              machine specifications, and the            properly maintained and
+   training area capable of                   standards governing Class 7                operating as designed.
+   accommodating the operators,               Rough Terrain Forklifts.
+   at least one telehandler, and the
+   practical test course.
+
+
+
+                               4                                                              5
+
+   Ensure that classroom supplies and materials are                Prepare the outdoor hands-on training area by
+   available and adequate.                                         placing pallets and other training aids in place ahead
+                                                                   of time.
+
+
+
+
+                                                                                                                               6
+Areas of Focus
+Some specific areas we will focus on in course preparation are:
+
+Here's a visual representation of key steps in preparing for effective telehandler training.
+
+
+
+
+                                                                               Prepare Materials
+                                                                           Guides, PPE, and equipment
+
+
+                      Set Agenda
+               Outline modules and timings
+
+
+
+
+                                                                                          Choose Format
+                                                                                     Classroom and hands-on mix
+
+
+
+
+  Training Agenda                             Training Format                             Using the Training Guide
+  Organized plan for course                   Methods and techniques for                  How to effectively utilize
+  delivery                                    instruction                                 materials
+
+
+
+  Training Location                                                 Training Materials
+  Considerations for classroom and hands-on areas                   Required resources and supplies
+
+
+
+
+                                                                                                                       7
+Training Agenda
+Developing a comprehensive training agenda (or organized plan) that effectively
+covers the content for your telehandler safety training class is crucial for its
+success.
+
+Let's review some helpful hints on how to develop your agenda for maximum
+impact:
+
+01
+
+Define Duration
+Determine in advance how long the training session will last. Duration may vary
+depending on class size and the number of telehandler models to be covered.
+
+02
+
+Understand Audience
+Familiarize yourself with your operators' experience levels and identify any
+potential language barriers to tailor your approach.
+
+03
+
+Allocate Demo Time
+The demonstration portion can be less predictable. Be prepared for variations
+and ensure ample time is allocated to avoid rushing through practical exercises.
+
+04
+
+Optimal Timing
+Schedule the class in the morning when operators are most alert and can give
+you their peak attention and engagement.
+
+05
+
+Consider Team Teaching
+For larger class sizes, utilize "team teaching" with another trainer. Split the class
+into smaller groups to improve logistics, maximize participation, and reduce
+waiting times.
+
+06
+
+Utilize the Guide
+Refer to this trainer's guide and clearly explain your expectations for each
+operator during the session.
+
+07
+
+Encourage Participation
+Actively promote involvement, discussion, and questions to foster a more
+interactive and effective learning environment.
+
+
+
+
+                                                                                        8
+Minimum Requirements
+During the development of your training agenda, you will need to incorporate the following minimum requirements:
+
+
+    Comprehensive Program Knowledge
+    Operators must thoroughly read and understand the information in the Telehandler Operator Training program
+    which covers the topics required by ANSI/ITSDF B56.6, OSHA 1910.178 (I) and CSA B335.
+
+
+
+
+    Written Exam for Knowledge Demonstration
+    Operators must demonstrate knowledge in the safe operation of a telehandler by completing the written exam at
+    the end of the course. Exams require 100% accuracy.
+
+
+
+
+    Proficiency in Operation
+    Operators must demonstrate proficiency in the safe operation of a telehandler.
+
+
+
+
+Additionally, operators must become familiar with the operator's manual(s) which will include opening and reviewing the
+organization of the operator's manual and discussing each section as it is covered in the class.
+Important Operator Awareness
+Another important minimum consideration is that operators need to be made aware of the following:
+
+
+    Manuals as Permanent Part
+    Both the operator's manual and the AEM Safety Manual provide a quick reference for operational,
+    testing, and inspection activities that the operator must perform. These manuals should be
+    considered a permanent part of the machine and should remain with the machine at all times.
+    Machines must not be operated unless the proper manuals are in place.
+
+
+
+
+    Adherence to Safety Rules
+    Failure to obey the instructions and safety rules in these manuals and on machine decals could
+    result in death or serious injury.
+
+
+
+
+    Operator Responsibilities
+    Operators are required by ANSI and CSA to read and understand their responsibilities before they
+    operate a telehandler.
+
+
+
+
+Operators must be informed that, in addition to        Always combine manual instructions with
+the information found in the operator's manual         practical judgment for enhanced safety.
+and AEM Safety Manual, as well as machine
+decals and employers' instructions, they must use
+their own common sense as it relates to safety.
+
+
+
+
+                                                                                                       10
+Additional Requirements
+Additional requirements include the following:
+
+
+  Hazard Identification
+  Operators must be able to identify and avoid workplace
+  hazards.
+
+
+
+
+  Continuous Learning
+  Operators must understand that the information provided in
+  this course is not meant to cover all possible safety hazards
+  and that they should ask their employer if they have any
+  questions regarding safe work practices before proceeding.
+
+
+
+The employer must maintain
+comprehensive records:
+
+   The employer must keep a
+   record that shows that each
+   telehandler operator has
+   been trained.
+   The record must include
+   the name of the operator,
+   date of training, date of
+   evaluation, and the name
+   of the person(s) giving the
+   training and evaluation.
+   Training records must be
+   kept for a minimum of
+   three years.
+
+
+
+
+                                                                  11
+Training Format
+We suggest using several different techniques to capture the operator's attention and to create a learning
+environment that facilitates participation. These include:
+
+   Integrating written material with discussions of hands-on experiences. You are encouraged to add your own
+   experiences to those of the operators.
+
+For a learning experience to be meaningful, the dialogue and interaction must work both ways. Avoid a one-way
+monologue. Instead, draw the operators into the course content.
+
+
+
+
+The Trainer's Guide will help you to present this program by offering an easy step-by-step instruction in
+sequential order. A large portion of the class is meant to be conducted verbally, but it is not intended to be
+merely read to the operators.
+
+
+
+
+The Participant's Guide flows parallel to the Trainer's Guide, although a series of fill-in-the-blank statements are
+provided, which the operator is required to complete (answers are provided for the trainer in the Trainer's Guide).
+
+
+
+
+                                                                                                                       12
+Course Materials and
+Structure
+These statements should reinforce key points of instruction as the
+course unfolds. You may provide the answers to some of the
+statements or call on the operators to fill in the blanks. This
+technique should encourage attentiveness and operator
+participation.
+
+
+             Reinforce Key Concepts with Video
+             The video also repeats and reinforces key safety
+             concepts and information, offering another dynamic
+             layer to the learning process.
+
+
+
+
+             Emphasize Manuals and Decals
+             Even though the course goes into considerable
+             depth, it is not intended to cover every possible
+             unsafe situation an operator may encounter. For this
+             reason, it is critical to emphasize the importance of
+             reading the appropriate operator's and safety
+             manuals and decals on any telehandler prior to
+             operation. This will serve to familiarize the
+             participants with these materials and help emphasize
+             their importance.
+
+
+
+
+             Operator Responsibility for Hazards
+             In addition, it should be made clear that it is the
+             operator's responsibility to identify and avoid all
+             hazards. If they are unclear about any possibly unsafe
+             situation, they should stop work and seek the
+             assistance of their employer.
+
+
+
+
+                                                                      13
+Operator's Manual Distribution
+
+
+
+
+Provide Manuals                              Training Kit Samples                          Online Resources
+It is your responsibility to provide each    Sample copies of operator's manuals are       Additional operator's manuals for various
+participant a copy of a telehandler          included in the training kit. The trainer     models are often available free of charge
+operator's manual to use during the          can use these samples to reproduce an         by visiting manufacturer websites. For
+training and as a follow-up reference.       operator's manual for each participant. It    example, you can find a comprehensive
+Each manual should detail:                   is crucial to select a manual that is most    library of manuals at www.genielift.com.
+                                             appropriate for the specific make and         Trainers should guide participants on
+    Safety procedures and warnings
+                                             model of the telehandler used in the          how to access and navigate these online
+    Operating instructions for all
+                                             training session.                             resources for future reference.
+    functions
+    Load charts and stability information
+    Maintenance schedules and
+    troubleshooting
+    Emergency procedures
+
+
+     Effective Manual Use During Training                                Model-Specific Manuals
+     Integrate the manuals actively into your training.                  Telehandlers come in various models with unique
+     Encourage participants to follow along, highlight key               features and operating characteristics. Emphasize that
+     sections, and make notes. Conduct practical exercises               each machine may have a distinct manual. Discuss the
+     where operators refer to the manual to find answers to              importance of always consulting the manual
+     specific operational questions or safety protocols. This            corresponding to the exact telehandler they will be
+     hands-on approach reinforces the manual as a primary                operating. Highlight where to find model numbers and
+     source of information.                                              how to cross-reference them with the correct manual.
+
+
+
+
+     Manuals as Reference Tools                                          Distribution and Organization Best Practices
+     Beyond initial training, manuals serve as indispensable             Ensure that each manual is clearly labeled with the
+     reference tools. Instruct participants on how to                    operator's name and the date of training. Establish a
+     efficiently use the table of contents, index, and                   system for storing manuals so they are easily
+     warning sections to quickly locate information. Stress              accessible on-site or digitally. Consider providing a
+     that regular review, especially before operating                    quick guide on "When and How to Consult Your
+     unfamiliar equipment or performing complex tasks, is a              Manual" to further encourage its use as a constant
+     key best practice for safety and efficiency.                        safety companion.
+
+
+
+
+                                                                                                                                       14
+Training Location Considerations
+This training program consists of both classroom and hands-on activities. It is important that you identify, in advance, where each
+training segment will take place:
+
+
+Classroom Environment
+
+        Use a well-lit and climate-controlled training room. Avoid
+        hot conditions as this may detract from classroom
+        attention.
+
+
+        Tables and desks should be arranged so that the
+                                                                        Hands-On Area
+        operators do not feel cramped and so that there is easy
+        access in and out of the classroom.                                     The hands-on area should have ample space to set up
+                                                                                the test track and for each operator to operate the
+        Consider having everyone sit in front of the class                      machines safely.
+        together. This will help create a more comfortable
+        teaching environment.
+
+
+        The classroom should be large enough to provide
+        everyone with adequate writing surfaces and space to lay
+        out their materials.
+
+
+
+
+                                                                                                                                      15
+Training Materials
+Typical materials and resources that you will need are included in this Telehandler Training Kit. These include:
+
+                                                                                                                   Trainer's Guide with Test Key
+                                                                                                                   Reproducible Participant's Guide with Test
+                                                                                                                   Sample Operator's Manuals
+                                                                                                                   Video DVD and USB Drive with PDF files
+                                                                                                                   Reproducible Sign-in Sheet
+                                                                                                                   Telehandler Demonstration Checklist
+                                                                                                                   Reproducible Record and Familiarization Log Sheets
+                                                                                                                   Training Certificates and Operator Cards
+
+
+
+
+Other required training materials and resources include the following:
+
+                                                                                                                   Name cards in front of each student. This will help you call them by their first name, which creates a more relaxed
+                                                                                                                   atmosphere.
+                                                                                                                   Note paper, pencils, pens, and highlighters.
+
+
+
+
+                                                                                                                   Appropriate telehandler(s) that must be in proper working condition.
+                                                                                                                   Any necessary co-trainers or assistants for larger class sizes.
+Delivering Course Material
+In this section we will provide a number of suggestions on how to
+improve your ability to communicate to your operators.
+
+Of course, you will also need to determine how to improve your own
+abilities to communicate as you receive feedback from operators,
+colleagues, and fellow trainers.
+
+
+
+
+                                                                     17
+Improve Communication to Operators
+Effectively integrating the following into a training class will help make the class successful:
+
+
+
+
+   Clear, Consistent, and Personal Presentation
+   Be clear, consistent, and personal in the presentation of the materials.
+
+
+
+
+   Honest Responses to Questions
+   Be clear and consistent with responses to questions. Don't be afraid to say "I don't know." It's
+   better to answer honestly than to provide inaccurate information. If you are unable to
+   answer a question, be sure to follow up with them with an answer, but always stick to the
+   facts.
+
+
+
+
+   Respect and Attentiveness
+   Make operators feel that what they have to say is important by being respectful and
+   attentive.
+
+
+
+
+   Personal Connection
+   Call operators by their first names and always use eye-to-eye contact when talking to them.
+
+
+
+
+   Encourage Participation
+   Involve everyone in the discussions. if someone is shy, ask them a question that they can't
+   get wrong. This will boost their confidence and participation.
+
+
+
+
+   Avoid Lecturing
+   Lecturing to operators is not a good way to get their involvement into the course content.
+   Avoid this method of presentation.
+
+
+
+
+                                                                                                      18
+Stimulate Discussion
+Create an environment that stimulates discussion. The following tips can help:
+
+
+    Let your operators know right             Use the class' experiences in      Emphasize key points clearly
+    away that it's okay to ask                their work environment to          and effectively.
+    questions at any time during              support the safety points you
+    the training program.                     are going to make.
+
+
+
+
+    Encourage operators to engage             Open-ended questions are a         Leave some time at the end of
+    in conversations with other               great way to stimulate two-        class for wrap-up questions
+    operators on any topic of                 way conversations. Utilize the     and offer your personal
+    discussion during class breaks.           5 Ws (Who, What, Where,            experiences to support safety
+                                              When, and Why).                    points.
+
+
+
+
+    Your operators are looking for
+    feedback on their questions
+    and experiences; actively
+    interact with them.
+
+
+
+
+                                                                                                                 19
+Show Enthusiasm
+Showing enthusiasm will energize the operators. Here are some ways you can do that:
+
+
+    Thank them for the time                    Express excitement                     Vary voice and pace
+    Show appreciation for their                Tell them you are excited to           Change the volume and pace
+    dedication to being there.                 have them in the class with            of your voice to keep attention.
+                                               you today.
+
+
+
+
+    Move around                                Face the operators
+    Actively move around the                   Always face the operators
+    room to engage participants.               when talking to them to ensure
+                                               engagement.
+
+
+
+
+In short, try to put energy into the training environment.
+
+
+
+
+                                                                                                                         20
+Be an Effective Trainer
+How does a trainer become effective? There isn't a simple answer to
+this question. However, successfully implementing the following tips
+will help:
+
+
+
+
+   Be well prepared. This is critical.
+
+
+
+
+   Have a good core knowledge of the content, machines,
+   specifications, and agenda.
+
+
+
+
+   Anticipate lots of questions. Questions are good. Have the
+   patience to answer each one accurately.
+
+
+
+
+   Sometimes materials covered earlier in the program may need
+   to be covered again. Take the time to do this for your class to
+   avoid confusion.
+
+
+
+
+   Accept the fact that not all classes will end on time. Don't
+   create shortcuts to keep the class on schedule, just stay longer.
+
+
+
+
+                                                                       21
+Be Confident
+Being confident in the way you present your content will help you to
+gain the respect of the class participants.
+
+
+   Know Your Telehandler(s)
+   Become very familiar with the equipment you are training on.
+
+
+
+
+   Master the Training Content
+   Understand the course material inside and out.
+
+
+
+
+   Understand Standards & Docs
+   Be well-versed in applicable standards and supporting
+   documentation.
+
+
+
+
+   Prepare Your Media
+   Ensure you are comfortable with all media and visual aids used.
+
+
+
+
+        It is critically important to practice delivering the course
+        materials so that you are comfortable with the flow and
+        feel of the content.
+
+
+
+
+                                                                       22
+Be Fair and Honest
+Try to keep the class on schedule and flowing. Take breaks when needed
+but keep to the schedule as much as possible.
+
+
+
+
+An effective trainer should be fair and honest with the entire class, as
+well as:
+
+           Be clear and consistent
+           Ensure instructions and expectations are always straightforward
+           and applied uniformly.
+
+
+           Treat everyone the same
+           Maintain impartiality and respect for all participants, regardless
+           of background or skill level.
+
+
+           Accept that not everyone will pass
+           If, in your opinion, a trainee does not meet the description of a
+           qualified operator, then you should ask them to take the class
+           again.
+
+
+
+
+                                                                                23
+The Classroom Training Session
+ Provide each operator with a participant's guide, sample operator's manual, and pen or pencil.
+
+
+
+
+ Begin by playing the first section of the video. The video is included in both DVD and USB format. After each section, the video will instruct you to pause it and
+ go back to the Trainer's/Participant's Guides. The Trainer's Guide will instruct you when to return to the next section of the video.
+
+
+
+
+ As you move through the program, participants will be prompted to fill in blank spaces with key concepts and information. You may want to ask for volunteers
+ to offer suggestions before providing the correct response.
+
+
+
+
+ Make sure you take the time to answer all questions and verify that all participants understand the information.
+Written Exam Administration
+Provide plenty of time for the written exam. Remember
+that each student works at their own pace. Try not to rush
+them. As students complete their exam, allow them to
+take a quick break while the others continue working.
+
+
+
+
+                                                             The only passing score for the written exam is 100%. If
+                                                             any participant answers a question incorrectly, have them
+                                                             locate the correct answer in the Participant's Guide,
+                                                             correct the answer, and write the page number that
+                                                             contains the correct answer next to the question.
+
+
+
+
+                                                                                                                         25
+The Hands-On Training
+
+Demonstration                             Participant Practice & Evaluation         Certification
+Begin by physically demonstrating to      Have each participant perform the         Following the satisfactory completion
+the group the proper way to perform a     same activities in the same sequence      of this course, each operator should
+workplace inspection, pre-operation       while you evaluate their performance.     receive a certificate of training and an
+inspection, and function test. Then       Immediately capture your evaluation       operator's wallet card stating that they
+demonstrate the practical operation of    of their performance on the hands-on      have successfully completed the
+the forklift by actually performing the   evaluation check sheet provided in this   Telehandler Operator Training
+activities that they will be asked to     training kit.                             program.
+repeat.
+
+
+
+
+                                                                                                                               26
+Trainee Evaluation
+A Trainee Evaluation Summary Log is provided in this Trainer's Kit. This log is used to record the performance information of each operator during the course and to provide proof of training to the employer.
+
+  Information Captured Includes:                                                                                Written exam score
+
+  Practical hands-on score                                                                                      Pass/Fail results
+
+
+
+
+The written exam score is simply the final score of the exam taken in the classroom.
+The practical hands-on score is the total score taken from the hands-on evaluation check sheet and is based on the operator's demonstration of proficiency in key areas of safety, pre-operation and actual operation
+of the telehandler in a workplace environment.
+All scores should be 100%. If an operator fails to receive 100% on a specific activity as outlined on the hands-on evaluation check sheet, review the activity with them and have them try again.
+
+
+
+
+Remember, it's possible that not every operator will pass this course. It's your responsibility as a trainer to determine the proficiency of the operator as determined by their hands-on demonstration of safe machine
+operation.
+Anything less than 100% is not acceptable.
+
+                                                                                                                                                                                                                          27
+Certificate of Training
+On each certificate, the trainer should enter:
+
+
+    The name of the trainee
+
+
+
+
+    The name of the person or organization providing the
+    training
+
+
+
+
+    The program sponsor (usually the employer)
+
+
+
+
+    The date of the training
+
+
+
+
+    The city and state (or province) in which the training occurred
+
+
+
+
+                                                                      28
+Operator's Card
+On each operator's card, the trainer should enter the same information
+entered on the certificate of training as well as the model(s) of
+telehandler(s) the operator was trained to operate.
+
+
+
+
+     Please note: Training Process Completion
+     This does not complete the training process. OSHA regulation
+     1910.178 (I)(6) states that:
+
+        "The employer shall certify that each operator has been
+        trained and evaluated as required by this paragraph (I). The
+        certification shall include the name of the operator, the date
+        of the training, the date of the evaluation and the identity of
+        the person(s) performing the training or evaluation."
+
+
+
+
+     Employer Endorsement
+     To satisfy this requirement, an authorized officer of the
+     operator's employer must also endorse the certificate of training.
+
+
+
+
+     Record Retention
+     The employer should retain a copy of the certificate(s) and
+     training logs for their own records.
+
+
+
+
+                                                                          29
+In the U.S.A.
+  Employers must certify that     Refresher training is required    Upon successful completion of
+  each telehandler operator has   whenever an operator              the evaluation or refresher
+  received the proper initial     demonstrates a deficiency in      training, the operator should
+  training and evaluate each      the safe operation of the         be issued a new certificate of
+  operator at least once every    telehandler, or other             training and operator's card
+  three years.                    conditions arise as outlined in   valid for another three years.
+                                  OSHA 1910.178 (I)(4)(iii).
+
+
+
+
+                                                                                                     30
+In Canada
+                                      1
+
+   Mandatory Retraining
+   Employers must certify that each telehandler operator is
+   retrained at least once every three years.
+
+
+
+                                      2
+
+   Upgrade Training
+   Upgrade training is required whenever an operator
+   demonstrates a deficiency in the safe operation of the
+   telehandler, or other conditions arise as outlined in CSA B335
+   6.21.3.
+
+
+
+
+Upon successful completion of the retraining or upgrade training, the
+operator should be issued a new certificate of training and operator's
+card valid for another three years.
+
+
+
+
+                                                                         31
+Responsibility
+Understanding and fulfilling responsibilities is crucial for safe
+telehandler operation. Operators, trainers, and management all play
+a vital role.
+
+01
+
+Start the video now and play it through the Introduction and Section
+One - Responsibilities. The video will provide essential context on
+roles and duties.
+
+
+02
+
+The video will instruct you when to pause it and move to the
+Participant's Manual to complete activities related to responsibilities.
+
+
+
+
+                                                                           32
+Employer Responsibilities
+The employer must ensure that each powered industrial truck operator is competent and certified to operate a powered industrial truck safely, as demonstrated by the successful completion of
+the training and evaluation specified in the applicable standards, regulations and this training program.
+
+The information contained in this training program is only provided to assist the employer and operator with complying with the applicable standards and regulations that apply to powered
+industrial truck training. Use of these materials will not result in automatic compliance with these standards (ANSI/ ITSDF B56.6, CSA B335) and regulations (local, state, provincial, or federal such
+as OHS or OSHA Rule 1910.178(l)).
+
+
+
+
+This training program should only be delivered in its entirety. Additional machine or workplace specific knowledge and certification is the responsibility of the employer and the operator. Comply
+with all applicable job site, local, state, provincial or federal rules and regulations related to the proper safe use of the powered industrial trucks.
+Policy and Guidelines
+Everyone associated with the manufacturing, ownership, sale, rental and operation of rough terrain forklift equipment should be committed to safe
+and proper operation. Failure to observe established operating practices and to comply with required responsibilities could result in death or serious
+injury.
+
+Equipment users and operators can make a major contribution towards safety if they:
+
+01                                                  02                                                    03
+
+Comply with employer, job site and government Read, understand and follow the instructions in             Use good safe work practices in a
+rules.                                        this guide and other manuals supplied with the              commonsense way.
+                                              equipment or any attachments.
+
+
+04                                                                             05
+
+Be alert and free from the influences of alcohol, drugs or medications that Only have qualified operators who are trained and authorized, directed by
+might affect eyesight, hearing, reactions or judgment.                      informed and knowledgeable supervisors, running the machine.
+
+
+
+
+Read and understand the operator's manual and obey all safety rules and operating instructions before operating any rough terrain forklift equipment.
+The operator's manual must be considered a permanent part of your equipment and must always remain with the product.
+
+If there is any information in this guide that is not clear or which you believe requires modification, please contact us.
+
+
+                                                                                                                                                         34
+Contact Information
+Contact us:
+
+
+    Internet
+
+    www.genielift.com
+
+
+
+
+    E-mail
+
+    AWP.Training@terex.com
+
+
+
+
+                             Copyright © 2014 Genie
+
+
+                             Third Edition : First Printing, June 2022
+
+
+                             "Genie" is a registered trademark of Genie Industries in
+                             the U.S.A. and many other countries.
+
+
+                             Genie is a Terex brand.
+
+
+                             "GTH" is a trademark of Genie Industries.
+
+
+
+
+                                                                                        35
+Training Program Overview
+Scope
+This training manual provides general training information for the purpose of certifying operators to operate a Class 7, variable reach rough terrain forklift truck, also known as a telehandler.
+
+
+
+
+Definition
+                                                                                                                      A rough terrain forklift truck is defined as a wheeled type truck designed primarily as a fork truck with a
+                                                                                                                      vertical mast and/or a pivoted boom, variable reach or of fixed length, which may be equipped with
+                                                                                                                      attachments. This truck is intended for operation on unimproved natural terrain as well as the disturbed
+                                                                                                                      terrain of construction sites. This definition excludes machines designed primarily for earth moving, such as
+                                                                                                                      loaders and dozers, even when their buckets and blades are replaced with forks, and machines designed
+                                                                                                                      primarily as over-the-road trucks equipped with lifting devices.
+
+
+
+
+        NOTE: Even though all Class 7 powered industrial trucks (which includes vertical mast forklifts, truck mounted forklifts and telehandlers) have similar working principles, this training program will focus only on
+        telehandlers.
+
+
+                                                                                                                                                                                                                                      36
+Course Curriculum
+
+
+
+
+Theory                         Hands-on training               Knowledge Verification    Practical Evaluation
+involves classroom             involves the trainee (under     involves evaluation to    involves the trainee's
+discussions on subjects like   the direct supervision of a     confirm the level of      demonstration of
+regulations, company           trainer) using their physical   comprehension of the      proficiency in the safe
+policies and procedures,       ability to practice the safe    covered information and   operation of telehandlers
+operator's manuals,            operation of telehandlers.      the hands-on training.    and being measured against
+telehandlers features and      This includes the pre-                                    predetermined criteria.
+safety equipment, and          operation inspection,
+stability.                     workplace inspection,
+                               function test, start-up, and
+                               picking and placing of loads.
+
+
+
+
+                                                                                                                      37
+Training Components
+
+
+ Classroom Instruction                  Hands-on Training
+    Five Principles of Safe Operation     Pre-operation Inspection
+    Operation                             Function Tests
+    Options                               Workplace Inspection
+    Maintenance                           Demonstration of Proficiency
+    Written test
+
+
+
+
+                                                                         38
+Training Information
+Qualification
+Only trained and authorized persons must be permitted to operate a telehandler (except for training purposes).
+
+
+
+
+Definitions
+By definition, the user is the person or persons who are in the position of directing operators to use the telehandler to perform work. Most commonly, this is the employer.
+The person who actually operates the telehandler is the operator.
+
+
+
+
+Training Verification
+The employer must verify that the following has been covered as part of operator's training:
+       Operators understand that safe operation is their responsibility.                                                                      Operators are knowledgeable of and observe the applicable safety rules and practices within the appropriate rules,
+                                                                                                                                              regulations and standards that apply to the telehandler as well as the application.
+Operator Responsibility
+Operating a telehandler safely is paramount, and it rests squarely on the shoulders of the operator. Operators must not only cultivate safe working habits but also remain vigilant for hazardous conditions, ensuring the protection of themselves, their colleagues, and
+surrounding property.
+
+
+
+
+Before taking control of any telehandler, operators are required to be thoroughly familiar with all controls and instruments. This foundational knowledge, coupled with a complete understanding of the specific telehandler's operator's manual, is non-negotiable for
+safe and efficient operation.
+
+
+
+
+Operator's Manual
+For every telehandler, and often for its attachments, manufacturers provide a comprehensive operator's manual. This document is a critical supplement to any training program, containing essential safety information directly related to the safe use of the
+equipment. It is imperative that the operator's manual always remains accessible, typically stored within the operator's cab.
+Legend
+
+
+
+
+         41
+Telehandler Features and Safety Equipment
+Telehandlers are classified as Class 7 Variable Reach Rough Terrain Forklifts in the USA and Canada. They primarily serve construction and
+institutional markets where they are used for various applications.
+Telehandlers incorporate various features and components that are essential to the safe operation of the machine. The operator should be
+familiar with and understand the proper use of all features of the machine.
+
+
+
+
+Some telehandler features/components are listed below. We will cover many of these in detail in this program.
+
+                                                                         1
+
+   Steering
+
+
+                                                                         2
+
+   All controls and gauges
+
+
+                                                                         3
+
+   Load charts and capacity plates
+
+
+                                                                         4
+
+   Safety decals and markings
+
+
+                                                                         5
+
+   Visual warning systems such as lights, rotating warning lights, flashing beacons
+
+
+                                                                         6
+
+   Audible warning systems such as backup alarms, buzzers, and horns
+
+
+                                                                         7
+
+   Operator restraint systems such as seat belts
+
+
+                                                                         8
+
+   Fire extinguishers
+
+
+                                                                         9
+
+   Mirrors
+
+
+                                                                        10
+
+   Load backrest
+
+
+                                                                         11
+
+   Stabilizers
+
+
+                                                                        12
+
+   Rear axle lockout systems
+
+
+                                                                        13
+
+   Auxiliary hydraulics
+
+
+                                                                        14
+
+   Frame and boom level indicators
+
+
+                                                                        15
+
+   Frame leveling
+
+
+
+
+                                                                                                                                             42
+Regulations and Operator Training
+Understanding the regulations and ensuring proper operator training are crucial for the safe and efficient use of telehandlers.
+
+Overview of Training Requirements
+Training programs should cover all aspects of telehandler operation, including controls, safety systems, and regulations.                                         USA
+Summary                                                                                                                                                           In the USA, regulations governing telehandler operation are primarily set by OSHA, with detailed safety requirements established by ANSI/ITSDF.
+
+
+
+
+In the USA, the American National Standards Institute and the Industrial Truck Standards Development Foundation have established the safety requirements relating to the elements of design, operation, and maintenance of powered industrial trucks. The recognized standard in the USA for telehandlers is
+ANSI/ITSDF B56.6 and is free to download and print from the ITSDF web site at www.itsdf.org.
+
+
+
+
+   ANSI/ITSDF states "Only trained and authorized persons shall be permitted to operate a rough terrain forklift truck. Operators of rough terrain forklift trucks shall be qualified as to their visual, auditory, physical, and mental ability to operate the equipment safely. Furthermore, the standard prescribes certain
+   responsibilities for the user's and operators of the equipment pertaining to its safe operation and proper maintenance.
+OSHA Requirements
+The Occupational Safety and Health Administration, or OSHA, has clarified the training requirements for rough terrain forklift operator training. It was added to Title 29 Code of Federal Regulations Part 1910.178.
+The clarification was issued to improve the training of operators with the goal of reducing the number of injuries and deaths that occur as a result of inadequate operator training.
+
+
+
+
+These changes apply to both general industry and the construction industry.
+An evaluation of each powered industrial truck operator's performance shall be conducted at least once every three years.
+
+
+
+
+Refresher training, including an evaluation of the effectiveness of that training, shall be conducted to ensure that the operator has the knowledge and skills needed to operate the powered industrial truck safely if one of the following conditions are true:
+01                                                                                             02                                                                                             03
+
+The operator has been observed to operate the vehicle in an unsafe manner;                     The operator has been involved in an accident or near-miss incident;                            The operator has received an evaluation that reveals that the operator is not operating the
+                                                                                                                                                                                               truck safely;
+
+04                                                                                                                                             05
+
+The operator is assigned to drive a different type of truck; or                                                                                A condition in the workplace changes in a manner that could affect safe operation of the truck.
+Canadian Standards
+                                                                               Much like ANSI/ITSDF in the USA, the Canadian Standards Association, or CSA, has published Canada's governing standard, CSA B335, which also establishes the safety requirements relating to
+                                                                               the elements of design, operation, and maintenance of telehandlers.
+
+
+
+
+     CSA
+     CSA B335 standards do require operator retraining intervals not to exceed: three years.
+
+
+
+
+ 1
+
+
+
+
+     reliability and optimal performance."/>
+
+
+
+     OHS
+     In Canada, CSA B335 standards for telehandlers are enforced by OHS, which is similar to OSHA in the USA, and other provincial authorities. Since each province has their own OHS, its important to be familiar with those rules and regulations that apply to the safe
+     operation and maintenance of the telehandler.
+Requirement to Create a Safe Use Plan
+The ANSI/ITSDF B56.6-2021 Safety Standards require that a written safe use program specific to RTFL trucks shall be developed by the user.
+
+
+
+
+The Safe Use Plan must include, but not be limited to the following:
+
+
+    Site Risk Assessment                                               Truck & Attachment Verification                                  Site Preparation & Maintenance
+    Performing a site risk assessment to identify hazards,             Verifying that the RTFL truck and attachment(s) being            Planning for access, preparation and maintenance of the
+    evaluate risk, develop control measures and communicate            utilized are appropriate for the application.                    site, as required, to include an assessment that the
+    the safe use program to affected persons.                                                                                           support surface is adequate to support the weight of the
+                                                                                                                                        RTFL truck.
+
+
+
+
+    Inspections, Maintenance & Repairs                                 Qualified Personnel                                              Operator Familiarization
+    Verifying that the RTFL truck inspections, maintenance             Ensuring that only qualified and authorized personnel            Ensuring the familiarization of trained, authorized RTFL
+    and repairs are performed per the provisions of this               trained in accordance with OSHA 1910.178 (I) are allowed         truck operator(s) with the specific RTFL truck to be used.
+    standard and as recommended by the manufacturer.                   to operate the RTFL truck.
+
+
+
+
+    Local Site Requirements
+    Informing the operator of local site requirements and
+    warning and providing the means to protect against
+    identified hazards in the areas where the RTFL truck will
+    be operated.
+
+
+
+
+                                                                                                                                                                                                     46
+Safe Use Plan Requirements
+(continued)
+
+
+ Monitoring Work
+ Ensure compliance with standard provisions through
+ continuous oversight.
+
+
+
+
+ Unauthorized Use Prevention
+ Implement measures to prevent unauthorized operation of the
+ RTFL truck.
+
+
+
+
+ Pedestrian Safety
+ Prioritize the safety of all persons in the vicinity, even if not
+ involved in operation.
+
+
+
+
+                                                                     47
+OSHA 1910.178(I) - Operator Training
+
+
+
+
+1910.178(I)(1) Safe Operation
+
+    1910.178(I)(1)(i)                                                                                                                     1910.178(I)(1)(ii)
+    The employer shall ensure that each powered industrial truck operator is competent to operate a powered industrial truck safely, as   Prior to permitting an employee to operate a powered industrial truck (except for training purposes), the employer shall ensure that
+    demonstrated by the successful completion of the training and evaluation specified in this paragraph (l).                             each operator has successfully completed the training required by this paragraph (l), except as permitted by paragraph (l)(5).
+
+
+
+
+1910.178(I)(2) Training Program Implementation
+Trainees may operate a powered industrial truck only:
+
+
+
+
+       1910.178(I)(2)(i)(A)                                                                                                                  1910.178(I)(2)(i)(B)
+       Under the direct supervision of persons who have the knowledge, training, and experience to train operators and evaluate their        Where such operation does not endanger the trainee or other employees.
+       competence; and
+OSHA Training Requirements
+(continued)
+1910.178(I)(2)(ii)
+
+Training shall consist of a combination of formal instruction, practical
+training, and evaluation of the operator's performance in the workplace.
+
+
+
+
+   Formal Instruction
+   Lecture, discussion, interactive computer learning, video tape,
+   written material.
+
+
+
+
+   Practical Training
+   Demonstrations by trainer and practical exercises by trainee.
+
+
+
+
+   Evaluation
+   Assessment of the operator's performance in the workplace.
+
+
+
+1910.178(I)(2)(iii)
+
+All operator training and evaluation shall be conducted by persons who
+have the knowledge, training, and experience to train powered industrial
+truck operators and evaluate their competence.
+
+
+
+
+                                                                           49
+OSHA Training Program Content
+1910.178(I)(3) Training Program Content
+
+Powered industrial truck operators shall receive initial training in the following topics, except in topics which the employer can demonstrate are not applicable to safe operation of
+the truck in the employer's workplace.
+
+1910.178(I)(3)(i) Truck-Related Topics:
+
+
+Operating Instructions                                       Truck vs. Automobile                                         Controls & Instrumentation
+Instructions, warnings, and precautions for the specific     Understanding the fundamental differences in operation       Location, function, and operation of all truck controls and
+types of truck the operator will be authorized to operate.   between the industrial truck and an automobile.              instrumentation.
+
+
+
+
+Engine/Motor Operation                                       Steering & Maneuvering                                       Visibility
+Proper procedures for engine or motor operation,             Techniques for effective steering and maneuvering in         Understanding visibility limitations and restrictions,
+including startup and shutdown.                              various workplace conditions.                                especially when carrying loads.
+
+
+
+
+Fork & Attachment Use                                        Vehicle Capacity                                             Vehicle Stability
+Adaptation, operation, and limitations of forks and other    Awareness of the truck's load capacity and how to ensure     Principles of vehicle stability, including factors affecting it
+attachments.                                                 loads are within limits.                                     and how to maintain it.
+
+
+
+
+Inspection & Maintenance                                     Refueling & Charging                                         Operating Limitations
+Any required vehicle inspection and maintenance tasks        Safe procedures for refueling, battery charging, and         Understanding and adhering to all specific operating
+the operator must perform.                                   boosting/jumping operations.                                 limitations for the equipment.
+
+
+
+
+Operator's Manual
+Any additional instructions, warnings, or precautions listed in the operator's manual.
+
+
+Visual References for Truck-Related Topics
+Below are visual aids illustrating key components and operational aspects of powered industrial trucks discussed in the training program.
+
+
+
+
+                                                                                                                                                                                            50
+OSHA Workplace-Related Topics
+1910.178(I)(3)(ii) Workplace-Related Topics
+
+
+
+
+                                           1910.178(I)(3)(ii)(A)                   1910.178(I)(3)(ii)(B)
+                                           Surface conditions where the vehicle    Composition of loads to be carried and
+                                           will be operated;                       load stability;
+
+
+
+
+                                           1910.178(I)(3)(ii)(C)                   1910.178(I)(3)(ii)(D)
+                                           Load manipulation, stacking, and        Pedestrian traffic in areas where the
+                                           unstacking;                             vehicle will be operated;
+
+
+
+
+                                           1910.178(I)(3)(ii)(E)                   1910.178(I)(3)(ii)(F)
+                                           Narrow aisles and other restricted      Hazardous (classified) locations where
+                                           places where the vehicle will be        the vehicle will be operated;
+                                           operated;
+
+
+
+
+                                           1910.178(I)(3)(ii)(G)                   1910.178(I)(3)(ii)(H)
+                                           Ramps and other sloped surfaces that    Closed environments and other areas
+                                           could affect the vehicle's stability;   where insufficient ventilation or poor
+                                                                                   vehicle maintenance could cause a
+                                                                                   buildup of carbon monoxide or diesel
+                                                                                   exhaust:
+
+
+
+
+                                           1910.178(I)(3)(ii)(I)
+                                           Other unique or potentially hazardous
+                                           environmental conditions in the
+                                           workplace that could affect safe
+                                           operation.
+
+1910.178(I)(3)(iii) The requirements of this Section.
+
+
+
+
+                                                                                                                            51
+OSHA Refresher Training and Evaluation
+
+
+
+
+1910.178(I)(4) Refresher Training and Evaluation
+
+1910.178(I)(4)(i)
+
+Refresher training, including an evaluation of the effectiveness of that training, shall be conducted as required by paragraph (I)(4)(ii) to ensure that the operator has the knowledge and
+skills needed to operate the powered industrial truck safely.
+
+
+
+
+1910.178(I)(4)(ii)
+
+Refresher training in relevant topics shall be provided to the operator when:
+
+    1910.178(I)(4)(ii)(A) The operator has been observed to operate the vehicle in an unsafe manner;
+    1910.178(I)(4)(ii)(B) The operator has been involved in an accident or near-miss incident;
+    1910.178(I)(4)(ii)(C) The operator has received an evaluation that reveals that the operator is not operating the truck safely;
+    1910.178(I)(4)(ii)(D) The operator is assigned to drive a different type of truck; or
+    1910.178(I)(4)(ii)(E) A condition in the workplace changes in a manner that could affect safe operation of the truck.
+
+
+
+
+1910.178(I)(4)(iii)
+
+An evaluation of each powered industrial truck operator's performance shall be conducted at least once every three years.
+
+
+
+
+                                                                                                                                                                                              52
+OSHA Additional Requirements
+  1910.178(I)(5) Avoidance of Duplicate Training
+  If an operator has previously received training in a topic specified in paragraph (l)(3) of this section, and
+  such training is appropriate to the truck and working conditions encountered, additional training in that
+  topic is not required if the operator has been evaluated and found competent to operate the truck
+  safely.
+
+
+
+
+  1910.178(I)(6) Certification
+  The employer shall certify that each operator has been trained and evaluated as required by this
+  paragraph (l). The certification shall include the name of the operator, the date of the training, the date
+  of the evaluation, and the identity of the person(s) performing the training or evaluation.
+
+
+
+
+1910.178(I)(7) Dates
+
+The employer shall ensure that operators of powered industrial trucks are trained, as appropriate, by the
+dates shown in the following table.
+
+
+                                                  If the employee was               The initial training and
+                                                  hired:                            evaluation of that
+                                                                                    employee must be
+                                                                                    completed:
+
+                                                  Before December 1, 1999           By December 1,1999
+
+                                                  After December 1, 1999            Before the operator is
+                                                                                    assigned to operate a
+                                                                                    powered industrial truck.
+
+
+
+
+                                                                                                                  53
+OSHA Appendix A - Stability
+1910.178(I)(8)
+Appendix A to this section provides nonmandatory guidance to assist employers in implementing this paragraph (l). This appendix does not add to, alter, or reduce the requirements of this section.
+
+Appendix A 4 Stability of Powered Industrial Trucks (Non-mandatory Appendix to Paragraph (I) of This Section)
+
+                                 1                                                                  2                                                                 3
+  Center of gravity is the point on an object at which all of        Counterweight is the weight that is built into the truck's         Fulcrum is the truck's axis of rotation when it tips over.
+  the object's weight is concentrated. For symmetrical loads,        basic structure and is used to offset the load's weight and
+  the center of gravity is at the middle of the load.                to maximize the vehicle's resistance to tipping over.
+
+
+
+
+                                4                                                                   5                                                                 6
+  Grade is the slope of a surface, which is usually measured         Lateral stability is a truck's resistance to overturning           Line of action is an imaginary vertical line through an
+  as the number of feet of rise or fall over a hundred foot          sideways.                                                          object's center of gravity.
+  horizontal distance (the slope is expressed as a percent).
+
+
+
+
+                                 7                                                                  8                                                                 9
+  Load center is the horizontal distance from the load's edge        Longitudinal stability is the truck's resistance to                Moment is the product of the object's weight times the
+  (or the fork's or other attachment's vertical face) to the line    overturning forward or rearward.                                   distance from a fixed point (usually the fulcrum). In the
+  of action through the load's center of gravity.                                                                                       case of a powered industrial truck, the distance is measured
+                                                                                                                                        from the point at which the truck will tip over to the
+                                                                                                                                        object's line of action. The distance is always measured
+                                                                                                                                        perpendicular to the line of action.
+
+
+
+
+                                10                                                                 11
+  Track is the distance between the wheels on the same axle          Wheelbase is the distance between the centerline of the
+  of the truck.                                                      vehicle's front and rear wheels.
+
+
+
+
+                                                                                                                                                                                                       54
+OSHA Appendix A - General and Basic Principles
+A-2. General.
+
+    Determining the stability of a powered industrial truck is simple once a few basic principles are understood.                                 Many factors contribute to a vehicle's stability, including: the vehicle's wheelbase, track, and height; the load's weight distribution;
+                                                                                                                                                  and the vehicle's counterweight location (if so equipped).
+
+A-2.2. The "stability triangle," used in most stability discussions, demonstrates stability simply.
+
+
+
+
+A-3. Basic Principles.
+A-3.1. Whether an object is stable depends on the object's moment at one end of a system being greater than, equal to, or smaller than the object's moment at the system's other end. This principle can be seen in the way a see-saw or teeter-totter works: that is, if the product of
+the load and distance from the fulcrum (moment) is equal to the moment at the device's other end, the device is balanced and it will not move. However, if there is a greater moment at one end of the device, the device will try to move downward at the end with the greater
+moment.
+
+
+
+
+A-3.2. The longitudinal stability of a counterbalanced powered industrial truck depends on the vehicle's moment and the load's moment. In other words, if the mathematic product of the load moment (the distance from the front wheels, the approximate point at which the
+vehicle would tip forward) to the load's center of gravity times the load's weight is less than the vehicle's moment, the system is balanced and will not tip forward. However, if the load's moment is greater than the vehicle's moment, the greater load-moment will force the truck to
+tip forward.
+OSHA Appendix A - Stability Triangle and Longitudinal Stability
+A-4. The Stability Triangle.
+A-4.1. Almost all counterbalanced powered industrial trucks have a three-point suspension system, that is, the vehicle is supported at three points. This is true even if the vehicle has four wheels. The truck's steer axle is attached to the truck by a pivot pin in the axle's center. When the points are connected with imaginary lines, this
+three-point support forms a triangle called the stability triangle.
+
+
+
+
+A-4.2. When the vehicle's line of action, or load center, falls within the stability triangle, the vehicle is stable and will not tip over. However, when the vehicle's line of action or the vehicle/ load combination falls outside the stability triangle, the vehicle is unstable and may tip over.
+
+
+
+
+A-5. Longitudinal Stability.
+A-5.1. The axis of rotation when a truck tips forward is the front wheels' points of contact with the pavement. When a powered industrial truck tips forward, the truck will rotate about this line. When a truck is stable, the vehicle-moment must exceed the load-moment. As long as the vehicle-moment is equal to or exceeds the load-
+moment, the vehicle will not tip over. On the other hand, if the load moment slightly exceeds the vehicle-moment, the truck will begin to tip forward, thereby causing the rear to lose contact with the floor or ground and resulting in loss of steering control. If the load-moment greatly exceeds the vehicle moment, the truck will tip
+forward.
+OSHA Appendix A - Lateral and
+Dynamic Stability
+A-6. Lateral Stability.
+
+A-6.1. The vehicle's lateral stability is determined by the line of action's position (a vertical
+line that passes through the combined vehicle's and load's center of gravity) relative to
+the stability triangle. When the vehicle is not loaded, the truck's center of gravity location
+is the only factor to be considered in determining the truck's stability. As long as the line
+of action of the combined vehicle's and load's center of gravity falls within the stability
+triangle, the truck is stable and will not tip over. However, if the line of action falls outside
+the stability triangle, the truck is not stable and may tip over.
+
+A-6.2. Factors that affect the vehicle's lateral stability include the load's placement on the
+truck, the height of the load above the surface on which the vehicle is operating, and the
+vehicle's degree of lean.
+
+A-7. Dynamic Stability.
+
+A-7.1. Up to this point, the stability of a powered industrial truck has been discussed
+without considering the dynamic forces that result when the vehicle and load are put into
+motion. The weight's transfer and the resultant shift in the center of gravity due to the
+dynamic forces created when the machine is moving, braking, cornering, lifting, tilting,
+and lowering loads, etc., are important stability considerations.
+
+
+
+
+A-7.2. When determining whether a load can be safely handled, the operator should
+exercise extra caution when handling loads that cause the vehicle to approach its
+maximum design characteristics. For example, if an operator must handle a maximum
+load, the load should be carried at the lowest position possible, the truck should be
+accelerated slowly and evenly, and the forks should be tilted forward cautiously. However,
+no precise rules can be formulated to cover all of these eventualities.
+
+
+
+
+                                                                                                    57
+CSA B335 Standards
+CSA B335 Clause 6 (partial) 3
+There are a number of sub-sections within Part 6 of the CSA B335 standard. We'll only be covering a few regarding training requirements. As always its important to be familiar with all of the requirements as it relates to the safe operation and
+maintenance of the telehandler.
+
+Operator Training Requirements
+
+
+
+
+6.1 General
+Clause 6 specifies the knowledge, practical, and evaluation requirements of a lift truck training program. Subjects in this Clause specify content requirements as well as a suggested method of instruction and evaluation.
+The trainee shall be instructed on the safe operational procedures of a lift truck in accordance with the manufacturer's operator manual, the user's operating guidelines, and government regulations. Instruction shall be given on the following:
+01                                                                                 02                                                                                 03
+
+Legislation                                                                        Company Policies & Procedures                                                       Operating Manual
+
+04                                                                                 05                                                                                 06
+
+Lift Truck Features & Safety Equipment                                             Stability                                                                           Capacity Plate & Location
+
+07                                                                                 08                                                                                 09
+
+Preoperational Inspection                                                          Start-up                                                                            Travelling (with/without load)
+
+10                                                                                 11                                                                                  12
+
+Pedestrians                                                                        Load Handling                                                                       Ramps & Grades
+
+13                                                                                 14                                                                                  15
+
+Personnel Lifting, Lowering, & Supporting                                          Elevators                                                                           Workplace Specific Hazards
+
+16                                                                                                                           17
+
+Shutdown/Leaving Operator's Position                                                                                         Refueling/Recharging
+
+
+
+
+                                                                                                                                                                                                                                                       58
+CSA B335 Evaluations and Retraining
+6.20 Evaluations
+6.20.1 General
+The trainee shall be evaluated throughout the learning process to determine whether the objectives of the training course are being met.
+
+
+
+
+6.21.1 Retraining
+
+Operators of lift trucks shall receive retraining at intervals not exceeding three years. Retraining shall meet the requirements of Clause 6.
+
+
+
+
+6.21.3 Upgrade training
+Upgrade training shall be given to lift truck operators when:
+
+                                               1                                                                                                2                                                                                      3
+   equipment is introduced in the workplace that is unfamiliar to the operator;                    the equipment used by the operator is modified;                                           the operating conditions or the environment in which the operator works is changed
+                                                                                                                                                                                             (e.g., the operator works in a different area, moves different types of loads, etc.);
+
+
+
+
+                                              4                                                                                                 5
+   applicable legislation changes;                                                                 skill or knowledge deficiencies have been identified. The upgrade training course shall
+                                                                                                   include all relevant information, as applicable. The content, delivery method, and
+                                                                                                   individual learning needs of the operator shall determine the course length.
+                                                                                                   Knowledge verification and practical evaluation shall be performed in accordance with
+                                                                                                   Clause 6.20.
+Five Principles of Safe
+Operation
+        TRAINER'S NOTE
+
+        Start the video and play Section Two until the video
+        instructs you to pause it and return to the Participant's
+        Guide.
+
+
+
+
+Introduction
+It is the responsibility of the operator to learn and practice the
+principles of safe machine operation contained in this training
+manual and the machine's operator's manual.
+
+The five principles of safe operation are:
+
+01
+
+Avoid hazardous situations
+
+02
+
+Always perform a pre-operation inspection
+
+03
+
+Always perform function tests prior to use
+
+04
+
+Inspect the workplace
+
+05
+
+Only use the machine as it was intended
+
+Each principle of safe operation will be discussed in detail in the
+following sections.
+
+
+
+
+                                                                      60
+

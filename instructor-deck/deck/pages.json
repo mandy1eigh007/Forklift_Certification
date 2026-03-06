@@ -1,0 +1,761 @@
+[
+  {
+    "id": "page-001",
+    "title": "Page 1",
+    "type": "page-image",
+    "src": "../../assets/pages/page-001.png",
+    "tags": [
+      "class7",
+      "class1-5"
+    ]
+  },
+  {
+    "id": "page-002",
+    "title": "Page 2",
+    "type": "page-image",
+    "src": "../../assets/pages/page-002.png",
+    "tags": [
+      "class7",
+      "class1-5"
+    ]
+  },
+  {
+    "id": "page-003",
+    "title": "Page 3",
+    "type": "page-image",
+    "src": "../../assets/pages/page-003.png",
+    "tags": [
+      "class7",
+      "class1-5"
+    ]
+  },
+  {
+    "id": "page-004",
+    "title": "Page 4",
+    "type": "page-image",
+    "src": "../../assets/pages/page-004.png",
+    "tags": [
+      "class7",
+      "class1-5"
+    ]
+  },
+  {
+    "id": "page-005",
+    "title": "Page 5",
+    "type": "page-image",
+    "src": "../../assets/pages/page-005.png",
+    "tags": [
+      "class7",
+      "class1-5"
+    ]
+  },
+  {
+    "id": "page-006",
+    "title": "Page 6",
+    "type": "page-image",
+    "src": "../../assets/pages/page-006.png",
+    "tags": [
+      "class7",
+      "class1-5"
+    ]
+  },
+  {
+    "id": "page-007",
+    "title": "Page 7",
+    "type": "page-image",
+    "src": "../../assets/pages/page-007.png",
+    "tags": [
+      "class7",
+      "class1-5"
+    ]
+  },
+  {
+    "id": "page-008",
+    "title": "Page 8",
+    "type": "page-image",
+    "src": "../../assets/pages/page-008.png",
+    "tags": [
+      "class7",
+      "class1-5"
+    ]
+  },
+  {
+    "id": "page-009",
+    "title": "Page 9",
+    "type": "page-image",
+    "src": "../../assets/pages/page-009.png",
+    "tags": [
+      "class7",
+      "class1-5"
+    ]
+  },
+  {
+    "id": "page-010",
+    "title": "Page 10",
+    "type": "page-image",
+    "src": "../../assets/pages/page-010.png",
+    "tags": [
+      "class7",
+      "class1-5"
+    ]
+  },
+  {
+    "id": "page-011",
+    "title": "Page 11",
+    "type": "page-image",
+    "src": "../../assets/pages/page-011.png",
+    "tags": [
+      "class7",
+      "class1-5"
+    ]
+  },
+  {
+    "id": "page-012",
+    "title": "Page 12",
+    "type": "page-image",
+    "src": "../../assets/pages/page-012.png",
+    "tags": [
+      "class7",
+      "class1-5"
+    ]
+  },
+  {
+    "id": "page-013",
+    "title": "Page 13",
+    "type": "page-image",
+    "src": "../../assets/pages/page-013.png",
+    "tags": [
+      "class7",
+      "class1-5"
+    ]
+  },
+  {
+    "id": "page-014",
+    "title": "Page 14",
+    "type": "page-image",
+    "src": "../../assets/pages/page-014.png",
+    "tags": [
+      "class7",
+      "class1-5"
+    ]
+  },
+  {
+    "id": "page-015",
+    "title": "Page 15",
+    "type": "page-image",
+    "src": "../../assets/pages/page-015.png",
+    "tags": [
+      "class7",
+      "class1-5"
+    ]
+  },
+  {
+    "id": "page-016",
+    "title": "Page 16",
+    "type": "page-image",
+    "src": "../../assets/pages/page-016.png",
+    "tags": [
+      "class7",
+      "class1-5"
+    ]
+  },
+  {
+    "id": "page-017",
+    "title": "Page 17",
+    "type": "page-image",
+    "src": "../../assets/pages/page-017.png",
+    "tags": [
+      "class7",
+      "class1-5"
+    ]
+  },
+  {
+    "id": "page-018",
+    "title": "Page 18",
+    "type": "page-image",
+    "src": "../../assets/pages/page-018.png",
+    "tags": [
+      "class7",
+      "class1-5"
+    ]
+  },
+  {
+    "id": "page-019",
+    "title": "Page 19",
+    "type": "page-image",
+    "src": "../../assets/pages/page-019.png",
+    "tags": [
+      "class7",
+      "class1-5"
+    ]
+  },
+  {
+    "id": "page-020",
+    "title": "Page 20",
+    "type": "page-image",
+    "src": "../../assets/pages/page-020.png",
+    "tags": [
+      "class7",
+      "class1-5"
+    ]
+  },
+  {
+    "id": "page-021",
+    "title": "Page 21",
+    "type": "page-image",
+    "src": "../../assets/pages/page-021.png",
+    "tags": [
+      "class7",
+      "class1-5"
+    ]
+  },
+  {
+    "id": "page-022",
+    "title": "Page 22",
+    "type": "page-image",
+    "src": "../../assets/pages/page-022.png",
+    "tags": [
+      "class7",
+      "class1-5"
+    ]
+  },
+  {
+    "id": "page-023",
+    "title": "Page 23",
+    "type": "page-image",
+    "src": "../../assets/pages/page-023.png",
+    "tags": [
+      "class7",
+      "class1-5"
+    ]
+  },
+  {
+    "id": "page-024",
+    "title": "Page 24",
+    "type": "page-image",
+    "src": "../../assets/pages/page-024.png",
+    "tags": [
+      "class7",
+      "class1-5"
+    ]
+  },
+  {
+    "id": "page-025",
+    "title": "Page 25",
+    "type": "page-image",
+    "src": "../../assets/pages/page-025.png",
+    "tags": [
+      "class7",
+      "class1-5"
+    ]
+  },
+  {
+    "id": "page-026",
+    "title": "Page 26",
+    "type": "page-image",
+    "src": "../../assets/pages/page-026.png",
+    "tags": [
+      "class7",
+      "class1-5"
+    ]
+  },
+  {
+    "id": "page-027",
+    "title": "Page 27",
+    "type": "page-image",
+    "src": "../../assets/pages/page-027.png",
+    "tags": [
+      "class7",
+      "class1-5"
+    ]
+  },
+  {
+    "id": "page-028",
+    "title": "Page 28",
+    "type": "page-image",
+    "src": "../../assets/pages/page-028.png",
+    "tags": [
+      "class7",
+      "class1-5"
+    ]
+  },
+  {
+    "id": "page-029",
+    "title": "Page 29",
+    "type": "page-image",
+    "src": "../../assets/pages/page-029.png",
+    "tags": [
+      "class7",
+      "class1-5"
+    ]
+  },
+  {
+    "id": "page-030",
+    "title": "Page 30",
+    "type": "page-image",
+    "src": "../../assets/pages/page-030.png",
+    "tags": [
+      "class7",
+      "class1-5"
+    ]
+  },
+  {
+    "id": "page-031",
+    "title": "Page 31",
+    "type": "page-image",
+    "src": "../../assets/pages/page-031.png",
+    "tags": [
+      "class7",
+      "class1-5"
+    ]
+  },
+  {
+    "id": "page-032",
+    "title": "Page 32",
+    "type": "page-image",
+    "src": "../../assets/pages/page-032.png",
+    "tags": [
+      "class7",
+      "class1-5"
+    ]
+  },
+  {
+    "id": "page-033",
+    "title": "Page 33",
+    "type": "page-image",
+    "src": "../../assets/pages/page-033.png",
+    "tags": [
+      "class7",
+      "class1-5"
+    ]
+  },
+  {
+    "id": "page-034",
+    "title": "Page 34",
+    "type": "page-image",
+    "src": "../../assets/pages/page-034.png",
+    "tags": [
+      "class7",
+      "class1-5"
+    ]
+  },
+  {
+    "id": "page-035",
+    "title": "Page 35",
+    "type": "page-image",
+    "src": "../../assets/pages/page-035.png",
+    "tags": [
+      "class7",
+      "class1-5"
+    ]
+  },
+  {
+    "id": "page-036",
+    "title": "Page 36",
+    "type": "page-image",
+    "src": "../../assets/pages/page-036.png",
+    "tags": [
+      "class7",
+      "class1-5"
+    ]
+  },
+  {
+    "id": "page-037",
+    "title": "Page 37",
+    "type": "page-image",
+    "src": "../../assets/pages/page-037.png",
+    "tags": [
+      "class7",
+      "class1-5"
+    ]
+  },
+  {
+    "id": "page-038",
+    "title": "Page 38",
+    "type": "page-image",
+    "src": "../../assets/pages/page-038.png",
+    "tags": [
+      "class7",
+      "class1-5"
+    ]
+  },
+  {
+    "id": "page-039",
+    "title": "Page 39",
+    "type": "page-image",
+    "src": "../../assets/pages/page-039.png",
+    "tags": [
+      "class7",
+      "class1-5"
+    ]
+  },
+  {
+    "id": "page-040",
+    "title": "Page 40",
+    "type": "page-image",
+    "src": "../../assets/pages/page-040.png",
+    "tags": [
+      "class7",
+      "class1-5"
+    ]
+  },
+  {
+    "id": "page-041",
+    "title": "Page 41",
+    "type": "page-image",
+    "src": "../../assets/pages/page-041.png",
+    "tags": [
+      "class7",
+      "class1-5"
+    ]
+  },
+  {
+    "id": "page-042",
+    "title": "Page 42",
+    "type": "page-image",
+    "src": "../../assets/pages/page-042.png",
+    "tags": [
+      "class7",
+      "class1-5"
+    ]
+  },
+  {
+    "id": "page-043",
+    "title": "Page 43",
+    "type": "page-image",
+    "src": "../../assets/pages/page-043.png",
+    "tags": [
+      "class7",
+      "class1-5"
+    ]
+  },
+  {
+    "id": "page-044",
+    "title": "Page 44",
+    "type": "page-image",
+    "src": "../../assets/pages/page-044.png",
+    "tags": [
+      "class7",
+      "class1-5"
+    ]
+  },
+  {
+    "id": "page-045",
+    "title": "Page 45",
+    "type": "page-image",
+    "src": "../../assets/pages/page-045.png",
+    "tags": [
+      "class7",
+      "class1-5"
+    ]
+  },
+  {
+    "id": "page-046",
+    "title": "Page 46",
+    "type": "page-image",
+    "src": "../../assets/pages/page-046.png",
+    "tags": [
+      "class7",
+      "class1-5"
+    ]
+  },
+  {
+    "id": "page-047",
+    "title": "Page 47",
+    "type": "page-image",
+    "src": "../../assets/pages/page-047.png",
+    "tags": [
+      "class7",
+      "class1-5"
+    ]
+  },
+  {
+    "id": "page-048",
+    "title": "Page 48",
+    "type": "page-image",
+    "src": "../../assets/pages/page-048.png",
+    "tags": [
+      "class7",
+      "class1-5"
+    ]
+  },
+  {
+    "id": "page-049",
+    "title": "Page 49",
+    "type": "page-image",
+    "src": "../../assets/pages/page-049.png",
+    "tags": [
+      "class7",
+      "class1-5"
+    ]
+  },
+  {
+    "id": "page-050",
+    "title": "Page 50",
+    "type": "page-image",
+    "src": "../../assets/pages/page-050.png",
+    "tags": [
+      "class7",
+      "class1-5"
+    ]
+  },
+  {
+    "id": "page-051",
+    "title": "Page 51",
+    "type": "page-image",
+    "src": "../../assets/pages/page-051.png",
+    "tags": [
+      "class7",
+      "class1-5"
+    ]
+  },
+  {
+    "id": "page-052",
+    "title": "Page 52",
+    "type": "page-image",
+    "src": "../../assets/pages/page-052.png",
+    "tags": [
+      "class7",
+      "class1-5"
+    ]
+  },
+  {
+    "id": "page-053",
+    "title": "Page 53",
+    "type": "page-image",
+    "src": "../../assets/pages/page-053.png",
+    "tags": [
+      "class7",
+      "class1-5"
+    ]
+  },
+  {
+    "id": "page-054",
+    "title": "Page 54",
+    "type": "page-image",
+    "src": "../../assets/pages/page-054.png",
+    "tags": [
+      "class7",
+      "class1-5"
+    ]
+  },
+  {
+    "id": "page-055",
+    "title": "Page 55",
+    "type": "page-image",
+    "src": "../../assets/pages/page-055.png",
+    "tags": [
+      "class7",
+      "class1-5"
+    ]
+  },
+  {
+    "id": "page-056",
+    "title": "Page 56",
+    "type": "page-image",
+    "src": "../../assets/pages/page-056.png",
+    "tags": [
+      "class7",
+      "class1-5"
+    ]
+  },
+  {
+    "id": "page-057",
+    "title": "Page 57",
+    "type": "page-image",
+    "src": "../../assets/pages/page-057.png",
+    "tags": [
+      "class7",
+      "class1-5"
+    ]
+  },
+  {
+    "id": "page-058",
+    "title": "Page 58",
+    "type": "page-image",
+    "src": "../../assets/pages/page-058.png",
+    "tags": [
+      "class7",
+      "class1-5"
+    ]
+  },
+  {
+    "id": "page-059",
+    "title": "Page 59",
+    "type": "page-image",
+    "src": "../../assets/pages/page-059.png",
+    "tags": [
+      "class7",
+      "class1-5"
+    ]
+  },
+  {
+    "id": "page-060",
+    "title": "Page 60",
+    "type": "page-image",
+    "src": "../../assets/pages/page-060.png",
+    "tags": [
+      "class7",
+      "class1-5"
+    ]
+  },
+  {
+    "id": "page-061",
+    "title": "Page 61",
+    "type": "page-image",
+    "src": "../../assets/pages/page-061.png",
+    "tags": [
+      "class7",
+      "class1-5"
+    ]
+  },
+  {
+    "id": "page-062",
+    "title": "Page 62",
+    "type": "page-image",
+    "src": "../../assets/pages/page-062.png",
+    "tags": [
+      "class7",
+      "class1-5"
+    ]
+  },
+  {
+    "id": "page-063",
+    "title": "Page 63",
+    "type": "page-image",
+    "src": "../../assets/pages/page-063.png",
+    "tags": [
+      "class7",
+      "class1-5"
+    ]
+  },
+  {
+    "id": "page-064",
+    "title": "Page 64",
+    "type": "page-image",
+    "src": "../../assets/pages/page-064.png",
+    "tags": [
+      "class7",
+      "class1-5"
+    ]
+  },
+  {
+    "id": "page-065",
+    "title": "Page 65",
+    "type": "page-image",
+    "src": "../../assets/pages/page-065.png",
+    "tags": [
+      "class7",
+      "class1-5"
+    ]
+  },
+  {
+    "id": "page-066",
+    "title": "Page 66",
+    "type": "page-image",
+    "src": "../../assets/pages/page-066.png",
+    "tags": [
+      "class7",
+      "class1-5"
+    ]
+  },
+  {
+    "id": "page-067",
+    "title": "Page 67",
+    "type": "page-image",
+    "src": "../../assets/pages/page-067.png",
+    "tags": [
+      "class7",
+      "class1-5"
+    ]
+  },
+  {
+    "id": "page-068",
+    "title": "Page 68",
+    "type": "page-image",
+    "src": "../../assets/pages/page-068.png",
+    "tags": [
+      "class7",
+      "class1-5"
+    ]
+  },
+  {
+    "id": "page-069",
+    "title": "Page 69",
+    "type": "page-image",
+    "src": "../../assets/pages/page-069.png",
+    "tags": [
+      "class7",
+      "class1-5"
+    ]
+  },
+  {
+    "id": "page-070",
+    "title": "Page 70",
+    "type": "page-image",
+    "src": "../../assets/pages/page-070.png",
+    "tags": [
+      "class7",
+      "class1-5"
+    ]
+  },
+  {
+    "id": "page-071",
+    "title": "Page 71",
+    "type": "page-image",
+    "src": "../../assets/pages/page-071.png",
+    "tags": [
+      "class7",
+      "class1-5"
+    ]
+  },
+  {
+    "id": "page-072",
+    "title": "Page 72",
+    "type": "page-image",
+    "src": "../../assets/pages/page-072.png",
+    "tags": [
+      "class7",
+      "class1-5"
+    ]
+  },
+  {
+    "id": "page-073",
+    "title": "Page 73",
+    "type": "page-image",
+    "src": "../../assets/pages/page-073.png",
+    "tags": [
+      "class7",
+      "class1-5"
+    ]
+  },
+  {
+    "id": "page-074",
+    "title": "Page 74",
+    "type": "page-image",
+    "src": "../../assets/pages/page-074.png",
+    "tags": [
+      "class7",
+      "class1-5"
+    ]
+  },
+  {
+    "id": "video-sample-file",
+    "title": "Video Placeholder",
+    "type": "activity",
+    "src": "",
+    "cues": [
+      "Replace this slide with a real local video-file source"
+    ]
+  },
+  {
+    "id": "activity-sample",
+    "title": "Sample Activity: Hazard Spotting",
+    "type": "activity",
+    "src": "",
+    "timing": "7m",
+    "cues": [
+      "Pair learners and call on 2 volunteers"
+    ]
+  }
+]

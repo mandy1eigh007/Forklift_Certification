@@ -1,0 +1,925 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Instructor Deck</title>
+  <link rel="stylesheet" href="../reveal/dist/reveal.css" />
+    <link rel="stylesheet" href="../reveal/dist/theme/fonts/source-sans-pro/source-sans-pro.css" />
+    <link rel="stylesheet" href="../reveal/dist/theme/fonts/league-gothic/league-gothic.css" />
+  <style>
+        :root {
+            --bg-0: #0f1113;
+            --bg-1: #181d22;
+            --panel: rgba(8, 10, 12, 0.72);
+            --line: rgba(255, 255, 255, 0.22);
+            --text: #f3f1ed;
+            --muted: #c6c2ba;
+            --accent: #f0b351;
+        }
+        html,
+        body {
+            background: radial-gradient(circle at 15% 10%, #2f3a45 0%, var(--bg-0) 45%, #050607 100%);
+        }
+        .reveal {
+            color: var(--text);
+            font-family: "Source Sans Pro", "Helvetica Neue", Helvetica, sans-serif;
+            font-size: 34px;
+            text-shadow: none;
+        }
+        .reveal .slides {
+            text-align: left;
+        }
+        .reveal .slides section {
+            height: 100%;
+        }
+        .deck-slide {
+            padding: 0.4rem;
+        }
+        .slide-shell {
+            position: relative;
+            height: 100%;
+            border: 1px solid var(--line);
+            background: linear-gradient(150deg, var(--panel), rgba(10, 11, 13, 0.9));
+            border-radius: 16px;
+            backdrop-filter: blur(1px);
+            box-shadow: 0 32px 60px rgba(0, 0, 0, 0.45);
+            padding: 1rem 1rem 0.85rem;
+            overflow: hidden;
+            transform: translateY(16px) scale(0.986);
+            opacity: 0;
+            transition: transform 480ms ease, opacity 480ms ease;
+        }
+        .deck-slide.is-active .slide-shell {
+            transform: translateY(0) scale(1);
+            opacity: 1;
+        }
+        .slide-shell::before {
+            content: "";
+            position: absolute;
+            inset: -30% -20% auto auto;
+            width: 55%;
+            height: 46%;
+            pointer-events: none;
+            background: radial-gradient(circle, rgba(240, 179, 81, 0.2) 0%, rgba(240, 179, 81, 0) 72%);
+        }
+        .slide-header {
+            display: flex;
+            align-items: baseline;
+            justify-content: space-between;
+            gap: 1rem;
+            margin-bottom: 0.65rem;
+        }
+        .slide-title {
+            margin: 0;
+            line-height: 1;
+            font-family: "League Gothic", Impact, sans-serif;
+            letter-spacing: 0.02em;
+            font-size: clamp(1.2rem, 2.5vw, 2.3rem);
+            text-transform: uppercase;
+            color: #f6f4ef;
+        }
+        .chip-row {
+            display: flex;
+            gap: 0.35rem;
+            flex-wrap: wrap;
+            justify-content: flex-end;
+        }
+        .chip {
+            border: 1px solid rgba(255, 255, 255, 0.28);
+            border-radius: 999px;
+            padding: 0.08rem 0.48rem;
+            font-size: 0.38rem;
+            text-transform: uppercase;
+            letter-spacing: 0.12em;
+            color: var(--muted);
+        }
+        .frame {
+            border-radius: 12px;
+            border: 1px solid rgba(255, 255, 255, 0.2);
+            background: rgba(4, 5, 6, 0.64);
+            min-height: 82%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            overflow: hidden;
+        }
+        .frame-image {
+            padding: 0.1rem;
+        }
+    .slide-image {
+      width: 100%;
+            max-height: 75vh;
+      object-fit: contain;
+      display: block;
+      margin: 0 auto;
+    }
+    .slide-video {
+      width: 100%;
+            height: 72vh;
+      border: 0;
+            display: block;
+            background: #060709;
+        }
+        .frame-activity {
+            align-items: stretch;
+            justify-content: stretch;
+    }
+    .activity-card {
+            border: 1px solid rgba(240, 179, 81, 0.4);
+            border-radius: 12px;
+            padding: 1rem 1.1rem;
+            background: linear-gradient(180deg, rgba(26, 29, 33, 0.92), rgba(12, 13, 15, 0.9));
+            width: 100%;
+            height: 100%;
+            color: #eae7e0;
+        }
+        .activity-label {
+            margin: 0 0 0.6rem;
+            letter-spacing: 0.18em;
+            text-transform: uppercase;
+            font-size: 0.38rem;
+            color: var(--accent);
+        }
+        .activity-card ul {
+            margin: 0;
+            padding-left: 1.1rem;
+            line-height: 1.2;
+            font-size: 0.72rem;
+        }
+        .activity-card li + li {
+            margin-top: 0.4rem;
+        }
+        .reveal .controls,
+        .reveal .progress {
+            color: var(--accent);
+        }
+        @media (max-width: 900px) {
+            .reveal {
+                font-size: 24px;
+            }
+            .slide-shell {
+                padding: 0.7rem;
+            }
+            .slide-video {
+                height: 64vh;
+            }
+    }
+  </style>
+</head>
+<body>
+  <div class="reveal">
+    <div class="slides">
+<section data-slide-id="page-001" class="deck-slide slide-page-image tag-class7 tag-class1-5">
+<div class="slide-shell">
+<header class="slide-header"><h2 class="slide-title">Page 1</h2><div class="chip-row"><span class="chip">class7</span><span class="chip">class1-5</span></div></header>
+<div class="frame frame-image">
+<img src="../../assets/pages/page-001.png" alt="Page 1" class="slide-image" />
+</div>
+</div>
+<aside class="notes" data-markdown>
+<textarea data-template>
+Instructor notes:
+- Welcome and set safety expectations.
+Forklift callouts:
+- Emphasize site-specific hazards.
+Pause video cues:
+- N/A
+</textarea>
+</aside>
+</section>
+
+<section data-slide-id="page-002" class="deck-slide slide-page-image tag-class7 tag-class1-5">
+<div class="slide-shell">
+<header class="slide-header"><h2 class="slide-title">Page 2</h2><div class="chip-row"><span class="chip">class7</span><span class="chip">class1-5</span></div></header>
+<div class="frame frame-image">
+<img src="../../assets/pages/page-002.png" alt="Page 2" class="slide-image" />
+</div>
+</div>
+<aside class="notes" data-markdown>
+<textarea data-template>
+Instructor notes:
+- Confirm PPE before movement.
+Forklift callouts:
+- Mirror checks and horn use.
+Pause video cues:
+- N/A
+</textarea>
+</aside>
+</section>
+
+<section data-slide-id="page-003" class="deck-slide slide-page-image tag-class7 tag-class1-5">
+<div class="slide-shell">
+<header class="slide-header"><h2 class="slide-title">Page 3</h2><div class="chip-row"><span class="chip">class7</span><span class="chip">class1-5</span></div></header>
+<div class="frame frame-image">
+<img src="../../assets/pages/page-003.png" alt="Page 3" class="slide-image" />
+</div>
+</div>
+</section>
+
+<section data-slide-id="page-004" class="deck-slide slide-page-image tag-class7 tag-class1-5">
+<div class="slide-shell">
+<header class="slide-header"><h2 class="slide-title">Page 4</h2><div class="chip-row"><span class="chip">class7</span><span class="chip">class1-5</span></div></header>
+<div class="frame frame-image">
+<img src="../../assets/pages/page-004.png" alt="Page 4" class="slide-image" />
+</div>
+</div>
+</section>
+
+<section data-slide-id="page-005" class="deck-slide slide-page-image tag-class7 tag-class1-5">
+<div class="slide-shell">
+<header class="slide-header"><h2 class="slide-title">Page 5</h2><div class="chip-row"><span class="chip">class7</span><span class="chip">class1-5</span></div></header>
+<div class="frame frame-image">
+<img src="../../assets/pages/page-005.png" alt="Page 5" class="slide-image" />
+</div>
+</div>
+</section>
+
+<section data-slide-id="page-006" class="deck-slide slide-page-image tag-class7 tag-class1-5">
+<div class="slide-shell">
+<header class="slide-header"><h2 class="slide-title">Page 6</h2><div class="chip-row"><span class="chip">class7</span><span class="chip">class1-5</span></div></header>
+<div class="frame frame-image">
+<img src="../../assets/pages/page-006.png" alt="Page 6" class="slide-image" />
+</div>
+</div>
+</section>
+
+<section data-slide-id="page-007" class="deck-slide slide-page-image tag-class7 tag-class1-5">
+<div class="slide-shell">
+<header class="slide-header"><h2 class="slide-title">Page 7</h2><div class="chip-row"><span class="chip">class7</span><span class="chip">class1-5</span></div></header>
+<div class="frame frame-image">
+<img src="../../assets/pages/page-007.png" alt="Page 7" class="slide-image" />
+</div>
+</div>
+</section>
+
+<section data-slide-id="page-008" class="deck-slide slide-page-image tag-class7 tag-class1-5">
+<div class="slide-shell">
+<header class="slide-header"><h2 class="slide-title">Page 8</h2><div class="chip-row"><span class="chip">class7</span><span class="chip">class1-5</span></div></header>
+<div class="frame frame-image">
+<img src="../../assets/pages/page-008.png" alt="Page 8" class="slide-image" />
+</div>
+</div>
+</section>
+
+<section data-slide-id="page-009" class="deck-slide slide-page-image tag-class7 tag-class1-5">
+<div class="slide-shell">
+<header class="slide-header"><h2 class="slide-title">Page 9</h2><div class="chip-row"><span class="chip">class7</span><span class="chip">class1-5</span></div></header>
+<div class="frame frame-image">
+<img src="../../assets/pages/page-009.png" alt="Page 9" class="slide-image" />
+</div>
+</div>
+</section>
+
+<section data-slide-id="page-010" class="deck-slide slide-page-image tag-class7 tag-class1-5">
+<div class="slide-shell">
+<header class="slide-header"><h2 class="slide-title">Page 10</h2><div class="chip-row"><span class="chip">class7</span><span class="chip">class1-5</span></div></header>
+<div class="frame frame-image">
+<img src="../../assets/pages/page-010.png" alt="Page 10" class="slide-image" />
+</div>
+</div>
+</section>
+
+<section data-slide-id="page-011" class="deck-slide slide-page-image tag-class7 tag-class1-5">
+<div class="slide-shell">
+<header class="slide-header"><h2 class="slide-title">Page 11</h2><div class="chip-row"><span class="chip">class7</span><span class="chip">class1-5</span></div></header>
+<div class="frame frame-image">
+<img src="../../assets/pages/page-011.png" alt="Page 11" class="slide-image" />
+</div>
+</div>
+</section>
+
+<section data-slide-id="page-012" class="deck-slide slide-page-image tag-class7 tag-class1-5">
+<div class="slide-shell">
+<header class="slide-header"><h2 class="slide-title">Page 12</h2><div class="chip-row"><span class="chip">class7</span><span class="chip">class1-5</span></div></header>
+<div class="frame frame-image">
+<img src="../../assets/pages/page-012.png" alt="Page 12" class="slide-image" />
+</div>
+</div>
+</section>
+
+<section data-slide-id="page-013" class="deck-slide slide-page-image tag-class7 tag-class1-5">
+<div class="slide-shell">
+<header class="slide-header"><h2 class="slide-title">Page 13</h2><div class="chip-row"><span class="chip">class7</span><span class="chip">class1-5</span></div></header>
+<div class="frame frame-image">
+<img src="../../assets/pages/page-013.png" alt="Page 13" class="slide-image" />
+</div>
+</div>
+</section>
+
+<section data-slide-id="page-014" class="deck-slide slide-page-image tag-class7 tag-class1-5">
+<div class="slide-shell">
+<header class="slide-header"><h2 class="slide-title">Page 14</h2><div class="chip-row"><span class="chip">class7</span><span class="chip">class1-5</span></div></header>
+<div class="frame frame-image">
+<img src="../../assets/pages/page-014.png" alt="Page 14" class="slide-image" />
+</div>
+</div>
+</section>
+
+<section data-slide-id="page-015" class="deck-slide slide-page-image tag-class7 tag-class1-5">
+<div class="slide-shell">
+<header class="slide-header"><h2 class="slide-title">Page 15</h2><div class="chip-row"><span class="chip">class7</span><span class="chip">class1-5</span></div></header>
+<div class="frame frame-image">
+<img src="../../assets/pages/page-015.png" alt="Page 15" class="slide-image" />
+</div>
+</div>
+</section>
+
+<section data-slide-id="page-016" class="deck-slide slide-page-image tag-class7 tag-class1-5">
+<div class="slide-shell">
+<header class="slide-header"><h2 class="slide-title">Page 16</h2><div class="chip-row"><span class="chip">class7</span><span class="chip">class1-5</span></div></header>
+<div class="frame frame-image">
+<img src="../../assets/pages/page-016.png" alt="Page 16" class="slide-image" />
+</div>
+</div>
+</section>
+
+<section data-slide-id="page-017" class="deck-slide slide-page-image tag-class7 tag-class1-5">
+<div class="slide-shell">
+<header class="slide-header"><h2 class="slide-title">Page 17</h2><div class="chip-row"><span class="chip">class7</span><span class="chip">class1-5</span></div></header>
+<div class="frame frame-image">
+<img src="../../assets/pages/page-017.png" alt="Page 17" class="slide-image" />
+</div>
+</div>
+</section>
+
+<section data-slide-id="page-018" class="deck-slide slide-page-image tag-class7 tag-class1-5">
+<div class="slide-shell">
+<header class="slide-header"><h2 class="slide-title">Page 18</h2><div class="chip-row"><span class="chip">class7</span><span class="chip">class1-5</span></div></header>
+<div class="frame frame-image">
+<img src="../../assets/pages/page-018.png" alt="Page 18" class="slide-image" />
+</div>
+</div>
+</section>
+
+<section data-slide-id="page-019" class="deck-slide slide-page-image tag-class7 tag-class1-5">
+<div class="slide-shell">
+<header class="slide-header"><h2 class="slide-title">Page 19</h2><div class="chip-row"><span class="chip">class7</span><span class="chip">class1-5</span></div></header>
+<div class="frame frame-image">
+<img src="../../assets/pages/page-019.png" alt="Page 19" class="slide-image" />
+</div>
+</div>
+</section>
+
+<section data-slide-id="page-020" class="deck-slide slide-page-image tag-class7 tag-class1-5">
+<div class="slide-shell">
+<header class="slide-header"><h2 class="slide-title">Page 20</h2><div class="chip-row"><span class="chip">class7</span><span class="chip">class1-5</span></div></header>
+<div class="frame frame-image">
+<img src="../../assets/pages/page-020.png" alt="Page 20" class="slide-image" />
+</div>
+</div>
+</section>
+
+<section data-slide-id="page-021" class="deck-slide slide-page-image tag-class7 tag-class1-5">
+<div class="slide-shell">
+<header class="slide-header"><h2 class="slide-title">Page 21</h2><div class="chip-row"><span class="chip">class7</span><span class="chip">class1-5</span></div></header>
+<div class="frame frame-image">
+<img src="../../assets/pages/page-021.png" alt="Page 21" class="slide-image" />
+</div>
+</div>
+</section>
+
+<section data-slide-id="page-022" class="deck-slide slide-page-image tag-class7 tag-class1-5">
+<div class="slide-shell">
+<header class="slide-header"><h2 class="slide-title">Page 22</h2><div class="chip-row"><span class="chip">class7</span><span class="chip">class1-5</span></div></header>
+<div class="frame frame-image">
+<img src="../../assets/pages/page-022.png" alt="Page 22" class="slide-image" />
+</div>
+</div>
+</section>
+
+<section data-slide-id="page-023" class="deck-slide slide-page-image tag-class7 tag-class1-5">
+<div class="slide-shell">
+<header class="slide-header"><h2 class="slide-title">Page 23</h2><div class="chip-row"><span class="chip">class7</span><span class="chip">class1-5</span></div></header>
+<div class="frame frame-image">
+<img src="../../assets/pages/page-023.png" alt="Page 23" class="slide-image" />
+</div>
+</div>
+</section>
+
+<section data-slide-id="page-024" class="deck-slide slide-page-image tag-class7 tag-class1-5">
+<div class="slide-shell">
+<header class="slide-header"><h2 class="slide-title">Page 24</h2><div class="chip-row"><span class="chip">class7</span><span class="chip">class1-5</span></div></header>
+<div class="frame frame-image">
+<img src="../../assets/pages/page-024.png" alt="Page 24" class="slide-image" />
+</div>
+</div>
+</section>
+
+<section data-slide-id="page-025" class="deck-slide slide-page-image tag-class7 tag-class1-5">
+<div class="slide-shell">
+<header class="slide-header"><h2 class="slide-title">Page 25</h2><div class="chip-row"><span class="chip">class7</span><span class="chip">class1-5</span></div></header>
+<div class="frame frame-image">
+<img src="../../assets/pages/page-025.png" alt="Page 25" class="slide-image" />
+</div>
+</div>
+</section>
+
+<section data-slide-id="page-026" class="deck-slide slide-page-image tag-class7 tag-class1-5">
+<div class="slide-shell">
+<header class="slide-header"><h2 class="slide-title">Page 26</h2><div class="chip-row"><span class="chip">class7</span><span class="chip">class1-5</span></div></header>
+<div class="frame frame-image">
+<img src="../../assets/pages/page-026.png" alt="Page 26" class="slide-image" />
+</div>
+</div>
+</section>
+
+<section data-slide-id="page-027" class="deck-slide slide-page-image tag-class7 tag-class1-5">
+<div class="slide-shell">
+<header class="slide-header"><h2 class="slide-title">Page 27</h2><div class="chip-row"><span class="chip">class7</span><span class="chip">class1-5</span></div></header>
+<div class="frame frame-image">
+<img src="../../assets/pages/page-027.png" alt="Page 27" class="slide-image" />
+</div>
+</div>
+</section>
+
+<section data-slide-id="page-028" class="deck-slide slide-page-image tag-class7 tag-class1-5">
+<div class="slide-shell">
+<header class="slide-header"><h2 class="slide-title">Page 28</h2><div class="chip-row"><span class="chip">class7</span><span class="chip">class1-5</span></div></header>
+<div class="frame frame-image">
+<img src="../../assets/pages/page-028.png" alt="Page 28" class="slide-image" />
+</div>
+</div>
+</section>
+
+<section data-slide-id="page-029" class="deck-slide slide-page-image tag-class7 tag-class1-5">
+<div class="slide-shell">
+<header class="slide-header"><h2 class="slide-title">Page 29</h2><div class="chip-row"><span class="chip">class7</span><span class="chip">class1-5</span></div></header>
+<div class="frame frame-image">
+<img src="../../assets/pages/page-029.png" alt="Page 29" class="slide-image" />
+</div>
+</div>
+</section>
+
+<section data-slide-id="page-030" class="deck-slide slide-page-image tag-class7 tag-class1-5">
+<div class="slide-shell">
+<header class="slide-header"><h2 class="slide-title">Page 30</h2><div class="chip-row"><span class="chip">class7</span><span class="chip">class1-5</span></div></header>
+<div class="frame frame-image">
+<img src="../../assets/pages/page-030.png" alt="Page 30" class="slide-image" />
+</div>
+</div>
+</section>
+
+<section data-slide-id="page-031" class="deck-slide slide-page-image tag-class7 tag-class1-5">
+<div class="slide-shell">
+<header class="slide-header"><h2 class="slide-title">Page 31</h2><div class="chip-row"><span class="chip">class7</span><span class="chip">class1-5</span></div></header>
+<div class="frame frame-image">
+<img src="../../assets/pages/page-031.png" alt="Page 31" class="slide-image" />
+</div>
+</div>
+</section>
+
+<section data-slide-id="page-032" class="deck-slide slide-page-image tag-class7 tag-class1-5">
+<div class="slide-shell">
+<header class="slide-header"><h2 class="slide-title">Page 32</h2><div class="chip-row"><span class="chip">class7</span><span class="chip">class1-5</span></div></header>
+<div class="frame frame-image">
+<img src="../../assets/pages/page-032.png" alt="Page 32" class="slide-image" />
+</div>
+</div>
+</section>
+
+<section data-slide-id="page-033" class="deck-slide slide-page-image tag-class7 tag-class1-5">
+<div class="slide-shell">
+<header class="slide-header"><h2 class="slide-title">Page 33</h2><div class="chip-row"><span class="chip">class7</span><span class="chip">class1-5</span></div></header>
+<div class="frame frame-image">
+<img src="../../assets/pages/page-033.png" alt="Page 33" class="slide-image" />
+</div>
+</div>
+</section>
+
+<section data-slide-id="page-034" class="deck-slide slide-page-image tag-class7 tag-class1-5">
+<div class="slide-shell">
+<header class="slide-header"><h2 class="slide-title">Page 34</h2><div class="chip-row"><span class="chip">class7</span><span class="chip">class1-5</span></div></header>
+<div class="frame frame-image">
+<img src="../../assets/pages/page-034.png" alt="Page 34" class="slide-image" />
+</div>
+</div>
+</section>
+
+<section data-slide-id="page-035" class="deck-slide slide-page-image tag-class7 tag-class1-5">
+<div class="slide-shell">
+<header class="slide-header"><h2 class="slide-title">Page 35</h2><div class="chip-row"><span class="chip">class7</span><span class="chip">class1-5</span></div></header>
+<div class="frame frame-image">
+<img src="../../assets/pages/page-035.png" alt="Page 35" class="slide-image" />
+</div>
+</div>
+</section>
+
+<section data-slide-id="page-036" class="deck-slide slide-page-image tag-class7 tag-class1-5">
+<div class="slide-shell">
+<header class="slide-header"><h2 class="slide-title">Page 36</h2><div class="chip-row"><span class="chip">class7</span><span class="chip">class1-5</span></div></header>
+<div class="frame frame-image">
+<img src="../../assets/pages/page-036.png" alt="Page 36" class="slide-image" />
+</div>
+</div>
+</section>
+
+<section data-slide-id="page-037" class="deck-slide slide-page-image tag-class7 tag-class1-5">
+<div class="slide-shell">
+<header class="slide-header"><h2 class="slide-title">Page 37</h2><div class="chip-row"><span class="chip">class7</span><span class="chip">class1-5</span></div></header>
+<div class="frame frame-image">
+<img src="../../assets/pages/page-037.png" alt="Page 37" class="slide-image" />
+</div>
+</div>
+</section>
+
+<section data-slide-id="page-038" class="deck-slide slide-page-image tag-class7 tag-class1-5">
+<div class="slide-shell">
+<header class="slide-header"><h2 class="slide-title">Page 38</h2><div class="chip-row"><span class="chip">class7</span><span class="chip">class1-5</span></div></header>
+<div class="frame frame-image">
+<img src="../../assets/pages/page-038.png" alt="Page 38" class="slide-image" />
+</div>
+</div>
+</section>
+
+<section data-slide-id="page-039" class="deck-slide slide-page-image tag-class7 tag-class1-5">
+<div class="slide-shell">
+<header class="slide-header"><h2 class="slide-title">Page 39</h2><div class="chip-row"><span class="chip">class7</span><span class="chip">class1-5</span></div></header>
+<div class="frame frame-image">
+<img src="../../assets/pages/page-039.png" alt="Page 39" class="slide-image" />
+</div>
+</div>
+</section>
+
+<section data-slide-id="page-040" class="deck-slide slide-page-image tag-class7 tag-class1-5">
+<div class="slide-shell">
+<header class="slide-header"><h2 class="slide-title">Page 40</h2><div class="chip-row"><span class="chip">class7</span><span class="chip">class1-5</span></div></header>
+<div class="frame frame-image">
+<img src="../../assets/pages/page-040.png" alt="Page 40" class="slide-image" />
+</div>
+</div>
+</section>
+
+<section data-slide-id="page-041" class="deck-slide slide-page-image tag-class7 tag-class1-5">
+<div class="slide-shell">
+<header class="slide-header"><h2 class="slide-title">Page 41</h2><div class="chip-row"><span class="chip">class7</span><span class="chip">class1-5</span></div></header>
+<div class="frame frame-image">
+<img src="../../assets/pages/page-041.png" alt="Page 41" class="slide-image" />
+</div>
+</div>
+</section>
+
+<section data-slide-id="page-042" class="deck-slide slide-page-image tag-class7 tag-class1-5">
+<div class="slide-shell">
+<header class="slide-header"><h2 class="slide-title">Page 42</h2><div class="chip-row"><span class="chip">class7</span><span class="chip">class1-5</span></div></header>
+<div class="frame frame-image">
+<img src="../../assets/pages/page-042.png" alt="Page 42" class="slide-image" />
+</div>
+</div>
+</section>
+
+<section data-slide-id="page-043" class="deck-slide slide-page-image tag-class7 tag-class1-5">
+<div class="slide-shell">
+<header class="slide-header"><h2 class="slide-title">Page 43</h2><div class="chip-row"><span class="chip">class7</span><span class="chip">class1-5</span></div></header>
+<div class="frame frame-image">
+<img src="../../assets/pages/page-043.png" alt="Page 43" class="slide-image" />
+</div>
+</div>
+</section>
+
+<section data-slide-id="page-044" class="deck-slide slide-page-image tag-class7 tag-class1-5">
+<div class="slide-shell">
+<header class="slide-header"><h2 class="slide-title">Page 44</h2><div class="chip-row"><span class="chip">class7</span><span class="chip">class1-5</span></div></header>
+<div class="frame frame-image">
+<img src="../../assets/pages/page-044.png" alt="Page 44" class="slide-image" />
+</div>
+</div>
+</section>
+
+<section data-slide-id="page-045" class="deck-slide slide-page-image tag-class7 tag-class1-5">
+<div class="slide-shell">
+<header class="slide-header"><h2 class="slide-title">Page 45</h2><div class="chip-row"><span class="chip">class7</span><span class="chip">class1-5</span></div></header>
+<div class="frame frame-image">
+<img src="../../assets/pages/page-045.png" alt="Page 45" class="slide-image" />
+</div>
+</div>
+</section>
+
+<section data-slide-id="page-046" class="deck-slide slide-page-image tag-class7 tag-class1-5">
+<div class="slide-shell">
+<header class="slide-header"><h2 class="slide-title">Page 46</h2><div class="chip-row"><span class="chip">class7</span><span class="chip">class1-5</span></div></header>
+<div class="frame frame-image">
+<img src="../../assets/pages/page-046.png" alt="Page 46" class="slide-image" />
+</div>
+</div>
+</section>
+
+<section data-slide-id="page-047" class="deck-slide slide-page-image tag-class7 tag-class1-5">
+<div class="slide-shell">
+<header class="slide-header"><h2 class="slide-title">Page 47</h2><div class="chip-row"><span class="chip">class7</span><span class="chip">class1-5</span></div></header>
+<div class="frame frame-image">
+<img src="../../assets/pages/page-047.png" alt="Page 47" class="slide-image" />
+</div>
+</div>
+</section>
+
+<section data-slide-id="page-048" class="deck-slide slide-page-image tag-class7 tag-class1-5">
+<div class="slide-shell">
+<header class="slide-header"><h2 class="slide-title">Page 48</h2><div class="chip-row"><span class="chip">class7</span><span class="chip">class1-5</span></div></header>
+<div class="frame frame-image">
+<img src="../../assets/pages/page-048.png" alt="Page 48" class="slide-image" />
+</div>
+</div>
+</section>
+
+<section data-slide-id="page-049" class="deck-slide slide-page-image tag-class7 tag-class1-5">
+<div class="slide-shell">
+<header class="slide-header"><h2 class="slide-title">Page 49</h2><div class="chip-row"><span class="chip">class7</span><span class="chip">class1-5</span></div></header>
+<div class="frame frame-image">
+<img src="../../assets/pages/page-049.png" alt="Page 49" class="slide-image" />
+</div>
+</div>
+</section>
+
+<section data-slide-id="page-050" class="deck-slide slide-page-image tag-class7 tag-class1-5">
+<div class="slide-shell">
+<header class="slide-header"><h2 class="slide-title">Page 50</h2><div class="chip-row"><span class="chip">class7</span><span class="chip">class1-5</span></div></header>
+<div class="frame frame-image">
+<img src="../../assets/pages/page-050.png" alt="Page 50" class="slide-image" />
+</div>
+</div>
+</section>
+
+<section data-slide-id="page-051" class="deck-slide slide-page-image tag-class7 tag-class1-5">
+<div class="slide-shell">
+<header class="slide-header"><h2 class="slide-title">Page 51</h2><div class="chip-row"><span class="chip">class7</span><span class="chip">class1-5</span></div></header>
+<div class="frame frame-image">
+<img src="../../assets/pages/page-051.png" alt="Page 51" class="slide-image" />
+</div>
+</div>
+</section>
+
+<section data-slide-id="page-052" class="deck-slide slide-page-image tag-class7 tag-class1-5">
+<div class="slide-shell">
+<header class="slide-header"><h2 class="slide-title">Page 52</h2><div class="chip-row"><span class="chip">class7</span><span class="chip">class1-5</span></div></header>
+<div class="frame frame-image">
+<img src="../../assets/pages/page-052.png" alt="Page 52" class="slide-image" />
+</div>
+</div>
+</section>
+
+<section data-slide-id="page-053" class="deck-slide slide-page-image tag-class7 tag-class1-5">
+<div class="slide-shell">
+<header class="slide-header"><h2 class="slide-title">Page 53</h2><div class="chip-row"><span class="chip">class7</span><span class="chip">class1-5</span></div></header>
+<div class="frame frame-image">
+<img src="../../assets/pages/page-053.png" alt="Page 53" class="slide-image" />
+</div>
+</div>
+</section>
+
+<section data-slide-id="page-054" class="deck-slide slide-page-image tag-class7 tag-class1-5">
+<div class="slide-shell">
+<header class="slide-header"><h2 class="slide-title">Page 54</h2><div class="chip-row"><span class="chip">class7</span><span class="chip">class1-5</span></div></header>
+<div class="frame frame-image">
+<img src="../../assets/pages/page-054.png" alt="Page 54" class="slide-image" />
+</div>
+</div>
+</section>
+
+<section data-slide-id="page-055" class="deck-slide slide-page-image tag-class7 tag-class1-5">
+<div class="slide-shell">
+<header class="slide-header"><h2 class="slide-title">Page 55</h2><div class="chip-row"><span class="chip">class7</span><span class="chip">class1-5</span></div></header>
+<div class="frame frame-image">
+<img src="../../assets/pages/page-055.png" alt="Page 55" class="slide-image" />
+</div>
+</div>
+</section>
+
+<section data-slide-id="page-056" class="deck-slide slide-page-image tag-class7 tag-class1-5">
+<div class="slide-shell">
+<header class="slide-header"><h2 class="slide-title">Page 56</h2><div class="chip-row"><span class="chip">class7</span><span class="chip">class1-5</span></div></header>
+<div class="frame frame-image">
+<img src="../../assets/pages/page-056.png" alt="Page 56" class="slide-image" />
+</div>
+</div>
+</section>
+
+<section data-slide-id="page-057" class="deck-slide slide-page-image tag-class7 tag-class1-5">
+<div class="slide-shell">
+<header class="slide-header"><h2 class="slide-title">Page 57</h2><div class="chip-row"><span class="chip">class7</span><span class="chip">class1-5</span></div></header>
+<div class="frame frame-image">
+<img src="../../assets/pages/page-057.png" alt="Page 57" class="slide-image" />
+</div>
+</div>
+</section>
+
+<section data-slide-id="page-058" class="deck-slide slide-page-image tag-class7 tag-class1-5">
+<div class="slide-shell">
+<header class="slide-header"><h2 class="slide-title">Page 58</h2><div class="chip-row"><span class="chip">class7</span><span class="chip">class1-5</span></div></header>
+<div class="frame frame-image">
+<img src="../../assets/pages/page-058.png" alt="Page 58" class="slide-image" />
+</div>
+</div>
+</section>
+
+<section data-slide-id="page-059" class="deck-slide slide-page-image tag-class7 tag-class1-5">
+<div class="slide-shell">
+<header class="slide-header"><h2 class="slide-title">Page 59</h2><div class="chip-row"><span class="chip">class7</span><span class="chip">class1-5</span></div></header>
+<div class="frame frame-image">
+<img src="../../assets/pages/page-059.png" alt="Page 59" class="slide-image" />
+</div>
+</div>
+</section>
+
+<section data-slide-id="page-060" class="deck-slide slide-page-image tag-class7 tag-class1-5">
+<div class="slide-shell">
+<header class="slide-header"><h2 class="slide-title">Page 60</h2><div class="chip-row"><span class="chip">class7</span><span class="chip">class1-5</span></div></header>
+<div class="frame frame-image">
+<img src="../../assets/pages/page-060.png" alt="Page 60" class="slide-image" />
+</div>
+</div>
+</section>
+
+<section data-slide-id="page-061" class="deck-slide slide-page-image tag-class7 tag-class1-5">
+<div class="slide-shell">
+<header class="slide-header"><h2 class="slide-title">Page 61</h2><div class="chip-row"><span class="chip">class7</span><span class="chip">class1-5</span></div></header>
+<div class="frame frame-image">
+<img src="../../assets/pages/page-061.png" alt="Page 61" class="slide-image" />
+</div>
+</div>
+</section>
+
+<section data-slide-id="page-062" class="deck-slide slide-page-image tag-class7 tag-class1-5">
+<div class="slide-shell">
+<header class="slide-header"><h2 class="slide-title">Page 62</h2><div class="chip-row"><span class="chip">class7</span><span class="chip">class1-5</span></div></header>
+<div class="frame frame-image">
+<img src="../../assets/pages/page-062.png" alt="Page 62" class="slide-image" />
+</div>
+</div>
+</section>
+
+<section data-slide-id="page-063" class="deck-slide slide-page-image tag-class7 tag-class1-5">
+<div class="slide-shell">
+<header class="slide-header"><h2 class="slide-title">Page 63</h2><div class="chip-row"><span class="chip">class7</span><span class="chip">class1-5</span></div></header>
+<div class="frame frame-image">
+<img src="../../assets/pages/page-063.png" alt="Page 63" class="slide-image" />
+</div>
+</div>
+</section>
+
+<section data-slide-id="page-064" class="deck-slide slide-page-image tag-class7 tag-class1-5">
+<div class="slide-shell">
+<header class="slide-header"><h2 class="slide-title">Page 64</h2><div class="chip-row"><span class="chip">class7</span><span class="chip">class1-5</span></div></header>
+<div class="frame frame-image">
+<img src="../../assets/pages/page-064.png" alt="Page 64" class="slide-image" />
+</div>
+</div>
+</section>
+
+<section data-slide-id="page-065" class="deck-slide slide-page-image tag-class7 tag-class1-5">
+<div class="slide-shell">
+<header class="slide-header"><h2 class="slide-title">Page 65</h2><div class="chip-row"><span class="chip">class7</span><span class="chip">class1-5</span></div></header>
+<div class="frame frame-image">
+<img src="../../assets/pages/page-065.png" alt="Page 65" class="slide-image" />
+</div>
+</div>
+</section>
+
+<section data-slide-id="page-066" class="deck-slide slide-page-image tag-class7 tag-class1-5">
+<div class="slide-shell">
+<header class="slide-header"><h2 class="slide-title">Page 66</h2><div class="chip-row"><span class="chip">class7</span><span class="chip">class1-5</span></div></header>
+<div class="frame frame-image">
+<img src="../../assets/pages/page-066.png" alt="Page 66" class="slide-image" />
+</div>
+</div>
+</section>
+
+<section data-slide-id="page-067" class="deck-slide slide-page-image tag-class7 tag-class1-5">
+<div class="slide-shell">
+<header class="slide-header"><h2 class="slide-title">Page 67</h2><div class="chip-row"><span class="chip">class7</span><span class="chip">class1-5</span></div></header>
+<div class="frame frame-image">
+<img src="../../assets/pages/page-067.png" alt="Page 67" class="slide-image" />
+</div>
+</div>
+</section>
+
+<section data-slide-id="page-068" class="deck-slide slide-page-image tag-class7 tag-class1-5">
+<div class="slide-shell">
+<header class="slide-header"><h2 class="slide-title">Page 68</h2><div class="chip-row"><span class="chip">class7</span><span class="chip">class1-5</span></div></header>
+<div class="frame frame-image">
+<img src="../../assets/pages/page-068.png" alt="Page 68" class="slide-image" />
+</div>
+</div>
+</section>
+
+<section data-slide-id="page-069" class="deck-slide slide-page-image tag-class7 tag-class1-5">
+<div class="slide-shell">
+<header class="slide-header"><h2 class="slide-title">Page 69</h2><div class="chip-row"><span class="chip">class7</span><span class="chip">class1-5</span></div></header>
+<div class="frame frame-image">
+<img src="../../assets/pages/page-069.png" alt="Page 69" class="slide-image" />
+</div>
+</div>
+</section>
+
+<section data-slide-id="page-070" class="deck-slide slide-page-image tag-class7 tag-class1-5">
+<div class="slide-shell">
+<header class="slide-header"><h2 class="slide-title">Page 70</h2><div class="chip-row"><span class="chip">class7</span><span class="chip">class1-5</span></div></header>
+<div class="frame frame-image">
+<img src="../../assets/pages/page-070.png" alt="Page 70" class="slide-image" />
+</div>
+</div>
+</section>
+
+<section data-slide-id="page-071" class="deck-slide slide-page-image tag-class7 tag-class1-5">
+<div class="slide-shell">
+<header class="slide-header"><h2 class="slide-title">Page 71</h2><div class="chip-row"><span class="chip">class7</span><span class="chip">class1-5</span></div></header>
+<div class="frame frame-image">
+<img src="../../assets/pages/page-071.png" alt="Page 71" class="slide-image" />
+</div>
+</div>
+</section>
+
+<section data-slide-id="page-072" class="deck-slide slide-page-image tag-class7 tag-class1-5">
+<div class="slide-shell">
+<header class="slide-header"><h2 class="slide-title">Page 72</h2><div class="chip-row"><span class="chip">class7</span><span class="chip">class1-5</span></div></header>
+<div class="frame frame-image">
+<img src="../../assets/pages/page-072.png" alt="Page 72" class="slide-image" />
+</div>
+</div>
+</section>
+
+<section data-slide-id="page-073" class="deck-slide slide-page-image tag-class7 tag-class1-5">
+<div class="slide-shell">
+<header class="slide-header"><h2 class="slide-title">Page 73</h2><div class="chip-row"><span class="chip">class7</span><span class="chip">class1-5</span></div></header>
+<div class="frame frame-image">
+<img src="../../assets/pages/page-073.png" alt="Page 73" class="slide-image" />
+</div>
+</div>
+</section>
+
+<section data-slide-id="page-074" class="deck-slide slide-page-image tag-class7 tag-class1-5">
+<div class="slide-shell">
+<header class="slide-header"><h2 class="slide-title">Page 74</h2><div class="chip-row"><span class="chip">class7</span><span class="chip">class1-5</span></div></header>
+<div class="frame frame-image">
+<img src="../../assets/pages/page-074.png" alt="Page 74" class="slide-image" />
+</div>
+</div>
+</section>
+
+<section data-slide-id="video-sample-file" class="deck-slide slide-activity">
+<div class="slide-shell">
+<header class="slide-header"><h2 class="slide-title">Video Placeholder</h2><div class="chip-row"></div></header>
+<div class="frame frame-activity">
+<div class="activity-card">
+<p class="activity-label">Instructor-led activity</p>
+<ul><li>Replace this slide with a real local video-file source</li></ul>
+</div>
+</div>
+</div>
+<aside class="notes" data-markdown>
+<textarea data-template>
+Instructor notes:
+- Introduce the clip context before play.
+Forklift callouts:
+- Tie observations to operating policy.
+Pause video cues:
+- Pause at marked cue for discussion.
+</textarea>
+</aside>
+</section>
+
+<section data-slide-id="activity-sample" data-timing="7m" class="deck-slide slide-activity">
+<div class="slide-shell">
+<header class="slide-header"><h2 class="slide-title">Sample Activity: Hazard Spotting</h2><div class="chip-row"></div></header>
+<div class="frame frame-activity">
+<div class="activity-card">
+<p class="activity-label">Instructor-led activity</p>
+<ul><li>Pair learners and call on 2 volunteers</li></ul>
+</div>
+</div>
+</div>
+</section>
+    </div>
+  </div>
+
+  <script src="../reveal/dist/reveal.js"></script>
+  <script src="../reveal/plugin/notes/notes.js"></script>
+  <script src="../reveal/plugin/markdown/markdown.js"></script>
+  <script>
+        function markActiveSlide() {
+            document.querySelectorAll('.deck-slide').forEach((slide) => slide.classList.remove('is-active'));
+            const current = Reveal.getCurrentSlide();
+            if (current && current.classList.contains('deck-slide')) {
+                // Stagger helps each slide feel intentionally entered instead of snapping.
+                setTimeout(() => current.classList.add('is-active'), 30);
+            }
+        }
+
+    Reveal.initialize({
+      hash: true,
+      controls: true,
+      progress: true,
+            center: false,
+            width: 1600,
+            height: 900,
+            margin: 0.02,
+            transition: 'fade',
+            backgroundTransition: 'fade',
+      plugins: [ RevealMarkdown, RevealNotes ]
+    });
+
+        Reveal.on('ready', markActiveSlide);
+        Reveal.on('slidechanged', markActiveSlide);
+  </script>
+</body>
+</html>

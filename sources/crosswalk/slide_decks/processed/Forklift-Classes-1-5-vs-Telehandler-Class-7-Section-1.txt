@@ -1,0 +1,250 @@
+Forklift (Classes 135) &
+Telehandler (Class 7) Operator
+Training
+This training module offers comprehensive guidance for operating forklifts
+(Classes 1-5) and telehandlers (Class 7). It covers essential safety,
+operational procedures, and regulatory requirements. The module
+highlights key similarities and differences in operator training and practical
+application, ensuring alignment with industry best practices and standards.
+COURSE OVERVIEW:
+SECTION 1
+This section establishes the foundation for forklift (Classes 135) and telehandler (Class 7) training. Designed to meet OSHA
+1910.178 standards 4 certification valid for 3 years.
+In this section, we will cover:
+01
+
+Learning Objectives
+
+02
+
+Course Requirements
+
+03
+
+Practical Exercises
+
+04
+
+Common Challenges
+
+05
+
+Knowledge Verification
+
+06
+
+Evaluation Standards
+Learning Outcomes Overview
+Both equipment types share core safety principles 4 but require distinct operational knowledge.
+
+
+
+
+  Shared Safety Principles                                          Operational Differentiators
+      Understand equipment purpose and function.                       Mast vs. telescoping boom characteristics.
+      Apply safe operating procedures.                                 Data plate vs. load chart interpretation.
+      Use safety devices and PPE correctly.                            Flat-floor vs. rough-terrain setup considerations.
+      Demonstrate practical understanding under                        Visibility differences (mast vs. boom).
+      supervision.                                                     Unique stability footprints per class.
+Class-Specific Learning Outcomes
+Classes 1-5 (Forklifts)                  Class 7 (Telehandlers)
+   Identify equipment class and rated       Interpret load charts for variable boom
+   capacity from data plate                 positions
+   Perform pre-operation inspection of      Perform pre-operation inspection of
+   mast, forks, and controls                boom, outriggers, and hydraulics
+   Execute safe load handling on level      Execute safe load handling on rough
+   surfaces                                 terrain
+   Navigate warehouse environments          Navigate construction sites with terrain
+   with proper visibility techniques        awareness
+   Demonstrate stability triangle           Demonstrate load moment indicator
+   principles                               (LMI) usage
+   Apply capacity derating for              Apply capacity calculations for boom
+   attachments                              extension and angle
+Equipment Overview: Classes 1-5 vs. Class 7
+ Feature                Classes 1-5 Forklifts                      Class 7 Telehandlers
+
+ Primary Use            Warehouse & industrial facilities          Construction & outdoor job sites
+
+ Operating Surface      Smooth, level concrete                     Rough, uneven terrain
+
+ Steering               Rear-wheel (tight turns)                   Front-wheel or 4-wheel modes
+
+ Load Handling          Vertical mast with fixed forks             Telescoping boom with attachments
+
+ Visibility Challenge   Elevated loads block forward view          Boom extension creates blind spots
+
+ Capacity Reference     Data plate (fixed capacity)                Load chart (variable by boom position)
+
+ Typical Environment    Indoor, confined with pedestrian traffic   Outdoor, open areas with ground
+                                                                   hazards
+Training Requirements & Process
+Classes 1-5 Training                                                              Class 7 Training
+Required Components:                                                              Required Components:
+
+1.   Formal classroom instruction (equipment design, hazards, controls)           1.   Formal classroom instruction (load charts, stability, terrain assessment)
+2. Practical training under supervision (hands-on operation)                      2. Practical training under supervision (boom operation, rough terrain)
+3. Workplace-specific evaluation (site hazards, traffic patterns)                 3. Workplace-specific evaluation (site conditions, load scenarios)
+
+Estimated Time: 6-8 hours total (3-4 hours classroom, 3-4 hours practical)        Estimated Time: 8-10 hours total (4-5 hours classroom, 4-5 hours practical)
+
+Evaluation Method:                                                                Evaluation Method:
+
+     Written knowledge test                                                            Written knowledge test
+
+     Observed practical demonstration                                                  Observed practical demonstration with load chart calculations
+
+
+     Workplace performance assessment                                                  Workplace performance assessment
+
+
+
+         Common to Both: OSHA 1910.178 requires refresher training every 3 years or when unsafe operation is observed.
+Classes 1-5: Instructor Guidelines &
+Safety Focus
+  Highlighting Key Differences:
+  Highlight differences between Classes 1-5 (indoor, smooth floors) and Classes 6-7
+  (rough terrain).
+
+
+
+  Critical Safety Awareness:
+  Emphasize tail swing awareness in tight spaces.
+
+
+
+  Warehouse Hazard Discussion:
+  Discuss common hazards in warehouse environments (pedestrians, shelving, blind
+  corners).
+
+
+
+  Practical Demonstrations:
+  Provide practical demonstrations of stability triangle principles for Class 1-5 PITs.
+Classes 1-5: Key Operating Environments
+ Warehouses & Facilities
+ Large indoor storage with racking and equipment.
+
+
+
+ Smooth Concrete Floors
+ Level surfaces optimized for forklift stability.
+
+
+
+ Confined Spaces
+ Tight aisles requiring precise maneuvering.
+
+
+
+ Pedestrian Traffic Zones
+ Mixed-use areas demanding constant awareness.
+
+
+
+ Indoor Environments
+ Enclosed spaces with ventilation and lighting considerations.
+Instructor Scripts & Demo/Lab Steps
+Classes 1-5: Instructor Script                        Class 7: Instructor Script
+  State rule, reason, and consequence.                  Guide through: Position, brake, verify chart/zone, raise retracted, extend to place,
+  Narrate each sequence deliberately.                   retract to travel.
+  Reinforce visibility and speed control.               Emphasize: Never fine-position while rolling.
+
+
+       Brief the Operation                                   Brief Chart Lines & Procedures
+
+
+
+
+          Demonstrate Slowly & Narrate                          Demonstrate Retract/Extend Placement
+
+
+
+
+              Student Attempts with Coaching                        Students Practice with Spotter & Barricades
+
+
+
+
+                  Debrief & Repeat Until Proficient                     Debrief Performance
+Common Mistakes & Coaching Cues
+Classes 1-5                                                           Class 7
+Common Mistakes                                                       Common Mistakes
+
+  Rushing controls                                                      Driving with boom elevated
+
+
+
+  Ignoring data plate                                                   Incorrect chart/attachment usage
+
+
+
+  Poor visibility choices                                               Compensating machine sway
+
+
+Coaching Cues                                                         Coaching Cues
+
+  Keep forks low                                                        Retract boom before moving
+
+
+
+  Use horn for communication                                            Match chart to attachment
+
+
+
+  Reverse when visibility is blocked                                    Level with sway only before lifting
+
+
+
+       Universal Cue: Maintain deliberate pace 4 STOP on confusion.
+Forklift Assessment & Understanding Checks
+Classes 1-5 Assessment Criteria:                                 Class 7 Assessment Criteria:
+  Apply rules without prompts                                      Use correct chart for attachment
+
+  Maintain safe posture and speeds                                 Respect operational zone and limits
+
+  Stop when unsure                                                 Position first, call STOP when needed
+
+  Use data plate correctly                                         Retract before moving
+
+Classes 1-5 Understanding Checks:                                  Avoid elevated travel
+  Restate rule and rationale
+                                                                 Class 7 Understanding Checks:
+  Point to plate/indicator                                         Read capacity at height/reach
+
+  Answer mini-scenarios correctly                                  Identify operational zone
+
+                                                                   Describe actions in wind, slope, or blocked visibility
+
+
+
+        Instructor Notes:
+        Use scenario-based questions to assess understanding.
+
+        Observe actual performance, not just verbal responses.
+        Document specific deficiencies for remedial training.
+Required Materials & Estimated Time
+Classes 1-5 Materials:                                      Class 7 Materials:
+  Forklift                                                     Telehandler (with attachment)
+
+  Data plate reference                                         Load charts (for each attachment)
+
+  Cones                                                        Cones & barricades
+
+  Training checklist                                           Spotter vests, taglines
+
+                                                               PPE
+
+                                                               Training checklist
+
+
+Estimated Time:
+
+
+
+
+                       5320 min                5325 min                                            +10325 min
+
+
+                           Classes 1-5              Class 7                                          New Students
+                       Classroom + Practical    Incl. Chart Drills                                  Extra Practical Time
+

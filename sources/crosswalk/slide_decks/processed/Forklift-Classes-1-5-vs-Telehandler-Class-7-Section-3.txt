@@ -1,0 +1,1014 @@
+Forklift (Classes 135) vs
+Telehandler (Class 7) 4
+Operator Training
+Aligned to Genie Lift Pro Telehandler Trainer's Guide 4
+Sections 3
+SECTION 3: FIVE PRINCIPLES 4
+Introduction
+Safe powered industrial truck operation relies on five foundational principles:
+
+     Stability, visibility, capacity, positioning, and awareness.
+     Apply across all equipment classes, including forklifts and telehandlers.
+     Protect operators, coworkers, and property.
+     Core concepts remain constant, despite specific equipment application differences.
+
+The five official principles of safe operation from the Genie Lift Pro Telehandler Trainer's
+Guide are:
+
+1.   Avoid hazardous situations
+2. Always perform a pre-operation inspection
+3. Always perform function tests prior to use
+4. Inspect the workplace
+5. Only use the machine as it was intended
+     Operators are responsible for learning and practicing these principles.
+     Refer to the training manual and machine's operator's manual for details.
+     Each principle will be discussed in depth.
+SECTION 3: FIVE PRINCIPLES 4 Awareness Principle
+Classes 135                                                            Class 7
+ Maintain constant **360-degree awareness**.                             **Construction site awareness** is vital.
+ Scan intersections: **slow down** and **sound horn** at blind           **Terrain assessment** for uneven ground.
+ corners, aisles, and doorways.                                          Identify potential **overhead hazards**.
+ **Yield to pedestrians**; make **eye contact** before proceeding.       **Job site coordination** is crucial for telehandlers.
+ Be aware of **tail swing** on rear-wheel-steered forklifts.
+ Rear of truck swings opposite to front wheels, potentially striking
+ personnel or racking.
+ **Always check behind and to the sides** before turning.
+ Recognize hazards: wet floors, damaged surfaces, **overhead
+ obstructions** (sprinkler heads, lighting).
+ Identify racking damage, unsecured loads, and other equipment in
+ the area.
+ **Continuously reassess conditions**; hazards change during the
+ shift.
+SECTION 3: FIVE
+PRINCIPLES 4 Positioning
+Principle
+Classes 135                  Class 7
+   Proper **truck               **Telehandler
+   positioning**                positioning**
+   **Approach angles** for      **Boom angle
+   loads                        optimization**
+   **Load pickup                **Outrigger
+   techniques**                 deployment**
+   **Placement accuracy**       **Ground conditions
+                                assessment**
+                                **Precise load
+                                placement**
+SECTION 3: FIVE PRINCIPLES 4
+Capacity Principle
+Classes 135                             Class 7
+Data Plate Rules                           Interpret the load chart before
+                                           every pick
+   Every forklift has a data plate 4
+   never exceed its rated capacity         Understand boom extension
+                                           effects on capacity
+   Capacity rated at standard 24-
+   inch load center                        Account for all attachment
+                                           weights
+   Data plate lists mast type, max
+   lift height, and attachments            Variable capacity changes with
+                                           boom angle and extension
+   Unlisted attachments require a
+   new data plate before use
+Weight & Load Center
+   Exceeding the 24-inch load
+   center reduces rated capacity
+   Always verify weight 4 check
+   shipping docs, pallet markings, or
+   use a scale
+   Never estimate load weight
+   Include rigging, attachments, and
+   pallet weight in total
+SECTION 3: FIVE PRINCIPLES 4 Visibility
+Principle
+Classes 135                                      Class 7 (Telehandlers)
+Obstructed Forward Vision                        Telehandler visibility considerations include:
+   Masts block forward view, especially when         Boom positioning and extension affect
+   elevated.                                         sight lines.
+   If load blocks vision   ³ travel in reverse       Attachment obstruction of forward view.
+   (load trailing).
+                                                     Visibility challenges during elevated work.
+   Use a spotter if reverse travel isn't
+                                                     Rough terrain sight line management.
+   possible.
+   Never peer around a load while moving
+   forward.
+
+Mirror & Awareness Rules
+   Use convex mirrors at aisle intersections.
+   Always do a physical head-check 4 don't
+   rely on mirrors alone.
+   Sound horn before reversing; slow down
+   in congested areas.
+SECTION 3: FIVE PRINCIPLES 4 Stability
+Principle
+Classes 135                                     Class 7 (Telehandlers)
+(Counterbalance Lift                              Boom positioning affects stability.
+
+Trucks)                                           Load moment management is essential.
+                                                  Proper outrigger use is vital.
+The Stability Triangle                            Rough terrain requires extra caution.
+   Three-point system: two front drive
+   wheels + rear steering axle
+   Combined COG (truck + load) must stay
+   inside the triangle
+   COG outside the triangle = tip-over
+
+Maintaining Stability
+
+   Travel with load 436 inches off the ground
+   Tilt mast backward when traveling; never
+   forward with elevated load
+   Reduce speed before turns; never turn on
+   a slope
+   Avoid sudden starts/stops; no passengers
+SECTION 3: FIVE PRINCIPLES 4 Avoid
+Hazardous Situations
+Classes 135                                     Class 7 4 Key Hazard
+ Warehouse forklifts operate in confined        Categories:
+ spaces with mixed traffic.
+                                                   Overturning
+ Primary strategy: create physical separation
+ between pedestrians and equipment.                    Always use the load chart; never raise a
+                                                       load and drive to position it.
+ Use marked aisles, barriers, and designated
+ crossing zones.                                       Machine must be level (zero degrees)
+                                                       before raising boom.
+ Hazards change throughout the shift 4
+ continuously reassess conditions.                     Avoid operating in strong or gusty winds.
+                                                   Work Area
+                                                       Set parking brake before raising boom.
+                                                       Use extreme care on uneven terrain, near
+                                                       holes or drop-offs.
+                                                   Collision
+                                                       Never drive with obstructed visibility.
+                                                       Do not operate with a faulty backup
+                                                       alarm.
+
+                                                If machine tips: grasp steering wheel tightly, lean
+                                                away 4 NEVER jump clear.
+SECTION 3: FIVE PRINCIPLES 4
+Overhead Hazards
+
+Classes 135                         Class 7
+ Elevated loads on masts create       Overhead power lines are
+ **overhead hazards**.                **serious electrical hazards**.
+ **Never** stand or allow others      Establish **minimum approach
+ under elevated forks (even when      distances** based on voltage.
+ unloaded).                           **Typically 10 feet** for lines up
+ Mast's vertical profile causes       to **50kV**.
+ collision risks.                     Maintain greater distances for
+ Watch out for overhead lights,       higher voltages.
+ sprinkler pipes, and doorframes.     Treat all lines as energized.
+                                      **Only utility company** can
+                                      confirm lines are de-energized.
+SECTION 3: FIVE PRINCIPLES 4 Tail Swing and Clearance
+Classes 135                                                             Class 7
+   **Rear-wheel steering** causes the truck's rear to swing outward        Consider **telehandler swing radius** when maneuvering.
+   opposite the turn.                                                      Actively manage **boom clearance** to prevent collisions.
+   Swing arc can extend **234 feet** beyond the rear wheels,               Maintain **counterweight awareness** with all movements.
+   depending on the model.
+                                                                           Follow specific **construction site clearance protocols**.
+   Heavy **counterweight** creates a significant hazard for
+   personnel or equipment.
+   Always check the full swing path for fixed objects before turning.
+   Ensure adequate clearance for the entire swing arc, especially in
+   tight aisles.
+   Use mirrors, but always perform a physical **head-check** to
+   confirm clearance.
+   Establish a **safety zone** around the rear during turns; warn
+   nearby personnel.
+   Never allow anyone within the **counterweight**'s swing radius.
+SECTION 3: FIVE PRINCIPLES 4
+Floor and Ground Conditions
+Classes 135                                 Class 7
+   Floors require constant attention.          Establish **exclusion zones** during
+   **Wet spots, debris, uneven                 boom operations.
+   surfaces** impact stability and             Calculate **max boom reach + load
+   braking.                                    overhang** plus a safety buffer.
+   Loading docks are fall hazards.             No personnel in zone when boom is
+   Always **verify trailer position** and      **moving or elevated**.
+   **use dock locks** before entry.
+                                               **Wind adds dynamic loading** not
+                                               on static load charts.
+                                               Establish **site-specific wind speed
+                                               thresholds** to halt operations.
+                                               Large materials like panels, pallets,
+                                               and platforms act as **sails**,
+                                               amplifying wind effects.
+SECTION 3: FIVE PRINCIPLES 4
+Pedestrian Safety: Awareness & Scanning
+Right of Way & Scanning
+                                              Class 7
+   Pedestrians always have the right of way
+   4 no exceptions                              Job site coordination is essential for
+                                                pedestrian safety
+   Never assume pedestrians see or hear you
+                                                Implement clear visibility protocols
+   Continuously scan the full travel path 4
+                                                Ensure effective communication systems
+   ahead, sides, doorways, behind racking
+   Slow down when visibility is reduced by      Establish and enforce worker protection
+                                                zones
+   loads, racking, or turns
+
+At Intersections
+   Slow to a near-stop, sound horn, look
+   both ways
+   Physical head-check required 4 mirrors
+   give delayed/distorted views
+   Approach blind corners from the widest
+   angle
+   Use a spotter if corners can't be safely
+   navigated
+SECTION 3: FIVE PRINCIPLES 4
+Pedestrian Safety: Interaction & Zones
+When a Pedestrian is in Your Path
+                                               Class 7
+   Stop completely and wait 4 never honk
+                                                 Establish and enforce worker
+   to move pedestrians
+                                                 protection zones
+   Maintain minimum 3-foot clearance
+                                                 Use physical barriers around the full
+   when passing
+                                                 boom radius
+   If pedestrian doesn't acknowledge, stay
+                                                 Assign a dedicated spotter during lift
+   stopped until path is clear
+                                                 cycles
+Zone Separation                                  Spotter's sole role: monitor the zone 4
+                                                 no multitasking
+   Establish no-pedestrian zones in active
+   forklift areas
+   Use barriers, cones, or floor markings to
+   separate traffic
+   Enforce separation at all times 4 not
+   just during active lifts
+SECTION 3: FIVE PRINCIPLES 4 Safety Signal Words
+Safety signs use signal words to indicate the severity of potential hazards. Understanding this hierarchy is crucial for workplace safety.
+
+
+    DANGER                                                                      WARNING
+        Indicates **immediate hazardous situations**.                               Indicates **potentially hazardous situations**.
+        Failure to avoid **will** result in **death or serious injury**.            Failure to avoid **could** result in **death or serious
+        Used for the **most severe hazards**.                                       injury**.
+
+
+
+
+    CAUTION                                                                     NOTICE
+        Indicates **potentially hazardous situations**.                             Indicates **important information**.
+        Failure to avoid **could** result in **minor or moderate                    **Not directly hazard-related**.
+        injury**.                                                                   Covers property damage, procedures, or operational info.
+SECTION 3: FIVE PRINCIPLES 4
+Overhead Clearance Signs
+Classes 135                                  Class 7
+ Watch for **overhead clearance signs**        **Overhead clearance** is critical with
+ in doorways, aisles, and under                **boom extension and elevation**.
+ mezzanines.                                   Calculate total height considering
+ **Mast height** plus **load height**          **boom angle**, **attachment
+ must stay below specified limits.             height**, and **load dimensions**.
+ Striking structures risks **mast              **Boom tips** can extend beyond the
+ damage**, **structural damage**, or           operator's **line of sight**.
+ **load collapse**.                            **Load chart decals** must be clearly
+ Keep all **safety decals clean and            visible to the operator.
+ legible**.                                    These charts are **essential** for safe
+ Replace **faded or damaged decals**           operation; replace if damaged or
+ immediately.                                  illegible.
+ Report **missing or illegible** decals to     Additional telehandler decals include
+ maintenance. Never paint over or              **boom angle indicators** and
+ remove them.                                  **outrigger warnings**.
+SECTION 3: FIVE PRINCIPLES 4 Hazard Classification
+ Identify hazards for proactive risk control.
+ Forklift and telehandler operations share hazard categories.
+ Specific risks vary by equipment and environment.
+
+
+  Safety Alert Symbol                                    DANGER                                            WARNING
+  Triangle with exclamation: Alerts to potential         (Red): Indicates a hazardous situation that       (Orange): Indicates a hazardous situation
+  **personal injury hazards**. Obey safety               **WILL result in death or serious injury** if     that **COULD result in death or serious
+  messages to avoid injury or death.                     not avoided.                                      injury** if not avoided.
+
+
+
+  CAUTION                                                NOTICE
+  (Yellow): Indicates a hazardous situation that         (Blue): Important information, **not hazard-
+  could result in **minor or moderate injury**           related** (e.g., property damage).
+  if not avoided.
+
+
+ Safety signs are strategically placed on equipment.
+ Operators must **read, understand, and obey** safety sign information.
+ Telehandler decal examples: **Crush Hazard** (outriggers), **Burn Hazard** (hot fluid), compartment restrictions, machine movement warnings.
+SECTION 3: FIVE PRINCIPLES 4 Falling Load Hazards
+Classes 135 (Counterbalance Lift Trucks)                                         Class 7 (Telehandlers)
+Load Securing                                                                       Boom vibration can cause load instability.
+   Improper securing is the leading cause of falling loads.                         Attachment failure risks dropped loads.
+   Loads must be stable, evenly distributed, and heaviest part against the          Load chart violations exceed safe limits.
+   load backrest.                                                                   Always use proper securing techniques.
+   Unstable loads shift during travel, turns, or braking 4 even at low speeds.
+   Always tilt mast fully backward before travel; only tilt forward when
+   placing.
+
+Fork & Backrest Inspection
+   Inspect forks every shift: remove if cracked, bent (>10% blade length), or
+   worn.
+   Worn heel blocks reduce fork thickness and capacity.
+   Load backrest prevents loads sliding backward 4 never operate without
+   one.
+   Inspect backrest for damage or missing fasteners during pre-op checks.
+SECTION 3: FIVE PRINCIPLES 4 Struck-By
+Hazards
+Classes 135 (Counterbalance Lift Trucks)           Class 7 (Telehandlers)
+Tail Swing & Load Hazards                             Watch for boom contact and swing radius
+                                                      strikes
+   Rear-axle steering causes the truck's back to
+   swing outward opposite the turn                    Dropped loads are a primary hazard
+   Heavy counterweight can strike pedestrians,        Job site coordination is essential
+   racking, or equipment                              Ensure proper load securing techniques
+   Always check the rear swing path before any
+   turn
+   Improperly secured loads can fall during
+   travel, turns, or braking
+
+Pedestrian Contact
+   Forklifts are heavy with limited braking 4
+   even low-speed contact can be fatal
+   Never allow anyone under an elevated load
+   Sound horn and confirm path is clear before
+   moving
+   Yield to pedestrians; slow in congested areas
+SECTION 3: FIVE PRINCIPLES 4 Tip-
+Over Hazards
+Common Causes
+                                            Class 7
+  Turning with an **elevated load**
+                                              Boom extension dramatically increases
+  Excessive speed 4 especially during
+                                              tip-over risk
+  turns
+                                              Load moment exceedance is a key
+  Overloading or off-center loads
+                                              factor
+  Uneven/damaged floors, dock edges,
+                                              Outrigger use is critical on uneven
+  ramps
+                                              terrain
+Prevention Rules
+  Travel with load as **low as possible**
+  Reduce speed **before** turns 4 not
+  during
+  **Never turn on a ramp or slope**
+  Verify load **weight and center**
+  before every lift
+SECTION 3: FIVE PRINCIPLES 4 Work Area Safety
+
+Classes 135                                                   Class 7 4 Overturning Hazards
+ Sound the horn at intersections, exiting aisles, or when      Always use the load chart 4 do not exceed rated capacity.
+ vision is obstructed.                                         Do not raise a load and then drive to position it.
+ Horns alert pedestrians, but direct visual confirmation is    Lower loads by retracting boom first.
+ still required.
+                                                               Machine must be level (zero degrees) before raising
+ Maintain adequate lighting in travel paths 4 report           boom.
+ burned-out fixtures.
+                                                               Do not operate in strong or gusty winds.
+ Keep floors clear of debris, spills, and trip hazards.
+                                                               If machine tips: grasp steering wheel tightly, lean away 4
+ Uneven floor patches or expansion joints affect stability     NEVER jump clear.
+ during loaded travel.
+SECTION 3: FIVE PRINCIPLES 4 Work Area Safety: Telehandler
+Hazard Zones
+Classes 135                                            Class 7 4 Work Area & Collision Hazards
+ Maintain clear sight lines in all travel directions   Work Area Hazards
+ Keep work areas free of unauthorized personnel           Set parking brake before raising boom
+ Report any floor or surface hazards immediately          Do not use sway control to position an elevated load
+                                                          Use extreme care on uneven terrain, near holes or drop-offs
+                                                          Check ground bearing capacity on unpaved surfaces
+                                                          Monitor wind conditions 4 work platforms may stop at 20 mph
+
+                                                       Collision Hazards
+                                                          Never drive with obstructed visibility
+                                                          Do not operate with a faulty backup alarm
+                                                          Maintain safe distance from ramp edges or elevated platforms
+                                                          Start and stop smoothly; operate at speeds that keep load under control
+SECTION 3: FIVE PRINCIPLES 4 Loading
+Dock Safety
+Classes 135                                          Class 7
+Dock Edge & Trailer Safety                             Focus on ground stability and edge protection
+                                                       at construction loading areas
+  Primary risk: driving off the dock edge 4 a fall
+  of 4+ feet causes tip-over                           Proper material staging is critical
+
+  Confirm trailer is positioned, chocked, and          Coordinate closely with other equipment on
+  secured before approaching                           site
+
+  Engage dock locks or wheel chocks before
+  driving onto any trailer
+  Watch for trailer creep during
+  loading/unloading 4 reconfirm before each
+  entry
+
+Dock Plates & Chains
+  Dock plate must be rated for combined
+  forklift + load weight
+  Ensure plate is properly positioned and
+  secured
+  Drive straight across 4 never at an angle;
+  reduce speed to prevent shifting
+  Safety chains/railings must be in place when
+  dock is not in use
+SECTION 3: FIVE PRINCIPLES 4 Traffic Control and Aisles
+Classes 135                                                              Class 7
+Aisle Rules                                                                Coordinated equipment movement on construction sites
+   Pedestrian aisles: marked with painted lines at least 4 inches wide     Designated travel routes must be maintained
+   Aisles must stay clear of equipment, pallets, and debris                Clear communication protocols are essential
+   Forklifts must never use pedestrian-only aisles
+   OSHA: forklift aisles must be at least 3 feet wider than the widest
+   load
+
+Right-of-Way & Horn Use
+   Pedestrians always have right-of-way over forklifts
+   Loaded forklifts have right-of-way over unloaded forklifts
+   Sound horn at every intersection, blind corner, doorway, and
+   when backing
+   At intersections: slow to near-stop, sound horn, look both ways
+SECTION 3: FIVE PRINCIPLES 4 Loading
+
+Classes 135                                               Class 7 (Telehandler)
+ Center load across **both forks**.                         Position **telehandler squarely**; approach slowly.
+ Prevents **side-loading** and **lateral instability**.     Align forks **precisely** to prevent **lateral instability** or
+ Adjust **fork spacing** to full load width.                tipping.
+
+ Avoid extending forks beyond **pallet edges**.             Consult **load chart** before every pick.
+
+ Tilt **mast backward** after lifting.                      Confirm **load weight**, **boom angle**, and
+                                                            **extension**.
+ Shifts load's **center of gravity** for stability.
+                                                            Never exceed **rated capacity** at any boom position.
+                                                            If load chart is missing/illegible, **do not operate**.
+                                                            Secure load on forks/attachment **before raising**.
+                                                            Retract **boom fully**, lower **carriage before traveling**.
+SECTION 3: FIVE PRINCIPLES 4 Load Capacity
+Verification
+
+Classes 135                                                  Class 7
+ Never exceed the **data plate rating**.                       Telehandler capacity changes with **boom position**.
+ Ratings account for standard operating conditions.            Max capacity: boom **fully retracted and lowered**.
+ Capacity drops when load center exceeds **24 inches**.        Capacity decreases rapidly with **boom extension**.
+ A **48-inch load center** reduces capacity by **50% or        Can drop to **less than 25%** at full extension.
+ more**.                                                       Consult the **load chart before every lift**.
+ Verify load weight via documentation or scale.                Never exceed chart limits.
+ Include **rigging weight** in calculations.                   Load moment indicators supplement, but don't replace,
+ Chains, slings, and spreader bars count against capacity.     chart use.
+SECTION 3: FIVE PRINCIPLES 4 Load Center Management
+Classes 135 (Counterbalance Lift Trucks)                                             Class 7 (Telehandlers)
+  Standard load center is **24 inches**, measured from fork face to load's             Telehandler load center management is complex.
+  horizontal center of gravity.                                                        Capacity changes with both boom angle and extension.
+  This **24-inch** distance is used for the rated capacity on the data plate.          The load chart combines load weight, load center, boom angle, and boom
+  Effective load center increases when load's center of gravity is > **24 inches**     extension for maximum capacity.
+  from fork face.                                                                      Attachments significantly affect load center.
+  This increase causes rated capacity to **decrease**.                                 Different attachments (forks, buckets, platforms) shift the effective load center.
+  Example: **5,000 lbs** at **24-inch** load center may only be **3,500 lbs**          Use the load chart specific to the currently installed attachment.
+  at **36-inch** load center.                                                          Never swap attachments without verifying the correct load chart is displayed.
+  To find load center: measure load depth and divide by two.
+                                                                                       To interpret the load chart: find current boom angle (vertical axis) and boom
+  A **48-inch** deep pallet has a **24-inch** load center.                             extension (horizontal axis).
+  A **60-inch** deep load has a **30-inch** load center, requiring capacity            The intersection shows the maximum allowable load.
+  reduction.                                                                           Do not proceed if load weight exceeds this value at any point during the lift.
+  Always check the data plate's capacity reduction table for load centers > **24
+                                                                                       Consult the load chart before every lift; conditions change with each pick.
+  inches**.
+  Always slide forks fully under the load to the backrest.
+  Partial fork engagement reduces effective load center, increasing tip-over risk.
+  Center the load left-to-right across both forks to prevent lateral instability.
+SECTION 3: FIVE PRINCIPLES 4 Weight Verification
+Classes 135                                                                  Class 7
+ Always verify load weight; never assume.                                      Telehandler capacity varies with **boom position**.
+ Check **shipping documentation**, **bill of lading**, or **pallet             Load safe at ground level may exceed capacity when **extended** or
+ markings**.                                                                   **elevated**.
+ If no documentation, use a **floor scale** to weigh.                          Always consult the **load chart** for specific boom position.
+ Account for **gross weight** (product + packaging, pallet, banding).          **Attachment weight** must be subtracted from rated capacity.
+ Pallets add **40370 lbs** each.                                               Fork carriage, forks, and attachments reduce net load.
+ Include **rigging weight** (chains, slings, spreader bars) in total load.     This info is on the **load chart** or attachment data plate.
+ Rigging can add **hundreds of pounds**.                                       Include all **rigging weight** for crane-type lifts.
+ Total weight must not exceed **data plate capacity**.                         Rigging shifts effective load center, further reducing capacity.
+ Verify **combined weight** for multiple items on one pallet.                  Consult **load chart** and **rigging specs** before suspended lifts.
+ Stacked loads can exceed rated capacity.
+ If unsure, weigh or split into **multiple trips**.
+SECTION 3: FIVE PRINCIPLES 4 Raising
+Classes 135                                                                       Class 7
+ Raise loads only when truck is **stopped** on a **level surface**.                 Ensure machine is **completely stopped** before raising boom or
+ Never raise loads while **moving**; it dramatically reduces **stability**.         extending load.
+ Verify **overhead clearance** before raising (e.g., **sprinklers, lights, door     Maintain **minimal boom elevation** and **extension** during travel.
+ frames**).                                                                         Use **smooth, controlled movements** when raising or extending boom
+ Mast and load can extend above operator's line of sight.                           to maintain stability.
+
+ Establish **maximum safe lift height** for the location.
+ Maintain minimal lift height during travel: **4 to 6 inches** above ground.
+ This keeps the **center of gravity low** and maximizes **stability**.
+ Never travel with the load elevated to **working height**.
+ Avoid **abrupt mast movements**; use **smooth, controlled inputs**.
+ Jerky movements cause load shift or falls, especially on uneven surfaces.
+ Raise slowly for high racking; stop at each level to verify alignment.
+ Tilt mast **backward** during travel to draw load's center of gravity
+ toward truck.
+ Only tilt **forward** when truck is **stopped** and positioned for final
+ placement.
+SECTION 3: FIVE PRINCIPLES 4
+Raising Procedures and Clearances
+Classes 135                                Class 7
+ Do not adjust load horizontally while       **Boom extension** impacts lifting
+ elevated.                                   **capacity** and **stability**.
+ **Lower forks**, reposition truck, then     Extend boom **only after proper
+ raise load.                                 machine positioning**.
+ This prevents **side loading** and          **Never extend while carrying a load**,
+ maintains **stability**.                    unless required by task/chart.
+ Check **overhead clearances** before        Monitor **boom angle** continuously.
+ raising.                                    **Steep boom angles** reduce capacity
+ Account for **mast height**, **load         and increase **tip-over risk**.
+ height**, and **overhang**.                 Use **outriggers** as specified or on
+ **Measure** clearances; never               uneven ground.
+ estimate.
+ Striking objects causes **catastrophic
+ damage** and **load collapse**.
+SECTION 3: FIVE PRINCIPLES 4 Travelling
+Classes 135                                                                  Class 7
+       Fork Height                                                                     Boom Stowed
+  1                                                                            1
+       Maintain **436 inches** above ground during travel.                             **Retract** and **lower** boom to minimum transport position.
+
+
+       Mast Position                                                                   Load Low
+  2                                                                            2
+       Tilt **slightly backward** to shift load center towards **stability             Keep load **close to ground** for maximum stability.
+       triangle**.
+
+                                                                                       Slow Speed
+       Forward View
+  3                                                                            3       **Reduce speed** on rough terrain. Avoid sudden stops to
+       Travel in **reverse** if view blocked. Use **horn** at corners.                 prevent boom oscillation.
+
+
+       Ramp Travel                                                                     No Elevated Travel
+  4    Keep load **upgrade**. Never turn on ramps. **Reduce speed**            4       Never move with boom **extended or elevated**; high tip-over
+       on inclines.                                                                    risk.
+SECTION 3: FIVE PRINCIPLES 4 Travel Speed and
+Control
+
+Classes 135                                                 Class 7
+ Maintain **moderate speeds** appropriate for conditions.     **Rough terrain** demands significantly **reduced
+ Reduce speed at **turns, intersections**, and                speeds**.
+ **pedestrian areas**.                                        Uneven ground, slopes, and soft surfaces affect stability.
+ High center of gravity causes **instability** at speed.      What's stable on flat ground is dangerous on construction
+ Avoid **sudden turns** or **abrupt stops**.                  sites.
+
+ These can cause **load shift** or **tip-over**.              Never travel with boom **extended or elevated**.
+
+ Use **gradual steering** and **progressive braking** for     An extended boom creates **severe instability**.
+ stability.                                                   **Retract** and **lower** boom completely before
+                                                              moving.
+SECTION 3 : FIVE PRINCIPLES 4 Tip Over
+      Critical Safety Information
+      Tip-over incidents are the **most severe risk** in powered industrial truck operations.
+      Know the dynamics. Know the response.
+
+
+
+
+Classes 135                                       Class 7
+ **Always wear your seatbelt** 4 the single           **Seatbelt is mandatory** 4 ROPS/FOPS
+ most important tip-over survival factor              protect you only when restrained
+ Restrained operators in the **protective             Boom extension moves COG **forward**,
+ cage** have high survival rates                      often past the front axle
+ Jumping out leads to **crushing injuries**           Machine can suddenly pivot over front
+ and high fatality rates                              wheels 4 **little warning before tipping**
+ Forklifts tip sideways due to **rear-wheel           Stabilizers and rear-axle lock help with
+ steering** and **high center of gravity**            lateral/rearward stability
+ Tight turns at speed + elevated load = tip-          They **cannot prevent forward tip-overs**
+ over risk                                            with an overextended boom
+ **Smooth, controlled operation** is the              **Extension distance** is a critical factor
+ best prevention                                      for longitudinal capacity limits
+SECTION 3: FIVE PRINCIPLES 4 Tip-
+Over Response Procedures
+Classes 135                                 Class 7
+ **Do not jump clear** if a tip-over          Telehandler tip-overs may occur
+ begins.                                      **more slowly** than forklifts.
+ Jumping risks crush injury from the          **Do not attempt to escape**, despite
+ **overhead guard**.                          slower motion.
+ **Stay in your seat** and **hold             **Stay seated and belted**.
+ steering wheel firmly**.                     If the boom is extended, the machine
+ **Lean away** from the direction of          may **continue rolling**.
+ fall.                                        The extended boom acts as a **lever**,
+ **Brace your feet** against the floor.       causing multiple rolls.
+ The **overhead guard** creates a             **Remaining restrained** throughout
+ **survival space**.                          the motion is critical for survival.
+ Survival is highest when you **remain
+ within this protected zone**.
+ The **seatbelt** positions you correctly
+ within this space.
+SECTION 3: FIVE PRINCIPLES 4 Component Damage
+Classes 135                                                                 Class 7
+ Conduct **thorough pre-operational inspections**.                             Perform **comprehensive pre-operational checks** on telehandler components.
+ Identify **damaged components** compromising safety.                          Focus on **boom structure** and **hydraulic systems** for damage.
+ **Tag out** defective equipment, **remove key**, and notify maintenance.      **Damaged components** significantly increase risks.
+ **Never operate defective equipment**.                                        **Tag out** and **lock out** damaged equipment promptly.
+ **Re -inspect** after repairs before returning to service.                    Report defects with **specific details**.
+                                                                               Ensure **proper re-inspection** after maintenance.
+
+                                                                            Telehandler-specific component damage rules:
+                                                                               Do not use a **damaged** or **malfunctioning machine**.
+                                                                               Do not use any battery or charger **greater than 12V** to jump-start.
+                                                                               Do not use the machine as a **ground for welding**.
+                                                                               Do not drive unless **stabilizers are fully retracted**.
+                                                                               Do not alter or disable components affecting **safety or stability**.
+                                                                               Do not attempt to start by **towing or pushing**.
+                                                                               Ensure all **decals are in place and legible**.
+                                                                               Do not replace stability-critical items with **different weight or specification**.
+                                                                               Do not replace factory tires with **different specification or ply rating**.
+                                                                               Ensure all maintenance is performed as per **manufacturer's manual**.
+                                                                               Ensure **operator's and safety manuals** are complete, legible, and in the cab
+                                                                               container.
+SECTION 3: FIVE PRINCIPLES 4 Hydraulic System
+Inspection
+
+Classes 135                                                      Class 7
+ Check **hydraulic fluid** levels and condition.                   Telehandlers have **complex hydraulic systems**.
+ **Low fluid** indicates leaks; find and repair.                   Multiple circuits for **boom, outriggers, and
+ **Contaminated/milky fluid** suggests water or                    attachments**.
+ component wear.                                                   Check **all hydraulic functions** during pre-operational
+ Inspect all **hydraulic hoses** for cracks, bulges, or leaks.     inspection.
+
+ High-pressure failures cause sudden **loss of function**          Focus on **boom lift and extension cylinders**.
+ and **safety hazards**.                                           These carry the **highest loads and pressures**.
+ **Replace damaged hoses immediately**.                            **Leakage, scoring, or damage** requires immediate
+                                                                   repair before operation.
+SECTION 3: FIVE PRINCIPLES 4 Fork and Mast
+Inspection
+
+Classes 135                                                       Class 7
+ Inspect forks for **cracks, bends, or worn heel blocks**.          Inspect boom structure for **cracks, bends, or damaged
+ Damaged forks reduce **load capacity**, risking **sudden           pivot pins/bushings**.
+ failure**.                                                         Boom carries **enormous loads**; structural damage can
+ Ensure forks are **secured to the carriage**; loose pins cause     lead to **catastrophic failure**.
+ sliding.                                                           Check boom extension/retraction for **smooth operation**.
+ Examine mast for **bent rails, worn chains, or damaged             Jerky movement indicates **wear or damage**, requiring
+ rollers**.                                                         immediate attention.
+ Mast damage affects **lifting capacity** and causes                Inspect boom cylinders and hydraulic lines for **leaks or
+ **uneven movement**.                                               damage**.
+ Check for **hydraulic leaks** around cylinders and hoses.
+SECTION 3: FIVE PRINCIPLES 4 Crush Hazards
+Classes 135                                                                            Class 7
+ **Tail swing** is a primary crush hazard for **rear-wheel-steered** equipment.           **Extended boom** creates a large, **moving hazard zone**.
+ Rear of equipment swings wide, potentially striking or pinning personnel.                Boom swings, raises, or extends, striking personnel or equipment.
+ **Elevated forks**, even unloaded, pose a crush hazard.                                  Path not always obvious to workers.
+ Risk of **sudden descent** from hydraulic issues or backrest failure.                    Area **beneath the boom or load** is a crush hazard.
+ **Riders outside** the operator's compartment lack protection and risk falling.          Risk of **sudden boom descent** or **falling materials** from mechanical failure.
+ **Pinch points** exist between mast/overhead guard and fork tips/vertical surfaces.      **Crush points** exist between boom/frame and stabilizer arms/ground.
+ Also in the counterweight area during tight turns.                                       Anywhere the boom could trap someone against a fixed object.
+                                                                                          **Attachments** (platforms, buckets) create **additional hazard zones**.
+                                                                                          Risk falls or trapping workers against obstacles.
+
+                                                                                       Additional Telehandler Safety Rules
+                                                                                          Keep clear of moving parts during machine operation.
+                                                                                          Keep clear of moving stabilizers.
+                                                                                          Keep clear of elevated components.
+                                                                                          Never insert any body part into moving machine parts (e.g., boom structure).
+                                                                                          Ensure all ground personnel stay clear during machine operation.
+
+                                                                                       Telehandler Decal Warnings
+                                                                                       DANGER: Crush Hazard 4 Serious injury from contact with moving outriggers. Keep clear.
+                                                                                       WARNING: Crush Hazard 4 Machine movement can cause serious injury or death. Stay away.
+                                                                                       WARNING: Crush Hazard 4 Moving parts can crush or cut. Keep all body parts clear during
+                                                                                       equipment operation.
+SECTION 3: FIVE PRINCIPLES 4 Crush Prevention
+Procedures
+
+Classes 135                                                      Class 7
+ Maintain awareness of the **truck's full footprint** during       Establish **exclusion zones** around the entire machine
+ turns.                                                            during operation.
+ **Check mirrors** and turn your head for clearance before         The **boom creates a large moving hazard area** beyond
+ turns.                                                            the machine's footprint.
+ **Sound the horn** to alert workers; never rely solely on         **No personnel** should enter this zone while the boom is
+ audible warnings.                                                 moving.
+ Establish and maintain **safe distances** from fixed objects.     Use **spotters** in congested areas or with limited visibility.
+ Be aware: the **counterweight swings wide** during turns.         Spotters monitor the **boom path** and alert the operator
+ Personnel can be **trapped** between the truck and fixed          to personnel or obstacles.
+ objects.
+SECTION 3: FIVE PRINCIPLES 4 Explosion and Fire Hazard
+Classes 135                                                                                              Class 7
+ IC forklifts produce **toxic exhaust** (**carbon monoxide**). Risk of **asphyxiation** in enclosed        Diesel telehandlers cause **exhaust accumulation** in partially enclosed areas.
+ spaces.                                                                                                   **Diesel fuel** is combustible; handle carefully to prevent ignition near fuel systems.
+ Electric forklifts can spark; LP gas forklifts use **flammable fuel**. Both are **ignition sources**.     **High-pressure hydraulic fluid** spraying onto hot components can ignite, causing rapid fires.
+ Fueling/charging involve **flammable liquids/gases** or generate **explosive hydrogen gas**.              Battery telehandlers risk **hydrogen gas** during charging and potential **electrical shorts**.
+ Oil, grease, and hydraulic fluid leaks can accumulate on **hot engine components**, increasing fire       **Do not start** engine if you smell **flammable substances** (LPG, gasoline, diesel).
+ risk.                                                                                                     **Do not refuel** with engine running. Keep away from **open flames/sparks**.
+                                                                                                           Refuel/charge in **open, well-ventilated areas** away from ignition sources.
+                                                                                                           **Do not operate** in **hazardous locations** with flammable gases or particles.
+                                                                                                           **Do not spray ether** into engines with glow plugs or air intake grid heaters.
+SECTION 3: FIVE PRINCIPLES 4 Fire Prevention and Fuel
+Safety
+
+Classes 135                                                           Class 7
+ Operate internal combustion forklifts in **well-ventilated areas**     **Diesel telehandlers** pose fire risks from fuel leaks, hot
+ only.                                                                  exhaust, and hydraulic fluid.
+ Eng ines produce **toxic exhaust gases** (carbon monoxide) in          Inspect **fuel lines and connections** regularly for leaks or
+ enclosed spaces.                                                       damage.
+ Inadequate ventilation leads to **unsafe CO concentrations**.          Maintain proper **fuel handling procedures** when refueling.
+ Control all **ignition sources** near flammable vapors or              Use **approved containers** and follow site-specific **fueling
+ combustible dust.                                                      protocols**.
+ **Electric forklifts** can create sparks from motors or damaged        Keep **fire extinguishers** accessible; operators must know
+ wiring.                                                                locations.
+ **LP gas forklifts** require **regular leak checks** and proper
+ **cylinder handling**.
+SECTION 3: FIVE PRINCIPLES 4 Burn Hazard
+Classes 135                                                              Class 7
+ **Internal combustion engines** generate **significant heat**.            **Telehandler hydraulic systems** operate at **higher pressures**, generating
+ Engine block, exhaust manifold, exhaust pipe can exceed **200°F**.        **substantial heat**.
+ Surfaces remain hot long after shutdown.                                  Lines, cylinders, components can reach over **150°F** during continuous use.
+ **Hydraulic fluid** heats up during operation, making components hot.     **Boom cylinders** build **significant heat** during extended operation.
+ **Battery terminals** get hot during charging.                            **Diesel engines** generate **extreme heat**.
+ **Battery acid** poses a **chemical burn risk**.                          Exhaust manifolds and turbochargers can exceed **400°F**.
+                                                                           **Diesel Particulate Filters (DPF)** regeneration cycles create **even higher
+                                                                           temperatures** in the engine compartment.
+                                                                           Allow **hot surfaces** to cool before touching or servicing.
+                                                                           **Improper contact** with components under covers causes **serious injury**.
+                                                                           Only **trained maintenance personnel** should access compartments.
+                                                                           Access by operator is for **pre-operation inspection only**.
+                                                                           All compartments must remain **closed and secured** during operation.
+                                                                           **Do not operate** with hydraulic oil or air leaks.
+                                                                           **Escaping fluid under pressure** can penetrate skin, causing **serious injury**.
+                                                                           **Relieve pressure** before disconnecting hydraulic lines.
+                                                                           **Keep away** from leaks and pinholes; use cardboard to search.
+                                                                           Fluid injected into skin requires **immediate surgical removal** by a doctor
+                                                                           familiar with this injury to prevent gangrene.
+SECTION 3: FIVE PRINCIPLES 4 Hot Surface Protection
+
+Classes 135                                                       Class 7
+ Internal combustion engines generate significant heat.             Telehandler engines and hydraulic systems generate extreme
+ Engine block, cylinder head, exhaust manifold, and pipe            heat.
+ exceed **200°F**.                                                  This occurs during heavy-duty operations.
+ Surfaces stay hot for **30 minutes** or more after                 Engine compartments reach dangerous temperatures,
+ shutdown.                                                          especially in hot weather or extended use.
+ Hydraulic fluid heats during normal operation, especially with     Hydraulic systems operate at higher pressures and
+ heavy use.                                                         temperatures than warehouse forklifts.
+ Reservoirs, pumps, and cylinders can be hot to touch.              Boom cylinders and high-pressure lines become extremely
+ High-pressure hydraulic lines may reach **150°F** or higher.       hot with continuous operation.
+                                                                    Always allow cooling time before maintenance.
+SECTION 3: FIVE PRINCIPLES 4 Electrocution Hazard
+      Critical Warning
+      Overhead power line contact causes **multiple fatalities** annually. Always maintain **minimum approach distances** and treat all lines as **energized** until verified safe by qualified personnel.
+
+
+
+Classes 135                                                                                                Class 7
+ Treat **all overhead lines** as **energized** until verified safe by the utility company.                     **Extended boom** dramatically increases electrocution risk (e.g., **55-foot boom** contacts lines
+ **Unmarked lines**, service drops, and temporary power carry **lethal voltage**.                              **40 feet** high).
+ Never assume a line is safe due to appearance (old, inactive).                                                Boom acts as a **conductor**, energizing the machine upon contact.
+                                                                                                               Touching ground and machine completes the circuit; always treat lines as **energized**.
+                                                                                                               Telehandlers are **NOT electrically insulated**; they provide **NO protection** from electrocution.
+                                                                                                               **Stay away** from a telehandler if it contacts energized power lines.
+                                                                                                               Working near energized sources requires **common sense** and **planning**.
+                                                                                                               Operator manual and decals identify **required clearance** near electrical conductors.
+                                                                                                               All operators **must understand** electrocution potential with telehandlers.
+                                                                                                               **High voltage overhead power lines** are **NOT insulated**.
+                                                                                                               Direct contact is not needed; current can jump up to **45 FEET**.
+                                                                                                               Operators must know all power source voltages and maintain **required clearance**.
+                                                                                                               Contact the electric power line owner; power **must be disconnected** or lines moved/insulated.
+SECTION 3: FIVE PRINCIPLES 4 Power Line Safety Distances
+Classes 135                                                                               Class 7
+ **Always** maintain minimum approach distances to overhead power lines.                     Telehandler boom extension **greatly increases** electrocution risk.
+ OSHA requires **10 feet** for lines up to **50 kV**, with greater distances for higher      Boom can reach lines that seem safely distant when retracted.
+ voltages.                                                                                   Calculate max boom reach + attachment height + load dimensions.
+ Treat all lines as **live** until confirmed otherwise by qualified utility personnel.       Establish site-specific approach distances based on highest voltage lines.
+ Establish **exclusion zones** and use **spotters** when working near power lines.           Post **warning signs** and train personnel on electrical hazards.
+ Mast height + load height = total vertical reach.                                           Use **non-conductive taglines**; **never** use boom to move or test lines.
+ Account for load sway and unexpected movements.
+                                                                                          Required Minimum Clearance Distances (from Genie Telehandler):
+
+                                                                                            Voltage                                          Clearance Distance
+
+                                                                                            0 to 50 kV                                       **10 ft** / 3.03 m
+
+                                                                                            >50 to 200 kV                                    **15 ft** / 4.60 m
+
+                                                                                            >200 to 350 kV                                   **20 ft** / 6.10 m
+
+                                                                                            >350 to 500 kV                                   **25 ft** / 7.62 m
+
+                                                                                            >500 to 750 kV                                   **35 ft** / 10.67 m
+
+                                                                                            >750 to 1000 kV                                  **45 ft** / 13.72 m
+
+                                                                                            >1000 kV                                         Refer to Operator's Manual
+
+                                                                                          Note: Before operation, contact electric power line owner to disconnect, move, or insulate lines.
+                                                                                          **Always** maintain listed clearance.
+SECTION 3: FIVE PRINCIPLES 4 Maintenance and Repair
+Classes 135                                                                        Class 7
+ Operators perform **daily pre-operational inspections**.                            Telehandlers require **rigorous maintenance programs**.
+ **No operator repairs**; inspections identify defects.                              Operators perform **daily inspections**, but **no repairs**.
+ **Qualified technicians** handle repairs to maintain **safety standards**.          Inspections verify **critical components** and **safety systems**.
+ Identify a defect? **Tag-out equipment immediately**.                               **Tag-out and lock-out** defective equipment.
+ **Notify supervisor** and **maintenance department**.                               Follow **facility energy control procedures**.
+ Only **qualified technicians** repair with proper tools and parts.                  **Qualified technicians** follow **manufacturer service procedures**.
+ Unauthorized repairs create **safety risks** and void **warranty/regulations**.     **Boom** and **hydraulic system** repairs demand **precision**.
+
+                                                                                   Telehandler-Specific Rules
+                                                                                     Ensure **operator's & safety manuals** are **complete**, legible, and in cab storage.
+                                                                                     Verify all **decals** are in place and **legible**.
+                                                                                     Do not replace **stability-critical items** with different weights/specs.
+                                                                                     Do not replace factory-installed **tires** with different specs/ply rating.
+                                                                                     Do not use a **damaged or malfunctioning machine**.
+                                                                                     Confirm all **maintenance** is performed as per **manufacturer's manual**.
+                                                                                     Repairs only by **qualified service technicians** per manufacturer specs.
+                                                                                     If damage or unauthorized variation is found, **tag and remove machine from service**.
+                                                                                     After repairs, operator must perform **pre-operation inspection** before function tests.
+                                                                                     **Scheduled maintenance inspections** by **qualified service technicians** are required.
+SECTION 3: FIVE PRINCIPLES 4 Inspection Documentation and Procedures
+Classes 135                                                                                                  Class 7
+ Perform **pre-operational inspection**: check fluid levels, tire condition, safety devices, and controls.     **Telehandler inspections** require additional checks.
+ **Test** horn, lights, brakes, and steering before service.                                                   Inspect **boom components**, outriggers, load moment indicators, and attachment systems.
+ **Document** all inspection results on required forms.                                                        Verify boom extension/retraction for **smooth operation** and **no unusual noises**.
+ **Record any defects** found.                                                                                 **Document all findings**: boom function tests, outrigger deployment, load chart verification.
+ **Tag out** defective equipment immediately; remove key to prevent unauthorized use.                          Any defects in boom operation, stability, or load handling require **immediate shutdown** and **technician
+ **Never operate** equipment with known defects.                                                               evaluation**.
+
+                                                                                                             PRE-OPERATION INSPECTION FUNDAMENTALS:
+                                                                                                               **Operator** is responsible for pre-operation inspection and routine maintenance (if authorized).
+                                                                                                               Inspection is a **visual check** by operator **PRIOR to each work shift**.
+                                                                                                               Purpose: discover apparent machine issues before function tests.
+                                                                                                               Only **routine maintenance** (from **Operator's Manual**) is allowed by operator (if authorized).
+                                                                                                               If **damage or unauthorized variation** is found, machine must be **TAGGED and REMOVED** from service.
+                                                                                                               **Repairs** must be done by a **qualified service technician** per manufacturer specifications.
+                                                                                                               After repairs, operator must perform **pre-operation inspection** again.
+                                                                                                               **Scheduled maintenance inspections** must be performed by **qualified service technicians**.
+
+                                                                                                             PRE-OPERATION INSPECTION CHECKLIST (Telehandler):
+                                                                                                               Check for **Operator's Manual** in cab storage compartment.
+                                                                                                               Check around/under machine for **fluid leaks** (oil, hydraulic, coolant).
+                                                                                                               Check **oil, coolant, and battery levels** (wear **proper PPE** for batteries).
+                                                                                                               Check **tire air pressure**.
+                                                                                                               Inspect for **loose/missing parts**, fasteners, unauthorized modifications, and damaged components.
+                                                                                                               Inspect **general machine condition** (cracks, dents, rust, structural damage).
+                                                                                                               Check for **missing decals**.
+                                                                                                               Refer to **Operator's Manual** for detailed checklist.
+SECTION 3: FIVE PRINCIPLES 4
+Personnel Safety: Seatbelt & Entry/Exit
+Seatbelt 4 Mandatory                         Seatbelt 4 Mandatory
+ Always wear your **seatbelt** 4 it is         Seatbelt is mandatory before starting
+ mandatory, not optional                       engine or any boom movement
+ Keeps you in the protective compartment       Tip-overs occur suddenly as boom
+ during tip-overs or collisions                extension shifts center of gravity
+ Ejected operators face **high fatality        The **ROPS system** protects you only
+ rates** from overhead guard impact            when properly restrained
+
+Mounting &                                   Mounting &
+Dismounting                                  Dismounting
+ Use **three-point contact** at all times:     Use **three-point contact** 4 telehandler
+ two hands + one foot, or two feet + one       cabs are higher, increasing fall severity
+ hand                                          Keep center of gravity between handholds
+ Always face the machine when climbing         Never carry materials while climbing 4
+ down                                          secure them first
+ Never jump off 4 causes ankle, knee, and
+ back injuries                               Key Rules (Telehandler)
+SECTION 3: FIVE PRINCIPLES 4 Personnel Safety: Work
+Zone & Electrocution Risk
+Classes 135                                                            Class 7 4 Electrocution Risk
+ Keep people, equipment, and materials out of the active work              Overhead power lines are NOT insulated 4 direct contact is not
+ area                                                                      required for danger
+ Never allow anyone under or near an elevated load                         High voltage current can jump up to 45 feet
+ Do not transport personnel unless using a manufacturer-                   Know the power line voltage and maintain required clearances
+ approved work platform                                                    per the manual
+                                                                           Always contact the utility owner: power must be disconnected,
+                                                                           moved, or insulated
+                                                                           Operators must understand electrocution risks before operating
+                                                                           near any overhead lines
+
+
+    Refer to the Manufacturer's Operators Manual for full hazard and operational details.
+SECTION 3: FIVE PRINCIPLES 4 Safe Entry and Exit Procedures
+Classes 135                                                                Class 7
+ Always use **three-point contact** when mounting/dismounting.               Telehandler entry/exit requires **extra caution** due to higher cabs
+ Maintain **two hands and one foot**, or **two feet and one hand**,          and rough terrain.
+ contact with the machine.                                                   Use **designated handholds and steps**; never use control levers or
+ **Face the machine** when climbing down.                                    steering wheel for support.
+
+ **Never jump** off the truck; it causes ankle, knee, and back injuries.     Be cautious on **uneven ground or slopes**; machine tilt makes exit
+                                                                             harder.
+ Before dismounting: Set **parking brake**, lower **forks** fully,
+ neutralize **transmission**, and turn off **engine/key switch**.            Always **face the machine** and maintain **three-point contact**
+                                                                             until both feet are firmly on the ground.
+ **Never leave a running forklift unattended**, even briefly.
+ Check the area for **slip hazards** (wet, oily, debris) before
+ dismounting. Ensure **stable, level ground**.
+ **Do not use operational controls** (steering wheel, levers) as
+ handholds. They can activate unexpectedly.
+SECTION 3: FIVE PRINCIPLES 4 Health and Safety
+< columns colwidths="[50,50]">
+
+Classes 135
+Wear all required personal protective equipment (PPE) for your facility. At minimum, this typically includes safety shoes with reinforced toes, high-visibility vests in areas with vehicle traffic, and hard hats in designated zones. Follow site-specific
+requirements for hearing protection, safety glasses, and gloves.
+Ensure you're fit for duty before operating equipment.
+
+General Safety Rules
+   Always use three-point contact when mounting or dismounting.
+   Fasten your seat belt before starting the engine and wear it at all times.
+   Remain completely inside the operator compartment when operating the machine.
+   Comply with all employer, job site, and governmental rules regarding PPE.
+   Use proper hearing protection in high noise level environments.
+   Operate the machine in a well-ventilated area to avoid carbon monoxide poisoning.
+   Utilize a load backrest extension as necessary to prevent loads from falling toward the operator.
+
+Class 7
+PPE requirements for telehandler operations often exceed warehouse forklift standards due to outdoor work environments and construction site hazards. Hard hats, safety glasses, high-visibility clothing, steel-toe boots, and work gloves are typically
+mandatory at all times on site.
+Assess your fitness for duty considering the demands of telehandler operation.
+
+Telehandler-Specific Rules
+   When getting in and out of the cab, face the machine, use the steps and handrails provided, and always maintain three-point contact.
+   Do not use the steering wheel or any other controls as handrails.
+   Always adjust the seat and fasten the seat belt before starting the engine.
+   Always wear a seat belt when operating the machine.
+   Always remain completely inside the cab when operating the machine.
+   Operators must comply with employer, job site and governmental rules regarding the use of personal protective equipment.
+   Overhead guards may be offered on telehandlers for protecting the operator from falling objects. Overhead guards can only protect against small objects and are NOT to be considered a substitute for good load management habits.
+   Use proper hearing protection if the work site or the inside of the telehandler cab has high noise levels.
+   Always operate the machine in a well-ventilated area to avoid carbon monoxide poisoning.
+   A load backrest extension should be used as necessary to prevent loads from falling toward the operator.
+SECTION 3: FIVE PRINCIPLES 4 Operator Health and Fatigue Management
+Classes 135                                                                             Class 7
+ Maintain **proper hydration** throughout your shift.                                     Outdoor telehandler operations bring challenges: sun exposure, temperature
+ Warehouse environments can cause dehydration, even without obvious sweating.             extremes, dust inhalation.
+ Dehydration **impairs judgment**, **slows reaction time**, and **increases errors**.     Use **appropriate sun protection** and seek shade during breaks.
+ Keep water accessible; take regular hydration breaks.                                    Construction sites often involve long, demanding workdays.
+ Recognize **fatigue signs**: difficulty concentrating, slower reactions, increased       Monitor your physical condition constantly.
+ mistakes, **microsleeps**.                                                               **Heat stress** and **dehydration** develop quickly outdoors, severely impairing
+ **Fatigue is a serious safety hazard**, comparable to impairment.                        judgment and reaction.
+ **Report fatigue** to supervision immediately.
+ **Never operate a forklift when fatigued**; take rest breaks as needed.
+ Be **physically capable** of safe equipment operation.
+ Disclose conditions (illness, medication, injury) affecting reaction or judgment.
+ **Never operate under the influence** of alcohol, drugs, or impairing substances.
+ Whole-body vibration can cause musculoskeletal fatigue and injury.
+ Use **proper seating posture** and adjust seat suspension to reduce vibration
+ exposure.
+SECTION 3: FIVE PRINCIPLES 4 Principle 3: Always Perform Function
+Tests Prior to Use
+Classes 135                                                                               Class 7 (Telehandler)
+    Perform function tests **before each shift** to ensure controls and safety                Function tests identify malfunctions **before** machine use.
+    systems work.                                                                             Follow step-by-step instructions to test all functions.
+    A malfunctioning machine must **never be used**.                                          A malfunctioning machine must **never be used**.
+    If issues found, **tag** machine and remove from service.                                 If issues found, **tag** machine and remove from service.
+    Only **qualified service technicians** can make repairs.                                  Only **qualified service technicians** can make repairs, per manufacturer
+    After repairs, re-inspect and re-test before use.                                         specs.
+
+Function test checklist for forklifts:                                                        After repairs, re-inspect and re-test before use.
+
+    Test all controls (lift, tilt, side-shift).                                           Function Test Examples (Telehandler):
+
+    Test horn and lights.                                                                     Test all controls.
+    Test parking and service brakes.                                                          Test safety features.
+    Test overhead guard and load backrest.                                                    Test steering modes.
+    Test safety features (seat belt, deadman switch).                                         Test parking and service brakes.
+                                                                                              Test stabilizers.
+                                                                                              Test the attachment.
+
+Please refer to the detailed function test checklist provided in the Operator's Manual for thorough inspection of the machine's condition.
+SECTION 3: FIVE PRINCIPLES 4 Principle 4: Inspect the Workplace
+Classes 135 4 Inspect the Workplace                                              Class 7 (Telehandler)
+   Workplace inspection ensures area is safe for forklift use.                      Workplace inspection ensures area is safe for machine operation.
+   Perform **before each shift** and when moving to a **new work area**.            Perform **prior to moving** the machine to the workplace.
+
+Warehouse hazards to identify and avoid:                                            Always wear **proper PPE** as required by jobsite rules or conditions.
+                                                                                    Operator must remember hazards and avoid them during operation.
+   Avoid **wet, damaged, or contaminated floors** (oil, water, debris).
+   These reduce **traction** and increase **tip-over risk**.                     Be aware of and avoid the following hazardous situations:
+
+   Ensure **aisle width** and **clearance** are sufficient for loaded truck.        **Drop-offs or holes** and **bumps** or **debris**.
+   Watch for **overhead obstructions** (sprinklers, lights, low ceilings).          **Sloped, unstable, or slippery surfaces**.
+   Identify **pedestrian traffic zones** and plan routes to minimize conflict.      **Overhead obstructions**.
+   Ensure **dock edges** and **floor openings** are marked and protected.           **High voltage conductors**.
+   Never approach docks without confirming **trailer is secured**.                  **Flammable liquids, combustible dusts, or explosive atmospheres**.
+   Inadequate **lighting** increases collision risk and missed hazards.             **Inadequate surface support** for machine and load.
+   Identify **blind corners** and **narrow passages** with limited visibility.      **Wind and bad weather conditions**.
+   Report and avoid **damaged racking** immediately.                                **Unauthorized personnel**.
+   Ensure **unauthorized personnel** are clear of operating zones.                  **Accumulation of exhaust emissions** in enclosed spaces.
+                                                                                    **High sound levels** in the work area.
+                                                                                    All other **possibly unsafe conditions**.
+SECTION 3: FIVE PRINCIPLES 4 Principle 5: Only Use the
+Machine as It Was Intended
+Classes 135                                                   Class 7 (Telehandler)
+ Forklifts are designed for **specific tasks** and              Operator must follow all **safety rules** in the **Operator's and
+ **environments**.                                              Safety manuals**.
+ **Classes 133**: For **indoor warehouse** operations on        Only **TRAINED** and **AUTHORIZED personnel** may
+ **smooth, level surfaces**.                                    operate a telehandler.
+ **Classes 435**: For **indoor/outdoor** operations with        Multiple operators must all be **qualified** and follow **safety
+ **cushion or pneumatic tires**.                                rules**.
+ Never transport **personnel** (unless with approved work       New operators must perform a **pre-operation inspection**,
+ platform).                                                     **function tests**, and **workplace inspection**.
+ Do not push loads or operate outside its **rated design**.     Do not transport or lift **personnel** (unless with approved work
+ Always follow **manufacturer's operator manual** and           platform).
+ **employer's site-specific rules**.                            Do not alter components affecting **safety or stability**.
+                                                                Use **approved attachments** with proper **capacity ratings**.
+
