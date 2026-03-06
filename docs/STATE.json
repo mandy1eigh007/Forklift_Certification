@@ -1,17 +1,17 @@
 {
   "project": "Run-of-Show (Instructor Only)",
-  "current_goal": "Detailed instructor outline is live in runtime; next step is template-aware rendering for standard/visual/compare",
-  "last_known_working_commit": "d87e9aa",
+  "current_goal": "Template-aware rendering is implemented; next step is instructor walkthrough and PR finalization",
+  "last_known_working_commit": "89fd5d7",
   "active_branch": "feature/anchor-style-pass",
   "open_issues": [
-    "Scene template field is present in runtime data but render path does not yet implement template-specific layouts",
-    "Several referenced media/link assets in the new outline are placeholders and need file mapping or import",
+    "Visual scenes currently use placeholder SVG assets and still need final extracted media",
+    "Compare layout needs prefixed step lines (Forklift:/Telehandler:) to split columns for affected scenes",
     "Draft artifacts exist under run-of-show/content/ and may confuse runtime vs draft unless clearly labeled"
   ],
   "next_actions": [
-    "Implement sceneRenderer template handling for standard, visual, and compare modes",
-    "Add/map media assets referenced by visual scenes under run-of-show/public/media (or change outline paths)",
-    "Walk through Present+Control in class pacing mode and adjust scene text only if needed",
-    "Open/update PR with ordered commit summary including d87e9aa"
+    "Run manual walkthrough at #/present?scene=A-02 and #/present?scene=C-01 to verify visual/compare behavior",
+    "Refine compare scenes by prefixing step lines with Forklift:/Telehandler: where split view is desired",
+    "Replace placeholder SVGs with extracted real media assets",
+    "Open/update PR with ordered commit summary including 688b340, d87e9aa, and 89fd5d7"
   ]
 }

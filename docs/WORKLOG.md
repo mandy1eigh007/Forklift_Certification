@@ -264,3 +264,40 @@ Results:
 NEXT:
 - Implement template-aware rendering for `standard`, `visual`, and `compare` scene modes.
 - Add/map referenced media assets used by visual scenes.
+
+## 2026-03-06 18:46 (local)
+Goal:
+- Fix STATE validity, then implement template-aware scene rendering (standard/visual/compare) with safe media placeholders.
+Files changed:
+- docs/STATE.json
+- docs/WORKLOG.md
+- run-of-show/src/data.ts
+- run-of-show/src/components/sceneRenderer.ts
+- run-of-show/src/views/library.ts
+- run-of-show/styles/present.css
+- run-of-show/styles/library.css
+- run-of-show/public/content/outline.json
+- run-of-show/public/media/telehandler/attachments/quick-attach.svg
+- run-of-show/public/media/telehandler/attachments/rotating-carriage.svg
+- run-of-show/public/media/telehandler/attachments/swing-carriage.svg
+- run-of-show/public/media/telehandler/attachments/overview.svg
+Decisions:
+- Fixed Golden Rule reference mismatch using Option A: meta now references `GR-01` through `GR-04`.
+- Switched image paths in runtime outline from `.png` to placeholder `.svg` assets to avoid broken visuals.
+- Compare scenes fall back to standard layout unless steps are prefixed with `Forklift:` / `Telehandler:`.
+Commands:
+- cat > docs/STATE.json (validity replacement)
+- node -e "JSON.parse(require('fs').readFileSync('docs/STATE.json','utf8')); console.log('STATE_JSON_VALID')"
+- git add docs/STATE.json && git commit -m "docs: fix STATE.json validity after outline update" (escalated)
+- git push (escalated)
+- npm run typecheck && npm run build (run-of-show/)
+- git add run-of-show/public/content/outline.json run-of-show/src/components/sceneRenderer.ts run-of-show/src/data.ts run-of-show/src/views/library.ts run-of-show/styles/library.css run-of-show/styles/present.css run-of-show/public/media/telehandler/attachments/*.svg
+- git commit -m "run-of-show: add template-aware scene rendering modes" (escalated)
+Results:
+- Commit `688b340`: docs state validity fix pushed.
+- Commit `89fd5d7`: template dispatcher + visual/compare rendering + library template badges + placeholder media assets.
+- Build checks passed after rendering changes (`typecheck` + `build`).
+NEXT:
+- Run manual scene checks in browser: `#/present?scene=A-02` and `#/present?scene=C-01`.
+- Prefix compare-scene steps with `Forklift:` / `Telehandler:` where split columns are desired.
+- Replace placeholder SVGs with final extracted media.
