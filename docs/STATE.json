@@ -1,16 +1,16 @@
 {
   "project": "Run-of-Show (Instructor Only)",
-  "current_goal": "Ingest newly uploaded Section 5 deck into source processing flow and map it to run-of-show scenes",
-  "last_known_working_commit": "f573c4e",
+  "current_goal": "Detailed instructor outline is live in runtime; next step is template-aware rendering for standard/visual/compare",
+  "last_known_working_commit": "d87e9aa",
   "active_branch": "feature/anchor-style-pass",
   "open_issues": [
-    "Section 5 has been ingested as source text, but runtime outline scenes are not yet expanded from this material",
-    "PR still needs to be opened from feature/anchor-style-pass with ordered commit summary"
+    "Scene template field is now present in runtime data but render path does not yet implement template-specific layouts",
+    "Several referenced media/link assets in the new outline are placeholders and need file mapping or import"
   ],
   "next_actions": [
-    "Commit Section 5 source artifacts and topic-map updates",
-    "Optionally draft new scene entries from Section 5 (attachments/capacity controls) into run-of-show/content/outline.json",
-    "Open PR from feature/anchor-style-pass using ordered commit summary",
-    "Confirm reviewers understand runtime source of truth remains run-of-show/public/content/outline.json"
+    "Implement sceneRenderer template handling for standard, visual, and compare modes",
+    "Add or map media assets referenced by visual scenes under public/media or adjust paths",
+    "Run instructor walkthrough pass in Present+Control views to validate pacing and prompts",
+    "Open/update PR with commit d87e9aa and template-rendering follow-up plan"
   ]
 }

@@ -239,3 +239,28 @@ Results:
 NEXT:
 - Commit Section 5 source artifacts + map updates.
 - If needed, author Section 5 scene content into draft outline before runtime promotion.
+
+## 2026-03-06 18:27 (local)
+Goal:
+- Replace runtime outline with the provided detailed instructor run-of-show (including `template` mode hints).
+Files changed:
+- run-of-show/public/content/outline.json
+- docs/WORKLOG.md
+- docs/STATE.json
+Decisions:
+- Applied the provided outline directly to runtime source of truth: `run-of-show/public/content/outline.json`.
+- Kept `template` as a safe extension field in scene objects without changing render code yet.
+- Normalized to valid JSON-safe ASCII punctuation while preserving content meaning.
+Commands:
+- git status -sb
+- node -e "JSON.parse(require('fs').readFileSync('run-of-show/public/content/outline.json','utf8')); console.log('OUTLINE_JSON_VALID')"
+- npm run typecheck && npm run build (run-of-show/)
+- git add run-of-show/public/content/outline.json
+- git commit -m "run-of-show: add detailed instructor run-of-show outline" (escalated)
+Results:
+- Runtime outline updated with Golden Rule protocol, compare blocks, attachment deep dive, and evaluation flow scenes.
+- Build checks passed after change (`typecheck` + `build`).
+- Checkpoint commit created: `d87e9aa`.
+NEXT:
+- Implement template-aware rendering for `standard`, `visual`, and `compare` scene modes.
+- Add/map referenced media assets used by visual scenes.
