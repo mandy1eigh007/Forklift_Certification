@@ -134,9 +134,12 @@
           "objective": "Frame similarities (behavior) and differences (capacity system and stability footprint).",
           "script": "The same: deliberate speed, visibility choices, communication, inspection discipline, and stopping when unsure. The difference: forklifts use a data plate and load center logic; telehandlers use load charts by height/reach/zone/angle. Telehandler stability footprint changes with axle lock and stabilizers; extension reduces capacity.",
           "steps": [
-            "Have students repeat: plate vs chart.",
-            "Have students repeat: extension reduces capacity.",
-            "Preview: we will drill chart reading before practical."
+            "Forklift: Capacity is governed by the data plate and load center rules; oversized/off-center loads reduce effective capacity.",
+            "Forklift: Stability shifts with turns, mast tilt, and speed; travel with control and a low load.",
+            "Telehandler: Capacity is governed by load charts (height/reach/zone/angle); extension and elevation reduce capacity quickly.",
+            "Telehandler: Stability footprint changes with axle lock and stabilizers; machine configuration must match the active chart.",
+            "Forklift: Verify plate and attachment limits before lifting; do not assume prior settings still apply.",
+            "Telehandler: Verify the exact chart for the installed attachment before lifting."
           ],
           "ask": [
             "If you had to choose one habit that transfers across every machine, what is it?"
@@ -163,9 +166,10 @@
           "objective": "Lock the telehandler movement sequence as a repeatable mantra.",
           "script": "Class 7 sequence: Position -> brake -> verify chart/zone -> raise retracted -> extend to place -> retract to travel. Never fine-position rolling.",
           "steps": [
-            "Say it once. Students repeat it.",
-            "Say it a second time. Students repeat it faster.",
-            "Explain: this sequence prevents most preventable tip/placement errors."
+            "Forklift: Position square to the load, stop, verify plate/load center, then lift and travel with load low.",
+            "Forklift: Reposition the truck before fine placement; do not force alignment while moving under a raised load.",
+            "Telehandler: Position -> brake -> verify chart/zone -> raise retracted -> extend to place -> retract to travel.",
+            "Telehandler: Never fine-position rolling while elevated; reset position first, then continue."
           ],
           "ask": [
             "Which step gets skipped when people are rushing?"
@@ -200,9 +204,10 @@
           "objective": "Establish written manufacturer approval as the gate for any modification or attachment change.",
           "script": "Never modify a forklift, telehandler, or attachments without written manufacturer approval. Using unapproved attachments is a modification. Unauthorized changes affect capacity, stability, and safe operation. If in doubt, verify with the manufacturer.",
           "steps": [
-            "Define 'modification' in practical terms: attachment, fork length change, carriage change, anything affecting capacity/stability.",
-            "Explain why: shifts center of gravity, changes charts/plates, introduces tip-over hazards.",
-            "Set a hard rule: if you can't verify approval, the lift is not happening."
+            "Forklift: Treat extensions, clamps, and carriage/fork changes as modifications requiring manufacturer approval and updated rating data.",
+            "Forklift: If plate/decal information does not reflect the installed setup, stop and correct documentation before use.",
+            "Telehandler: Treat all attachment swaps as configuration changes requiring approved attachment + matching chart.",
+            "Telehandler: Unapproved attachment or unknown compatibility means no lift; verify with manufacturer documentation first."
           ],
           "ask": [
             "What's an example of a 'small change' that actually changes capacity or stability?"
@@ -223,9 +228,10 @@
           "objective": "Make plate/chart verification a repeatable habit before every lift.",
           "script": "Forklifts usually use a capacity data plate at a standard load center; increased load center reduces effective capacity. Telehandlers rely on load charts showing capacity at different boom heights and extension distances; capacity decreases significantly as boom is raised and extended. Charts assume level machine on firm ground and may require stabilizers/axle lock/approved attachments.",
           "steps": [
-            "Forklift: define load center and why oversized/off-center loads reduce capacity.",
-            "Telehandler: define height/reach/zone/angle and how extension changes the number.",
-            "Repeat: chart must match the machine model and installed attachment."
+            "Forklift: Read the data plate first and confirm load center; larger load center means lower effective capacity.",
+            "Forklift: Confirm plate/decal still matches current attachment and mast/carriage configuration before lifting.",
+            "Telehandler: Read the correct load chart for current setup (height/reach/zone/angle with installed attachment).",
+            "Telehandler: Confirm required stabilizers/axle lock and level-ground assumptions are met before raising/extending."
           ],
           "ask": [
             "What changes capacity faster on a telehandler: raising, extending, or both?"
@@ -289,7 +295,7 @@
             "Students saying 'it looks right' instead of naming the chart/approval requirement."
           ],
           "media": [
-            { "type": "image", "title": "Quick-Attach System (extract from Genie trainer guide)", "src": "media/telehandler/attachments/quick-attach.svg" }
+            { "type": "image", "title": "Quick-Attach System (extract from Genie trainer guide)", "src": "media/telehandler/attachments/quick-attach.png" }
           ],
           "links": [],
           "answers": { "enabled": true, "items": ["Attachment is manufacturer-approved for this machine; load chart matches the installed attachment and configuration."] },
@@ -314,7 +320,7 @@
             "Students thinking sway is a 'fine adjustment' while elevated."
           ],
           "media": [
-            { "type": "image", "title": "Rotating Carriage example (extract)", "src": "media/telehandler/attachments/rotating-carriage.svg" }
+            { "type": "image", "title": "Rotating Carriage example (extract)", "src": "media/telehandler/attachments/rotating-carriage.png" }
           ],
           "links": [],
           "answers": {
@@ -344,7 +350,7 @@
             "Students focusing on steering only and ignoring tail swing/load swing."
           ],
           "media": [
-            { "type": "image", "title": "Swing Carriage example (extract)", "src": "media/telehandler/attachments/swing-carriage.svg" }
+            { "type": "image", "title": "Swing Carriage example (extract)", "src": "media/telehandler/attachments/swing-carriage.png" }
           ],
           "links": [],
           "answers": { "enabled": true, "items": ["Reduced clearance + visibility + load swing and dynamic forces during turning."] },
@@ -369,7 +375,7 @@
             "Students assuming 'machine capacity' equals 'attachment capacity'."
           ],
           "media": [
-            { "type": "image", "title": "Attachment overview (adapter, grapple, bucket, truss boom)", "src": "media/telehandler/attachments/overview.svg" }
+            { "type": "image", "title": "Attachment overview (adapter, grapple, bucket, truss boom)", "src": "media/telehandler/attachments/overview.png" }
           ],
           "links": [],
           "answers": {

@@ -60,6 +60,28 @@ npm run build
 npm run preview
 ```
 
+## Extract Attachment Images
+
+To replace placeholder visual assets with real telehandler attachment images:
+
+```bash
+python3 scripts/extract_telehandler_attachment_images.py \
+  --pdf "sources/genie/2025 Genie Lift Pro Telehandler Trainer's Guide.pdf" \
+  --scale 3 \
+  --page quick-attach=120 \
+  --page rotating-carriage=122 \
+  --page swing-carriage=123 \
+  --page overview=121
+```
+
+Notes:
+
+- Script path: `scripts/extract_telehandler_attachment_images.py`
+- Output path: `run-of-show/public/media/telehandler/attachments/*.png`
+- If `fitz` import fails, install PyMuPDF: `pip install pymupdf`
+
+After extraction, ensure image sources in `run-of-show/public/content/outline.json` point to the generated `.png` files.
+
 ## GitHub Pages Deployment
 
 Vite base path is configured in `vite.config.ts`:
