@@ -31,6 +31,7 @@ jobs:
           cache: npm
           cache-dependency-path: run-of-show/package-lock.json
       - run: npm ci
+      - run: npm run validate:json
       - run: npm run typecheck
       - run: npm run build
       - uses: actions/configure-pages@v5

@@ -136,9 +136,9 @@
           "steps": [
             "Forklift: Capacity is governed by the data plate and load center rules; oversized/off-center loads reduce effective capacity.",
             "Forklift: Stability shifts with turns, mast tilt, and speed; travel with control and a low load.",
-            "Telehandler: Capacity is governed by load charts (height/reach/zone/angle); extension and elevation reduce capacity quickly.",
-            "Telehandler: Stability footprint changes with axle lock and stabilizers; machine configuration must match the active chart.",
             "Forklift: Verify plate and attachment limits before lifting; do not assume prior settings still apply.",
+            "Telehandler: Capacity is governed by load charts (height/reach/zone/angle); extension and elevation reduce capacity quickly.",
+            "Telehandler: Stability footprint changes with axle lock and stabilizers; configuration must match the active chart.",
             "Telehandler: Verify the exact chart for the installed attachment before lifting."
           ],
           "ask": [
@@ -167,7 +167,7 @@
           "script": "Class 7 sequence: Position -> brake -> verify chart/zone -> raise retracted -> extend to place -> retract to travel. Never fine-position rolling.",
           "steps": [
             "Forklift: Position square to the load, stop, verify plate/load center, then lift and travel with load low.",
-            "Forklift: Reposition the truck before fine placement; do not force alignment while moving under a raised load.",
+            "Forklift: Reposition before fine placement; do not force alignment while moving under a raised load.",
             "Telehandler: Position -> brake -> verify chart/zone -> raise retracted -> extend to place -> retract to travel.",
             "Telehandler: Never fine-position rolling while elevated; reset position first, then continue."
           ],

@@ -8,6 +8,7 @@
   },
   "scripts": {
     "dev": "vite",
+    "validate:json": "node ../scripts/validate_json.mjs",
     "typecheck": "tsc --noEmit",
     "build": "vite build",
     "preview": "vite preview"

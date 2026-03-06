@@ -22,16 +22,16 @@ import sys
 
 DEFAULT_OUTPUT_DIR = Path("run-of-show/public/media/telehandler/attachments")
 DEFAULT_CANDIDATES = [
-    Path("/mnt/data/Pages from 2025 Genie Lift Pro Telehandler Trainer's Guide.pdf"),
     Path("sources/genie/2025 Genie Lift Pro Telehandler Trainer's Guide.pdf"),
+    Path("/mnt/data/Pages from 2025 Genie Lift Pro Telehandler Trainer's Guide.pdf"),
 ]
 
 # 1-based page numbers. Update these for your exact source pages.
 DEFAULT_PAGE_MAP = {
-    "quick-attach": 1,
-    "rotating-carriage": 1,
-    "swing-carriage": 1,
-    "overview": 1,
+    "quick-attach": 2,
+    "rotating-carriage": 2,
+    "swing-carriage": 2,
+    "overview": 3,
 }
 
 
@@ -60,7 +60,7 @@ def resolve_pdf_path(user_pdf: str | None) -> Path:
         p = Path(user_pdf)
         if p.exists():
             return p
-        raise FileNotFoundError(f"PDF not found at '{p}'.")
+        raise FileNotFoundError(f"Expected PDF at '{p}', but it does not exist.")
 
     for candidate in DEFAULT_CANDIDATES:
         if candidate.exists():
