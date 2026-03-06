@@ -66,6 +66,24 @@
   border-color: var(--accent);
 }
 
+.sceneRow{
+  display:flex;
+  align-items:center;
+  justify-content: space-between;
+  gap: 10px;
+}
+
+.templateBadge{
+  flex-shrink: 0;
+  border: 1px solid var(--border);
+  border-radius: 999px;
+  padding: 2px 8px;
+  font-size: 11px;
+  letter-spacing: 0.04em;
+  color: var(--muted);
+  background: rgba(255,255,255,0.03);
+}
+
 .previewTitle{
   font-size: 28px;
   letter-spacing: -0.02em;

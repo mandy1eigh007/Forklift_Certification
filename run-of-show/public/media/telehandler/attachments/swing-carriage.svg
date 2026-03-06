@@ -1,0 +1,15 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1600" height="1000" viewBox="0 0 1600 1000" role="img" aria-labelledby="title desc">
+  <title id="title">swing-carriage placeholder</title>
+  <desc id="desc">Placeholder image for swing-carriage until final extracted media is added.</desc>
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#0f172a"/>
+      <stop offset="100%" stop-color="#1f2937"/>
+    </linearGradient>
+  </defs>
+  <rect width="1600" height="1000" fill="url(#bg)"/>
+  <rect x="70" y="70" width="1460" height="860" rx="28" fill="none" stroke="#60a5fa" stroke-width="4" stroke-dasharray="14 10"/>
+  <text x="800" y="430" fill="#e5e7eb" font-size="72" text-anchor="middle" font-family="Arial, sans-serif">Media Placeholder</text>
+  <text x="800" y="515" fill="#93c5fd" font-size="56" text-anchor="middle" font-family="Arial, sans-serif">swing-carriage.svg</text>
+  <text x="800" y="600" fill="#9ca3af" font-size="34" text-anchor="middle" font-family="Arial, sans-serif">Replace with extracted training image asset</text>
+</svg>

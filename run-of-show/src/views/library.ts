@@ -3,6 +3,12 @@ import { toggleBookmark } from "../state";
 import type { Store } from "../state";
 import { el, clear } from "../components/ui";
 
+function templateLabel(scene: FlatScene): "STANDARD" | "VISUAL" | "COMPARE" {
+  if (scene.template === "visual") return "VISUAL";
+  if (scene.template === "compare") return "COMPARE";
+  return "STANDARD";
+}
+
 export async function renderLibrary(root: HTMLElement, store: Store): Promise<void> {
   await loadOutline();
   const flat = getFlatScenes();
@@ -51,7 +57,11 @@ export async function renderLibrary(root: HTMLElement, store: Store): Promise<vo
         lastSection = sc.sectionTitle;
       }
 
-      const btn = el("button", { text: `${sc.id} - ${sc.title}` });
+      const btn = el("button");
+      const row = el("div", { className: "sceneRow" });
+      row.appendChild(el("span", { text: `${sc.id} - ${sc.title}` }));
+      row.appendChild(el("span", { className: "templateBadge", text: templateLabel(sc) }));
+      btn.appendChild(row);
       if (sc.id === store.get().sceneId) btn.classList.add("active");
       btn.addEventListener("click", () => {
         store.set({ sceneId: sc.id });
@@ -70,6 +80,7 @@ export async function renderLibrary(root: HTMLElement, store: Store): Promise<vo
     meta.appendChild(el("div", { text: `Section: ${sc.sectionTitle}` }));
     meta.appendChild(el("div", { text: `Scene: ${sc.id}` }));
     meta.appendChild(el("div", { text: `Duration: ${sc.durationMinutes} min` }));
+    meta.appendChild(el("div", { text: `Template: ${templateLabel(sc)}` }));
     preview.appendChild(meta);
 
     preview.appendChild(el("div", { text: sc.objective, attrs: { style: "color:var(--muted);margin-bottom:10px;" } }));

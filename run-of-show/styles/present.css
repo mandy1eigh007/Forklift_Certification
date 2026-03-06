@@ -55,6 +55,66 @@
   .presentCols{ grid-template-columns: 1fr; }
 }
 
+.visualLayout{
+  display:grid;
+  grid-template-columns: 1.1fr 0.9fr;
+  gap: 18px;
+}
+
+.visualLeft{
+  min-width: 0;
+}
+
+.visualRight{
+  min-width: 0;
+}
+
+@media (max-width: 1100px){
+  .visualLayout{ grid-template-columns: 1fr; }
+}
+
+.mediaFigure{
+  margin: 0;
+  border: 1px solid var(--border);
+  border-radius: 18px;
+  background: rgba(255,255,255,0.03);
+  padding: 12px;
+}
+
+.mediaImage{
+  width: 100%;
+  max-height: 440px;
+  object-fit: contain;
+  border-radius: 12px;
+  border: 1px solid var(--border);
+  background: rgba(0,0,0,0.2);
+}
+
+.mediaCaption{
+  margin-top: 8px;
+  color: var(--muted);
+  font-size: calc(14px * var(--fontScale));
+}
+
+.mediaMissing{
+  border: 1px dashed #d7827e;
+  border-radius: 12px;
+  padding: 14px;
+  color: #ffb4ad;
+  background: rgba(215,130,126,0.08);
+  font-size: calc(15px * var(--fontScale));
+}
+
+.compareCols{
+  display:grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 18px;
+}
+
+@media (max-width: 1100px){
+  .compareCols{ grid-template-columns: 1fr; }
+}
+
 .block{
   border: 1px solid var(--border);
   background: rgba(255,255,255,0.035);

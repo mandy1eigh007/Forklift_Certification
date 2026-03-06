@@ -14,6 +14,7 @@ export type OutlineMeta = {
 
 export type Scene = {
   id: string;
+  template?: "standard" | "visual" | "compare";
   title: string;
   durationMinutes: number;
   objective: string;

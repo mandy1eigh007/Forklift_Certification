@@ -6,7 +6,7 @@
     "defaultSceneId": "GR-01",
     "design_model": "https://renaudrohlinger.com/",
     "delivery_mode": "Instructor-led; students follow projected Present view; instructor drives from Control view.",
-    "golden_rule_script_ref": "Scenes GR-01 through GR-06 must be delivered in order without deviation."
+    "golden_rule_script_ref": "Scenes GR-01 through GR-04 must be delivered in order without deviation."
   },
   "sections": [
     {
@@ -289,7 +289,7 @@
             "Students saying 'it looks right' instead of naming the chart/approval requirement."
           ],
           "media": [
-            { "type": "image", "title": "Quick-Attach System (extract from Genie trainer guide)", "src": "media/telehandler/attachments/quick-attach.png" }
+            { "type": "image", "title": "Quick-Attach System (extract from Genie trainer guide)", "src": "media/telehandler/attachments/quick-attach.svg" }
           ],
           "links": [],
           "answers": { "enabled": true, "items": ["Attachment is manufacturer-approved for this machine; load chart matches the installed attachment and configuration."] },
@@ -314,7 +314,7 @@
             "Students thinking sway is a 'fine adjustment' while elevated."
           ],
           "media": [
-            { "type": "image", "title": "Rotating Carriage example (extract)", "src": "media/telehandler/attachments/rotating-carriage.png" }
+            { "type": "image", "title": "Rotating Carriage example (extract)", "src": "media/telehandler/attachments/rotating-carriage.svg" }
           ],
           "links": [],
           "answers": {
@@ -344,7 +344,7 @@
             "Students focusing on steering only and ignoring tail swing/load swing."
           ],
           "media": [
-            { "type": "image", "title": "Swing Carriage example (extract)", "src": "media/telehandler/attachments/swing-carriage.png" }
+            { "type": "image", "title": "Swing Carriage example (extract)", "src": "media/telehandler/attachments/swing-carriage.svg" }
           ],
           "links": [],
           "answers": { "enabled": true, "items": ["Reduced clearance + visibility + load swing and dynamic forces during turning."] },
@@ -369,7 +369,7 @@
             "Students assuming 'machine capacity' equals 'attachment capacity'."
           ],
           "media": [
-            { "type": "image", "title": "Attachment overview (adapter, grapple, bucket, truss boom)", "src": "media/telehandler/attachments/overview.png" }
+            { "type": "image", "title": "Attachment overview (adapter, grapple, bucket, truss boom)", "src": "media/telehandler/attachments/overview.svg" }
           ],
           "links": [],
           "answers": {
