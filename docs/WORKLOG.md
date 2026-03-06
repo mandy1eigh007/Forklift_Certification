@@ -301,3 +301,38 @@ NEXT:
 - Run manual scene checks in browser: `#/present?scene=A-02` and `#/present?scene=C-01`.
 - Prefix compare-scene steps with `Forklift:` / `Telehandler:` where split columns are desired.
 - Replace placeholder SVGs with final extracted media.
+
+## 2026-03-06 19:26 (local)
+Goal:
+- Apply manual-verification follow-ups: make compare scenes split-ready and add repeatable PNG extraction pipeline for attachment visuals.
+Files changed:
+- run-of-show/public/content/outline.json
+- run-of-show/README.md
+- scripts/extract_telehandler_attachment_images.py
+- run-of-show/public/media/telehandler/attachments/quick-attach.png
+- run-of-show/public/media/telehandler/attachments/rotating-carriage.png
+- run-of-show/public/media/telehandler/attachments/swing-carriage.png
+- run-of-show/public/media/telehandler/attachments/overview.png
+- docs/WORKLOG.md
+- docs/STATE.json
+Decisions:
+- Prefixed compare-scene steps for `C-01`, `C-02`, `L-01`, and `L-02` with `Forklift:`/`Telehandler:` so compare renderer splits into columns.
+- Switched runtime visual media paths to `.png` and generated PNG placeholders immediately so scenes render without broken image errors.
+- Added `scripts/extract_telehandler_attachment_images.py` with explicit page override flags; default pages are placeholders pending exact page numbers.
+Commands:
+- grep/sed over `run-of-show/public/content/outline.json`
+- python3 check for `fitz` and `PIL`
+- python3 script to generate PNG placeholders
+- npm run dev -- --host 0.0.0.0 --port 4173 (escalated; server start verified)
+- npm run typecheck && npm run build (run-of-show/)
+- git add run-of-show/public/content/outline.json run-of-show/README.md scripts/extract_telehandler_attachment_images.py run-of-show/public/media/telehandler/attachments/*.png
+- git commit -m "run-of-show: refine compare scenes and add image extraction pipeline" (escalated)
+Results:
+- Compare scenes now have split-ready step content for two-column render mode.
+- Visual scenes now point to PNG assets and display generated placeholders by default.
+- New extractor script added for real PDF page capture workflow.
+- Checkpoint commit created: `f6b90c0`.
+NEXT:
+- Run manual route checks in browser (`A-02`, `A-03`, `C-01`, `control A-02`).
+- Run extraction script with real page numbers and replace placeholder PNGs.
+- Update PR summary with latest commits.

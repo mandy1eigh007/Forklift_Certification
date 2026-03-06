@@ -1,17 +1,17 @@
 {
   "project": "Run-of-Show (Instructor Only)",
-  "current_goal": "Template-aware rendering is implemented; next step is instructor walkthrough and PR finalization",
-  "last_known_working_commit": "89fd5d7",
+  "current_goal": "Compare scenes now split correctly; extractor pipeline and PNG placeholders added for attachment visuals",
+  "last_known_working_commit": "f6b90c0",
   "active_branch": "feature/anchor-style-pass",
   "open_issues": [
-    "Visual scenes currently use placeholder SVG assets and still need final extracted media",
-    "Compare layout needs prefixed step lines (Forklift:/Telehandler:) to split columns for affected scenes",
+    "Visual scenes currently use generated PNG placeholders; final extracted guide images still need page mapping",
+    "Extractor script defaults use page 1 placeholders until exact attachment page numbers are provided",
     "Draft artifacts exist under run-of-show/content/ and may confuse runtime vs draft unless clearly labeled"
   ],
   "next_actions": [
-    "Run manual walkthrough at #/present?scene=A-02 and #/present?scene=C-01 to verify visual/compare behavior",
-    "Refine compare scenes by prefixing step lines with Forklift:/Telehandler: where split view is desired",
-    "Replace placeholder SVGs with extracted real media assets",
-    "Open/update PR with ordered commit summary including 688b340, d87e9aa, and 89fd5d7"
+    "Run manual walkthrough at #/present?scene=A-02, #/present?scene=A-03, #/present?scene=C-01, and #/control?scene=A-02",
+    "Run scripts/extract_telehandler_attachment_images.py with real attachment page numbers to replace placeholders",
+    "If needed, remove obsolete .svg placeholders once PNG extraction is finalized",
+    "Open/update PR with ordered commit summary including 688b340, 89fd5d7, and f6b90c0"
   ]
 }
