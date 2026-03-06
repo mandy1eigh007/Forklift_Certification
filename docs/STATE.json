@@ -4,13 +4,14 @@
   "last_known_working_commit": "d87e9aa",
   "active_branch": "feature/anchor-style-pass",
   "open_issues": [
-    "Scene template field is now present in runtime data but render path does not yet implement template-specific layouts",
-    "Several referenced media/link assets in the new outline are placeholders and need file mapping or import"
+    "Scene template field is present in runtime data but render path does not yet implement template-specific layouts",
+    "Several referenced media/link assets in the new outline are placeholders and need file mapping or import",
+    "Draft artifacts exist under run-of-show/content/ and may confuse runtime vs draft unless clearly labeled"
   ],
   "next_actions": [
     "Implement sceneRenderer template handling for standard, visual, and compare modes",
-    "Add or map media assets referenced by visual scenes under public/media or adjust paths",
-    "Run instructor walkthrough pass in Present+Control views to validate pacing and prompts",
-    "Open/update PR with commit d87e9aa and template-rendering follow-up plan"
+    "Add/map media assets referenced by visual scenes under run-of-show/public/media (or change outline paths)",
+    "Walk through Present+Control in class pacing mode and adjust scene text only if needed",
+    "Open/update PR with ordered commit summary including d87e9aa"
   ]
 }
