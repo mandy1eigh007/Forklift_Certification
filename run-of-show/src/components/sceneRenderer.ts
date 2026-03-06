@@ -1,211 +1,117 @@
-import type { Scene } from "../data";
-import { el } from "./ui";
+import type { FlatScene } from "../data";
+import { el, clear } from "./ui";
 
-export function renderPresentScene(scene: Scene): HTMLElement {
-  const wrap = el("section", "scene-present");
+export function renderPresentScene(root: HTMLElement, scene: FlatScene, opts: {
+  fontScale: number;
+  timerText: string;
+  showTimer: boolean;
+}): void {
+  clear(root);
 
-  const title = el("h1", "scene-title", scene.title);
-  wrap.appendChild(title);
+  const top = el("div", { className: "presentTop" });
+  top.appendChild(el("div", { className: "crumb", text: `${scene.sectionTitle} / ${scene.id}` }));
 
-  const objective = el("p", "scene-objective", scene.objective);
-  wrap.appendChild(objective);
+  const main = el("div", { className: "presentMain" });
+  const frame = el("div", { className: "presentFrame" });
 
-  const script = el("p", "scene-script", scene.script);
-  wrap.appendChild(script);
+  frame.appendChild(el("h1", { className: "presentTitle", text: scene.title }));
+  frame.appendChild(el("div", { className: "presentObjective", text: scene.objective }));
 
-  const leadMedia = scene.media.find((item) => item.type === "image" || item.type === "video");
-  if (leadMedia) {
-    const mediaWrap = el("div", "scene-media-hero");
-    mediaWrap.appendChild(renderMediaItem(leadMedia, true));
-    wrap.appendChild(mediaWrap);
+  frame.appendChild(el("p", { className: "presentScript", text: scene.script }));
+
+  const cols = el("div", { className: "presentCols" });
+
+  const steps = el("div", { className: "block" });
+  steps.appendChild(el("h3", { text: "Do" }));
+  const ulSteps = el("ul");
+  (scene.steps ?? []).slice(0, 5).forEach((s) => ulSteps.appendChild(el("li", { text: s })));
+  steps.appendChild(ulSteps);
+
+  const ask = el("div", { className: "block" });
+  ask.appendChild(el("h3", { text: "Ask" }));
+  const ulAsk = el("ul");
+  (scene.ask ?? []).slice(0, 1).forEach((s) => ulAsk.appendChild(el("li", { text: s })));
+  ask.appendChild(ulAsk);
+
+  cols.appendChild(steps);
+  cols.appendChild(ask);
+
+  // watchFor (optional, only one block max)
+  const wf = (scene.watchFor ?? []).slice(0, 1);
+  if (wf.length) {
+    const wfb = el("div", { className: "block" });
+    wfb.appendChild(el("h3", { text: "Watch for" }));
+    const ul = el("ul");
+    ul.appendChild(el("li", { text: wf[0] }));
+    wfb.appendChild(ul);
+    cols.appendChild(wfb);
   }
 
-  const stepsTitle = el("h2", "scene-subtitle", "Steps");
-  wrap.appendChild(stepsTitle);
+  frame.appendChild(cols);
 
-  const stepList = el("ol", "scene-list");
-  scene.steps.slice(0, 5).forEach((item) => {
-    const li = el("li", "scene-list-item", item);
-    stepList.appendChild(li);
-  });
-  if (scene.steps.length > 5) {
-    stepList.appendChild(el("li", "scene-list-item scene-truncated", "More in Console."));
-  }
-  wrap.appendChild(stepList);
+  const timerBar = el("div", { className: "timerBar" });
+  timerBar.appendChild(el("div", { text: opts.showTimer ? `Timer: ${opts.timerText}` : "" }));
+  timerBar.appendChild(el("div", { className: "kbd", text: "Right/Space next  Left prev  / picker  B black  F fullscreen" }));
+  frame.appendChild(timerBar);
 
-  if (scene.ask[0]) {
-    const askTitle = el("h2", "scene-subtitle", "Prompt");
-    const ask = el("p", "scene-ask", scene.ask[0]);
-    wrap.append(askTitle, ask);
-  }
+  main.appendChild(frame);
 
-  if (scene.watchFor[0]) {
-    const watchTitle = el("h2", "scene-subtitle scene-watch", "Watch For");
-    const watch = el("p", "scene-watch-body", scene.watchFor[0]);
-    wrap.append(watchTitle, watch);
-  }
-
-  return wrap;
+  root.style.setProperty("--fontScale", String(opts.fontScale));
+  root.appendChild(top);
+  root.appendChild(main);
 }
 
-export function renderConsoleScene(scene: Scene, answersVisible: boolean): HTMLElement {
-  const wrap = el("section", "scene-console");
+export function renderControlScene(root: HTMLElement, scene: FlatScene, opts: {
+  timerText: string;
+  reveal: boolean;
+}): void {
+  clear(root);
 
-  const title = el("h1", "scene-title", scene.title);
-  const objective = el("p", "scene-objective", scene.objective);
-  const script = el("p", "scene-script", scene.script);
+  root.appendChild(el("div", { className: "controlTitle", text: scene.title }));
 
-  wrap.append(title, objective, script);
+  const meta = el("div", { className: "controlMeta" });
+  meta.appendChild(el("div", { text: `Section: ${scene.sectionTitle}` }));
+  meta.appendChild(el("div", { text: `Scene: ${scene.id}` }));
+  meta.appendChild(el("div", { text: `Duration: ${scene.durationMinutes} min` }));
+  meta.appendChild(el("div", { text: `Timer: ${opts.timerText}` }));
+  root.appendChild(meta);
 
-  wrap.appendChild(sectionList("Steps", scene.steps));
-  wrap.appendChild(sectionList("Ask", scene.ask));
-  wrap.appendChild(sectionList("Watch For", scene.watchFor, true));
+  const grid = el("div", { className: "card controlBlock" });
 
-  const links = el("div", "scene-links");
-  const linksTitle = el("h2", "scene-subtitle", "Quick Links");
-  links.appendChild(linksTitle);
-  if (scene.links.length === 0) {
-    links.appendChild(el("p", "scene-muted", "No links attached."));
-  } else {
-    const ul = el("ul", "scene-list");
-    scene.links.forEach((item) => {
-      const li = el("li", "scene-list-item");
-      const a = document.createElement("a");
-      a.className = "scene-link";
-      a.href = item.url;
-      a.target = "_blank";
-      a.rel = "noopener noreferrer";
-      a.textContent = item.title;
-      li.appendChild(a);
-      ul.appendChild(li);
-    });
-    links.appendChild(ul);
-  }
-  wrap.appendChild(links);
-
-  const media = el("div", "scene-media");
-  media.appendChild(el("h2", "scene-subtitle", "Media"));
-  if (scene.media.length === 0) {
-    media.appendChild(el("p", "scene-muted", "No media attached."));
-  } else {
-    const ul = el("ul", "scene-media-list");
-    scene.media.forEach((item) => {
-      const li = el("li", "scene-media-item");
-      li.appendChild(renderMediaItem(item, false));
-      ul.appendChild(li);
-    });
-    media.appendChild(ul);
-  }
-  wrap.appendChild(media);
-
-  const notes = el("div", "scene-notes");
-  notes.appendChild(el("h2", "scene-subtitle", "Speaker Notes"));
-  notes.appendChild(el("p", "scene-notes-text", scene.notes));
-  wrap.appendChild(notes);
-
-  const answersBlock = el("div", "scene-answers");
-  answersBlock.appendChild(el("h2", "scene-subtitle", "Answers"));
-  if (!scene.answers || !scene.answers.enabled) {
-    answersBlock.appendChild(el("p", "scene-muted", "No hidden answers for this scene."));
-  } else if (!answersVisible) {
-    answersBlock.appendChild(el("p", "scene-muted", "Answers hidden. Use reveal toggle in Console."));
-  } else {
-    const list = el("ul", "scene-list");
-    scene.answers.items.forEach((item) => {
-      list.appendChild(el("li", "scene-list-item", item));
-    });
-    answersBlock.appendChild(list);
-  }
-  wrap.appendChild(answersBlock);
-
-  return wrap;
-}
-
-function renderMediaItem(item: Scene["media"][number], eager: boolean): HTMLElement {
-  const card = el("figure", "scene-media-card");
-  const caption = el("figcaption", "scene-media-caption", item.title);
-
-  if (item.type === "image") {
-    const optimized = getOptimizedImagePaths(item.src);
-    if (optimized) {
-      const picture = document.createElement("picture");
-      const avif = document.createElement("source");
-      avif.type = "image/avif";
-      avif.srcset = optimized.avif;
-      const webp = document.createElement("source");
-      webp.type = "image/webp";
-      webp.srcset = optimized.webp;
-
-      const image = document.createElement("img");
-      image.src = optimized.fallback;
-      image.alt = item.title;
-      image.loading = eager ? "eager" : "lazy";
-      image.decoding = "async";
-      image.className = "scene-media-image";
-
-      picture.append(avif, webp, image);
-      card.append(picture, caption);
-      return card;
+  const addBlock = (title: string, lines: string[] | string) => {
+    const b = el("div", { className: "card controlBlock" });
+    b.appendChild(el("h3", { text: title }));
+    if (Array.isArray(lines)) {
+      const ul = el("ul");
+      lines.forEach((x) => ul.appendChild(el("li", { text: x })));
+      b.appendChild(ul);
+    } else {
+      b.appendChild(el("p", { text: lines }));
     }
-
-    const image = document.createElement("img");
-    image.src = item.src;
-    image.alt = item.title;
-    image.loading = eager ? "eager" : "lazy";
-    image.decoding = "async";
-    image.className = "scene-media-image";
-    card.append(image, caption);
-    return card;
-  }
-
-  if (item.type === "video") {
-    const video = document.createElement("video");
-    video.src = item.src;
-    video.controls = true;
-    video.preload = "metadata";
-    video.className = "scene-media-video";
-    card.append(video, caption);
-    return card;
-  }
-
-  const link = document.createElement("a");
-  link.href = item.src;
-  link.target = "_blank";
-  link.rel = "noopener noreferrer";
-  link.className = "scene-link scene-media-link";
-  link.textContent = "Open linked resource";
-  card.append(link, caption);
-  return card;
-}
-
-function getOptimizedImagePaths(src: string): { avif: string; webp: string; fallback: string } | null {
-  const match = src.match(/^uploads\/(image\d+)\.png$/i);
-  if (!match) {
-    return null;
-  }
-  const name = match[1];
-  return {
-    avif: `uploads/avif/${name}.avif`,
-    webp: `uploads/webp/${name}.webp`,
-    fallback: src,
+    return b;
   };
-}
 
-function sectionList(title: string, items: string[], warn = false): HTMLElement {
-  const block = el("div", "scene-block");
-  const header = el("h2", warn ? "scene-subtitle scene-watch" : "scene-subtitle", title);
-  block.appendChild(header);
+  root.appendChild(addBlock("Objective", scene.objective));
+  root.appendChild(addBlock("Script", scene.script));
+  if (scene.steps?.length) root.appendChild(addBlock("Steps", scene.steps));
+  if (scene.ask?.length) root.appendChild(addBlock("Discussion", scene.ask));
+  if (scene.watchFor?.length) root.appendChild(addBlock("Watch for", scene.watchFor));
 
-  if (items.length === 0) {
-    block.appendChild(el("p", "scene-muted", "None."));
-    return block;
+  if (scene.notes) root.appendChild(addBlock("Instructor notes", scene.notes));
+
+  const canReveal = !!scene.answers?.enabled && (scene.answers.items?.length ?? 0) > 0;
+  if (canReveal) {
+    const b = el("div", { className: "card controlBlock" });
+    b.appendChild(el("h3", { text: "Answers" }));
+    if (!opts.reveal) {
+      b.appendChild(el("p", { text: "Hidden (toggle Reveal to show)." }));
+    } else {
+      const ul = el("ul");
+      (scene.answers?.items ?? []).forEach((x) => ul.appendChild(el("li", { text: x })));
+      b.appendChild(ul);
+    }
+    root.appendChild(b);
   }
 
-  const list = el("ul", "scene-list");
-  items.forEach((item) => {
-    list.appendChild(el("li", "scene-list-item", item));
-  });
-  block.appendChild(list);
-
-  return block;
+  root.appendChild(grid);
 }

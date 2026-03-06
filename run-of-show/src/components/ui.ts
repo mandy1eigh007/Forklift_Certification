@@ -1,53 +1,35 @@
+export function qs<T extends Element>(sel: string, root: ParentNode = document): T {
+  const el = root.querySelector(sel);
+  if (!el) throw new Error(`Missing element: ${sel}`);
+  return el as T;
+}
+
+export function clear(el: Element): void {
+  while (el.firstChild) el.removeChild(el.firstChild);
+}
+
 export function el<K extends keyof HTMLElementTagNameMap>(
   tag: K,
-  className?: string,
-  text?: string,
+  opts: {
+    className?: string;
+    text?: string;
+    html?: string;
+    attrs?: Record<string, string>;
+  } = {}
 ): HTMLElementTagNameMap[K] {
   const node = document.createElement(tag);
-  if (className) {
-    node.className = className;
-  }
-  if (typeof text === "string") {
-    node.textContent = text;
+  if (opts.className) node.className = opts.className;
+  if (opts.text !== undefined) node.textContent = opts.text;
+  if (opts.html !== undefined) node.innerHTML = opts.html;
+  if (opts.attrs) {
+    for (const [k, v] of Object.entries(opts.attrs)) node.setAttribute(k, v);
   }
   return node;
 }
 
-export function clearNode(node: HTMLElement): void {
-  node.innerHTML = "";
-}
-
-export function button(label: string, className = "btn"): HTMLButtonElement {
-  const btn = document.createElement("button");
-  btn.type = "button";
-  btn.className = className;
-  btn.textContent = label;
-  return btn;
-}
-
-export function link(href: string, label: string, className = "link"): HTMLAnchorElement {
-  const anchor = document.createElement("a");
-  anchor.href = href;
-  anchor.textContent = label;
-  anchor.className = className;
-  anchor.rel = "noopener noreferrer";
-  anchor.target = "_blank";
-  return anchor;
-}
-
-export function clamp(value: number, min: number, max: number): number {
-  return Math.min(max, Math.max(min, value));
-}
-
-export function normalizeText(input: string): string {
-  return input.trim().toLowerCase();
-}
-
-export function formatMMSS(totalSeconds: number): string {
-  const safe = Math.max(0, Math.floor(totalSeconds));
-  const minutes = Math.floor(safe / 60)
-    .toString()
-    .padStart(2, "0");
-  const seconds = (safe % 60).toString().padStart(2, "0");
-  return `${minutes}:${seconds}`;
+export function isTypingTarget(e: KeyboardEvent): boolean {
+  const t = e.target as HTMLElement | null;
+  if (!t) return false;
+  const tag = t.tagName.toLowerCase();
+  return tag === "input" || tag === "textarea" || (t as any).isContentEditable === true;
 }

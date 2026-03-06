@@ -1,6 +1,8 @@
-import { formatMMSS } from "./ui";
-
-export function renderTimer(elapsedSeconds: number, presetMinutes: number): string {
-  const remaining = Math.max(0, presetMinutes * 60 - elapsedSeconds);
-  return `${formatMMSS(elapsedSeconds)} / ${formatMMSS(presetMinutes * 60)} (left ${formatMMSS(remaining)})`;
+export function formatMMSS(totalSec: number): string {
+  const s = Math.max(0, Math.floor(totalSec));
+  const mm = Math.floor(s / 60);
+  const ss = s % 60;
+  const mmStr = String(mm).padStart(2, "0");
+  const ssStr = String(ss).padStart(2, "0");
+  return `${mmStr}:${ssStr}`;
 }

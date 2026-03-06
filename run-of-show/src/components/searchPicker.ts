@@ -1,70 +1,92 @@
-import type Fuse from "fuse.js";
-import type { Scene } from "../data";
-import { el } from "./ui";
+import { searchScenes } from "../data";
+import { el, clear } from "./ui";
 
-export function createSearchPicker(
-  scenes: Scene[],
-  fuse: Fuse<Scene>,
-  onPick: (sceneId: string) => void,
-): { open: () => void; close: () => void; mount: HTMLElement } {
-  const overlay = el("div", "picker-overlay hidden");
-  overlay.setAttribute("aria-hidden", "true");
+export function showSearchPicker(onPick: (sceneId: string) => void): () => void {
+  const overlay = el("div", {
+    attrs: {
+      style:
+        "position:fixed;inset:0;background:rgba(0,0,0,0.72);z-index:9998;display:flex;align-items:flex-start;justify-content:center;padding:56px 16px;"
+    }
+  });
 
-  const panel = el("div", "picker-panel");
-  const input = document.createElement("input");
-  input.className = "picker-input";
-  input.placeholder = "Search scene title, tags, script...";
-  input.setAttribute("aria-label", "Scene picker search");
+  const panel = el("div", {
+    className: "card",
+    attrs: { style: "width:min(860px,calc(100vw - 32px));" }
+  });
 
-  const list = el("ul", "picker-list");
-  panel.append(input, list);
-  overlay.appendChild(panel);
+  panel.appendChild(el("div", { text: "Scene Picker", attrs: { style: "font-weight:650;margin-bottom:10px;" } }));
 
-  function renderResults(query: string): void {
-    list.innerHTML = "";
-    const matches: Scene[] = query.trim()
-      ? fuse.search(query).slice(0, 12).map((m) => m.item)
-      : scenes.slice(0, 12);
-    matches.forEach((scene) => {
-      const li = el("li", "picker-item");
-      const btn = document.createElement("button");
-      btn.type = "button";
-      btn.className = "picker-item-btn";
-      btn.textContent = scene.title;
-      btn.addEventListener("click", () => {
-        onPick(scene.id);
-        close();
+  const input = el("input", {
+    attrs: {
+      placeholder: "Search scenes (title, section, objective)...",
+      style:
+        "width:100%;padding:12px 12px;border-radius:12px;border:1px solid rgba(255,255,255,0.12);background:rgba(255,255,255,0.05);color:#f4f4f5;"
+    }
+  }) as HTMLInputElement;
+
+  const list = el("div", {
+    attrs: { style: "margin-top:12px;max-height:60vh;overflow:auto;display:flex;flex-direction:column;gap:8px;" }
+  });
+
+  const render = (q: string): void => {
+    clear(list);
+    const hits = searchScenes(q, 30);
+    hits.forEach((h) => {
+      const btn = el("button", {
+        attrs: {
+          style:
+            "text-align:left;padding:10px 12px;border-radius:12px;border:1px solid rgba(255,255,255,0.12);background:rgba(255,255,255,0.04);color:#f4f4f5;cursor:pointer;"
+        }
       });
-      li.appendChild(btn);
-      list.appendChild(li);
+      btn.appendChild(el("div", { text: h.title, attrs: { style: "font-weight:650;" } }));
+      btn.appendChild(el("div", { text: `${h.sectionTitle} / ${h.id}`, attrs: { style: "color:#b7b7bd;font-size:13px;margin-top:2px;" } }));
+      btn.addEventListener("click", () => onPick(h.id));
+      list.appendChild(btn);
     });
-  }
+  };
 
-  function open(): void {
-    overlay.classList.remove("hidden");
-    overlay.setAttribute("aria-hidden", "false");
-    input.value = "";
-    renderResults("");
-    window.setTimeout(() => input.focus(), 0);
-  }
+  input.addEventListener("input", () => render(input.value));
 
-  function close(): void {
-    overlay.classList.add("hidden");
-    overlay.setAttribute("aria-hidden", "true");
-  }
+  panel.appendChild(input);
+  panel.appendChild(list);
+  overlay.appendChild(panel);
+  document.body.appendChild(overlay);
 
-  input.addEventListener("input", () => renderResults(input.value));
-  overlay.addEventListener("click", (event) => {
-    if (event.target === overlay) {
-      close();
+  render("");
+
+  const onKey = (e: KeyboardEvent): void => {
+    if (e.key === "Escape") close();
+  };
+  window.addEventListener("keydown", onKey);
+
+  const close = (): void => {
+    window.removeEventListener("keydown", onKey);
+    overlay.remove();
+  };
+
+  setTimeout(() => input.focus(), 0);
+
+  return close;
+}
+
+export function createSearchPicker(onPick: (sceneId: string) => void): {
+  node: HTMLElement;
+  open: () => void;
+  close: () => void;
+} {
+  const node = el("div");
+  let closeFn: (() => void) | null = null;
+  return {
+    node,
+    open: () => {
+      closeFn = showSearchPicker((sceneId) => {
+        onPick(sceneId);
+        closeFn?.();
+      });
+    },
+    close: () => {
+      closeFn?.();
+      closeFn = null;
     }
-  });
-
-  document.addEventListener("keydown", (event) => {
-    if (event.key === "Escape") {
-      close();
-    }
-  });
-
-  return { open, close, mount: overlay };
+  };
 }

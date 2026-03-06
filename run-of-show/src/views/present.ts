@@ -1,112 +1,209 @@
-import Fuse from "fuse.js";
-import { getAdjacentScene, getFlatScenes, getSceneById, getSectionBySceneId } from "../data";
-import { navigate } from "../router";
-import { broadcast } from "../sync";
-import { getState, setScene, subscribe, toggleBlackScreen } from "../state";
+import { getNextSceneId, getPrevSceneId, getSceneById } from "../data";
+import type { SyncBus } from "../sync";
+import { clampFontScale, pushRecent, Store } from "../state";
 import { renderPresentScene } from "../components/sceneRenderer";
-import { createSearchPicker } from "../components/searchPicker";
-import { el } from "../components/ui";
-import { renderTimer } from "../components/timer";
+import { showSearchPicker } from "../components/searchPicker";
+import { formatMMSS } from "../components/timer";
+import { clear, el, isTypingTarget } from "../components/ui";
 
-export function renderPresentView(root: HTMLElement): () => void {
-  document.body.dataset.route = "present";
+type PresentDeps = {
+  store: Store;
+  sync: SyncBus;
+  setScene: (sceneId: string, sync?: boolean) => void;
+  getRemainingSec: () => number;
+  timerStartPause: (sync?: boolean) => void;
+  timerReset: (sync?: boolean) => void;
+};
 
-  const shell = el("main", "present-shell");
-  const content = el("div", "present-content");
-  const hud = el("footer", "present-hud");
-  const blackOverlay = el("div", "black-overlay hidden");
-  blackOverlay.textContent = "Black Screen";
+export function renderPresentView(root: HTMLElement, deps: PresentDeps): () => void {
+  clear(root);
 
-  const scenes = getFlatScenes();
-  const fuse = new Fuse(scenes, {
-    keys: ["title", "script", "objective", "tags"],
-    threshold: 0.32,
-    ignoreLocation: true,
-  });
+  const presentRoot = el("div", { className: "presentRoot" });
+  const frame = el("div");
+  const overlay = el("div", { className: "blackOverlay" });
+  let closePicker: (() => void) | null = null;
 
-  const picker = createSearchPicker(scenes, fuse, (sceneId) => {
-    setScene(sceneId);
-    broadcast({ type: "SET_SCENE", sceneId });
-    navigate("/present", { scene: sceneId });
-  });
+  presentRoot.appendChild(frame);
+  root.appendChild(presentRoot);
+  document.body.appendChild(overlay);
 
   function update(): void {
-    const state = getState();
-    const scene = getSceneById(state.sceneId);
-    if (!scene) {
-      return;
-    }
+    const s = deps.store.get();
+    const scene = getSceneById(s.sceneId);
+    if (!scene) return;
 
-    document.documentElement.style.setProperty("--font-scale", String(state.settings.fontScale));
-    document.documentElement.dataset.reducedMotion = String(state.settings.reducedMotion);
+    renderPresentScene(frame, scene, {
+      fontScale: s.settings.fontScale,
+      timerText: formatMMSS(deps.getRemainingSec()),
+      showTimer: true
+    });
 
-    content.innerHTML = "";
-    content.appendChild(renderPresentScene(scene));
-
-    const section = getSectionBySceneId(scene.id);
-    const currentIndex = scenes.findIndex((item) => item.id === scene.id) + 1;
-    hud.textContent = `${section?.title ?? "Section"} | ${currentIndex}/${scenes.length} | ${renderTimer(
-      state.timer.elapsedSeconds,
-      state.timer.presetMinutes,
-    )}`;
-
-    blackOverlay.classList.toggle("hidden", !state.blackScreen);
+    overlay.classList.toggle("on", s.settings.blackScreen);
+    document.documentElement.style.setProperty("--fontScale", String(s.settings.fontScale));
+    document.documentElement.style.setProperty("scroll-behavior", s.settings.reduceMotion ? "auto" : "smooth");
   }
 
-  function go(offset: -1 | 1): void {
-    const state = getState();
-    const next = getAdjacentScene(state.sceneId, offset);
-    if (!next) {
+  function toggleFullscreen(): void {
+    if (!document.fullscreenElement) {
+      void document.documentElement.requestFullscreen();
       return;
     }
-    setScene(next.id);
-    broadcast({ type: "SET_SCENE", sceneId: next.id });
-    navigate("/present", { scene: next.id });
+    void document.exitFullscreen();
   }
 
-  function onKeyDown(event: KeyboardEvent): void {
-    if (event.key === "/") {
-      event.preventDefault();
-      picker.open();
-      return;
-    }
+  function onKeydown(ev: KeyboardEvent): void {
+    if (isTypingTarget(ev)) return;
 
-    if (event.key.toLowerCase() === "b") {
-      event.preventDefault();
-      toggleBlackScreen();
-      broadcast({ type: "TOGGLE_BLACK" });
-      return;
-    }
-
-    if (event.key.toLowerCase() === "f") {
-      event.preventDefault();
-      document.documentElement.requestFullscreen().catch(() => {
-        // Ignore fullscreen rejection from browser policies.
+    if (ev.key === "/") {
+      ev.preventDefault();
+      closePicker = showSearchPicker((sceneId) => {
+        deps.setScene(sceneId);
+        closePicker?.();
+        closePicker = null;
       });
       return;
     }
 
-    if (event.key === " " || event.key === "ArrowRight") {
-      event.preventDefault();
-      go(1);
+    if (ev.key === "ArrowRight" || ev.key === " ") {
+      ev.preventDefault();
+      deps.setScene(getNextSceneId(deps.store.get().sceneId));
       return;
     }
 
-    if (event.key === "ArrowLeft") {
-      event.preventDefault();
-      go(-1);
+    if (ev.key === "ArrowLeft") {
+      ev.preventDefault();
+      deps.setScene(getPrevSceneId(deps.store.get().sceneId));
+      return;
+    }
+
+    if (ev.key.toLowerCase() === "b") {
+      ev.preventDefault();
+      const value = !deps.store.get().settings.blackScreen;
+      deps.store.update((s) => ({ ...s, settings: { ...s.settings, blackScreen: value } }));
+      deps.sync.send({ type: "SET_BLACK", value });
+      return;
+    }
+
+    if (ev.key.toLowerCase() === "f") {
+      ev.preventDefault();
+      toggleFullscreen();
+      return;
+    }
+
+    if (ev.key === "+" || ev.key === "=") {
+      ev.preventDefault();
+      const value = clampFontScale(deps.store.get().settings.fontScale + 0.1);
+      deps.store.update((s) => ({ ...s, settings: { ...s.settings, fontScale: value } }));
+      deps.sync.send({ type: "SET_FONT_SCALE", value });
+      return;
+    }
+
+    if (ev.key === "-" || ev.key === "_") {
+      ev.preventDefault();
+      const value = clampFontScale(deps.store.get().settings.fontScale - 0.1);
+      deps.store.update((s) => ({ ...s, settings: { ...s.settings, fontScale: value } }));
+      deps.sync.send({ type: "SET_FONT_SCALE", value });
+      return;
+    }
+
+    if (ev.key.toLowerCase() === "t") {
+      ev.preventDefault();
+      deps.timerStartPause();
+      return;
+    }
+
+    if (ev.key.toLowerCase() === "r") {
+      ev.preventDefault();
+      deps.timerReset();
     }
   }
 
-  shell.append(content, hud, blackOverlay, picker.mount);
-  root.appendChild(shell);
-
-  update();
-  const unsubscribe = subscribe(update);
-  document.addEventListener("keydown", onKeyDown);
+  const unsub = deps.store.subscribe(update);
+  document.addEventListener("keydown", onKeydown);
 
   return () => {
-    unsubscribe();
-    document.removeEventListener("keydown", onKeyDown);
+    closePicker?.();
+    overlay.remove();
+    unsub();
+    document.removeEventListener("keydown", onKeydown);
+  };
+}
+
+let cleanupPresent: (() => void) | null = null;
+
+export function disposePresent(): void {
+  cleanupPresent?.();
+  cleanupPresent = null;
+}
+
+export async function renderPresent(
+  root: HTMLElement,
+  store: Store,
+  bus: SyncBus,
+  _sceneId?: string
+): Promise<void> {
+  disposePresent();
+
+  const setScene = (sceneId: string, sync = true): void => {
+    const safe = getSceneById(sceneId)?.id;
+    if (!safe) return;
+    store.update((s) => pushRecent({ ...s, sceneId: safe }, safe));
+    if (sync) bus.send({ type: "SET_SCENE", sceneId: safe });
+  };
+
+  const getRemainingSec = (): number => {
+    const t = store.get().timer;
+    if (t.mode !== "running") return Math.max(0, t.remainingSec);
+    return Math.max(0, Math.ceil((t.endsAtMs - Date.now()) / 1000));
+  };
+
+  const timerStartPause = (sync = true): void => {
+    const now = Date.now();
+    const current = store.get();
+
+    if (current.timer.mode === "running") {
+      const remainingSec = getRemainingSec();
+      store.set({ timer: { mode: "paused", remainingSec, endsAtMs: null } });
+      if (sync) bus.send({ type: "TIMER_PAUSE", remainingSec });
+      return;
+    }
+
+    const scene = getSceneById(current.sceneId);
+    const seed = current.timer.remainingSec > 0 ? current.timer.remainingSec : (scene?.durationMinutes ?? 10) * 60;
+    const endsAtMs = now + seed * 1000;
+    store.set({ timer: { mode: "running", remainingSec: seed, endsAtMs } });
+    if (sync) bus.send({ type: "TIMER_START", endsAtMs });
+  };
+
+  const timerReset = (sync = true): void => {
+    store.set({ timer: { mode: "idle", remainingSec: 0, endsAtMs: null } });
+    if (sync) bus.send({ type: "TIMER_RESET" });
+  };
+
+  const cleanupView = renderPresentView(root, {
+    store,
+    sync: bus,
+    setScene,
+    getRemainingSec,
+    timerStartPause,
+    timerReset
+  });
+
+  const timerTick = window.setInterval(() => {
+    const timer = store.get().timer;
+    if (timer.mode !== "running") return;
+    const remainingSec = getRemainingSec();
+    if (remainingSec <= 0) {
+      store.set({ timer: { mode: "idle", remainingSec: 0, endsAtMs: null } });
+      return;
+    }
+    if (remainingSec !== timer.remainingSec) {
+      store.set({ timer: { mode: "running", remainingSec, endsAtMs: timer.endsAtMs } });
+    }
+  }, 250);
+
+  cleanupPresent = () => {
+    cleanupView();
+    window.clearInterval(timerTick);
   };
 }

@@ -1,79 +1,57 @@
-import {
-  resetTimer,
-  setFontScale,
-  setScene,
-  setTimerRunning,
-  toggleBlackScreen,
-} from "./state";
-
 export type SyncMessage =
   | { type: "SET_SCENE"; sceneId: string }
-  | { type: "TOGGLE_BLACK" }
-  | { type: "TIMER_START" }
-  | { type: "TIMER_PAUSE" }
-  | { type: "TIMER_RESET" }
-  | { type: "SET_FONT_SCALE"; value: number };
+  | { type: "SET_BLACK"; value: boolean }
+  | { type: "SET_FONT_SCALE"; value: number }
+  | { type: "TIMER_START"; endsAtMs: number }
+  | { type: "TIMER_PAUSE"; remainingSec: number }
+  | { type: "TIMER_RESET" };
 
-const CHANNEL_NAME = "runofshow";
-const STORAGE_KEY = "ros.sync-message";
+type Handler = (msg: SyncMessage) => void;
 
-let channel: BroadcastChannel | null = null;
+const CHANNEL = "runofshow";
+const FALLBACK_KEY = "runofshow.sync.v1";
 
-try {
-  channel = new BroadcastChannel(CHANNEL_NAME);
-} catch {
-  channel = null;
-}
+export class SyncBus {
+  private bc: BroadcastChannel | null = null;
+  private handler: Handler | null = null;
 
-function handleMessage(message: SyncMessage): void {
-  switch (message.type) {
-    case "SET_SCENE":
-      setScene(message.sceneId);
-      break;
-    case "TOGGLE_BLACK":
-      toggleBlackScreen();
-      break;
-    case "TIMER_START":
-      setTimerRunning(true);
-      break;
-    case "TIMER_PAUSE":
-      setTimerRunning(false);
-      break;
-    case "TIMER_RESET":
-      resetTimer();
-      break;
-    case "SET_FONT_SCALE":
-      setFontScale(message.value);
-      break;
-    default:
-      break;
+  init(handler: Handler): void {
+    this.handler = handler;
+
+    if ("BroadcastChannel" in window) {
+      this.bc = new BroadcastChannel(CHANNEL);
+      this.bc.onmessage = (ev: MessageEvent) => {
+        const msg = ev.data as SyncMessage;
+        this.handler?.(msg);
+      };
+    }
+
+    window.addEventListener("storage", (ev) => {
+      if (ev.key !== FALLBACK_KEY || !ev.newValue) return;
+      try {
+        const parsed = JSON.parse(ev.newValue) as { msg: SyncMessage };
+        this.handler?.(parsed.msg);
+      } catch {
+        return;
+      }
+    });
   }
-}
 
-if (channel) {
-  channel.onmessage = (event: MessageEvent<SyncMessage>) => {
-    handleMessage(event.data);
-  };
-}
+  send(msg: SyncMessage): void {
+    // Primary
+    this.bc?.postMessage(msg);
 
-window.addEventListener("storage", (event) => {
-  if (event.key !== STORAGE_KEY || !event.newValue) {
-    return;
+    // Fallback: storage event for other tabs
+    try {
+      localStorage.setItem(FALLBACK_KEY, JSON.stringify({ msg, t: Date.now(), n: Math.random() }));
+    } catch {
+      // ignore
+    }
   }
-  try {
-    const message = JSON.parse(event.newValue) as SyncMessage;
-    handleMessage(message);
-  } catch {
-    // Ignore malformed sync payloads.
-  }
-});
 
-export function broadcast(message: SyncMessage): void {
-  if (channel) {
-    channel.postMessage(message);
+  destroy(): void {
+    if (this.bc) this.bc.close();
+    this.bc = null;
+    this.handler = null;
   }
-  localStorage.setItem(
-    STORAGE_KEY,
-    JSON.stringify({ ...message, sentAt: Date.now(), nonce: Math.random().toString(36).slice(2) }),
-  );
 }

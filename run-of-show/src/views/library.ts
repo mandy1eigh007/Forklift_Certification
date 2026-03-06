@@ -1,183 +1,108 @@
-import Fuse from "fuse.js";
-import { OUTLINE, getFlatScenes, type Scene } from "../data";
-import { navigate } from "../router";
-import { getState } from "../state";
-import { button, el, normalizeText } from "../components/ui";
+import { getFlatScenes, type FlatScene, loadOutline } from "../data";
+import { toggleBookmark } from "../state";
+import type { Store } from "../state";
+import { el, clear } from "../components/ui";
 
-export function renderLibraryView(root: HTMLElement): () => void {
-  document.body.dataset.route = "library";
-
-  const shell = el("main", "library-shell");
-  const ambiance = el("div", "library-ambiance");
-  const mast = el("header", "library-mast");
-  const brand = el("p", "library-brand", "Forklift Certification | Run of Show");
-  const title = el("h1", "library-title", OUTLINE.meta.title);
-  const sub = el(
-    "p",
-    "library-sub",
-    "A guided walkthrough experience for facilitator flow, timing, and confidence.",
-  );
-  const meta = el("p", "library-meta-line", `Version ${OUTLINE.meta.version} | Updated ${OUTLINE.meta.updated}`);
-
-  const controls = el("div", "library-controls");
-  const search = document.createElement("input");
-  search.className = "library-search";
-  search.placeholder = "Search the walkthrough...";
-  const openPresent = button("Open Present", "btn hero");
-  const openControl = button("Open Console", "btn");
-  controls.append(search, openPresent, openControl);
-
-  mast.append(brand, title, sub, meta, controls);
-
-  const quickRail = el("section", "library-quick-rail");
-
-  const bookmarksHost = el("article", "library-quick-card");
-  bookmarksHost.appendChild(el("h2", "library-section-title", "Bookmarks"));
-  const bookmarkList = el("ul", "library-quick-list");
-  bookmarksHost.appendChild(bookmarkList);
-
-  const recentHost = el("article", "library-quick-card");
-  recentHost.appendChild(el("h2", "library-section-title", "Recent"));
-  const recentList = el("ul", "library-quick-list");
-  recentHost.appendChild(recentList);
-
-  quickRail.append(bookmarksHost, recentHost);
-
-  const listHost = el("section", "library-walkthrough");
-
-  shell.append(ambiance, mast, quickRail, listHost);
-  root.appendChild(shell);
-
+export async function renderLibrary(root: HTMLElement, store: Store): Promise<void> {
+  await loadOutline();
   const flat = getFlatScenes();
-  const fuse = new Fuse(flat, {
-    keys: ["title", "objective", "script", "tags"],
-    threshold: 0.3,
-    ignoreLocation: true,
-  });
 
-  function quickItem(scene: Scene): HTMLElement {
-    const li = el("li", "library-quick-item");
-    const btn = button(scene.title, "btn subtle");
-    btn.addEventListener("click", () => {
-      navigate("/control", { scene: scene.id });
-    });
-    li.appendChild(btn);
-    return li;
-  }
+  const s = store.get();
+  const activeId = s.sceneId;
 
-  function renderQuick(): void {
-    const state = getState();
-    bookmarkList.innerHTML = "";
-    recentList.innerHTML = "";
+  clear(root);
 
-    state.bookmarks.forEach((id) => {
-      const scene = flat.find((item) => item.id === id);
-      if (scene) {
-        bookmarkList.appendChild(quickItem(scene));
-      }
-    });
+  const container = el("div", { className: "container" });
+  const layout = el("div", { className: "library" });
 
-    state.recent.forEach((id) => {
-      const scene = flat.find((item) => item.id === id);
-      if (scene) {
-        recentList.appendChild(quickItem(scene));
-      }
-    });
+  const left = el("div");
+  const right = el("div");
 
-    if (!bookmarkList.childElementCount) {
-      bookmarkList.appendChild(el("li", "library-empty", "No bookmarks yet."));
-    }
-    if (!recentList.childElementCount) {
-      recentList.appendChild(el("li", "library-empty", "No recent scenes yet."));
-    }
-  }
+  const header = el("div", { className: "sideHeader" });
+  header.appendChild(el("div", { text: "Library", attrs: { style: "font-weight:650;font-size:18px;" } }));
+  header.appendChild(el("div", { className: "kbd", text: "Open: present/control" }));
+  left.appendChild(header);
 
-  function renderList(items: Scene[]): void {
-    listHost.innerHTML = "";
+  const searchRow = el("div", { className: "searchRow" });
+  const input = el("input", { attrs: { placeholder: "Filter by title/section..." } }) as HTMLInputElement;
+  searchRow.appendChild(input);
+  left.appendChild(searchRow);
 
-    const lead = el("article", "library-intro-card");
-    lead.appendChild(el("h2", "library-section-title", "Walkthrough"));
-    lead.appendChild(
-      el(
-        "p",
-        "library-intro-copy",
-        "Move section-by-section, launch any scene instantly, and keep facilitator rhythm from prep to close.",
-      ),
-    );
-    listHost.appendChild(lead);
+  const tree = el("div", { className: "tree" });
+  left.appendChild(tree);
 
-    OUTLINE.sections
-      .slice()
-      .sort((a, b) => a.order - b.order)
-      .forEach((section) => {
-        const filtered = section.scenes.filter((scene) => items.some((it) => it.id === scene.id));
-        if (!filtered.length) {
-          return;
-        }
+  const preview = el("div", { className: "card" });
+  right.appendChild(preview);
 
-        const card = el("article", "library-chapter");
-        const chapterHead = el("header", "library-chapter-head");
-        chapterHead.appendChild(el("p", "library-kicker", `Chapter ${String(section.order).padStart(2, "0")}`));
-        chapterHead.appendChild(el("h2", "library-section-title", section.title));
-        chapterHead.appendChild(
-          el("p", "library-chapter-meta", `${filtered.length} scenes | ${filtered.length * 2} actions`),
+  const renderTree = (q: string): void => {
+    clear(tree);
+    const query = q.trim().toLowerCase();
+
+    const filtered = !query
+      ? flat
+      : flat.filter((x) =>
+          `${x.sectionTitle} ${x.title} ${x.objective}`.toLowerCase().includes(query)
         );
-        card.appendChild(chapterHead);
 
-        const ul = el("ul", "library-scene-list");
-        filtered.forEach((scene, sceneIndex) => {
-          const li = el("li", "library-scene-item");
-          li.style.setProperty("--delay", `${sceneIndex * 0.05}s`);
-          const seq = el("p", "library-scene-seq", `${String(sceneIndex + 1).padStart(2, "0")}`);
-          const heading = el("h3", "library-scene-title", scene.title);
-          const objective = el("p", "library-scene-objective", scene.objective);
-          const meta = el("p", "library-meta", `${scene.durationMinutes} min | ${scene.tags.join(", ")}`);
-          const summary = el("p", "library-scene-summary", scene.script.slice(0, 130));
+    let lastSection = "";
+    for (const sc of filtered) {
+      if (sc.sectionTitle !== lastSection) {
+        tree.appendChild(el("div", { className: "sectionTitle", text: sc.sectionTitle }));
+        lastSection = sc.sectionTitle;
+      }
 
-          const row = el("div", "library-scene-actions");
-          const goPresent = button("Present", "btn");
-          const goControl = button("Console", "btn subtle");
-          goPresent.addEventListener("click", () => navigate("/present", { scene: scene.id }));
-          goControl.addEventListener("click", () => navigate("/control", { scene: scene.id }));
-          row.append(goPresent, goControl);
-
-          li.append(seq, heading, objective, summary, meta, row);
-          ul.appendChild(li);
-        });
-
-        card.appendChild(ul);
-        listHost.appendChild(card);
+      const btn = el("button", { text: `${sc.id} - ${sc.title}` });
+      if (sc.id === store.get().sceneId) btn.classList.add("active");
+      btn.addEventListener("click", () => {
+        store.set({ sceneId: sc.id });
+        renderPreview(sc);
+        renderTree(input.value);
       });
-
-    if (!listHost.childElementCount) {
-      listHost.appendChild(el("p", "library-empty", "No scenes match your search."));
+      tree.appendChild(btn);
     }
-  }
-
-  function queryAndRender(): void {
-    const query = normalizeText(search.value);
-    if (!query) {
-      renderList(flat);
-      return;
-    }
-    const hits = fuse.search(query).map((result) => result.item);
-    renderList(hits);
-  }
-
-  search.addEventListener("input", queryAndRender);
-  openPresent.addEventListener("click", () => {
-    const sceneId = getState().sceneId;
-    navigate("/present", { scene: sceneId });
-  });
-  openControl.addEventListener("click", () => {
-    const sceneId = getState().sceneId;
-    navigate("/control", { scene: sceneId });
-  });
-
-  renderQuick();
-  queryAndRender();
-
-  return () => {
-    // No global listeners to clean up for this view.
   };
+
+  const renderPreview = (sc: FlatScene): void => {
+    clear(preview);
+
+    preview.appendChild(el("div", { className: "previewTitle", text: sc.title }));
+    const meta = el("div", { className: "previewMeta" });
+    meta.appendChild(el("div", { text: `Section: ${sc.sectionTitle}` }));
+    meta.appendChild(el("div", { text: `Scene: ${sc.id}` }));
+    meta.appendChild(el("div", { text: `Duration: ${sc.durationMinutes} min` }));
+    preview.appendChild(meta);
+
+    preview.appendChild(el("div", { text: sc.objective, attrs: { style: "color:var(--muted);margin-bottom:10px;" } }));
+    preview.appendChild(el("div", { text: sc.script }));
+
+    const actions = el("div", { className: "actionsRow" });
+
+    const present = el("a", { text: "Open Present", attrs: { href: `#/present?scene=${encodeURIComponent(sc.id)}` } });
+    const control = el("a", { text: "Open Control", attrs: { href: `#/control?scene=${encodeURIComponent(sc.id)}` } });
+
+    const isBm = store.get().bookmarks.includes(sc.id);
+    const bmBtn = el("button", { text: isBm ? "Remove Bookmark" : "Bookmark" });
+    bmBtn.addEventListener("click", () => {
+      store.update((st) => toggleBookmark(st, sc.id));
+      renderPreview(sc);
+    });
+
+    actions.appendChild(present);
+    actions.appendChild(control);
+    actions.appendChild(bmBtn);
+
+    preview.appendChild(actions);
+  };
+
+  input.addEventListener("input", () => renderTree(input.value));
+
+  layout.appendChild(left);
+  layout.appendChild(right);
+  container.appendChild(layout);
+  root.appendChild(container);
+
+  const active = flat.find((x) => x.id === activeId) ?? flat[0];
+  store.set({ sceneId: active.id });
+  renderPreview(active);
+  renderTree("");
 }

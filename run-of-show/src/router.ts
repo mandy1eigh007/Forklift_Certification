@@ -1,37 +1,37 @@
-export type RouteName = "library" | "present" | "control";
+export type Route =
+  | { name: "library"; sceneId?: string }
+  | { name: "present"; sceneId?: string }
+  | { name: "control"; sceneId?: string };
 
-export interface ParsedRoute {
-  name: RouteName;
-  query: URLSearchParams;
+function parseQuery(qs: string): Record<string, string> {
+  const out: Record<string, string> = {};
+  const s = qs.replace(/^\?/, "");
+  if (!s) return out;
+  for (const part of s.split("&")) {
+    const [k, v] = part.split("=");
+    if (!k) continue;
+    out[decodeURIComponent(k)] = decodeURIComponent(v ?? "");
+  }
+  return out;
 }
 
-const ROUTE_MAP: Record<string, RouteName> = {
-  "": "library",
-  "/": "library",
-  "/present": "present",
-  "/control": "control",
-};
+export function getRouteFromHash(hash: string): Route {
+  // examples:
+  // #/present?scene=s01
+  // #/control?scene=s02
+  // #/
+  const h = hash.startsWith("#") ? hash.slice(1) : hash;
+  const [pathPart, queryPart] = h.split("?");
+  const path = (pathPart || "/").replace(/^\/?/, "/");
+  const query = parseQuery(queryPart ?? "");
+  const sceneId = query.scene || undefined;
 
-export function parseHashRoute(hash = window.location.hash): ParsedRoute {
-  const withoutHash = hash.startsWith("#") ? hash.slice(1) : hash;
-  const [pathPart, queryPart = ""] = withoutHash.split("?");
-  const normalizedPath = pathPart.startsWith("/") ? pathPart : `/${pathPart}`;
-  const name = ROUTE_MAP[normalizedPath] ?? "library";
-  return {
-    name,
-    query: new URLSearchParams(queryPart),
-  };
+  if (path.startsWith("/present")) return { name: "present", sceneId };
+  if (path.startsWith("/control")) return { name: "control", sceneId };
+  return { name: "library", sceneId };
 }
 
-export function navigate(path: string, query?: Record<string, string>): void {
-  const url = new URL(window.location.href);
-  const searchParams = new URLSearchParams(query ?? {});
-  const querySuffix = searchParams.toString() ? `?${searchParams.toString()}` : "";
-  url.hash = `${path}${querySuffix}`;
-  window.location.href = url.toString();
-}
-
-export function onRouteChange(handler: () => void): () => void {
-  window.addEventListener("hashchange", handler);
-  return () => window.removeEventListener("hashchange", handler);
+export function setHashRoute(name: Route["name"], sceneId?: string): void {
+  const q = sceneId ? `?scene=${encodeURIComponent(sceneId)}` : "";
+  location.hash = `#/${name}${q}`;
 }

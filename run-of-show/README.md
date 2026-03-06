@@ -1,82 +1,82 @@
-# Run-of-Show
+# Run-of-Show (Instructor Only)
 
-Static hash-routed instructor app with three views:
+Projector-first static web app for instructor-led delivery.
 
-- `#/` Library: search and launch scenes.
-- `#/present?scene=<id>` Present: projector-safe output.
-- `#/control?scene=<id>` Control: instructor console.
+## Requirements
 
-## Start
+- Node.js 20+ (includes npm)
+- Git
+
+## Tech Stack
+
+- Vite + TypeScript (`vanilla-ts` style app, no React)
+- Plain CSS
+- Fuse.js for search
+- Hash routing (`#/...`) for GitHub Pages compatibility
+
+## Routes
+
+- `#/` Library/Search
+- `#/present?scene=<id>` Projected Present view
+- `#/control?scene=<id>` Instructor Console
+
+## Local Setup
 
 ```bash
+cd run-of-show
 npm install
 npm run dev
 ```
 
-Then open:
+Open these in separate tabs/windows:
 
-- `http://localhost:5173/#/`
-- `http://localhost:5173/#/present?scene=s01`
-- `http://localhost:5173/#/control?scene=s01`
+- `http://localhost:5173/Forklift_Certification/#/`
+- `http://localhost:5173/Forklift_Certification/#/present?scene=s01`
+- `http://localhost:5173/Forklift_Certification/#/control?scene=s01`
 
-## Build
+## Present + Console Sync
+
+Open `#/present` and `#/control` at the same origin.
+Scene and control updates sync through:
+
+- `BroadcastChannel("runofshow")` (primary)
+- `localStorage` `storage` event (fallback)
+
+## Keyboard Shortcuts (Present)
+
+- `Right` / `Space`: next scene
+- `Left`: previous scene
+- `B`: black screen overlay
+- `F`: toggle fullscreen
+- `+` / `-`: font size
+- `T`: start/pause timer
+- `R`: reset timer
+- `/`: scene picker
+
+## Build and Preview
 
 ```bash
 npm run build
 npm run preview
 ```
 
-## Content Schema
+## GitHub Pages Deployment
 
-All content is in `content/outline.json`.
+Vite base path is configured in `vite.config.ts`:
 
-- `meta`: app title/version/default scene id.
-- `sections[]`: ordered sections.
-- `sections[].scenes[]`: scene records with script, prompts, timing, links, media, notes, tags.
+- `base: "/Forklift_Certification/"`
 
-## Sync Model
+GitHub Actions workflow is at:
 
-State sync is cross-tab and same-origin only.
+- `../.github/workflows/deploy.yml` (repo root)
 
-- Primary: `BroadcastChannel("runofshow")`
-- Fallback: `storage` event payload in `localStorage`
+Deploy steps:
 
-Synced actions:
+1. Push to `main`.
+2. In repository settings, set Pages source to **GitHub Actions**.
+3. Workflow builds `run-of-show/dist` and deploys to Pages.
 
-- scene changes
-- black screen toggle
-- timer start/pause/reset
-- font scale changes
+## Security Warning
 
-## Keyboard Shortcuts
-
-Present (`#/present`):
-
-- `Space` or `ArrowRight`: next scene
-- `ArrowLeft`: previous scene
-- `B`: toggle black screen
-- `/`: open scene picker
-- `F`: request fullscreen
-
-Control (`#/control`):
-
-- `J`: next scene
-- `K`: previous scene
-- `B`: toggle black screen
-- `/`: open scene picker
-
-## Deploy (GitHub Pages)
-
-Workflow file: `.github/workflows/deploy.yml`
-
-Requirements:
-
-- GitHub Pages set to **GitHub Actions** as source.
-- Repo default branch `main` (or adjust workflow trigger).
-
-Vite `base` is set to `/Forklift_Certification/` in `vite.config.ts`.
-
-## Security Note
-
-Do not place secrets, private keys, or non-public URLs in `outline.json`.
-All content ships to client-side static files and is publicly readable after deployment.
+GitHub Pages is static hosting, not true access control.
+Treat published content as public. Do not place sensitive or private material in this app.
