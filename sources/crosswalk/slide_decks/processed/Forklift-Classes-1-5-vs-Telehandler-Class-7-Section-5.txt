@@ -1,0 +1,268 @@
+Telehandler
+Attachments
+Section 5 4 Genie Lift Pro
+Telehandler Trainer's Guide
+SECTION 5:
+ATTACHMENTS
+Understanding approved attachments, quick-attach
+systems, and their impact on stability and load capacity.
+Approved Attachments 4 The
+Golden Rule
+      Only use attachments APPROVED by the telehandler
+      manufacturer.
+
+
+Permanently Fixed
+Installed at factory or by dealer; not intended for field swapping.
+
+
+Quick-Attach System
+Field-swappable; operator changes attachments quickly between tasks. Some
+powered by auxiliary hydraulics.
+
+
+
+     Always refer to the Operator's Manual and load chart specific to the
+     attachment being used.
+Attachment Rules 4 What Every Operator
+Must Know
+   Manufacturer Approval Required
+   Only use attachments approved by the telehandler manufacturer. This ensures proper
+   load charts and conditional requirements are provided.
+
+
+
+      Auxiliary Hydraulics
+      Some attachments are powered by the machine's auxiliary hydraulic system. Know
+      your machine's hydraulic capabilities before selecting an attachment.
+
+
+
+         Two Mounting Types
+         Attachments may be permanently fixed OR use a quick-attach system for fast field
+         swapping.
+
+
+
+             Always Check the Manual
+             Refer to the Operator's Manual for attachment-specific requirements, or
+             contact the telehandler manufacturer directly.
+¦        Attachments Change Everything
+What You Need to Know About Attachments
+
+    Stability                                Partially Loaded                           Load Zone Capacity
+    Attachments can affect the stability     An unloaded machine with an                Attachments change the load zone
+    of the telehandler                       attachment is treated as partially         capacity of the machine
+                                             loaded
+
+
+Refer to the Operator's Manual or contact the manufacturer for attachment-specific guidance.
+Telehandler Attachment Types 4 Overview
+
+
+ Shifting Attachment
+ Shifts the fork carriage left or right for precise load positioning.
+
+
+
+
+ Rotating Carriage
+ Rotates the carriage up to 10° to compensate for uneven surfaces.
+
+
+
+
+ Swing Carriage
+ Moves carriage along horizontal axis; ideal for tight areas.
+
+
+
+
+ Universal Adapter
+ Expands attachment compatibility; improves machine versatility.
+
+
+
+
+ Industrial Grapple Bucket
+ Moves large/heavy material; jobsite cleanup, logs, boulders.
+
+
+
+
+ Truss Boom
+ Transports large loads like trusses; ALWAYS rated less than machine capacity.
+Carriage Attachments 4 Shifting, Rotating & Swing
+ µ       Shifting Attachment                                                                    «       Rotating Carriage
+     What it does: Shifts the entire fork carriage or forks to the LEFT or RIGHT of the boom.       What it does: Rotates the entire carriage up to 10° clockwise or counterclockwise.
+ Why it matters: Precise load positioning without repositioning the machine.                    Why it matters: Compensates for uneven load surfaces or uneven terrain.
+
+                                                                                                           ¦   NEVER use frame sway to level an elevated load.
+
+
+
+
+ ¶       Swing Carriage
+ What it does: Moves the carriage clockwise or counterclockwise along the horizontal axis.
+     Why it matters: Helps land loads in tight areas or maneuver around tight corners.
+Truss Boom 4 Critical Safety Rules
+Truss booms are essential for moving large or awkward loads, but their safe operation requires strict
+attention to crucial safety rules regarding load capacity.
+
+
+           Know Your Capacity
+           Truss booms are rated LESS than the telehandler's overall capacity. Never assume the machine's
+           full capacity applies.
+
+
+
+              Use the Attachment Load Chart
+              Always use the load chart specific to the truss boom 4 NOT the standard machine chart.
+
+
+
+                  Capacity Drops as You Extend
+                  Multiple load positions exist. Rated capacity DECREASES the further the load extends
+                  from the machine.
+
+
+
+                     Suspended Loads
+                     Special rules apply. Always refer to the Operator's Manual before handling any
+                     suspended load.
+
+
+
+       ¦     Overloading a truss boom is a serious safety hazard. When in doubt 4 check the chart.
+Heavy-Duty Multi-Purpose Bucket
+Only approved for CERTAIN telehandlers 4 subjects the boom to torsional stress
+and impact loading.
+
+
+  Step 1: Verify Approval                    Step 2: When in Doubt
+  Confirm the attachment is                  Contact the telehandler
+  approved for YOUR specific                 manufacturer directly if you are
+  telehandler before use.                    unsure about compatibility.
+
+
+
+  Step 3: Use the Right Chart
+  Always use the correct load chart for the attachment in use.
+
+
+Refer to the Operator's Manual for information on handling suspended loads.
+CLASS 135:
+INDUSTRIAL
+FORKLIFT
+ATTACHMENTS
+How attachment rules, types, and safety considerations
+compare to the telehandler (Class 7).
+Class 135 Attachments 4 OSHA Requirements
+Just like telehandlers, Class 135 forklifts can use a wide range of attachments 4 but the same core rules apply.
+OSHA 29 CFR 1910.178 governs attachment use on industrial forklifts.
+
+
+
+
+                                                              Operator Retraining Required
+  Written Manufacturer Approval                               OSHA mandates retraining before an operator uses
+  Required before using any attachment. (29 CFR               any new attachment.
+  1910.178(a)(4))
+
+
+
+
+                                                              Treat as Partially Loaded
+  Update Capacity Decals                                      An unloaded forklift with an attachment must be
+  Capacity, operation, and maintenance decals MUST            treated as partially loaded. [29 CFR 1910.178(o)(4)]
+  be updated when an attachment is added.
+
+
+
+
+  Never Exceed Rated Capacity
+  Do not exceed the rated capacity of the forklift
+  AND attachment combination.
+¦        How Attachments Affect a Class 135 Forklift
+Every attachment changes how the forklift behaves. Operators must understand these three impacts.
+
+
+
+
+    Center of Gravity                          Lifting Capacity                            Visibility
+    The attachment moves the load              The weight of the attachment itself         Some attachments obstruct the
+    further from the fulcrum point,            reduces how much the forklift can           operator's line of sight to the load
+    increasing the risk of tip-over.           safely lift.                                and travel path.
+
+
+
+
+         These impacts mirror telehandler rules 4 manufacturer approval, load chart updates, and operator training are non-
+         negotiable on BOTH machine types.
+Class 135 Attachment Types 4 Overview
+
+ Side Shifter
+ Shifts forks left or right hydraulically. Most common forklift attachment. No need to reposition the truck.
+
+
+
+
+ Rotator
+ Grabs and rotates the load. Used for dumping, mixing, or inverting (e.g., ingredient bins, barrels).
+
+
+
+
+ Carton Clamp
+ Pressure clamps lift loads without a pallet. Ideal for appliances and boxed goods.
+
+
+
+
+ Paper Roll Handler
+ Specialized clamp for large paper or fabric rolls. Prevents damage during handling.
+
+
+
+
+ Fork Positioner
+ Hydraulically adjusts fork spacing for different pallet sizes. Operator stays seated.
+
+
+
+
+ Slipsheet Attachment
+ Push/pull mechanism handles loads on flat slipsheets. Eliminates the need for pallets.
+
+
+      Each attachment requires its own load chart and operator training. Always verify manufacturer approval before use.
+Side-by-Side Comparison 4 Attachments
+Both machine types share core attachment safety principles, but differ significantly in environment, attachment variety, and operational complexity.
+
+  Category                                                      Class 135 Forklift                                            Class 7 Telehandler
+
+  Primary Environment                                           Indoor warehouses, distribution centers, smooth               Outdoor jobsites, rough terrain, construction
+                                                                surfaces
+
+  Attachment Mounting                                           Carriage-mounted; hook-to-pin or quick-attach                 Quick-attach system or permanently fixed to boom
+
+  Common Attachments                                            Side shifter, rotator, carton clamp, fork positioner, paper   Shifting carriage, rotating carriage, swing carriage,
+                                                                roll handler, slipsheet                                       grapple bucket, truss boom, universal adapter
+
+  Load Chart Requirement                                        Yes 4 updated decal required per OSHA 29 CFR                  Yes 4 attachment-specific chart required; truss boom
+                                                                1910.178                                                      always rated below machine capacity
+
+  Stability Impact                                              Shifts center of gravity; increases tip-over risk             Affects stability, creates partially loaded condition,
+                                                                                                                              changes load zone capacity
+
+  Operator Training                                             OSHA retraining required for each new attachment              Retraining required; refer to Operator's Manual and
+                                                                                                                              manufacturer
+
+  Hydraulic Power                                               Some attachments use auxiliary hydraulics                     Some attachments powered by auxiliary hydraulic
+                                                                                                                              system
+
+  Key Safety Warning                                            Never exceed forklift/attachment rated capacity               Never use frame sway to level an elevated load; always
+                                                                combination                                                   use attachment-specific load chart
+
+The core principle is the same on both machines: manufacturer approval + correct load chart + trained operator = safe operation.
+

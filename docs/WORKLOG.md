@@ -185,3 +185,57 @@ Results:
 NEXT:
 - Decide draft handling for `run-of-show/content/outline.json`: keep draft, commit drafts, or delete draft copy.
 - Push `feature/anchor-style-pass` and open PR.
+
+## 2026-03-06 17:32 (local)
+Goal:
+- Commit draft content artifacts separately and push branch for PR creation.
+Files changed:
+- run-of-show/content/outline.json
+- run-of-show/content/coverage-report.md
+- run-of-show/content/utilization-map.md
+- docs/WORKLOG.md
+- docs/STATE.json
+Decisions:
+- Added draft notice as a JSON field (`draft_notice`) so `outline.json` remains valid.
+- Used Option B: commit draft/supporting content separately from runtime hardening commits.
+Commands:
+- sed -n '1,120p' run-of-show/content/outline.json
+- node -e "JSON.parse(require('fs').readFileSync('run-of-show/content/outline.json','utf8')); console.log('DRAFT_OUTLINE_JSON_VALID')"
+- git add run-of-show/content/outline.json run-of-show/content/coverage-report.md run-of-show/content/utilization-map.md
+- git commit -m "docs: add run-of-show draft content artifacts" (escalated)
+- git push -u origin feature/anchor-style-pass (escalated)
+Results:
+- Created commit `48b246b` (`docs: add run-of-show draft content artifacts`).
+- Pushed `feature/anchor-style-pass` to origin and set upstream tracking.
+NEXT:
+- Open PR using GitHub URL printed by push output.
+- In PR description, call out commits: `ea02155`, `5e83d6f`, `f573c4e`, `4be1e25`, `48b246b`.
+
+## 2026-03-06 18:13 (local)
+Goal:
+- Ingest newly uploaded Section 5 slide deck into the source processing flow.
+Files changed:
+- sources/crosswalk/slide_decks/incoming/Forklift-Classes-1-5-vs-Telehandler-Class-7-Section-5.pdf
+- sources/crosswalk/slide_decks/processed/Forklift-Classes-1-5-vs-Telehandler-Class-7-Section-5.txt
+- sources/slide_decks/incoming/Forklift-Classes-1-5-vs-Telehandler-Class-7-Section-5.pdf
+- sources/slide_decks/processed/Forklift-Classes-1-5-vs-Telehandler-Class-7-Section-5.txt
+- sources/slide_decks/TOPIC_MAP.md
+- docs/WORKLOG.md
+- docs/STATE.json
+Decisions:
+- Keep extraction format consistent with existing Section 1-4 artifacts by using `pdftotext -layout`.
+- Update `TOPIC_MAP.md` to include Section 5 as a mapped source and scene bucket extension.
+- Do not change runtime `run-of-show/public/content/outline.json` in this ingestion step.
+Commands:
+- ls/find under `sources/slide_decks` and `sources/crosswalk/slide_decks`
+- cp sources/slide_decks/incoming/Forklift-Classes-1-5-vs-Telehandler-Class-7-Section-5.pdf sources/crosswalk/slide_decks/incoming/
+- pdftotext -layout sources/crosswalk/slide_decks/incoming/Forklift-Classes-1-5-vs-Telehandler-Class-7-Section-5.pdf sources/crosswalk/slide_decks/processed/Forklift-Classes-1-5-vs-Telehandler-Class-7-Section-5.txt
+- cp sources/crosswalk/slide_decks/processed/Forklift-Classes-1-5-vs-Telehandler-Class-7-Section-5.txt sources/slide_decks/processed/Forklift-Classes-1-5-vs-Telehandler-Class-7-Section-5.txt
+- npm run typecheck && npm run build (run-of-show/)
+Results:
+- Section 5 PDF is now present in the crosswalk incoming set and extracted to processed text.
+- Section 5 is added to `sources/slide_decks/TOPIC_MAP.md` with mapping bucket entries (`s13`-`s15`).
+- App checks remain green after ingestion (`typecheck` + `build`).
+NEXT:
+- Commit Section 5 source artifacts + map updates.
+- If needed, author Section 5 scene content into draft outline before runtime promotion.

@@ -1,16 +1,16 @@
 {
   "project": "Run-of-Show (Instructor Only)",
-  "current_goal": "Hardening baseline complete; prepare PR and optional cleanup of draft content artifacts",
+  "current_goal": "Ingest newly uploaded Section 5 deck into source processing flow and map it to run-of-show scenes",
   "last_known_working_commit": "f573c4e",
   "active_branch": "feature/anchor-style-pass",
   "open_issues": [
-    "Draft copy remains modified at run-of-show/content/outline.json while runtime source is run-of-show/public/content/outline.json",
-    "History report and draft markdown files are still uncommitted"
+    "Section 5 has been ingested as source text, but runtime outline scenes are not yet expanded from this material",
+    "PR still needs to be opened from feature/anchor-style-pass with ordered commit summary"
   ],
   "next_actions": [
-    "Commit docs/HISTORY_REPORT.md + docs/WORKLOG.md + docs/STATE.json as a docs checkpoint",
-    "Decide whether to keep run-of-show/content/outline.json as draft-only or sync/delete it",
-    "Optionally commit run-of-show/content/coverage-report.md and run-of-show/content/utilization-map.md (draft/supporting docs)",
-    "Push feature/anchor-style-pass and open PR with commits ea02155, 5e83d6f, f573c4e"
+    "Commit Section 5 source artifacts and topic-map updates",
+    "Optionally draft new scene entries from Section 5 (attachments/capacity controls) into run-of-show/content/outline.json",
+    "Open PR from feature/anchor-style-pass using ordered commit summary",
+    "Confirm reviewers understand runtime source of truth remains run-of-show/public/content/outline.json"
   ]
 }
