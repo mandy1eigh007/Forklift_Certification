@@ -1,17 +1,16 @@
 {
   "project": "Run-of-Show (Instructor Only)",
-  "current_goal": "Hardening pass: overlay + timer sync + node pin + outline validation",
-  "last_known_working_commit": "",
+  "current_goal": "Hardening baseline complete; prepare PR and optional cleanup of draft content artifacts",
+  "last_known_working_commit": "f573c4e",
   "active_branch": "feature/anchor-style-pass",
   "open_issues": [
-    "Present black overlay removed by render clearing root",
-    "Timer sync: TIMER_START handler sets remainingSec incorrectly",
-    "Vite 7 Node minimum requires pinning Node >= 20.19.0"
+    "Draft copy remains modified at run-of-show/content/outline.json while runtime source is run-of-show/public/content/outline.json",
+    "History report and draft markdown files are still uncommitted"
   ],
   "next_actions": [
-    "Fix overlay strategy (append to body or stable wrapper)",
-    "Fix TIMER_START handler to compute remaining from endsAtMs",
-    "Pin Node in deploy.yml + engines + .nvmrc",
-    "Add outline.json validation with friendly error UI"
+    "Commit docs/HISTORY_REPORT.md + docs/WORKLOG.md + docs/STATE.json as a docs checkpoint",
+    "Decide whether to keep run-of-show/content/outline.json as draft-only or sync/delete it",
+    "Optionally commit run-of-show/content/coverage-report.md and run-of-show/content/utilization-map.md (draft/supporting docs)",
+    "Push feature/anchor-style-pass and open PR with commits ea02155, 5e83d6f, f573c4e"
   ]
 }

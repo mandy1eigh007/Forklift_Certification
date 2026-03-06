@@ -75,3 +75,113 @@ Results:
 NEXT:
 - Run `bash scripts/whereami.sh` at session start and continue from `docs/STATE.json` `next_actions`.
 - After next coherent code unit: run `git status` and `npm run typecheck && npm run build`, then checkpoint commit if green.
+
+## 2026-03-06 16:06 (local)
+Goal:
+- Reconstruct and document local Git history for run-of-show in a shareable report.
+Files changed:
+- docs/HISTORY_REPORT.md
+- docs/WORKLOG.md
+- docs/STATE.json
+Decisions:
+- Report only local Git-provable facts; for push/pull evidence, use reflog and explicitly note its limits.
+- Include both root `.github/workflows/deploy.yml` and `run-of-show/.github/workflows/deploy.yml` evidence because only the latter has committed history locally.
+Commands:
+- git branch --show-current && git status -sb
+- git remote -v
+- git show -s --date=iso --format='%H%n%h%n%an <%ae>%n%ad%n%s' HEAD
+- git rev-parse --is-shallow-repository
+- git branch -vv
+- git tag -n
+- git log --reverse --date=iso --name-status --pretty=format:'__COMMIT__%n%H%n%h%n%ad%n%an%n%s' -- run-of-show
+- git log -n 10 --date=iso -- <path>
+- git show --format= --shortstat <hash> -- <path>
+- git show --format= --unified=0 <hash> -- <path>
+- git reflog -n 50 --date=iso
+Results:
+- Created `docs/HISTORY_REPORT.md` with repo summary, run-of-show timeline, key-file histories, branch/tag overview, reflog, and deployment-workflow commit evidence.
+- Confirmed local history shows a single committed run-of-show introduction commit (`7740d6e`) plus current uncommitted edits.
+NEXT:
+- Review `docs/HISTORY_REPORT.md` and decide whether to checkpoint-commit report updates.
+- Continue product work from `docs/STATE.json` `next_actions` after history review.
+
+## 2026-03-06 16:39 (local)
+Goal:
+- Return to a known-good hardening baseline with ordered checkpoint commits (workflow/node, content path normalization, and hardening fixes).
+Files changed:
+- .github/workflows/deploy.yml
+- .nvmrc
+- run-of-show/package.json
+- run-of-show/.github/workflows/deploy.yml (deleted via move to root)
+- run-of-show/public/content/outline.json
+- run-of-show/src/data.ts
+- run-of-show/src/main.ts
+- run-of-show/src/sync.ts
+- run-of-show/src/views/present.ts
+- run-of-show/src/views/control.ts
+- run-of-show/src/views/library.ts
+- run-of-show/src/router.ts
+- run-of-show/src/state.ts
+- run-of-show/src/components/sceneRenderer.ts
+- run-of-show/src/components/searchPicker.ts
+- run-of-show/src/components/timer.ts
+- run-of-show/src/components/ui.ts
+- run-of-show/styles/base.css
+- run-of-show/styles/control.css
+- run-of-show/styles/library.css
+- run-of-show/styles/present.css
+- run-of-show/index.html
+- run-of-show/package-lock.json
+- run-of-show/README.md
+- docs/WORKLOG.md
+- docs/STATE.json
+Decisions:
+- Runtime outline source of truth is `run-of-show/public/content/outline.json`; `run-of-show/content/outline.json` remains draft-only and uncommitted.
+- Keep commits split in recovery-safe order: A infra/workflow+node, B content path, C hardening behavior/UI.
+- Use escalated commit execution because repository signing requires networked signing service.
+Commands:
+- tail -n 120 docs/WORKLOG.md
+- cat docs/STATE.json
+- git status -sb
+- sed -n (deploy.yml, package.json, data.ts, main.ts, present.ts, control.ts, sync.ts)
+- grep -R "content/outline.json" run-of-show/src run-of-show/index.html run-of-show/vite.config.ts
+- npm ci && npm run typecheck && npm run build (run-of-show/, escalated)
+- git add -A .github/workflows run-of-show/.github/workflows .nvmrc run-of-show/package.json
+- git commit -m "run-of-show: pin node and move deploy workflow to repo root" (escalated)
+- git add run-of-show/public/content/outline.json run-of-show/src/data.ts
+- git commit -m "run-of-show: load outline from public content path" (escalated)
+- git add run-of-show/README.md run-of-show/index.html run-of-show/package-lock.json run-of-show/src run-of-show/styles
+- git commit -m "run-of-show: harden present overlay, timer sync, and validation UX" (escalated)
+- npm run typecheck && npm run build (run-of-show/)
+- git log -3 --oneline
+Results:
+- Commit A: `ea02155` - run-of-show: pin node and move deploy workflow to repo root.
+- Commit B: `5e83d6f` - run-of-show: load outline from public content path.
+- Commit C: `f573c4e` - run-of-show: harden present overlay, timer sync, and validation UX.
+- Post-commit checks pass: `npm run typecheck` and `npm run build`.
+NEXT:
+- Review and optionally commit `docs/HISTORY_REPORT.md`.
+- Decide whether to keep/sync/delete `run-of-show/content/outline.json` draft copy.
+- Optionally commit `run-of-show/content/coverage-report.md` and `run-of-show/content/utilization-map.md`.
+- Push `feature/anchor-style-pass` and open PR for commits `ea02155`, `5e83d6f`, `f573c4e`.
+
+## 2026-03-06 16:58 (local)
+Goal:
+- Fix invalid STATE.json and checkpoint docs state/history artifacts.
+Files changed:
+- docs/STATE.json
+- docs/WORKLOG.md
+- docs/HISTORY_REPORT.md
+Decisions:
+- Replace `docs/STATE.json` exactly with the user-provided valid JSON content.
+- Keep docs checkpoint isolated from draft content files in `run-of-show/content/`.
+Commands:
+- cat docs/STATE.json
+- node -e "JSON.parse(require('fs').readFileSync('docs/STATE.json','utf8')); console.log('STATE_JSON_VALID')"
+- git status -sb
+Results:
+- `docs/STATE.json` is valid JSON and reflects the latest hardening baseline.
+- Docs checkpoint commit prepared for HISTORY_REPORT + WORKLOG + STATE.
+NEXT:
+- Decide draft handling for `run-of-show/content/outline.json`: keep draft, commit drafts, or delete draft copy.
+- Push `feature/anchor-style-pass` and open PR.
