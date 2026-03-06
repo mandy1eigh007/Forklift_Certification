@@ -1,540 +1,97 @@
 {
+  "draft_notice": "DRAFT ONLY — runtime loads from run-of-show/public/content/outline.json",
   "meta": {
-    "title": "Forklift Instructor Run-of-Show",
-    "version": "0.2.0",
+    "title": "Forklift / Telehandler Run-of-Show",
+    "version": "0.1.0",
     "updated": "2026-03-05",
     "defaultSceneId": "s01"
   },
   "sections": [
     {
-      "id": "sec-foundations",
-      "title": "Section 1: Foundations and Expectations",
+      "id": "sec-intro",
+      "title": "Kickoff",
       "order": 1,
       "scenes": [
         {
           "id": "s01",
-          "title": "Program Welcome and Purpose",
-          "durationMinutes": 7,
-          "objective": "Set why this training matters and what successful completion requires.",
-          "script": "Open by framing operator safety outcomes, then connect training participation to real incident prevention.",
+          "title": "Welcome + Training Intent",
+          "durationMinutes": 5,
+          "objective": "Set expectations for instructor-led certification delivery and classroom flow.",
+          "script": "Today is instructor-led. The projector stays clean; your questions are welcome. We will move in short blocks: explain, demo, practice, verify.",
           "steps": [
-            "Welcome learners and confirm role-specific attendance.",
-            "State the training scope for Classes 1-5 and Class 7 awareness.",
-            "Set participation expectations for discussion, written checks, and practical demonstration.",
-            "Reinforce stop-work authority and no-shortcut culture."
+            "Explain how the day is structured",
+            "Confirm breaks and expectations",
+            "Explain how skills will be verified"
           ],
           "ask": [
-            "What jobsite habit most often turns into forklift near-misses in your area?"
+            "What’s one thing that makes equipment training go sideways on a jobsite?"
           ],
           "watchFor": [
-            "Language that normalizes rushed operation or bypassing checks."
+            "Students treating the day as passive lecture instead of skills verification"
           ],
-          "media": [
-            {
-              "type": "image",
-              "title": "Program Kickoff Visual",
-              "src": "uploads/image01.png"
-            }
-          ],
-          "links": [
-            {
-              "title": "OSHA 1910.178 Powered Industrial Trucks",
-              "url": "https://www.osha.gov/powered-industrial-trucks"
-            }
-          ],
+          "media": [],
+          "links": [],
           "answers": {
-            "enabled": true,
-            "items": [
-              "Most serious events involve speed, blind travel, or weak communication.",
-              "Incidents are usually process failures, not one-time bad luck.",
-              "Clear expectations early reduce unsafe improvisation later."
-            ]
+            "enabled": false,
+            "items": []
           },
-          "notes": "Keep this opening high-energy and practical, not compliance-heavy.",
-          "tags": ["welcome", "safety-culture", "expectations"]
+          "notes": "Keep it short. Get them into the rhythm: explain → demo → practice → verify.",
+          "tags": ["intro", "expectations"]
         },
         {
           "id": "s02",
-          "title": "Trainer and Operator Responsibilities",
-          "durationMinutes": 10,
-          "objective": "Clarify trainer qualification requirements and operator obligations.",
-          "script": "Walk through qualified-person expectations, then tie operator accountability to daily decisions.",
+          "title": "Safety Frame: Consequences + Culture",
+          "durationMinutes": 8,
+          "objective": "Anchor the training in real-world risk and shared responsibility.",
+          "script": "This is about hazard recognition and decision-making. Equipment doesn’t forgive shortcuts. We’re building habits you can carry to any site.",
           "steps": [
-            "Define trainer qualification using ANSI/OSHA language in plain terms.",
-            "Confirm written exam and practical proficiency expectations.",
-            "Review operator duty to report hazards and defects promptly.",
-            "Assign accountability checkpoints for supervision and sign-off."
+            "Define the difference between rules vs habits",
+            "Call out complacency risk",
+            "Set a ‘see something, say something’ expectation"
           ],
           "ask": [
-            "What is the most common responsibility gap between trainer intent and operator behavior?"
+            "What does ‘complacency’ look like on equipment?"
           ],
           "watchFor": [
-            "Participants viewing certification as paperwork instead of competency."
+            "Jokes minimizing risk; redirect to real consequences without shaming"
           ],
-          "media": [
-            {
-              "type": "image",
-              "title": "Role and Responsibility Matrix",
-              "src": "uploads/image07.png"
-            }
-          ],
-          "links": [
-            {
-              "title": "ANSI/ITSDF Standards Overview",
-              "url": "https://itsdf.org/"
-            }
-          ],
+          "media": [],
+          "links": [],
           "answers": {
-            "enabled": true,
-            "items": [
-              "Qualification must be demonstrated, not assumed from tenure.",
-              "Operator responsibility includes active hazard identification.",
-              "Recordkeeping validates competency and recurring evaluation."
-            ]
+            "enabled": false,
+            "items": []
           },
-          "notes": "Use real examples of past training misses to make the standards concrete.",
-          "tags": ["qualified-person", "responsibilities", "compliance"]
+          "notes": "Keep tone firm. Do not lecture forever. Move to the next skill block quickly.",
+          "tags": ["safety", "culture"]
         },
         {
           "id": "s03",
-          "title": "Course Preparation and Areas of Focus",
-          "durationMinutes": 11,
-          "objective": "Prepare instructors to set up environment, materials, and agenda for effective delivery.",
-          "script": "Review prep requirements, then walk through focus areas that drive operator performance.",
-          "steps": [
-            "Confirm classroom and practical area readiness before start.",
-            "Validate equipment condition and training aid availability.",
-            "Sequence agenda around highest-risk operations first.",
-            "Set checkpoints for knowledge verification and coaching."
-          ],
-          "ask": [
-            "Which part of course setup most often fails in your current process?"
-          ],
-          "watchFor": [
-            "Overloaded agendas that reduce practice quality."
-          ],
-          "media": [
-            {
-              "type": "image",
-              "title": "Course Planning Board",
-              "src": "uploads/image20.png"
-            }
-          ],
-          "links": [
-            {
-              "title": "PIT Training Requirements Summary",
-              "url": "https://www.osha.gov/laws-regs/regulations/standardnumber/1910/1910.178"
-            }
-          ],
-          "answers": {
-            "enabled": true,
-            "items": [
-              "Preparation quality directly predicts hands-on safety performance.",
-              "Practice design must reflect real workplace hazards.",
-              "Evaluation standards should be visible before practical exercises."
-            ]
-          },
-          "notes": "Keep this scene operational and checklist-driven.",
-          "tags": ["course-prep", "trainer-guide", "agenda"]
-        }
-      ]
-    },
-    {
-      "id": "sec-regulatory",
-      "title": "Section 2: Regulations and Operator Training",
-      "order": 2,
-      "scenes": [
-        {
-          "id": "s04",
-          "title": "Regulatory Landscape: OSHA, ANSI, CSA",
+          "title": "Skill Verification Overview",
           "durationMinutes": 10,
-          "objective": "Differentiate regulatory obligations and where each standard applies.",
-          "script": "Map OSHA requirements to ANSI/ITSDF and CSA references without overwhelming learners.",
+          "objective": "Explain how you will evaluate: what counts, what fails, and what remediation looks like.",
+          "script": "We are verifying skill, not vibes. You’ll get guided practice, then a check. If something is unsafe, we stop and re-train.",
           "steps": [
-            "Explain OSHA 1910.178 operator training rule baseline.",
-            "Distinguish ANSI/ITSDF B56 family applicability by truck class.",
-            "Clarify when CSA references are used in your operating context.",
-            "Tie standards to daily operator decisions and supervision."
+            "Explain pass/fail criteria",
+            "Explain how coaching happens before verification",
+            "Explain what happens on an unsafe act"
           ],
           "ask": [
-            "Where do teams most often confuse guideline versus requirement?"
+            "What do you want the instructor to correct immediately if you start doing it?"
           ],
           "watchFor": [
-            "Participants treating standards as optional policy guidance."
+            "Students confusing ‘try’ with ‘verified’. Be explicit."
           ],
-          "media": [
-            {
-              "type": "image",
-              "title": "Regulation Comparison Snapshot",
-              "src": "uploads/image35.png"
-            }
-          ],
-          "links": [
-            {
-              "title": "OSHA 1910.178 Full Standard",
-              "url": "https://www.osha.gov/laws-regs/regulations/standardnumber/1910/1910.178"
-            }
-          ],
+          "media": [],
+          "links": [],
           "answers": {
             "enabled": true,
             "items": [
-              "OSHA establishes enforceable baseline requirements.",
-              "ANSI/ITSDF provides detailed equipment and operation standards.",
-              "Training records and evaluation are mandatory, not optional."
+              "Unsafe act: stop immediately, reset, explain why, re-demo, re-attempt",
+              "Verification: instructor observes without coaching unless safety requires intervention"
             ]
           },
-          "notes": "Use local site examples to avoid abstract standards talk.",
-          "tags": ["osha", "ansi", "csa", "regulations"]
-        },
-        {
-          "id": "s05",
-          "title": "Capacity and Stability Rules",
-          "durationMinutes": 12,
-          "objective": "Apply capacity and stability concepts to both forklifts and telehandlers.",
-          "script": "Contrast data plate limits with load chart variability and reinforce no-estimation behavior.",
-          "steps": [
-            "Review forklift data plate interpretation and load center impact.",
-            "Review telehandler load chart variables: boom angle and extension.",
-            "Model capacity reduction with attachments and rigging included.",
-            "Run one scenario where overconfidence creates instability."
-          ],
-          "ask": [
-            "What information do you verify before every pick, regardless of schedule pressure?"
-          ],
-          "watchFor": [
-            "Estimating weight or relying on memory over plate/chart verification."
-          ],
-          "media": [
-            {
-              "type": "image",
-              "title": "Capacity and Stability Reference",
-              "src": "uploads/image20.png"
-            }
-          ],
-          "links": [
-            {
-              "title": "PIT Stability and Capacity Guidance",
-              "url": "https://www.osha.gov/powered-industrial-trucks/training-assistance"
-            }
-          ],
-          "answers": {
-            "enabled": true,
-            "items": [
-              "Never exceed rated capacity shown on plate/chart.",
-              "Load center changes can invalidate nominal capacity.",
-              "Attachment weight counts against available lifting capacity."
-            ]
-          },
-          "notes": "Use quick math checks and challenge learners to justify each pick.",
-          "tags": ["capacity", "stability", "load-chart", "data-plate"]
-        },
-        {
-          "id": "s06",
-          "title": "Safe Use Plan and Evaluation Standards",
-          "durationMinutes": 10,
-          "objective": "Build a site-specific safe use plan and evaluation process.",
-          "script": "Translate standards into a practical plan: route design, controls, and measurable competency checks.",
-          "steps": [
-            "Identify site hazards, traffic conflicts, and pedestrian interfaces.",
-            "Define route rules, speed controls, and communication points.",
-            "Document written and practical evaluation criteria.",
-            "Set re-evaluation cadence and trigger events."
-          ],
-          "ask": [
-            "What single change would make your current safe use plan more enforceable?"
-          ],
-          "watchFor": [
-            "Plans that list policy but omit observable behavior criteria."
-          ],
-          "media": [
-            {
-              "type": "image",
-              "title": "Safe Use Plan Workflow",
-              "src": "uploads/image07.png"
-            }
-          ],
-          "links": [
-            {
-              "title": "OSHA PIT Training Assistance",
-              "url": "https://www.osha.gov/powered-industrial-trucks"
-            }
-          ],
-          "answers": {
-            "enabled": true,
-            "items": [
-              "Safe use plans must be task and site specific.",
-              "Evaluation standards should be observable and repeatable.",
-              "Re-evaluation triggers include incidents, near misses, and equipment changes."
-            ]
-          },
-          "notes": "This scene should output one actionable revision to current site plans.",
-          "tags": ["safe-use-plan", "evaluation", "workplace"]
-        }
-      ]
-    },
-    {
-      "id": "sec-principles",
-      "title": "Section 3: Five Principles of Safe Operation",
-      "order": 3,
-      "scenes": [
-        {
-          "id": "s07",
-          "title": "Five Principles Overview",
-          "durationMinutes": 9,
-          "objective": "Anchor all practical behaviors to the five principles framework.",
-          "script": "Introduce each principle and connect it to one frequent failure mode observed in the field.",
-          "steps": [
-            "Introduce: avoid hazards, pre-op inspect, function test, workplace inspect, intended use.",
-            "Map each principle to one incident type.",
-            "Explain how principles apply across classes with equipment differences.",
-            "Set expectation that every later demo calls back to one principle."
-          ],
-          "ask": [
-            "Which principle is most often skipped under production pressure?"
-          ],
-          "watchFor": [
-            "Participants remembering steps but not underlying principle intent."
-          ],
-          "media": [
-            {
-              "type": "image",
-              "title": "Five Principles Panel",
-              "src": "uploads/image01.png"
-            }
-          ],
-          "links": [
-            {
-              "title": "NIOSH Forklift Safety Resources",
-              "url": "https://www.cdc.gov/niosh/topics/forklift/default.html"
-            }
-          ],
-          "answers": {
-            "enabled": true,
-            "items": [
-              "The five principles are behavior anchors, not poster slogans.",
-              "Skipping pre-op and workplace checks drives preventable incidents.",
-              "Intended-use violations often begin with schedule pressure."
-            ]
-          },
-          "notes": "Make this fast and memorable; use one-line examples per principle.",
-          "tags": ["five-principles", "framework", "hazard-prevention"]
-        },
-        {
-          "id": "s08",
-          "title": "Awareness and Positioning",
-          "durationMinutes": 11,
-          "objective": "Improve situational awareness and positioning decisions for mixed environments.",
-          "script": "Demonstrate 360-degree scan habits, blind-corner communication, and positioning choices before movement.",
-          "steps": [
-            "Run pre-move scan and identify dynamic hazards.",
-            "Compare forklift tail swing and telehandler boom blind spots.",
-            "Practice stop-horn-scan decision at intersections.",
-            "Apply positioning checks before pickup and placement."
-          ],
-          "ask": [
-            "When visibility is compromised, what must happen before movement continues?"
-          ],
-          "watchFor": [
-            "Turning behavior before complete hazard scan."
-          ],
-          "media": [
-            {
-              "type": "image",
-              "title": "Visibility and Positioning Diagram",
-              "src": "uploads/image35.png"
-            }
-          ],
-          "links": [
-            {
-              "title": "OSHA PIT Hazard Recognition",
-              "url": "https://www.osha.gov/powered-industrial-trucks/hazards"
-            }
-          ],
-          "answers": {
-            "enabled": true,
-            "items": [
-              "If vision is blocked, stop and use spotter/procedure before moving.",
-              "Forklift tail swing and telehandler boom both create non-obvious strike zones.",
-              "Positioning is a pre-move decision, not a mid-turn correction."
-            ]
-          },
-          "notes": "Use cones or taped zones if available for spatial learning.",
-          "tags": ["awareness", "visibility", "positioning"]
-        },
-        {
-          "id": "s09",
-          "title": "Inspection and Function Testing Discipline",
-          "durationMinutes": 12,
-          "objective": "Standardize pre-op and function test behavior before operation begins.",
-          "script": "Move from checklist recitation to evidence-based inspection and test execution.",
-          "steps": [
-            "Review pre-op inspection sequence and defect thresholds.",
-            "Perform function tests for steering, brakes, hydraulics, and warning devices.",
-            "Document deficiencies and tag out when criteria are met.",
-            "Escalate defects with clear chain-of-communication."
-          ],
-          "ask": [
-            "What defect would you escalate immediately even if production is behind?"
-          ],
-          "watchFor": [
-            "Informal pass/fail decisions without documentation evidence."
-          ],
-          "media": [
-            {
-              "type": "image",
-              "title": "Pre-Op and Function Test Checklist",
-              "src": "uploads/image07.png"
-            }
-          ],
-          "links": [
-            {
-              "title": "Sample Forklift Daily Inspection Form",
-              "url": "https://www.osha.gov/sites/default/files/2018-12/forklift_checklist.pdf"
-            }
-          ],
-          "answers": {
-            "enabled": true,
-            "items": [
-              "Braking, steering, and hydraulic failures are immediate no-go.",
-              "Function tests confirm operability beyond visual inspection.",
-              "Documentation is part of safety, not administrative overhead."
-            ]
-          },
-          "notes": "Require one learner to narrate each check step aloud during demo.",
-          "tags": ["pre-op", "function-test", "tag-out"]
-        }
-      ]
-    },
-    {
-      "id": "sec-operations",
-      "title": "Section 4: Operation and Field Execution",
-      "order": 4,
-      "scenes": [
-        {
-          "id": "s10",
-          "title": "Forklift vs Telehandler Operational Differences",
-          "durationMinutes": 12,
-          "objective": "Compare handling behavior so operators choose correct controls and pacing.",
-          "script": "Contrast steering, center-of-gravity behavior, and surface demands with practical examples.",
-          "steps": [
-            "Review rear-wheel steering implications for forklifts.",
-            "Review dynamic center-of-gravity shifts for telehandlers.",
-            "Compare stopping distances and speed management expectations.",
-            "Identify environment-specific risks: indoor aisles vs rough terrain."
-          ],
-          "ask": [
-            "Which operational difference causes the most transfer errors when operators switch equipment?"
-          ],
-          "watchFor": [
-            "Participants applying passenger-vehicle instincts to lift equipment."
-          ],
-          "media": [
-            {
-              "type": "image",
-              "title": "Operational Comparison Graphic",
-              "src": "uploads/image20.png"
-            }
-          ],
-          "links": [
-            {
-              "title": "Powered Industrial Truck eTool",
-              "url": "https://www.osha.gov/etools/powered-industrial-trucks"
-            }
-          ],
-          "answers": {
-            "enabled": true,
-            "items": [
-              "Steering and stability response is fundamentally different from cars.",
-              "Telehandler boom movement changes capacity and stability continuously.",
-              "Surface conditions must be evaluated before movement, not after."
-            ]
-          },
-          "notes": "Use this as the bridge from classroom to practical field drills.",
-          "tags": ["operations", "equipment-differences", "handling"]
-        },
-        {
-          "id": "s11",
-          "title": "Visibility, Travel, and Spotter Protocol",
-          "durationMinutes": 10,
-          "objective": "Drive consistent travel behavior when vision is limited.",
-          "script": "Set non-negotiable travel rules: low load travel, reverse when blocked, and spotter coordination.",
-          "steps": [
-            "Demonstrate travel posture and mast/boom positioning for visibility.",
-            "Trigger horn and communication protocol at blind points.",
-            "Decide when to stop and assign spotter support.",
-            "Validate clear route before resuming travel."
-          ],
-          "ask": [
-            "What exact conditions require a spotter in your operation?"
-          ],
-          "watchFor": [
-            "Moving with partial visibility instead of resetting position."
-          ],
-          "media": [
-            {
-              "type": "image",
-              "title": "Travel Visibility Protocol",
-              "src": "uploads/image35.png"
-            }
-          ],
-          "links": [
-            {
-              "title": "Forklift Hazard and Prevention Guidance",
-              "url": "https://www.cdc.gov/niosh/topics/forklift/"
-            }
-          ],
-          "answers": {
-            "enabled": true,
-            "items": [
-              "Blocked visibility requires stop and alternate procedure before moving.",
-              "Spotter communication must be explicit and acknowledged.",
-              "Travel speed is always subordinate to visibility and route certainty."
-            ]
-          },
-          "notes": "Run one timed drill emphasizing decision quality over speed.",
-          "tags": ["visibility", "travel", "spotter", "communication"]
-        },
-        {
-          "id": "s12",
-          "title": "Machine Modification and Attachment Controls",
-          "durationMinutes": 9,
-          "objective": "Prevent unsafe modifications and attachment misuse.",
-          "script": "Reinforce that unauthorized modifications invalidate safe operation assumptions and capacity references.",
-          "steps": [
-            "Explain written approval requirements for modifications.",
-            "Review attachment compatibility and plate/chart updates.",
-            "Flag liability and warranty impact of unauthorized changes.",
-            "Set escalation path for suspected non-compliant equipment."
-          ],
-          "ask": [
-            "How do you verify an attachment is approved before use?"
-          ],
-          "watchFor": [
-            "Assuming 'it fits' means it is approved and safe."
-          ],
-          "media": [
-            {
-              "type": "image",
-              "title": "Attachment Compliance Callout",
-              "src": "uploads/image01.png"
-            }
-          ],
-          "links": [
-            {
-              "title": "OSHA PIT Standard (Modifications and Repairs)",
-              "url": "https://www.osha.gov/laws-regs/regulations/standardnumber/1910/1910.178"
-            }
-          ],
-          "answers": {
-            "enabled": true,
-            "items": [
-              "Modifications require written manufacturer approval.",
-              "Attachments change capacity and require updated references.",
-              "No operator should use equipment with uncertain compliance status."
-            ]
-          },
-          "notes": "Close by summarizing enforceable do-not-operate triggers.",
-          "tags": ["modifications", "attachments", "compliance", "final"]
+          "notes": "This is your ‘contract’ for the rest of the day. Make it clear.",
+          "tags": ["verification", "rubric"]
         }
       ]
     }
