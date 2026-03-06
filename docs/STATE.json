@@ -1,17 +1,17 @@
 {
   "project": "Run-of-Show (Instructor Only)",
-  "current_goal": "Compare scenes now split correctly; extractor pipeline and PNG placeholders added for attachment visuals",
-  "last_known_working_commit": "f6b90c0",
+  "current_goal": "Real telehandler attachment images extracted; finalize manual walkthrough and PR summary",
+  "last_known_working_commit": "4cacaa8",
   "active_branch": "feature/anchor-style-pass",
   "open_issues": [
-    "Visual scenes currently use generated PNG placeholders; final extracted guide images still need page mapping",
-    "Extractor script defaults use page 1 placeholders until exact attachment page numbers are provided",
+    "Manual browser walkthrough still pending for A-02, A-03, C-01, and control push-to-present flow",
+    "Extractor defaults remain placeholder-oriented; local process now uses explicit page overrides (2/2/2/3)",
     "Draft artifacts exist under run-of-show/content/ and may confuse runtime vs draft unless clearly labeled"
   ],
   "next_actions": [
     "Run manual walkthrough at #/present?scene=A-02, #/present?scene=A-03, #/present?scene=C-01, and #/control?scene=A-02",
-    "Run scripts/extract_telehandler_attachment_images.py with real attachment page numbers to replace placeholders",
-    "If needed, remove obsolete .svg placeholders once PNG extraction is finalized",
-    "Open/update PR with ordered commit summary including 688b340, 89fd5d7, and f6b90c0"
+    "Optionally update extractor script defaults from page 1 to the validated 2/2/2/3 mapping",
+    "If desired, remove obsolete .svg placeholders once PNG workflow is accepted",
+    "Open/update PR with ordered commit summary including 688b340, 89fd5d7, f6b90c0, and 4cacaa8"
   ]
 }

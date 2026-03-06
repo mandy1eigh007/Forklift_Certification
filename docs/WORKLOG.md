@@ -336,3 +336,33 @@ NEXT:
 - Run manual route checks in browser (`A-02`, `A-03`, `C-01`, `control A-02`).
 - Run extraction script with real page numbers and replace placeholder PNGs.
 - Update PR summary with latest commits.
+
+## 2026-03-06 19:54 (local)
+Goal:
+- Apply user-provided real page mapping for telehandler attachment image extraction and replace PNG placeholders with extracted renders.
+Files changed:
+- run-of-show/public/media/telehandler/attachments/quick-attach.png
+- run-of-show/public/media/telehandler/attachments/rotating-carriage.png
+- run-of-show/public/media/telehandler/attachments/swing-carriage.png
+- run-of-show/public/media/telehandler/attachments/overview.png
+- docs/WORKLOG.md
+- docs/STATE.json
+Decisions:
+- Used repo-local PDF path `sources/genie/2025 Genie Lift Pro Telehandler Trainer's Guide.pdf` because `/mnt/data/...` path is not present in this environment.
+- Applied page overrides exactly as instructed: quick-attach=2, rotating-carriage=2, swing-carriage=2, overview=3.
+- Kept extractor script as-is but documented that explicit overrides are currently required for correct output.
+Commands:
+- node -e "JSON.parse(require('fs').readFileSync('docs/STATE.json','utf8')); console.log('STATE_JSON_VALID')"
+- node -e "JSON.parse(require('fs').readFileSync('run-of-show/public/content/outline.json','utf8')); console.log('OUTLINE_JSON_VALID')"
+- pip install pymupdf (escalated)
+- python3 scripts/extract_telehandler_attachment_images.py --pdf "sources/genie/2025 Genie Lift Pro Telehandler Trainer's Guide.pdf" --scale 3 --page quick-attach=2 --page rotating-carriage=2 --page swing-carriage=2 --page overview=3
+- npm run typecheck && npm run build (run-of-show/)
+- git add run-of-show/public/media/telehandler/attachments/*.png
+- git commit -m "assets: add extracted telehandler attachment visuals" (escalated)
+Results:
+- Replaced placeholder PNGs with real full-page renders from the trainer guide pages.
+- Compare and visual scene data checks remain valid; `STATE` and runtime `outline` parse successfully.
+- Checkpoint commit created: `4cacaa8`.
+NEXT:
+- Run browser walkthrough for `A-02`, `A-03`, `C-01`, and Control push-to-present behavior.
+- Open/update PR summary with latest commit ordering.
