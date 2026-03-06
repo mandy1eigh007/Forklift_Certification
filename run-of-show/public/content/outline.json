@@ -1,96 +1,471 @@
 {
   "meta": {
-    "title": "Forklift / Telehandler Run-of-Show",
-    "version": "0.1.0",
-    "updated": "2026-03-05",
-    "defaultSceneId": "s01"
+    "title": "ANEW Forklift (Classes 1-5) + Telehandler (Class 7) - Instructor Run-of-Show",
+    "version": "1.0.0",
+    "updated": "2026-03-06",
+    "defaultSceneId": "GR-01",
+    "design_model": "https://renaudrohlinger.com/",
+    "delivery_mode": "Instructor-led; students follow projected Present view; instructor drives from Control view.",
+    "golden_rule_script_ref": "Scenes GR-01 through GR-06 must be delivered in order without deviation."
   },
   "sections": [
     {
-      "id": "sec-intro",
-      "title": "Kickoff",
+      "id": "sec-golden-rule",
+      "title": "Golden Rule Protocol (Do Not Deviate)",
       "order": 1,
       "scenes": [
         {
-          "id": "s01",
-          "title": "Welcome + Training Intent",
+          "id": "GR-01",
+          "template": "standard",
+          "title": "Opening Script + How Today Works",
+          "durationMinutes": 4,
+          "objective": "Set expectations: instructor-led, projector-first, and mastery-based evaluation.",
+          "script": "This training is instructor-led. You will follow the same run-of-show I'm using on the screen. We move in short blocks: objective, rule, demo, practice, verification. If something is unclear or unsafe, we stop and verify before we proceed.",
+          "steps": [
+            "Explain Present view vs Control view (students see Present only).",
+            "Explain the rhythm: Objective -> Rule -> Ask -> Do -> Watch-for -> Check-for-understanding.",
+            "Set participation expectation: students must speak back the rule."
+          ],
+          "ask": [
+            "What's one thing you've seen on equipment that made you think: this is about to go bad?"
+          ],
+          "watchFor": [
+            "Students treating this like a passive lecture instead of a verification process."
+          ],
+          "media": [],
+          "links": [],
+          "answers": { "enabled": false, "items": [] },
+          "notes": "Keep this tight. Do not drift into stories. Move straight into safety culture and STOP rules."
+        },
+        {
+          "id": "GR-02",
+          "template": "standard",
+          "title": "STOP Rules (Non-Negotiable)",
           "durationMinutes": 5,
-          "objective": "Set expectations for instructor-led certification delivery and classroom flow.",
-          "script": "Today is instructor-led. The projector stays clean; your questions are welcome. We will move in short blocks: explain, demo, practice, verify.",
+          "objective": "Define what triggers an immediate stop and verification.",
+          "script": "If chart/plate/attachment configuration is not confirmed, we stop and verify. No one improvises capacity. No unapproved modifications or attachments. If in doubt, we verify with the manufacturer and the operator's manual.",
           "steps": [
-            "Explain how the day is structured",
-            "Confirm breaks and expectations",
-            "Explain how skills will be verified"
+            "State the three STOP triggers: (1) chart/plate mismatch, (2) attachment uncertainty, (3) unsafe behavior.",
+            "Explain that unapproved attachments count as a modification.",
+            "Explain that uncertainty is not a failure; continuing while uncertain is."
           ],
           "ask": [
-            "What’s one thing that makes equipment training go sideways on a jobsite?"
+            "What's the first sign you are guessing instead of verifying?"
           ],
           "watchFor": [
-            "Students treating the day as passive lecture instead of skills verification"
-          ],
-          "media": [],
-          "links": [],
-          "answers": {
-            "enabled": false,
-            "items": []
-          },
-          "notes": "Keep it short. Get them into the rhythm: explain → demo → practice → verify.",
-          "tags": ["intro", "expectations"]
-        },
-        {
-          "id": "s02",
-          "title": "Safety Frame: Consequences + Culture",
-          "durationMinutes": 8,
-          "objective": "Anchor the training in real-world risk and shared responsibility.",
-          "script": "This is about hazard recognition and decision-making. Equipment doesn’t forgive shortcuts. We’re building habits you can carry to any site.",
-          "steps": [
-            "Define the difference between rules vs habits",
-            "Call out complacency risk",
-            "Set a ‘see something, say something’ expectation"
-          ],
-          "ask": [
-            "What does ‘complacency’ look like on equipment?"
-          ],
-          "watchFor": [
-            "Jokes minimizing risk; redirect to real consequences without shaming"
-          ],
-          "media": [],
-          "links": [],
-          "answers": {
-            "enabled": false,
-            "items": []
-          },
-          "notes": "Keep tone firm. Do not lecture forever. Move to the next skill block quickly.",
-          "tags": ["safety", "culture"]
-        },
-        {
-          "id": "s03",
-          "title": "Skill Verification Overview",
-          "durationMinutes": 10,
-          "objective": "Explain how you will evaluate: what counts, what fails, and what remediation looks like.",
-          "script": "We are verifying skill, not vibes. You’ll get guided practice, then a check. If something is unsafe, we stop and re-train.",
-          "steps": [
-            "Explain pass/fail criteria",
-            "Explain how coaching happens before verification",
-            "Explain what happens on an unsafe act"
-          ],
-          "ask": [
-            "What do you want the instructor to correct immediately if you start doing it?"
-          ],
-          "watchFor": [
-            "Students confusing ‘try’ with ‘verified’. Be explicit."
+            "Students joking about 'sending it' or treating verification as optional."
           ],
           "media": [],
           "links": [],
           "answers": {
             "enabled": true,
             "items": [
-              "Unsafe act: stop immediately, reset, explain why, re-demo, re-attempt",
-              "Verification: instructor observes without coaching unless safety requires intervention"
+              "If you can't point to the plate/chart line that authorizes the lift, you are guessing.",
+              "If you can't name the attachment and confirm it is approved for the machine, you are guessing.",
+              "If you can't explain the travel plan (visibility, pedestrians, ramps), you are guessing."
             ]
           },
-          "notes": "This is your ‘contract’ for the rest of the day. Make it clear.",
-          "tags": ["verification", "rubric"]
+          "notes": "This aligns directly to: never modify without written manufacturer approval and always verify if in doubt."
+        },
+        {
+          "id": "GR-03",
+          "template": "standard",
+          "title": "Mastery-Based Testing Standard",
+          "durationMinutes": 4,
+          "objective": "Establish the evaluation rule: 100% and correction-by-evidence.",
+          "script": "Written exam is mastery-based: the passing score is 100%. If an answer is wrong, you will locate the correct answer in the guide, correct it, and document the page reference. Hands-on is also mastery-based: we coach, then verify. Anything unsafe stops the attempt.",
+          "steps": [
+            "Explain written exam rule.",
+            "Explain hands-on evaluation sequence: demo -> student attempt -> evaluation -> re-train if needed.",
+            "Explain that documentation is part of safety compliance."
+          ],
+          "ask": [
+            "Why is 'almost correct' not acceptable on equipment?"
+          ],
+          "watchFor": [
+            "Students rushing through exam or treating corrections as punishment."
+          ],
+          "media": [],
+          "links": [],
+          "answers": {
+            "enabled": true,
+            "items": [
+              "Because the jobsite doesn't grade on a curve. One wrong decision can injure someone or tip a machine.",
+              "Correcting by evidence builds a repeatable habit: verify, don't guess."
+            ]
+          },
+          "notes": "Keep the tone professional. The rule is clear; the support is coaching."
+        },
+        {
+          "id": "GR-04",
+          "template": "standard",
+          "title": "Instructor Rhythm (Every Scene)",
+          "durationMinutes": 3,
+          "objective": "Lock the non-deviating scene rhythm and pacing.",
+          "script": "Every scene follows the same rhythm: objective, rule, ask, do, watch-for, check-for-understanding. If we need detail, it goes to Control view notes. Present view stays clean and readable.",
+          "steps": [
+            "Demonstrate how you will move between scenes.",
+            "Explain that side topics get parked and returned to after verification blocks.",
+            "Explain that the site is the agenda."
+          ],
+          "ask": [
+            "If you get confused, what is the correct move: guess, freeze, or STOP and ask?"
+          ],
+          "watchFor": [
+            "Students staying silent when confused."
+          ],
+          "media": [],
+          "links": [],
+          "answers": { "enabled": true, "items": ["STOP and ask. Then verify using the plate/chart/manual."] },
+          "notes": "Short and strict. Then proceed into fundamentals."
+        }
+      ]
+    },
+    {
+      "id": "sec-core-compare",
+      "title": "Core Differences and Same Rules (Classes 1-5 vs Class 7)",
+      "order": 2,
+      "scenes": [
+        {
+          "id": "C-01",
+          "template": "compare",
+          "title": "What's the Same vs What's Different (One Screen)",
+          "durationMinutes": 6,
+          "objective": "Frame similarities (behavior) and differences (capacity system and stability footprint).",
+          "script": "The same: deliberate speed, visibility choices, communication, inspection discipline, and stopping when unsure. The difference: forklifts use a data plate and load center logic; telehandlers use load charts by height/reach/zone/angle. Telehandler stability footprint changes with axle lock and stabilizers; extension reduces capacity.",
+          "steps": [
+            "Have students repeat: plate vs chart.",
+            "Have students repeat: extension reduces capacity.",
+            "Preview: we will drill chart reading before practical."
+          ],
+          "ask": [
+            "If you had to choose one habit that transfers across every machine, what is it?"
+          ],
+          "watchFor": [
+            "Students treating telehandler chart reading like optional paperwork."
+          ],
+          "media": [],
+          "links": [],
+          "answers": {
+            "enabled": true,
+            "items": [
+              "Stop when unsure and verify limits before moving.",
+              "Operate smoothly; reduce speed before turns; never rush controls."
+            ]
+          },
+          "notes": "This is anchored to your combined instructor tables: plate/load center vs chart by height/reach/zone/angle."
+        },
+        {
+          "id": "C-02",
+          "template": "compare",
+          "title": "Instructor Script for Class 7 Sequence (Non-negotiable)",
+          "durationMinutes": 4,
+          "objective": "Lock the telehandler movement sequence as a repeatable mantra.",
+          "script": "Class 7 sequence: Position -> brake -> verify chart/zone -> raise retracted -> extend to place -> retract to travel. Never fine-position rolling.",
+          "steps": [
+            "Say it once. Students repeat it.",
+            "Say it a second time. Students repeat it faster.",
+            "Explain: this sequence prevents most preventable tip/placement errors."
+          ],
+          "ask": [
+            "Which step gets skipped when people are rushing?"
+          ],
+          "watchFor": [
+            "Students wanting to 'creep' while elevated instead of positioning first."
+          ],
+          "media": [],
+          "links": [],
+          "answers": {
+            "enabled": true,
+            "items": [
+              "Positioning and braking before lift.",
+              "Verifying chart/zone before lift.",
+              "Retracting before travel."
+            ]
+          },
+          "notes": "This must become automatic before hands-on."
+        }
+      ]
+    },
+    {
+      "id": "sec-mods-charts",
+      "title": "Limits, Modifications, and Load Charts",
+      "order": 3,
+      "scenes": [
+        {
+          "id": "L-01",
+          "template": "compare",
+          "title": "Modifications (Forklift and Telehandler)",
+          "durationMinutes": 7,
+          "objective": "Establish written manufacturer approval as the gate for any modification or attachment change.",
+          "script": "Never modify a forklift, telehandler, or attachments without written manufacturer approval. Using unapproved attachments is a modification. Unauthorized changes affect capacity, stability, and safe operation. If in doubt, verify with the manufacturer.",
+          "steps": [
+            "Define 'modification' in practical terms: attachment, fork length change, carriage change, anything affecting capacity/stability.",
+            "Explain why: shifts center of gravity, changes charts/plates, introduces tip-over hazards.",
+            "Set a hard rule: if you can't verify approval, the lift is not happening."
+          ],
+          "ask": [
+            "What's an example of a 'small change' that actually changes capacity or stability?"
+          ],
+          "watchFor": [
+            "Students assuming attachments 'don't count' because they are common on sites."
+          ],
+          "media": [],
+          "links": [],
+          "answers": { "enabled": true, "items": ["Fork extensions, buckets, truss booms, rotating carriage, any swapped forks, any non-standard carriage/fork assembly."] },
+          "notes": "This is directly supported by your Section 4 Operations content."
+        },
+        {
+          "id": "L-02",
+          "template": "compare",
+          "title": "Data Plate vs Load Chart (What you must verify)",
+          "durationMinutes": 9,
+          "objective": "Make plate/chart verification a repeatable habit before every lift.",
+          "script": "Forklifts usually use a capacity data plate at a standard load center; increased load center reduces effective capacity. Telehandlers rely on load charts showing capacity at different boom heights and extension distances; capacity decreases significantly as boom is raised and extended. Charts assume level machine on firm ground and may require stabilizers/axle lock/approved attachments.",
+          "steps": [
+            "Forklift: define load center and why oversized/off-center loads reduce capacity.",
+            "Telehandler: define height/reach/zone/angle and how extension changes the number.",
+            "Repeat: chart must match the machine model and installed attachment."
+          ],
+          "ask": [
+            "What changes capacity faster on a telehandler: raising, extending, or both?"
+          ],
+          "watchFor": [
+            "Students reading the wrong chart (wrong attachment/zone) or assuming one chart covers all configurations."
+          ],
+          "media": [],
+          "links": [],
+          "answers": { "enabled": true, "items": ["Both. Raising and extending reduce capacity; extension is often the fastest way to lose capacity."] },
+          "notes": "Build this into every practical attempt: they must point to the chart line before they move."
+        }
+      ]
+    },
+    {
+      "id": "sec-attachments",
+      "title": "Attachments (Telehandler Deep Dive)",
+      "order": 4,
+      "scenes": [
+        {
+          "id": "A-01",
+          "template": "standard",
+          "title": "Attachments Rule-of-Thumb (Manufacturer Approved Only)",
+          "durationMinutes": 6,
+          "objective": "Lock the approval rule and the three operational impacts of attachments.",
+          "script": "Only use attachments approved by the telehandler manufacturer. This ensures the proper load charts and conditional requirements are provided. Attachments may affect stability, create a partially loaded condition, and change load zone capacity.",
+          "steps": [
+            "State the approval rule.",
+            "State the three impacts: stability, partially loaded condition, load zone capacity.",
+            "Explain: attachments change what the machine is allowed to do."
+          ],
+          "ask": [
+            "Which of the three impacts do you think causes the most 'surprise' incidents?"
+          ],
+          "watchFor": [
+            "Students treating attachments as a convenience rather than a capacity/stability change."
+          ],
+          "media": [
+            { "type": "link", "title": "Telehandler Trainer Guide - Attachments pages", "src": "files/Pages from 2025 Genie Lift Pro Telehandler Trainer's Guide.pdf" }
+          ],
+          "links": [],
+          "answers": { "enabled": true, "items": ["All three can cause incidents. The common failure is stability + wrong chart/zone after attachment change."] },
+          "notes": "Anchor: manufacturer-approved attachments and the three listed impacts."
+        },
+        {
+          "id": "A-02",
+          "template": "visual",
+          "title": "Quick-Attach System (What it enables, what it risks)",
+          "durationMinutes": 6,
+          "objective": "Explain quick-attach as a capability and a verification risk.",
+          "script": "Quick-attach systems make it easy to swap attachments. That convenience increases the risk of using the wrong chart or an unapproved attachment. Convenience does not replace verification.",
+          "steps": [
+            "Show the Quick-Attach example image on the right side.",
+            "Ask the group what must be verified immediately after a change.",
+            "State: attachment approval and matching chart are mandatory."
+          ],
+          "ask": [
+            "After an attachment swap, what two items must you confirm before lifting?"
+          ],
+          "watchFor": [
+            "Students saying 'it looks right' instead of naming the chart/approval requirement."
+          ],
+          "media": [
+            { "type": "image", "title": "Quick-Attach System (extract from Genie trainer guide)", "src": "media/telehandler/attachments/quick-attach.png" }
+          ],
+          "links": [],
+          "answers": { "enabled": true, "items": ["Attachment is manufacturer-approved for this machine; load chart matches the installed attachment and configuration."] },
+          "notes": "You will add the image file to public/media/telehandler/attachments/."
+        },
+        {
+          "id": "A-03",
+          "template": "standard",
+          "title": "Shifting and Rotating Carriage (Precision vs Misuse)",
+          "durationMinutes": 8,
+          "objective": "Teach correct purpose and one non-negotiable misuse rule.",
+          "script": "Shifting attachments improve precision by shifting the carriage/forks left or right. Rotating carriages compensate for uneven surfaces or terrain affecting pick/place alignment. Never use frame sway to level an elevated load.",
+          "steps": [
+            "Define shifting purpose: precision placement.",
+            "Define rotating purpose: compensate for uneven pick/place surfaces.",
+            "State the non-negotiable: no frame sway to level an elevated load."
+          ],
+          "ask": [
+            "Why is sway-to-level an elevated load a bad habit?"
+          ],
+          "watchFor": [
+            "Students thinking sway is a 'fine adjustment' while elevated."
+          ],
+          "media": [
+            { "type": "image", "title": "Rotating Carriage example (extract)", "src": "media/telehandler/attachments/rotating-carriage.png" }
+          ],
+          "links": [],
+          "answers": {
+            "enabled": true,
+            "items": [
+              "Because it introduces instability and lateral shift while the load is elevated; it's an elevated instability multiplier."
+            ]
+          },
+          "notes": "Pair this with a scenario: 'you're 18 ft up and the pallet looks off-level' - correct answer is reposition/level before lift, not sway while elevated."
+        },
+        {
+          "id": "A-04",
+          "template": "visual",
+          "title": "Swing Carriage (Tight areas and corner travel)",
+          "durationMinutes": 7,
+          "objective": "Teach when swing carriage is used and what must be controlled.",
+          "script": "Swing carriages help land loads in tight areas and maneuver around tight corners by moving carriage left/right along the horizontal axis. Precision features require slower movement and clearer communication.",
+          "steps": [
+            "Show swing carriage image.",
+            "State: tight areas means higher risk; speed must drop.",
+            "Require spotter if visibility/clearance is limited."
+          ],
+          "ask": [
+            "What makes tight corners with a load a higher-risk situation even at low speed?"
+          ],
+          "watchFor": [
+            "Students focusing on steering only and ignoring tail swing/load swing."
+          ],
+          "media": [
+            { "type": "image", "title": "Swing Carriage example (extract)", "src": "media/telehandler/attachments/swing-carriage.png" }
+          ],
+          "links": [],
+          "answers": { "enabled": true, "items": ["Reduced clearance + visibility + load swing and dynamic forces during turning."] },
+          "notes": "This is a lead-in to dynamic forces and turning rules."
+        },
+        {
+          "id": "A-05",
+          "template": "standard",
+          "title": "Buckets, Grapples, and Truss Booms (Capacity mismatch trap)",
+          "durationMinutes": 10,
+          "objective": "Teach that attachments are often rated for less than machine capacity and require correct charts.",
+          "script": "Some attachments subject the boom to torsional stress and impact loading. Not all telehandlers are suited for all buckets. Truss booms are almost always rated for less than overall telehandler capacity; always use the appropriate load chart and account for reduced rated capacity as the load is positioned further out.",
+          "steps": [
+            "State: if unclear whether approved, contact manufacturer.",
+            "State: truss boom capacity often lower than machine; use the correct chart.",
+            "State: as load extends further out, rated capacity may be reduced."
+          ],
+          "ask": [
+            "Why would a truss boom be rated below the machine's headline capacity?"
+          ],
+          "watchFor": [
+            "Students assuming 'machine capacity' equals 'attachment capacity'."
+          ],
+          "media": [
+            { "type": "image", "title": "Attachment overview (adapter, grapple, bucket, truss boom)", "src": "media/telehandler/attachments/overview.png" }
+          ],
+          "links": [],
+          "answers": {
+            "enabled": true,
+            "items": [
+              "Because the attachment changes load position, leverage, and stress on the boom; the limiting factor becomes the attachment + configuration, not the base machine headline number."
+            ]
+          },
+          "notes": "Close with: 'If the chart doesn't match the attachment, the lift doesn't happen.'"
+        }
+      ]
+    },
+    {
+      "id": "sec-practical-eval",
+      "title": "Practical + Written Evaluation (Instructor Only)",
+      "order": 5,
+      "scenes": [
+        {
+          "id": "E-01",
+          "template": "standard",
+          "title": "Written Exam Administration (100% Rule)",
+          "durationMinutes": 7,
+          "objective": "Run the written exam as mastery-based correction-by-evidence.",
+          "script": "Provide plenty of time. The only passing score is 100%. If a student misses an item, they locate the correct answer in the guide, correct it, and write the page number that supports the correct answer next to the question.",
+          "steps": [
+            "Set expectation: quiet work, no rushing, corrections are evidence-based.",
+            "As students finish, allow a quick break while others continue.",
+            "Review missed items by having students show the supporting page reference."
+          ],
+          "ask": [
+            "What's the difference between memorizing an answer and proving it with a reference?"
+          ],
+          "watchFor": [
+            "Students guessing corrections without verifying the page reference."
+          ],
+          "media": [
+            { "type": "link", "title": "Forklift Student Packet (exam pages)", "src": "files/Forklift Student Packet.pdf" },
+            { "type": "link", "title": "Answer Key (instructor)", "src": "files/Forklift Exam Answer Key.docx" }
+          ],
+          "links": [],
+          "answers": { "enabled": false, "items": [] },
+          "notes": "If you implement reveal mode in Control, this is where it becomes useful."
+        },
+        {
+          "id": "E-02",
+          "template": "standard",
+          "title": "Hands-On Demonstration then Student Practice (Same sequence for all)",
+          "durationMinutes": 8,
+          "objective": "Run hands-on in a controlled sequence: instructor demo, then student repetition, captured evaluation.",
+          "script": "Begin by demonstrating workplace inspection, pre-operation inspection, and function test. Then demonstrate practical operation by performing the activities students will repeat. Have each participant perform the same activities in the same sequence while you evaluate and document performance.",
+          "steps": [
+            "Instructor demo: inspection + function test + first operational moves.",
+            "Student attempt with coaching (only during practice).",
+            "Verification attempt (no coaching unless safety requires intervention).",
+            "Document pass/fail and remediation attempt."
+          ],
+          "ask": [
+            "What is the single safest response when you are unsure mid-move?"
+          ],
+          "watchFor": [
+            "Students continuing the move while confused instead of stopping."
+          ],
+          "media": [],
+          "links": [],
+          "answers": { "enabled": true, "items": ["Stop, secure, and verify limits before continuing."] },
+          "notes": "Maintain identical sequence for fairness and evaluation integrity."
+        },
+        {
+          "id": "E-03",
+          "template": "standard",
+          "title": "Documentation and Records (Instructor Admin)",
+          "durationMinutes": 6,
+          "objective": "Ensure required training/evaluation records are captured and retained.",
+          "script": "Training and evaluation must be documented. The record includes the name of the operator, date of the training, date of evaluation, and the name of the person giving the training and evaluation.",
+          "steps": [
+            "Verify sign-in sheet completed.",
+            "Record training and evaluation dates and instructor/evaluator name.",
+            "Store records in the program's standard location."
+          ],
+          "ask": [
+            "What information must exist for training to be defensible after an incident?"
+          ],
+          "watchFor": [
+            "Incomplete forms or missing evaluator name/date."
+          ],
+          "media": [
+            { "type": "link", "title": "Forklift Sign-in Sheet", "src": "files/Forklift Sign in Sheet.pdf" }
+          ],
+          "links": [],
+          "answers": {
+            "enabled": true,
+            "items": [
+              "Operator name; training date; evaluation date; trainer/evaluator name(s)."
+            ]
+          },
+          "notes": "If you later add a 'Forms' view, this scene becomes the entry point."
         }
       ]
     }
